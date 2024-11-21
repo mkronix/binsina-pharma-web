@@ -6,7 +6,7 @@ const Footer = () => {
     <div className=" bg-backgroundColor text-white rounded-t-3xl mt-8 md:mt-0">
       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
         <div className=" w-full md:w-1/4">
-          <h1 className=" font-semibold text-xl pb-4">WellnessVista</h1>
+          <h1 className=" font-semibold text-xl pb-4">Binisana</h1>
           <p className=" text-sm">
             Our team of dedicated doctors, each specializing in unique fields
             such as orthopedics, cardiology, pediatrics, neurology, dermatology,
@@ -79,27 +79,27 @@ const Footer = () => {
         </div>
         <div className=" w-full md:w-1/4">
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
-          <nav className=" flex flex-col gap-2">
-            <Link to="/" spy={true} smooth={true} duration={500}>
-              123 Elm Street, Suite 456 Springfield, IL 62701 United States
-            </Link>
-            <Link to="/" spy={true} smooth={true} duration={500}>
-              support@care.com
-            </Link>
-            <Link to="/" spy={true} smooth={true} duration={500}>
-              +123-456-7890
-            </Link>
+          <nav className="flex flex-col gap-2">
+            <a href="#" className="hover:text-hoverColor transition-all cursor-pointer">
+              Mumbai - 400001 , India
+            </a>
+            <a href="mailto:info@binsinapharma.com" className="hover:text-hoverColor transition-all cursor-pointer">
+              info@binsinapharma.com
+            </a>
+            <a href="tel:+919892146706" className="hover:text-hoverColor transition-all cursor-pointer">
+              +91 98921 46706
+            </a>
           </nav>
         </div>
-      </div>
+      </div >
       <div>
-        <p className=" text-center py-4">
-          @copyright developed by
-          <span className=" text-hoverColor"> champion programmers</span> | All
+        <p className="text-center py-4">
+          developed by
+          <a href="https://www.mkronix.com/" target="_blank" className="text-hoverColor mx-2">mrkonix</a>| All
           rights reserved
         </p>
       </div>
-    </div>
+    </div >
   );
 };
 

@@ -70,22 +70,13 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
-              to="services"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            >
-              Services
-            </Link>
-            <Link
               to="doctors"
               spy={true}
               smooth={true}
               duration={500}
               className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
             >
-              Doctors
+              Product
             </Link>
             <Link
               to="blog"
@@ -96,6 +87,24 @@ const Navbar = () => {
             >
               Blog
             </Link>
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+            >
+              Certifications
+            </Link>
+            <Link
+              to="media"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+            >
+              Media
+            </Link>
           </nav>
 
           <div className=" hidden lg:flex">
@@ -103,7 +112,7 @@ const Navbar = () => {
               className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
               onClick={openForm}
             >
-              Contact Us
+              Reach us
             </button>
           </div>
 
@@ -127,7 +136,6 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            onClick={closeMenu}
           >
             Home
           </Link>
@@ -137,19 +145,8 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            onClick={closeMenu}
           >
             About Us
-          </Link>
-          <Link
-            to="services"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            onClick={closeMenu}
-          >
-            Services
           </Link>
           <Link
             to="doctors"
@@ -157,9 +154,8 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            onClick={closeMenu}
           >
-            Doctors
+            Product
           </Link>
           <Link
             to="blog"
@@ -167,9 +163,26 @@ const Navbar = () => {
             smooth={true}
             duration={500}
             className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            onClick={closeMenu}
           >
             Blog
+          </Link>
+          <Link
+            to="services"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+          >
+            Certifications
+          </Link>
+          <Link
+            to="media"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+          >
+            Media
           </Link>
 
           <div className=" lg:hidden">

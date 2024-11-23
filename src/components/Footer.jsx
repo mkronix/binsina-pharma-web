@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-scroll";
-
+import logo from '../assets/img/logo.png'
 const Footer = () => {
   return (
     <div className=" bg-backgroundColor text-white rounded-t-3xl mt-8 md:mt-0">
       <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
         <div className=" w-full md:w-1/4">
-          <h1 className=" font-semibold text-xl pb-4">Binisana</h1>
+          <Link to="home" spy={true} smooth={true} duration={500} className="flex flex-row lg:w-56 md:w-48 w-40 items-center cursor-pointer">
+            <img src={logo} alt="" className="object-contain w-full h-full" />
+            {/* <h2 className="text-2xl uppercase font-semibold text-gray-700">Binisana</h2> */}
+          </Link>
           <p className=" text-sm">
             Our team of dedicated doctors, each specializing in unique fields
             such as orthopedics, cardiology, pediatrics, neurology, dermatology,

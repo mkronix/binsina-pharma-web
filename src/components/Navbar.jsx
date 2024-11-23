@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div className=" fixed w-full z-10 text-white">
-      <div className="max-md:hidden flex flex-row justify-between p-5 border-b border-gray-200 md:px-32 px-5 bg-backgroundColor">
+      <div className="max-md:hidden flex flex-row justify-between p-5 border-b border-gray-200 lg:px-32 px-5 bg-backgroundColor">
         <div className="flex md:items-center md:flex-row flex-col md:gap-10 gap-2">
           <a href="mailto:info@binsinapharma.com">
             info@binsinapharma.com
@@ -44,11 +44,11 @@ const Navbar = () => {
           <RiTwitterXLine size={20} className=" cursor-pointer" />
         </div>
       </div>
-      <div>
-        <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-bgHead shadow-md">
-          <Link to="home" spy={true} smooth={true} duration={500} className="flex flex-row items-center cursor-pointer">
-            {/* <img src={logo} alt="" className="object-contain w-44" /> */}
-            <h2 className="text-2xl uppercase font-semibold text-gray-700">Binisana</h2>
+      <div className="">
+        <div className="relative flex flex-row justify-between p-2 lg:px-24 px-5 bg-bgHead shadow-md">
+          <Link to="home" spy={true} smooth={true} duration={500} className="flex flex-row lg:w-56 md:w-48 w-40 items-center cursor-pointer">
+            <img src={logo} alt="" className="object-contain w-full h-full" />
+            {/* <h2 className="text-2xl uppercase font-semibold text-gray-700">Binisana</h2> */}
           </Link>
           <nav className=" hidden lg:flex flex-row items-center text-lg font-medium gap-8">
             <Link
@@ -107,9 +107,9 @@ const Navbar = () => {
             </Link>
           </nav>
 
-          <div className=" hidden lg:flex">
+          <div className="hidden lg:flex items-center justify-center">
             <button
-              className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
+              className="bg-brightColor h-14 flex items-center justify-center text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
               onClick={openForm}
             >
               Reach us
@@ -118,11 +118,11 @@ const Navbar = () => {
 
           {showForm && <Contact closeForm={closeForm} />}
 
-          <div className=" lg:hidden flex items-center">
+          <div className="lg:hidden flex items-center absolute right-8 top-9 z-50">
             {menu ? (
-              <AiOutlineClose className="text-backgroundColor" size={28} onClick={handleChange} />
+              <AiOutlineClose className="text-black" size={28} onClick={handleChange} />
             ) : (
-              <AiOutlineMenu className="text-backgroundColor" size={28} onClick={handleChange} />
+              <AiOutlineMenu className="text-black" size={28} onClick={handleChange} />
             )}
           </div>
         </div >

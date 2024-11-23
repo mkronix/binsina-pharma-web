@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
       <div className="">
         <div className="relative flex flex-row justify-between p-2 lg:px-24 px-5 bg-bgHead shadow-md">
-          <Link to="home" spy={true} smooth={true} duration={500} className="flex flex-row lg:w-56 md:w-48 w-40 items-center cursor-pointer">
+          <Link to="home" spy={true} smooth={true} duration={500} className="flex flex-row lg:w-56 md:w-48 w-32 items-center cursor-pointer">
             <img src={logo} alt="" className="object-contain w-full h-full" />
             {/* <h2 className="text-2xl uppercase font-semibold text-gray-700">Binisana</h2> */}
           </Link>
@@ -118,24 +118,24 @@ const Navbar = () => {
 
           {showForm && <Contact closeForm={closeForm} />}
 
-          <div className="lg:hidden flex items-center absolute right-8 top-9 z-50">
+          <div className="lg:hidden flex items-center absolute right-6 top-6 z-50">
             {menu ? (
-              <AiOutlineClose className="text-black" size={28} onClick={handleChange} />
+              <AiOutlineClose className="text-backgroundColor transition duration-700 ease-in-out " size={28} onClick={handleChange} />
             ) : (
-              <AiOutlineMenu className="text-black" size={28} onClick={handleChange} />
+              <AiOutlineMenu className="text-backgroundColor transition duration-700 ease-in-out" size={28} onClick={handleChange} />
             )}
           </div>
         </div >
         <div
           className={`${menu ? "translate-x-0" : "-translate-x-full"
-            } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+            } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         >
           <Link
             to="home"
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+            className=" hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer"
           >
             Home
           </Link>
@@ -144,7 +144,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+            className=" hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer"
           >
             About Us
           </Link>
@@ -153,7 +153,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+            className=" hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer"
           >
             Product
           </Link>
@@ -162,7 +162,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+            className=" hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer"
           >
             Blog
           </Link>
@@ -171,7 +171,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+            className=" hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer"
           >
             Certifications
           </Link>
@@ -180,14 +180,14 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+            className=" hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer"
           >
             Media
           </Link>
 
           <div className=" lg:hidden">
             <button
-              className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
+              className="bg-brightColor text-white px-4 py-2 rounded-tl-lg rounded-br-lg text-xl hover:bg-hoverColor transition duration-300 ease-in-out"
               onClick={openForm}
             >
               Contact Us

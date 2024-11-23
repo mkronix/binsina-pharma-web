@@ -1,108 +1,104 @@
 import React from "react";
 import { Link } from "react-scroll";
-import logo from '../assets/img/logo.png'
+import logo from "../assets/img/logo.png";
+
 const Footer = () => {
   return (
-    <div className=" bg-backgroundColor text-white rounded-t-3xl mt-8 md:mt-0">
-      <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
-        <div className=" w-full md:w-1/4">
-          <Link to="home" spy={true} smooth={true} duration={500} className="flex flex-row lg:w-56 md:w-48 w-40 items-center cursor-pointer">
-            <img src={logo} alt="" className="object-contain w-full h-full" />
-            {/* <h2 className="text-2xl uppercase font-semibold text-gray-700">Binisana</h2> */}
-          </Link>
-          <p className=" text-sm">
-            Our team of dedicated doctors, each specializing in unique fields
-            such as orthopedics, cardiology, pediatrics, neurology, dermatology,
-            and more.
-          </p>
-        </div>
-        <div>
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">About Us</h1>
-          <nav className=" flex flex-col gap-2">
+    <div className="bg-backgroundColor text-white rounded-t-3xl mt-8 md:mt-2">
+      {/* <div className="grid grid-cols-1 md:grid-cols-3 p-8 max-md:gap-5 items-center">
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="flex w-40 items-center cursor-pointer max-md:mx-auto"
+        >
+          <img src={logo} alt="Logo" className="object-contain w-full h-auto" />
+        </Link>
+        <p className="text-sm text-gray-700">
+          At Binsina Pharma, we specialize in the global export of high-quality pharmaceutical products,
+          catering to diverse healthcare needs.
+        </p>
+
+        <div className="flex flex-row justify-center gap-2">
+          <nav className="flex flex-col items-end gap-2">
             <Link
               to="about"
               spy={true}
               smooth={true}
               duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
+              className="hover:text-hoverColor transition-all text-gray-700 cursor-pointer"
             >
               About
             </Link>
             <Link
-              to="services"
+              to="blog"
               spy={true}
               smooth={true}
               duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
+              className="hover:text-hoverColor transition-all text-gray-700 cursor-pointer"
             >
-              Services
+              Blog
             </Link>
             <Link
-              to="doctors"
+              to="media"
               spy={true}
               smooth={true}
               duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
+              className="hover:text-hoverColor transition-all text-gray-700 cursor-pointer"
             >
-              Doctors
+              Media
+            </Link>
+          </nav>
+
+          <nav className="flex items-start flex-col gap-2">
+            <Link
+              to="products"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="hover:text-hoverColor transition-all text-gray-700 cursor-pointer"
+            >
+              Products
+            </Link>
+            <Link
+              to="media"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="hover:text-hoverColor transition-all text-gray-700 cursor-pointer"
+            >
+              Media
+            </Link>
+            <Link
+              to="certifications"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="hover:text-hoverColor transition-all text-gray-700 cursor-pointer"
+            >
+              Certifications
             </Link>
           </nav>
         </div>
-        <div>
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Services</h1>
-          <nav className=" flex flex-col gap-2">
-            <Link
-              to="services"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
-            >
-              Lab Test
-            </Link>
-            <Link
-              to="services"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
-            >
-              Health Check
-            </Link>
-            <Link
-              to="services"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
-            >
-              Heart Health
-            </Link>
-          </nav>
-        </div>
-        <div className=" w-full md:w-1/4">
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
-          <nav className="flex flex-col gap-2">
-            <a href="#" className="hover:text-hoverColor transition-all cursor-pointer">
-              Mumbai - 400001 , India
-            </a>
-            <a href="mailto:info@binsinapharma.com" className="hover:text-hoverColor transition-all cursor-pointer">
-              info@binsinapharma.com
-            </a>
-            <a href="tel:+919892146706" className="hover:text-hoverColor transition-all cursor-pointer">
-              +91 98921 46706
-            </a>
-          </nav>
-        </div>
-      </div >
-      <div>
+
+      </div> */}
+
+      <div className="bg-gray-900 text-gray-500">
         <p className="text-center py-4">
-          developed by
-          <a href="https://www.mkronix.com/" target="_blank" className="text-hoverColor mx-2">mrkonix</a>| All
-          rights reserved
+          Developed by
+          <a
+            href="https://www.mkronix.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-hoverColor mx-2"
+          >
+            MKronix
+          </a>
+          | All rights reserved
         </p>
       </div>
-    </div >
+    </div>
   );
 };
 

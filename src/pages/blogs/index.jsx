@@ -1,11 +1,11 @@
 import Button from "../../layouts/Button";
 import BlogCard from "../../layouts/BlogCard";
-import img1 from "../../assets/img/blog1.jpg";
-import img2 from "../../assets/img/blog2.jpg";
-import img3 from "../../assets/img/blog3.jpg";
-import img4 from "../../assets/img/blog4.jpg";
-import img5 from "../../assets/img/blog5.jpg";
-import img6 from "../../assets/img/blog6.jpg";
+import img1 from "../../assets/img/blog/blog1.jpg";
+import img2 from "../../assets/img/blog/blog2.jpg";
+import img3 from "../../assets/img/blog/blog3.jpg";
+import img4 from "../../assets/img/blog/blog4.jpg";
+import img5 from "../../assets/img/blog/blog5.jpg";
+import img6 from "../../assets/img/blog/blog6.jpg";
 
 const index = () => {
   return (

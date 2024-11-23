@@ -3,7 +3,7 @@ import { testimonials } from '../data/testinmonal'
 import { motion } from 'framer-motion'
 const Testimonals = () => {
     return (
-        <section id="testimonials" className="my-16  flex flex-col justify-center lg:px-32 px-5 pt-24 lg:pt-16">
+        <section id="testimonials" className="md:my-16 my-6 flex flex-col justify-center lg:px-32 px-5 pt-12 lg:pt-16">
             <div className="container mx-auto">
                 <h2 className="md:text-4xl text-2xl font-semibold text-start text-brightColor">What Our Clients Say</h2>
                 <div className="mt-6 grid md:grid-cols-3 grid-cols-1 gap-8">

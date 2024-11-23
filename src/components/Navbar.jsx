@@ -45,8 +45,6 @@ const Navbar = () => {
         <div className='relative flex flex-row justify-between p-2 lg:px-24 px-5 bg-bgHead shadow-md'>
           <Link
             to='/'
-            spy={true}
-            smooth={true}
             duration={500}
             className='flex flex-row lg:w-56 md:w-48 w-32 items-center cursor-pointer'
           >
@@ -56,8 +54,8 @@ const Navbar = () => {
           <nav className=' hidden lg:flex flex-row items-center text-lg font-medium gap-8'>
             <Link
               to='/'
-              spy={true}
-              smooth={true}
+
+
               duration={500}
               className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
             >
@@ -65,8 +63,8 @@ const Navbar = () => {
             </Link>
             <Link
               to='/about'
-              spy={true}
-              smooth={true}
+
+
               duration={500}
               className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
             >
@@ -74,8 +72,8 @@ const Navbar = () => {
             </Link>
             <Link
               to='/doctors'
-              spy={true}
-              smooth={true}
+
+
               duration={500}
               className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
             >
@@ -83,8 +81,8 @@ const Navbar = () => {
             </Link>
             <Link
               to='/blog'
-              spy={true}
-              smooth={true}
+
+
               duration={500}
               className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
             >
@@ -92,8 +90,8 @@ const Navbar = () => {
             </Link>
             <Link
               to='/services'
-              spy={true}
-              smooth={true}
+
+
               duration={500}
               className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
             >
@@ -101,8 +99,8 @@ const Navbar = () => {
             </Link>
             <Link
               to='/media'
-              spy={true}
-              smooth={true}
+
+
               duration={500}
               className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
             >
@@ -138,14 +136,11 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={`${
-            menu ? "translate-x-0" : "-translate-x-full"
-          } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+          className={`${menu ? "translate-x-0" : "-translate-x-full"
+            } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         >
           <Link
             to='/'
-            spy={true}
-            smooth={true}
             duration={500}
             className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >
@@ -153,8 +148,6 @@ const Navbar = () => {
           </Link>
           <Link
             to='/about'
-            spy={true}
-            smooth={true}
             duration={500}
             className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >
@@ -162,8 +155,6 @@ const Navbar = () => {
           </Link>
           <Link
             to='/doctors'
-            spy={true}
-            smooth={true}
             duration={500}
             className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >
@@ -171,8 +162,6 @@ const Navbar = () => {
           </Link>
           <Link
             to='/blog'
-            spy={true}
-            smooth={true}
             duration={500}
             className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >
@@ -180,8 +169,6 @@ const Navbar = () => {
           </Link>
           <Link
             to='/services'
-            spy={true}
-            smooth={true}
             duration={500}
             className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >
@@ -189,8 +176,6 @@ const Navbar = () => {
           </Link>
           <Link
             to='/media'
-            spy={true}
-            smooth={true}
             duration={500}
             className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >

@@ -1,5 +1,5 @@
 import img from "../../assets/img/immunization.png";
-import img2 from "../../assets/img/blog6.jpg";
+import img2 from "../../assets/img/blog/blog6.jpg";
 import { motion } from "framer-motion";
 
 const index = () => {

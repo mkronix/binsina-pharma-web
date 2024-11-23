@@ -31,7 +31,7 @@
                 "id": 2,
                 "title": "Custom Pharmaceutical Solutions for Every Market",
                 "description": "Providing Tailored Healthcare Products to Meet Diverse Regulatory and Market Needs.",
-                "image": "/assets/img/slider1.png",
+                "image": "/assets/img/export.png",
                 "buttonText": "Explore Services"
             },
               {
@@ -74,37 +74,33 @@
             "categories": [
                 {
                   "id": 1,
-                  "image":
-                    "https://asclepius.ancorathemes.com/wp-content/uploads/2021/12/pharmacy-cat1-copyright-650x572.jpg",
-                  "title": "Equipment",
+                  "image":"https://scitechdaily.com/images/Artificial-Intelligence-Drug-Medicine-Discovery.jpg",
+                  "title": "Medicine",
                   "link": "#"
                 },
                 {
                   "id": 2,
-                  "image":
-                    "https://asclepius.ancorathemes.com/wp-content/uploads/2021/12/pharmacy-cat1-copyright-650x572.jpg",
-                  "title": "Face Masks",
+                  "image":"https://wallpaperaccess.com/full/136954.jpg",
+                  "title": "Vaccine",
                   "link": "#"
                 },
                 {
                   "id": 3,
-                  "image":
-                    "https://asclepius.ancorathemes.com/wp-content/uploads/2021/12/pharmacy-cat1-copyright-650x572.jpg",
-                  "title": "Skin Care",
+                  "image":"https://tse2.mm.bing.net/th?id=OIP.MZIRniC4UJm-unDihT2PhQHaE7&pid=Api&P=0&h=180",
+                  "title": "Homeopathy",
                   "link": "#"
                 },
                 {
                   "id": 4,
-                  "image":
-                    "https://asclepius.ancorathemes.com/wp-content/uploads/2021/12/pharmacy-cat1-copyright-650x572.jpg",
-                  "title": "Vitamins",
+                  "image":"https://tse4.mm.bing.net/th?id=OIP.kZcDTlaz4hJQ6mAOxc5V1gHaEJ&pid=Api&P=0&h=180",
+                  "title": "Ayurvedic",
                   "link": "#"
                 }
               ],
               "blogBanner":{
                 "image":"https://asclepius.ancorathemes.com/wp-content/uploads/2021/12/pharmacy-pic1-copyright.jpg",
-                "firstTitle":"Stay safe.",
-                "secondTitle":"Wear a Mask!",
+                "firstTitle":"Read Our Blogs.",
+                "secondTitle":"Stay Updated.",
                 "link":"#",
                 "buttonText":"READ MORE"
               }

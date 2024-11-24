@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import data from "../data/data.json";
+import "./index.css";
 
 const Slider = () => {
   const { home } = data.binsinaPharma;
@@ -24,12 +25,12 @@ const Slider = () => {
           dynamicMainBullets: 1,
         }}
         modules={[Pagination, EffectFade, Autoplay]}
-        className='mySwiper pt-10 md:pt-40'
+        className='mySwiper pt-10 md:pt-32 custom-swiper-pagination'
       >
         {home.sliderData.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div
-              className='h-[450px] rounded-b-lg flex flex-col justify-center lg:px-32 px-5 text-white bg-no-repeat md:bg-cover opacity-90'
+              className='h-[540px] flex flex-col justify-center lg:px-16 px-8 text-white bg-no-repeat md:bg-cover opacity-90'
               style={{
                 backgroundImage: `url('${slide.image}')`,
               }}

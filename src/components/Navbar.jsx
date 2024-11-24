@@ -8,6 +8,7 @@ import Contact from "../models/Contact";
 import { RiTwitterXLine } from "react-icons/ri";
 import logo from "../assets/img/logo.png";
 import data from "../data/data.json";
+import Button from "./Button/Button";
 
 const Navbar = () => {
   const { common } = data.binsinaPharma;
@@ -121,16 +122,8 @@ const Navbar = () => {
           </nav>
 
           <div className='hidden lg:flex items-center justify-center'>
-            <button
-              className='bg-brightColor h-14 flex items-center justify-center text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out'
-              onClick={openForm}
-            >
-              Reach us
-            </button>
+            <Button title={'Reach us'} />
           </div>
-
-          {showForm && <Contact closeForm={closeForm} />}
-
           <div className='lg:hidden flex items-center absolute right-6 top-6 z-50'>
             {menu ? (
               <AiOutlineClose
@@ -148,9 +141,8 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={`${
-            menu ? "translate-x-0" : "-translate-x-full"
-          } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+          className={`${menu ? "translate-x-0" : "-translate-x-full"
+            } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         >
           <Link
             to='/'
@@ -196,12 +188,7 @@ const Navbar = () => {
           </Link>
 
           <div className=' lg:hidden'>
-            <button
-              className='bg-brightColor text-white px-4 py-2 rounded-tl-lg rounded-br-lg text-xl hover:bg-hoverColor transition duration-300 ease-in-out'
-              onClick={openForm}
-            >
-              Contact Us
-            </button>
+            <Button title={'Reach us'} />
           </div>
         </div>
       </div>

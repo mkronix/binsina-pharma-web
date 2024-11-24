@@ -13,9 +13,7 @@ const index = () => {
       {/* Hero Section */}
       <div className='flex flex-col lg:flex-row justify-between items-center lg:px-16 px-8 py-16 gap-8'>
         <div className='w-full lg:w-3/4 space-y-6'>
-          <h1 className='heading'>
-            Leading Pharmaceutical Exporter in India
-          </h1>
+          <h1 className='heading'>Leading Pharmaceutical Exporter in India</h1>
           <p className='text-justify lg:text-start text-gray-700 description'>
             Binsina Pharma is a premier pharmaceutical export company dedicated
             to delivering high-quality healthcare solutions worldwide. By
@@ -44,14 +42,12 @@ const index = () => {
 
       {/* Features Section */}
       <div className='bg-white lg:px-16 px-8 py-16'>
-        <h2 className='heading mb-10 text-center'>
-          Our Speciality
-        </h2>
-        <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center'>
+        <h2 className='heading mb-10 text-center'>Our Speciality</h2>
+        <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 text-center'>
           {home.features.map((feature) => (
             <div
               key={feature.id}
-              className='flex flex-col gap-2 shadow-md p-6 rounded-lg'
+              className='flex flex-col  gap-3 shadow-md p-6 rounded-lg'
             >
               <div className='flex items-end gap-1'>
                 <div className='title'>{feature.icon}</div>
@@ -59,7 +55,9 @@ const index = () => {
                   {feature.title}
                 </h3>
               </div>
-              <p className='text-gray-500 text-start description'>{feature.description}</p>
+              <p className='text-gray-500 text-start description'>
+                {feature.description}
+              </p>
             </div>
           ))}
         </div>
@@ -67,9 +65,7 @@ const index = () => {
 
       {/* Why Choose Us Section */}
       <div className='container mx-auto lg:px-16 px-8 py-16 text-center'>
-        <h2 className='heading mb-10'>
-          Why Choose Us?
-        </h2>
+        <h2 className='heading mb-10'>Why Choose Us?</h2>
         <div className='grid lg:grid-cols-3 gap-8'>
           {[
             {
@@ -88,13 +84,8 @@ const index = () => {
                 "A team of professionals ready to assist you at every stage of the process.",
             },
           ].map((item, index) => (
-            <div
-              key={index}
-              className='bg-white p-8 rounded-lg shadow-md'
-            >
-              <h3 className='title text-brightColor mb-4'>
-                {item.title}
-              </h3>
+            <div key={index} className='bg-white p-8 rounded-lg shadow-md'>
+              <h3 className='title text-brightColor mb-4'>{item.title}</h3>
               <p className='text-gray-600 description'>{item.description}</p>
             </div>
           ))}
@@ -103,9 +94,7 @@ const index = () => {
 
       {/* Categories Section */}
       <div className='bg-blue-50 lg:px-16 px-8 py-16'>
-        <h2 className='heading mb-10 text-center'>
-          Best Categories
-        </h2>
+        <h2 className='heading mb-10 text-center'>Best Categories</h2>
         <div className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8'>
           {home.categories.map((category) => (
             <div

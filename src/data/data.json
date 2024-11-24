@@ -24,48 +24,48 @@
           "id": 1,
           "title": "Delivering Excellence in Global Pharmaceutical Exports",
           "description": "Your Trusted Partner for High-Quality Medicines and Healthcare Products Worldwide.",
-          "image": "/assets/img/slider1.png",
+          "image": "/assets/img/export.png",
           "buttonText": "Discover More"
         },
         {
           "id": 2,
           "title": "Custom Pharmaceutical Solutions for Every Market",
           "description": "Providing Tailored Healthcare Products to Meet Diverse Regulatory and Market Needs.",
-          "image": "/assets/img/export.png",
+          "image": "https://img.freepik.com/free-photo/front-view-doctor-holding-vial_23-2149994404.jpg?t=st=1732449209~exp=1732452809~hmac=af7a01f54358735ab55702129035b5d2a9cc8362cac2a3c6fa2cebf95687b4e6&w=1060",
           "buttonText": "Explore Services"
         },
         {
           "id": 3,
           "title": "Expanding Access to Affordable Healthcare Globally",
           "description": "Committed to Excellence in Quality, Timely Delivery, and Compliance with Global Standards.",
-          "image": "/assets/img/slider1.png",
+          "image": "/assets/img/export.png",
           "buttonText": "Contact Us"
         }
       ],
-      "features": [
+     "features": [
         {
           "id": 1,
           "icon": "👍",
           "title": "Best Prices",
-          "description": "We offer competitive prices without compromising on quality, giving you the best value for money with products that meet your expectations and budget."
+          "description": "Enjoy the best prices on quality products that fit your budget, offering great value without compromising on reliability and performance."
         },
         {
           "id": 2,
           "icon": "🏷️",
           "title": "Fast Shipping",
-          "description": "Get your orders delivered swiftly and reliably, ensuring your items reach you on time, every time, so you can enjoy a hassle-free shopping experience."
+          "description": "Our fast and reliable shipping ensures your orders reach you promptly, so you never have to wait long to enjoy your purchases."
         },
         {
           "id": 3,
           "icon": "🚚",
           "title": "Buyer's Protection",
-          "description": "Your purchases are safe with us. We offer comprehensive buyer protection for secure transactions and peace of mind, making your shopping worry-free."
+          "description": "Shop with peace of mind knowing that your purchases are protected by our secure policies, ensuring a safe and worry-free experience."
         },
         {
           "id": 4,
           "icon": "🎧",
           "title": "Live Support",
-          "description": "Our support team is available 24/7 to assist you with any questions or issues, ensuring a smooth, and personalized shopping experience."
+          "description": "Get 24/7 assistance from our dedicated support team, ready to resolve your questions and ensure a seamless, stress-free shopping experience."
         }
       ],
       "categories": [
@@ -95,7 +95,7 @@
         }
       ],
       "blogBanner": {
-        "image": "https://asclepius.ancorathemes.com/wp-content/uploads/2021/12/pharmacy-pic1-copyright.jpg",
+        "image": "./assets/img/blogBanner.avif",
         "firstTitle": "Read Our Blogs.",
         "secondTitle": "Stay Updated.",
         "link": "#",

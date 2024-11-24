@@ -1,6 +1,5 @@
 import img from "../../assets/img/immunization.png";
 import img2 from "../../assets/img/blog/blog6.jpg";
-import { motion } from "framer-motion";
 
 const index = () => {
   return (
@@ -57,10 +56,7 @@ const index = () => {
                 worldwide.
               </p>
               <div className='grid grid-cols-2 gap-4'>
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5 }}
+                <div
                   className='bg-white md:p-6  p-3 rounded-lg shadow'
                 >
                   <h3 className='font-bold text-brightColor mb-2'>
@@ -70,11 +66,8 @@ const index = () => {
                     To ensure global access to quality and affordable healthcare
                     solutions.
                   </p>
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5 }}
+                </div>
+                <div
                   className='bg-white md:p-6 p-3 rounded-lg shadow'
                 >
                   <h3 className='font-bold text-brightColor mb-2'>
@@ -84,11 +77,8 @@ const index = () => {
                     To be a trusted name in the pharmaceutical export industry,
                     driving innovation and excellence.
                   </p>
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5 }}
+                </div>
+                <div
                   className='bg-white md:p-6 p-3 rounded-lg shadow'
                 >
                   <h3 className='font-bold text-brightColor mb-2'>
@@ -97,11 +87,8 @@ const index = () => {
                   <p className='text-gray-600 max-md:text-xs'>
                     Quality, Integrity, Sustainability, and Innovation.
                   </p>
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5 }}
+                </div>
+                <div
                   className='bg-white md:p-6 p-3 rounded-lg shadow'
                 >
                   <h3 className='font-bold text-brightColor mb-2'>
@@ -111,7 +98,7 @@ const index = () => {
                     Serving healthcare providers across continents with reliable
                     and timely delivery.
                   </p>
-                </motion.div>
+                </div>
               </div>
             </div>
           </div>
@@ -124,10 +111,7 @@ const index = () => {
             Why Choose Us?
           </h2>
           <div className='grid lg:grid-cols-3 gap-8'>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
+            <div
               className='bg-white p-6 rounded-lg shadow'
             >
               <h3 className='text-xl font-semibold text-brightColor mb-4'>
@@ -137,11 +121,8 @@ const index = () => {
                 Every product we deliver undergoes rigorous quality checks,
                 ensuring top-notch standards.
               </p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
+            </div>
+            <div
               className='bg-white p-6 rounded-lg shadow'
             >
               <h3 className='text-xl font-semibold text-brightColor mb-4'>
@@ -151,11 +132,8 @@ const index = () => {
                 Extensive experience in supplying pharmaceutical products to
                 over 50 countries worldwide.
               </p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5 }}
+            </div>
+            <div
               className='bg-white p-6 rounded-lg shadow'
             >
               <h3 className='text-xl font-semibold text-brightColor mb-4'>
@@ -165,7 +143,7 @@ const index = () => {
                 A team of professionals ready to assist you at every stage of
                 the process.
               </p>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>

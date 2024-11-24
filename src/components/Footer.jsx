@@ -1,3 +1,5 @@
+import Button from "./Button/Button";
+
 const Footer = () => {
   return (
     <div className='bg-backgroundColor text-white rounded-t-3xl mt-8 md:mt-2'>
@@ -5,20 +7,18 @@ const Footer = () => {
       <div className='flex max-md:flex-col max-md:gap-8 items-center justify-center bg-gray-50 lg:px-16 px-8 py-16'>
         {/* Contact Info */}
         <div className='w-full md:w-2/6 px-6'>
-          <h2 className='md:text-3xl text-xl font-bold text-brightColor uppercase'>
+          <h2 className='heading uppercase'>
             Contact Us
           </h2>
-          <h1 className='text-3xl font-bold text-brightColor mt-2'>
+          <h1 className='title text-brightColor mt-2'>
             Have Questions? <br />
           </h1>
-          <p className='text-gray-600 mt-4'>
+          <p className='text-gray-600 my-4 description'>
             We’re here to help with any inquiries you have. Whether you need
             support, have feedback, or simply want to know more about our
             services, our team is ready to assist.
           </p>
-          <button className='mt-6 px-6 py-2 bg-teal-500 text-white font-semibold rounded-lg hover:bg-teal-600'>
-            Get In Touch
-          </button>
+          <Button title='Get In Touch' />
         </div>
         {/* Contact Details */}
         <div className='w-full md:w-2/6 px-6'>
@@ -42,15 +42,15 @@ const Footer = () => {
               },
             ].map((item, index) => (
               <div className='flex items-center' key={index}>
-                <span className='text-brightColor text-xl mr-4'>
+                <span className='title mr-4'>
                   {item.icon}
                 </span>
                 {item.link ? (
-                  <a href={item.link} className='text-gray-600'>
+                  <a href={item.link} className='description text-gray-600'>
                     {item.text}
                   </a>
                 ) : (
-                  <p className='text-gray-600'>{item.text}</p>
+                  <p className='text-gray-600 description'>{item.text}</p>
                 )}
               </div>
             ))}

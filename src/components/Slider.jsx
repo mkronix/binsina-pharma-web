@@ -26,7 +26,7 @@ const Slider = () => {
           dynamicMainBullets: 1,
         }}
         modules={[Pagination, EffectFade, Autoplay]}
-        className='mySwiper pt-10 md:pt-32 custom-swiper-pagination'
+        className='mySwiper pt-10 md:pt-16 custom-swiper-pagination'
       >
         {home.sliderData.map((slide) => (
           <SwiperSlide key={slide.id}>
@@ -37,9 +37,7 @@ const Slider = () => {
               }}
             >
               <div className='w-full lg:w-2/5 space-y-5 md:mt-10 max-md:m-auto'>
-                <h1 className='heading'>
-                  {slide.title}
-                </h1>
+                <h1 className='heading'>{slide.title}</h1>
                 <p className='text-gray-700 description'>{slide.description}</p>
                 <Button title={slide.buttonText} />
               </div>

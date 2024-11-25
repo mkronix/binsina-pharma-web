@@ -1,37 +1,29 @@
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Services from "./components/Services";
-import Doctors from "./components/Doctors";
-import Blogs from "./components/Blogs";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Services from "./pages/services";
 import Footer from "./components/Footer";
+import Products from "./pages/products";
+import Blogs from "./pages/blogs";
+import Media from "./pages/media";
+import Certification from "./pages/certifications";
+
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <div>
       <Navbar />
 
-      <main>
-        <div id='home'>
-          <Home />
-        </div>
-
-        <div id='about'>
-          <About />
-        </div>
-
-        <div id='services'>
-          <Services />
-        </div>
-
-        <div id='doctors'>
-          <Doctors />
-        </div>
-
-        <div id='blog'>
-          <Blogs />
-        </div>
-      </main>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/product' element={<Products />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/blog' element={<Blogs />} />
+        <Route path='/media' element={<Media />} />
+        <Route path='/certification' element={<Certification />} />
+      </Routes>
 
       <Footer />
     </div>

@@ -1,0 +1,111 @@
+{
+  "binsinaPharma": {
+    "common": {
+      "email": "info@binsinapharma.com",
+      "contact": "+919892146706",
+      "socialMedia": {
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://twitter.com/",
+        "instagram": "https://www.instagram.com/",
+        "linkedin": "https://www.linkedin.com/"
+      },
+      "address": {
+        "country": "India",
+        "state": "Maharashtra",
+        "city": "Pune",
+        "street": "123 Main St",
+        "zipCode": "12345"
+      },
+      "allRightsReserved": "© 2024 Binsina Pharma. All rights reserved."
+    },
+    "home": {
+      "sliderData": [
+        {
+          "id": 1,
+          "title": "Delivering Excellence in Global Pharmaceutical Exports",
+          "description": "Your Trusted Partner for High-Quality Medicines and Healthcare Products Worldwide.",
+          "image": "/assets/img/transport.png",
+          "buttonText": "Discover More"
+        },
+        {
+          "id": 2,
+          "title": "Custom Pharmaceutical Solutions for Every Market",
+          "description": "Providing Tailored Healthcare Products to Meet Diverse Regulatory and Market Needs.",
+          "image": "/assets/img/creation.png",
+          "buttonText": "Explore Services"
+        },
+        {
+          "id": 3,
+          "title": "Expanding Access to Affordable Healthcare Globally",
+          "description": "Committed to Excellence in Quality, Timely Delivery, and Compliance with Global Standards.",
+          "image": "/assets/img/help.jpeg",
+          "buttonText": "Contact Us"
+        }
+      ],
+     "features": [
+        {
+          "id": 1,
+          "icon": "👍",
+          "title": "Best Prices",
+          "description": "Enjoy the best prices on quality products that fit your budget, offering great value without compromising on reliability and performance."
+        },
+        {
+          "id": 2,
+          "icon": "🏷️",
+          "title": "Fast Shipping",
+          "description": "Our fast and reliable shipping ensures your orders reach you promptly, so you never have to wait long to enjoy your purchases."
+        },
+        {
+          "id": 3,
+          "icon": "🚚",
+          "title": "Buyer's Protection",
+          "description": "Shop with peace of mind knowing that your purchases are protected by our secure policies, ensuring a safe and worry-free experience."
+        },
+        {
+          "id": 4,
+          "icon": "🎧",
+          "title": "Live Support",
+          "description": "Get 24/7 assistance from our dedicated support team, ready to resolve your questions and ensure a seamless, stress-free shopping experience."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "image": "https://scitechdaily.com/images/Artificial-Intelligence-Drug-Medicine-Discovery.jpg",
+          "title": "Medicine",
+          "link": "#"
+        },
+        {
+          "id": 2,
+          "image": "https://wallpaperaccess.com/full/136954.jpg",
+          "title": "Vaccine",
+          "link": "#"
+        },
+        {
+          "id": 3,
+          "image": "https://tse2.mm.bing.net/th?id=OIP.MZIRniC4UJm-unDihT2PhQHaE7&pid=Api&P=0&h=180",
+          "title": "Homeopathy",
+          "link": "#"
+        },
+        {
+          "id": 4,
+          "image": "https://tse4.mm.bing.net/th?id=OIP.kZcDTlaz4hJQ6mAOxc5V1gHaEJ&pid=Api&P=0&h=180",
+          "title": "Ayurvedic",
+          "link": "#"
+        }
+      ],
+      "blogBanner": {
+        "image": "./assets/img/blogBanner.avif",
+        "firstTitle": "Read Our Blogs.",
+        "secondTitle": "Stay Updated.",
+        "link": "#",
+        "buttonText": "READ MORE"
+      }
+    },
+    "about": {},
+    "product": {},
+    "blog": {},
+    "contact": {},
+    "services": {}
+  }
+}

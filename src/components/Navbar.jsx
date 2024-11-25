@@ -1,188 +1,183 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { Link } from "react-scroll";
-import Contact from "../models/Contact";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { HiOutlinePhone } from "react-icons/hi2";
+import { MdOutlineMail } from "react-icons/md";
+import { Link } from "react-router-dom";
 import { RiTwitterXLine } from "react-icons/ri";
-import logo from '../assets/img/logo.png'
+import logo from "../assets/img/logo.png";
+import data from "../data/data.json";
+import Button from "./Button/Button";
+
 const Navbar = () => {
+  const { common } = data.binsinaPharma;
+
   const [menu, setMenu] = useState(false);
-  const [showForm, setShowForm] = useState(false);
 
   const handleChange = () => {
     setMenu(!menu);
   };
 
-  const closeMenu = () => {
-    setMenu(false);
-  };
-
-  const openForm = () => {
-    setShowForm(true);
-    setMenu(false);
-  };
-
-  const closeForm = () => {
-    setShowForm(false);
-  };
-
   return (
-    <div className=" fixed w-full z-10 text-white">
-      <div className="max-md:hidden flex flex-row justify-between p-5 border-b border-gray-200 md:px-32 px-5 bg-backgroundColor">
-        <div className="flex md:items-center md:flex-row flex-col md:gap-10 gap-2">
-          <a href="mailto:info@binsinapharma.com">
-            info@binsinapharma.com
-          </a>
-          <a href="tel:+919892146706">
-            +91 98921 46706
-          </a>
+    <div className='fixed w-full z-10 text-white'>
+      <div className='max-lg:hidden flex flex-row justify-between p-2 border-b border-gray-200 lg:px-16 px-8 bg-backgroundColor'>
+        <div className='flex md:items-center md:flex-row flex-col md:gap-10 gap-2'>
+          <div className='flex items-center gap-2'>
+            <div className='p-2 bg-backgroundColor rounded-full shadow-md hover:bg-hoverColor hover:shadow-lg transition-all cursor-pointer'>
+              <MdOutlineMail size={15} />
+            </div>
+            <a href={`mailto:${common.email}`}>{common.email}</a>
+          </div>
+          <div className='flex items-center gap-2'>
+            <div className='p-2 bg-backgroundColor rounded-full shadow-md hover:bg-hoverColor hover:shadow-lg transition-all cursor-pointer'>
+              <HiOutlinePhone size={15} />
+            </div>
+            <a href={`tel:${common.contact}`}>{common.contact}</a>
+          </div>
         </div>
-        <div className="flex items-center gap-2 max-md:mt-3">
-          <FaFacebook size={20} className=" cursor-pointer" />
-          <FaInstagram size={20} className=" cursor-pointer" />
-          <FaLinkedin size={20} className=" cursor-pointer" />
-          <RiTwitterXLine size={20} className=" cursor-pointer" />
+        <div className='flex items-center gap-4 max-md:mt-3'>
+          <div className='p-2 bg-backgroundColor rounded-full shadow-md hover:bg-hoverColor hover:shadow-lg transition-all cursor-pointer'>
+            <FaFacebook size={15} />
+          </div>
+          <div className='p-2 bg-backgroundColor rounded-full shadow-md hover:bg-hoverColor hover:shadow-lg transition-all cursor-pointer'>
+            <FaInstagram size={15} />
+          </div>
+          <div className='p-2 bg-backgroundColor rounded-full shadow-md hover:bg-hoverColor hover:shadow-lg transition-all cursor-pointer'>
+            <FaLinkedin size={15} />
+          </div>
+          <div className='p-2 bg-backgroundColor rounded-full shadow-md hover:bg-hoverColor hover:shadow-lg transition-all cursor-pointer'>
+            <RiTwitterXLine size={15} />
+          </div>
         </div>
       </div>
-      <div>
-        <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-bgHead shadow-md">
-          <Link to="home" spy={true} smooth={true} duration={500} className="flex flex-row items-center cursor-pointer">
-            {/* <img src={logo} alt="" className="object-contain w-44" /> */}
-            <h2 className="text-2xl uppercase font-semibold text-gray-700">Binisana</h2>
+
+      <div className=''>
+        <div className='relative flex flex-row justify-between py-2 lg:px-16 px-8 bg-bgHead shadow-md'>
+          <Link
+            to='/'
+            duration={500}
+            className='flex flex-row lg:w-44 w-32 items-center cursor-pointer'
+          >
+            <img src={logo} alt='' className='object-contain w-full h-full ' />
           </Link>
-          <nav className=" hidden lg:flex flex-row items-center text-lg font-medium gap-8">
+          <nav className=' hidden lg:flex flex-row items-center text-lg font-medium gap-8'>
             <Link
-              to="home"
-              spy={true}
-              smooth={true}
+              to='/'
               duration={500}
-              className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+              className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
             >
               Home
             </Link>
             <Link
-              to="about"
-              spy={true}
-              smooth={true}
+              to='/about'
               duration={500}
-              className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+              className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
             >
               About Us
             </Link>
             <Link
-              to="services"
-              spy={true}
-              smooth={true}
+              to='/product'
               duration={500}
-              className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+              className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
             >
-              Services
+              Product
             </Link>
             <Link
-              to="doctors"
-              spy={true}
-              smooth={true}
+              to='/blog'
               duration={500}
-              className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            >
-              Doctors
-            </Link>
-            <Link
-              to="blog"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+              className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
             >
               Blog
             </Link>
+            <Link
+              to='/certification'
+              duration={500}
+              className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
+            >
+              Certifications
+            </Link>
+            <Link
+              to='/media'
+              duration={500}
+              className=' hover:text-hoverColor text-gray-700 transition-all cursor-pointer'
+            >
+              Media
+            </Link>
           </nav>
 
-          <div className=" hidden lg:flex">
-            <button
-              className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
-              onClick={openForm}
-            >
-              Contact Us
-            </button>
+          <div className='hidden lg:flex items-center justify-center'>
+            <Button title={"Reach us"} />
           </div>
-
-          {showForm && <Contact closeForm={closeForm} />}
-
-          <div className=" lg:hidden flex items-center">
+          <div className='lg:hidden flex items-center absolute right-6 top-6 z-50'>
             {menu ? (
-              <AiOutlineClose className="text-backgroundColor" size={28} onClick={handleChange} />
+              <AiOutlineClose
+                className='text-backgroundColor transition duration-700 ease-in-out '
+                size={28}
+                onClick={handleChange}
+              />
             ) : (
-              <AiOutlineMenu className="text-backgroundColor" size={28} onClick={handleChange} />
+              <AiOutlineMenu
+                className='text-backgroundColor transition duration-700 ease-in-out'
+                size={28}
+                onClick={handleChange}
+              />
             )}
           </div>
-        </div >
+        </div>
         <div
-          className={`${menu ? "translate-x-0" : "-translate-x-full"
-            } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+          className={`${
+            menu ? "translate-x-0" : "-translate-x-full"
+          } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         >
           <Link
-            to="home"
-            spy={true}
-            smooth={true}
+            to='/'
             duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            onClick={closeMenu}
+            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >
             Home
           </Link>
           <Link
-            to="about"
-            spy={true}
-            smooth={true}
+            to='/about'
             duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            onClick={closeMenu}
+            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >
             About Us
           </Link>
           <Link
-            to="services"
-            spy={true}
-            smooth={true}
+            to='/doctors'
             duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            onClick={closeMenu}
+            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >
-            Services
+            Product
           </Link>
           <Link
-            to="doctors"
-            spy={true}
-            smooth={true}
+            to='/blog'
             duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            onClick={closeMenu}
-          >
-            Doctors
-          </Link>
-          <Link
-            to="blog"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className=" hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
-            onClick={closeMenu}
+            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >
             Blog
           </Link>
+          <Link
+            to='/services'
+            duration={500}
+            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
+          >
+            Certifications
+          </Link>
+          <Link
+            to='/media'
+            duration={500}
+            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
+          >
+            Media
+          </Link>
 
-          <div className=" lg:hidden">
-            <button
-              className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
-              onClick={openForm}
-            >
-              Contact Us
-            </button>
+          <div className=' lg:hidden flex justify-center'>
+            <Button title={"Reach us"} />
           </div>
-        </div >
-      </div >
-    </div >
+        </div>
+      </div>
+    </div>
   );
 };
 

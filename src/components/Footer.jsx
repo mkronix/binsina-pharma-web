@@ -1,105 +1,88 @@
-import React from "react";
-import { Link } from "react-scroll";
+import Button from "./Button/Button";
 
 const Footer = () => {
   return (
-    <div className=" bg-backgroundColor text-white rounded-t-3xl mt-8 md:mt-0">
-      <div className="flex flex-col md:flex-row justify-between p-8 md:px-32 px-5">
-        <div className=" w-full md:w-1/4">
-          <h1 className=" font-semibold text-xl pb-4">Binisana</h1>
-          <p className=" text-sm">
-            Our team of dedicated doctors, each specializing in unique fields
-            such as orthopedics, cardiology, pediatrics, neurology, dermatology,
-            and more.
+    <div className='bg-backgroundColor text-white rounded-t-3xl mt-8 md:mt-2'>
+      {/* Contact Us Section */}
+      <div className='flex max-md:flex-col max-md:gap-8 items-center justify-center bg-gray-50 lg:px-16 px-8 py-16'>
+        {/* Contact Info */}
+        <div className='w-full md:w-2/6 px-6'>
+          <h2 className='heading uppercase'>
+            Contact Us
+          </h2>
+          <h1 className='title text-brightColor mt-2'>
+            Have Questions? <br />
+          </h1>
+          <p className='text-gray-600 my-4 description'>
+            We’re here to help with any inquiries you have. Whether you need
+            support, have feedback, or simply want to know more about our
+            services, our team is ready to assist.
           </p>
+          <Button title='Get In Touch' />
         </div>
-        <div>
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">About Us</h1>
-          <nav className=" flex flex-col gap-2">
-            <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
-            >
-              About
-            </Link>
-            <Link
-              to="services"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
-            >
-              Services
-            </Link>
-            <Link
-              to="doctors"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
-            >
-              Doctors
-            </Link>
-          </nav>
+        {/* Contact Details */}
+        <div className='w-full md:w-2/6 px-6'>
+          <div className='space-y-4'>
+            {[
+              {
+                icon: "📞",
+                text: "+91 98921 46706",
+                link: "tel:+919892146706",
+              },
+              {
+                icon: "⏰",
+                text: `Mon-Fri: 9 AM – 6 PM
+                Saturday: 9 AM – 4 PM
+                Sunday: Closed`,
+              },
+              {
+                icon: "📧",
+                text: "info@binsinapharma.com",
+                link: "mailto:info@binsinapharma.com",
+              },
+            ].map((item, index) => (
+              <div className='flex items-center' key={index}>
+                <span className='title mr-4'>
+                  {item.icon}
+                </span>
+                {item.link ? (
+                  <a href={item.link} className='description text-gray-600'>
+                    {item.text}
+                  </a>
+                ) : (
+                  <p className='text-gray-600 description'>{item.text}</p>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
-        <div>
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Services</h1>
-          <nav className=" flex flex-col gap-2">
-            <Link
-              to="services"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
-            >
-              Lab Test
-            </Link>
-            <Link
-              to="services"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
-            >
-              Health Check
-            </Link>
-            <Link
-              to="services"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className=" hover:text-hoverColor transition-all cursor-pointer"
-            >
-              Heart Health
-            </Link>
-          </nav>
+        {/* Map */}
+        <div className='w-full md:w-2/6 px-6'>
+          <iframe
+            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.7920002620153!2d72.8369304!3d19.16058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b500000000%3A0x476c5d925ddafdb6!2sBinsina%20Pharma%20HQ!5e0!3m2!1sen!2sin!4v1667274849607!5m2!1sen!2sin'
+            className='w-full h-72 border-none rounded-lg'
+            allowFullScreen=''
+            loading='lazy'
+            referrerPolicy='no-referrer-when-downgrade'
+          ></iframe>
         </div>
-        <div className=" w-full md:w-1/4">
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
-          <nav className="flex flex-col gap-2">
-            <a href="#" className="hover:text-hoverColor transition-all cursor-pointer">
-              Mumbai - 400001 , India
-            </a>
-            <a href="mailto:info@binsinapharma.com" className="hover:text-hoverColor transition-all cursor-pointer">
-              info@binsinapharma.com
-            </a>
-            <a href="tel:+919892146706" className="hover:text-hoverColor transition-all cursor-pointer">
-              +91 98921 46706
-            </a>
-          </nav>
-        </div>
-      </div >
-      <div>
-        <p className="text-center py-4">
-          developed by
-          <a href="https://www.mkronix.com/" target="_blank" className="text-hoverColor mx-2">mrkonix</a>| All
-          rights reserved
+      </div>
+
+      <div className='bg-gray-900 text-gray-500'>
+        <p className='text-center py-4'>
+          Developed by
+          <a
+            href='https://www.mkronix.com/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-hoverColor mx-2'
+          >
+            MKronix
+          </a>
+          | All rights reserved
         </p>
       </div>
-    </div >
+    </div>
   );
 };
 

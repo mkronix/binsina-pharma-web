@@ -5,6 +5,8 @@ import Services from "./pages/services";
 import Footer from "./components/Footer";
 import Products from "./pages/products";
 import Blogs from "./pages/blogs";
+import Media from "./pages/media";
+import Certification from "./pages/certifications";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -16,9 +18,11 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/products' element={<Products />} />
+        <Route path='/product' element={<Products />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/Blogs' element={<Blogs />} />
+        <Route path='/blog' element={<Blogs />} />
+        <Route path='/media' element={<Media />} />
+        <Route path='/certification' element={<Certification />} />
       </Routes>
 
       <Footer />

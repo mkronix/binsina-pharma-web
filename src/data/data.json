@@ -24,21 +24,21 @@
           "id": 1,
           "title": "Delivering Excellence in Global Pharmaceutical Exports",
           "description": "Your Trusted Partner for High-Quality Medicines and Healthcare Products Worldwide.",
-          "image": "/assets/img/export.png",
+          "image": "/assets/img/transport.png",
           "buttonText": "Discover More"
         },
         {
           "id": 2,
           "title": "Custom Pharmaceutical Solutions for Every Market",
           "description": "Providing Tailored Healthcare Products to Meet Diverse Regulatory and Market Needs.",
-          "image": "https://img.freepik.com/free-photo/front-view-doctor-holding-vial_23-2149994404.jpg?t=st=1732449209~exp=1732452809~hmac=af7a01f54358735ab55702129035b5d2a9cc8362cac2a3c6fa2cebf95687b4e6&w=1060",
+          "image": "/assets/img/creation.png",
           "buttonText": "Explore Services"
         },
         {
           "id": 3,
           "title": "Expanding Access to Affordable Healthcare Globally",
           "description": "Committed to Excellence in Quality, Timely Delivery, and Compliance with Global Standards.",
-          "image": "/assets/img/export.png",
+          "image": "/assets/img/help.jpeg",
           "buttonText": "Contact Us"
         }
       ],

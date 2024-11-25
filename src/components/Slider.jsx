@@ -40,7 +40,7 @@ const Slider = () => {
                 <h1 className='heading'>
                   {slide.title}
                 </h1>
-                <p className='text-gray-700 description'>{slide.description}</p>
+                <p className='text-white description'>{slide.description}</p>
                 <Button title={slide.buttonText} />
               </div>
             </div>

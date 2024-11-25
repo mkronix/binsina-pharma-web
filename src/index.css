@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Times", "Helvetica", ;
+  font-family: "Times", "Helvetica";
 }
 
 ::-webkit-scrollbar {
@@ -28,7 +28,6 @@
   font-size: 1.5rem;
   line-height: 1;
   font-weight: 500;
-
 }
 
 .description {
@@ -71,5 +70,9 @@
 
   .title {
     font-size: 1.2rem;
+  }
+
+  .swiper-pagination {
+    bottom: 100px !important;
   }
 }

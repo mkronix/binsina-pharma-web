@@ -95,7 +95,7 @@
         }
       ],
       "blogBanner": {
-        "image": "./assets/img/blogBanner.avif",
+        "image": "./assets/img/blogbanner.jpg",
         "firstTitle": "Read Our Blogs.",
         "secondTitle": "Stay Updated.",
         "link": "#",

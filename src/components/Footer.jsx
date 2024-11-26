@@ -2,7 +2,7 @@ import Button from "./Button/Button";
 
 const Footer = () => {
   return (
-    <div className='bg-backgroundColor text-white rounded-t-3xl mt-8 md:mt-2'>
+    <div className='bg-backgroundColor text-white rounded-t-3xl md:mt-2'>
       {/* Contact Us Section */}
       <div className='flex max-md:flex-col max-md:gap-8 items-center justify-center bg-gray-50 lg:px-16 px-8 py-16'>
         {/* Contact Info */}

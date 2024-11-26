@@ -144,7 +144,7 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to='/doctors'
+            to='/product'
             duration={500}
             className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >

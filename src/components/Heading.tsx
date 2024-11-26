@@ -6,12 +6,12 @@ const Heading = ({ title, align = "center", className = "" }) => {
     align === "start"
       ? "text-start"
       : align === "end"
-      ? "text-end"
-      : "text-center";
+        ? "text-end"
+        : "text-center";
 
   return (
     <h1
-      className={`md:text-4xl text-2xl font-semibold ${alignmentClass} text-brightColor ${className}`}
+      className={`md:text-4xl text-3xl font-semibold ${alignmentClass} text-brightColor ${className}`}
     >
       {title}
     </h1>

@@ -1,9 +1,18 @@
 import Banner from "../../components/Banner";
-import productBg from "/assets/img/products-bg.jpg";
+import data from "../../data/data.json";
+
 const index = () => {
-  return <section className='h-screen'>
-    <Banner heading='Products' title='Products' backgroundImage={productBg} />
-  </section>;
+  const { product } = data.binsinaPharma;
+
+  return (
+    <section className='h-screen'>
+      <Banner
+        heading={product.bannerHeading}
+        title={product.bannerTitle}
+        backgroundImage={product.bannerImage}
+      />
+    </section>
+  );
 };
 
 export default index;

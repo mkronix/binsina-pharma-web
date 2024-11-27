@@ -13,7 +13,8 @@ const index = () => {
       {/* Hero Section */}
       <div className='flex flex-col lg:flex-row justify-between items-center lg:px-16 px-8 py-16 gap-8'>
         <div className='w-full lg:w-3/4 space-y-6'>
-          <h1 className='heading'>Leading Pharmaceutical Exporter in India</h1>
+          <h1 className='heading'>Leading Pharmaceutical</h1>
+          <h1 className="heading">Exporter in India</h1>
           <p className='text-justify lg:text-start text-gray-700 description'>
             Binsina Pharma is a premier pharmaceutical export company dedicated
             to delivering high-quality healthcare solutions worldwide. By

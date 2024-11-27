@@ -125,9 +125,8 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={`${
-            menu ? "translate-x-0" : "-translate-x-full"
-          } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+          className={`${menu ? "translate-x-0" : "-translate-x-full"
+            } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         >
           <Link
             to='/'
@@ -158,7 +157,7 @@ const Navbar = () => {
             Blog
           </Link>
           <Link
-            to='/services'
+            to='/certification'
             duration={500}
             className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
           >

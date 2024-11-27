@@ -68,7 +68,7 @@ const index = () => {
             institutions, and distributors around the world.'
           />
         </div>
-        <div className='w-full lg:w-[40%]'>
+        <div className='w-full lg:w-[50%]'>
           <img
             className='object-cover rounded-lg'
             src={img}
@@ -81,7 +81,7 @@ const index = () => {
           {/* Main Layout: Image and Content */}
           <div className='flex flex-col-reverse md:flex-row gap-8'>
             {/* Left Image */}
-            <div className='w-full lg:w-[40%]'>
+            <div className='w-full lg:w-[50%]'>
               <img
                 src={img2}
                 alt='About Us'
@@ -101,7 +101,6 @@ const index = () => {
               <Paragraph
                 title='Sustainability and innovation are at the core of our business operations. We continuously invest in research and development, fostering advancements in pharmaceuticals while ensuring eco-friendly practices in production and distribution.'
               />
-              z
             </div>
           </div>
 

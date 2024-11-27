@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Times", "Helvetica";
+  font-family: "Arial";
 }
 
 ::-webkit-scrollbar {
@@ -15,6 +15,10 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #3194a1;
+}
+
+.linearBg {
+  background: linear-gradient(135deg, #e0f7fa, #80deea, #26c6da, #0097a7);
 }
 
 .heading {

@@ -31,16 +31,16 @@ const Slider = () => {
         {home.sliderData.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div
-              className='h-[540px] flex flex-col md:justify-center justify-start lg:px-16 px-8 text-white bg-no-repeat md:bg-cover opacity-90'
-              style={{
-                backgroundImage: `url('${slide.image}')`,
-              }}
+              className='linearBg h-[540px] flex items-center lg:px-16 px-8 bg-no-repeat md:bg-cover opacity-90'
+            // style={{
+            //   backgroundImage: `url('${slide.image}')`,
+            // }}
             >
               <div className='w-full lg:w-2/5 space-y-5 md:mt-10 max-md:m-auto'>
-                <h1 className='heading'>
+                <h1 className='heading text-gray-800'>
                   {slide.title}
                 </h1>
-                <p className='text-white description'>{slide.description}</p>
+                <p className='text-gray-900 description'>{slide.description}</p>
                 <Button title={slide.buttonText} />
               </div>
             </div>

@@ -32,14 +32,12 @@ const Slider = () => {
           <SwiperSlide key={slide.id}>
             <div
               className='linearBg h-[540px] flex items-center lg:px-16 px-8 bg-no-repeat md:bg-cover opacity-90'
-            // style={{
-            //   backgroundImage: `url('${slide.image}')`,
-            // }}
+              // style={{
+              //   backgroundImage: `url('${slide.image}')`,
+              // }}
             >
               <div className='w-full lg:w-2/5 space-y-5 md:mt-10 max-md:m-auto'>
-                <h1 className='heading text-gray-800'>
-                  {slide.title}
-                </h1>
+                <h1 className='heading text-gray-800'>{slide.title}</h1>
                 <p className='text-gray-900 description'>{slide.description}</p>
                 <Button title={slide.buttonText} />
               </div>

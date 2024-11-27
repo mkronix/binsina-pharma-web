@@ -42,70 +42,375 @@
           "buttonText": "Contact Us"
         }
       ],
-     "features": [
+      "heroSection": {
+        "heading1": "Leading Pharmaceutical",
+        "heading2": "Exporter in India",
+        "content":[
+          {
+            "id": 1,
+            "description": "Binsina Pharma is a premier pharmaceutical export company dedicated to delivering high-quality healthcare solutions worldwide. By sourcing products from WHO-GMP-certified manufacturers, we ensure that all our offerings meet stringent international standards."
+          },
+          {
+            "id": 2,
+            "description": "Our mission is to bridge the global gap in healthcare by offering affordable, innovative, and reliable solutions to healthcare providers, enabling better patient outcomes globally."
+          },
+          {
+            "id": 3,
+            "description": " With years of expertise and a commitment to excellence, we are proud to be the trusted partner for countless healthcare professionals, institutions, and distributors around the world."
+          }
+        ],
+        "image": "/assets/img/immunization.png"
+      },
+      "features": {
+       "heading": "Our Speciality",
+       "content":[
+         {
+           "id": 1,
+           "icon": "👍",
+           "title": "Best Prices",
+           "description": "Enjoy the best prices on quality products that fit your budget, offering great value without compromising on reliability and performance."
+         },
+         {
+           "id": 2,
+           "icon": "🏷️",
+           "title": "Fast Shipping",
+           "description": "Our fast and reliable shipping ensures your orders reach you promptly, so you never have to wait long to enjoy your purchases."
+         },
+         {
+           "id": 3,
+           "icon": "🚚",
+           "title": "Buyer's Protection",
+           "description": "Shop with peace of mind knowing that your purchases are protected by our secure policies, ensuring a safe and worry-free experience."
+         },
+         {
+           "id": 4,
+           "icon": "🎧",
+           "title": "Live Support",
+           "description": "Get 24/7 assistance from our dedicated support team, ready to resolve your questions and ensure a seamless, stress-free shopping experience."
+         }
+       ]
+      },
+      "whyChooseUs":{
+      "heading": "Why Choose Us?",
+      "content":[
         {
-          "id": 1,
-          "icon": "👍",
-          "title": "Best Prices",
-          "description": "Enjoy the best prices on quality products that fit your budget, offering great value without compromising on reliability and performance."
+          "id":1,
+          "title": "Quality Assurance",
+          "description":
+            "Every product we deliver undergoes rigorous quality checks, ensuring top-notch standards."
         },
         {
-          "id": 2,
-          "icon": "🏷️",
-          "title": "Fast Shipping",
-          "description": "Our fast and reliable shipping ensures your orders reach you promptly, so you never have to wait long to enjoy your purchases."
+          "id":2,
+          "title": "Global Network",
+          "description":
+            "Extensive experience in supplying pharmaceutical products to over 50 countries worldwide."
         },
         {
-          "id": 3,
-          "icon": "🚚",
-          "title": "Buyer's Protection",
-          "description": "Shop with peace of mind knowing that your purchases are protected by our secure policies, ensuring a safe and worry-free experience."
-        },
-        {
-          "id": 4,
-          "icon": "🎧",
-          "title": "Live Support",
-          "description": "Get 24/7 assistance from our dedicated support team, ready to resolve your questions and ensure a seamless, stress-free shopping experience."
+          "id":3,
+          "title": "Dedicated Support",
+          "description":
+            "A team of professionals ready to assist you at every stage of the process."
         }
-      ],
-      "categories": [
+      ]
+      },
+      "categories": {
+        "heading": "Best Categories",
+        "content":[
         {
           "id": 1,
           "image": "https://scitechdaily.com/images/Artificial-Intelligence-Drug-Medicine-Discovery.jpg",
           "title": "Medicine",
-          "link": "#"
+          "link": "#",
+          "buttonText": "Shop Now →"
         },
         {
           "id": 2,
           "image": "https://wallpaperaccess.com/full/136954.jpg",
           "title": "Vaccine",
-          "link": "#"
+          "link": "#",
+          "buttonText": "Shop Now →"
         },
         {
           "id": 3,
           "image": "https://tse2.mm.bing.net/th?id=OIP.MZIRniC4UJm-unDihT2PhQHaE7&pid=Api&P=0&h=180",
           "title": "Homeopathy",
-          "link": "#"
+          "link": "#",
+          "buttonText": "Shop Now →"
         },
         {
           "id": 4,
           "image": "https://tse4.mm.bing.net/th?id=OIP.kZcDTlaz4hJQ6mAOxc5V1gHaEJ&pid=Api&P=0&h=180",
           "title": "Ayurvedic",
-          "link": "#"
+          "link": "#",
+          "buttonText": "Shop Now →"
         }
-      ],
+    ]
+      },
       "blogBanner": {
         "image": "./assets/img/blogbanner.jpg",
         "firstTitle": "Read Our Blogs.",
         "secondTitle": "Stay Updated.",
         "link": "#",
         "buttonText": "READ MORE"
+      },
+      "testimonial": { 
+        "heading": "What Our Clients Say",
+        "content":[
+          {
+            "id": 1,
+            "name": "Dr. Sarah Johnson",
+            "role": "Medical Director",
+            "content":
+              "Exceptional quality and reliable service. Binisana Pharma has been our trusted partner for years.",
+            "image":
+              "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3"
+          },
+          {
+            "id": 2,
+            "name": "Michael Chen",
+            "role": "Procurement Manager",
+            "content":
+              "Their commitment to excellence and timely delivery sets them apart in the industry.",
+            "image":
+              "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3"
+          },
+          {
+            "id": 3,
+            "name": "Michael Chen",
+            "role": "Procurement Manager",
+            "content":
+              "Their commitment to excellence and timely delivery sets them apart in the industry.",
+            "image":
+              "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3"
+          }
+        ]
       }
     },
-    "about": {},
-    "product": {},
-    "blog": {},
+    "about": {
+      "firstHeroSection": {
+        "heading": "Leading Pharmaceutical Exporter in India",
+        "image":"assets/img/immunization.png",
+        "content":[
+          {
+            "id": 1,
+            "description": "Binsina Pharma is a premier pharmaceutical export company dedicated to delivering high-quality healthcare solutions worldwide. By sourcing products from WHO-GMP-certified manufacturers, we ensure that all our offerings meet stringent international standards."
+          },
+          {
+            "id": 2,
+            "description": "Our mission is to bridge the global gap in healthcare by offering affordable, innovative, and reliable solutions to healthcare providers, enabling better patient outcomes globally."
+          },
+          {
+            "id": 3,
+            "description": " With years of expertise and a commitment to excellence, we are proud to be the trusted partner for countless healthcare professionals, institutions, and distributors around the world."
+          }
+        ]
+      },
+      "secondSection": {
+        "heading": "About Binsina Pharma Export",
+        "image":"assets/img/blog/blog6.jpg",
+        "content":[
+          {
+            "id": 1,
+            "description": "With a comprehensive portfolio of high-quality pharmaceutical products, we serve diverse healthcare needs across continents. Our commitment to excellence ensures that each product undergoes rigorous quality control, meeting the stringent requirements of international markets."
+          },
+          {
+            "id": 2,
+            "description": "Our state-of-the-art facilities and expert team enable us to cater to the ever-evolving demands of the healthcare industry. From lifesaving medicines to over-the-counter products, we are dedicated to delivering value and reliability at every step."
+          },
+          {
+            "id": 3,
+            "description": "Sustainability and innovation are at the core of our business operations. We continuously invest in research and development, fostering advancements in pharmaceuticals while ensuring eco-friendly practices in production and distribution."
+          }
+        ],
+        "cardsSectionData" : [
+          {
+            "id": 1,
+            "title": "Our Mission",
+            "description":
+              "To ensure global access to quality and affordable healthcare solutions."
+          },
+          {
+            "id": 2,
+            "title": "Our Vision",
+            "description":
+              "To be a trusted name in the pharmaceutical export industry, driving innovation and excellence."
+          },
+          {
+            "id": 3,
+            "title": "Core Values",
+            "description": "Quality, Integrity, Sustainability, and Innovation."
+          },
+          {
+            "id": 4,
+            "title": "Global Reach",
+            "description":
+              "Serving healthcare providers across continents with reliable and timely delivery."
+          }
+        ]
+      },
+      "whyChooseUs":{
+        "heading":"Why Choose Us?",
+        "content" : [
+          {
+            "id":1,
+            "title": "Quality Assurance",
+            "description":
+              "Every product we deliver undergoes rigorous quality checks, ensuring top-notch standards."
+          },
+          {
+            "id":2,
+            "title": "Global Network",
+            "description":
+              "Extensive experience in supplying pharmaceutical products to over 50 countries worldwide."
+          },
+          {
+            "id":3,
+            "title": "Dedicated Support",
+            "description":
+              "A team of professionals ready to assist you at every stage of the process."
+          }
+        ]
+      }
+    },
+    "product": {
+      "bannerTitle": "Products",
+      "bannerHeading": "Products",
+      "bannerImage":"assets/img/products-bg.jpg"
+    },
+    "blog": {
+      "content" : [
+        {
+          "id":1,
+          "img": "assets/img/blog/blog1.jpg",
+          "headlines": "Unraveling the Mysteries of Sleep",
+          "description":
+            "Discover why sleep is crucial for your physical and mental well-being. Learn tips to improve sleep quality and understand the science behind a good night's rest."
+        },
+        {
+          "id":2,
+          "img": "assets/img/blog/blog2.jpg",
+          "headlines": "The Heart-Healthy Diet",
+          "description":
+            "Explore the best dietary practices to keep your heart healthy. From nutrient-packed foods to heart-friendly recipes, start your journey to better heart health today."
+        },
+        {
+          "id":3,
+          "img": "assets/img/blog/blog3.jpg",
+          "headlines": "Understanding Pediatric Vaccinations",
+          "description":
+            "Vaccinations are key to protecting children from preventable diseases. Learn about the importance of immunization schedules and how they safeguard future generations."
+        },
+        {
+          "id":4,
+          "img": "assets/img/blog/blog4.jpg",
+          "headlines": "Navigating Mental Health",
+          "description":
+            "Mental health matters. Discover practical advice, coping mechanisms, and resources to support emotional well-being in challenging times."
+        },
+        {
+          "id":5,
+          "img": "assets/img/blog/blog5.jpg",
+          "headlines": "The Importance of Regular Exercise",
+          "description":
+            "Regular physical activity benefits your body and mind. Find out how to incorporate exercise into your daily routine and reap long-term rewards."
+        },
+        {
+          "id":6,
+          "img": "assets/img/blog/blog6.jpg",
+          "headlines": "Skin Health 101",
+          "description":
+            "Your skin reflects your health. Learn skincare essentials, tips to combat common skin issues, and routines to keep your skin glowing and healthy."
+        },
+        {
+          "id":7,
+          "img": "assets/img/blog/blog1.jpg",
+          "headlines": "The Importance of Regular Exercise",
+          "description":
+            "Regular physical activity benefits your body and mind. Find out how to incorporate exercise into your daily routine and reap long-term rewards."
+        },
+        {
+          "id":8,
+          "img": "assets/img/blog/blog2.jpg",
+          "headlines": "Skin Health 101",
+          "description":
+            "Your skin reflects your health. Learn skincare essentials, tips to combat common skin issues, and routines to keep your skin glowing and healthy."
+        }
+      ]
+    },
+    "certifications": {
+      "bannerTitle": "Certifications",
+      "bannerHeading": "Certifications",
+      "bannerImage":"assets/img/certificate-bg.jpg",
+      "heading":"Our Certifications",
+      "description":"We provide a comprehensive range of pharmaceutical solutions, including tablet and nutraceutical manufacturing, generic medicines, suppositories, injections, advanced molecules, and premixes.",
+      "content": [
+        {
+          "id": 1,
+          "title": "Global Distribution",
+          "description":
+            "Worldwide pharmaceutical distribution network ensuring timely delivery",
+          "image": "assets/img/global.png"
+        },
+        {
+          "id": 2,
+          "title": "Quality Assurance",
+          "description": "Strict quality control measures for all exported products",
+          "image": "assets/img/quality.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Regulatory Compliance",
+          "description": "Complete adherence to international pharmaceutical standards",
+          "image": "assets/img/regulatory.png"
+        },
+        {
+          "id": 4,
+          "title": "Supply Chain Solutions",
+          "description": "End-to-end supply chain management for pharmaceuticals",
+          "image": "assets/img/chain.jpg"
+        }
+      ]
+    },
     "contact": {},
-    "services": {}
+    "services": {},
+    "media":{
+      "bannerTitle": "Media",
+      "bannerHeading": "Media",
+      "bannerImage":"assets/img/media-bg.jpg"
+    },
+    "footer":{
+      "heading1":"Contact Us",
+      "heading2":"Have Questions?",
+      "description":"We’re here to help with any inquiries you have. Whether you need support, have feedback, or simply want to know more about our services, our team is ready to assist.",
+      "buttonText":"Get In Touch",
+      "contactDetails":[
+        {
+          "id": 1,
+          "icon": "📞",
+          "text": "+91 98921 46706",
+          "link": "tel:+919892146706"
+        },
+        {
+          "id": 2,
+          "icon": "⏰",
+          "text": "Mon-Fri: 9 AM – 6 PM",
+          "Saturday": "9 AM – 4 PM",
+          "Sunday": "Closed"
+        },
+        {
+          "id": 3,
+          "icon": "📧",
+          "text": "info@binsinapharma.com",
+          "link": "mailto:info@binsinapharma.com"
+        }
+      ],
+      "locationUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.7920002620153!2d72.8369304!3d19.16058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b500000000%3A0x476c5d925ddafdb6!2sBinsina%20Pharma%20HQ!5e0!3m2!1sen!2sin!4v1667274849607!5m2!1sen!2sin",
+      "copyRight": {
+        "text1":"Developed by",
+        "text2":"MKronix",
+        "text3":"| All rights reserved",
+        "url":"https://www.mkronix.com/"
+      }
+    }
   }
 }

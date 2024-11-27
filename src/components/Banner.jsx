@@ -24,7 +24,7 @@ const Banner = (props) => {
             <ul className='relative list-none'>
               <li className='inline-block mr-2'>
                 <Link
-                  to='Home'
+                  to='/'
                   className="relative inline-block text-sm text-lightgray hover:text-primary uppercase before:block before:content-['/'] before:absolute before:-left-0 before:-right-12"
                 >
                   Home

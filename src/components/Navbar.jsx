@@ -62,7 +62,7 @@ const Navbar = () => {
       </div>
 
       <div className=''>
-        <div className='relative flex flex-row justify-between p-4 bg-bgHead shadow-md'>
+        <div className='relative flex flex-row justify-between p-4 px-10 bg-bgHead shadow-md'>
           <Link
             to='/'
             duration={500}

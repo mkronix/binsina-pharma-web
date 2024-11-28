@@ -14,15 +14,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #3194a1;
+  background-color: #8cdcff;
 }
 
 .linearBg {
-  background: linear-gradient(135deg, #e0f7fa, #80deea, #26c6da, #0097a7);
+  background: linear-gradient(to right, #e0f7fa, #42b0e0);
 }
 
 .heading {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1;
   font-weight: 600;
   color: #3194a1;

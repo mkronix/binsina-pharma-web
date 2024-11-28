@@ -7,6 +7,7 @@ import NewsAndMedia from "./pages/newsAndMedia";
 import QualityAssurance from "./pages/qualityAssurance";
 
 import { Routes, Route } from "react-router-dom";
+import FooterOne from "./components/Foooter1";
 
 const App = () => {
   return (
@@ -23,7 +24,7 @@ const App = () => {
         {/* <Route path='/media' element={<Media />} /> */}
       </Routes>
 
-      <Footer />
+      <FooterOne />
     </div>
   );
 };

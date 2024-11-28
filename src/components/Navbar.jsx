@@ -62,11 +62,11 @@ const Navbar = () => {
       </div>
 
       <div className=''>
-        <div className='relative flex flex-row justify-between py-2 lg:px-16 px-8 bg-bgHead shadow-md'>
+        <div className='relative flex flex-row justify-between p-4 bg-bgHead shadow-md'>
           <Link
             to='/'
             duration={500}
-            className='flex flex-row lg:w-44 w-32 items-center cursor-pointer'
+            className='flex flex-row lg:w-80 w-60 items-center cursor-pointer'
           >
             <img src={logo} alt='' className='object-contain w-full h-full ' />
           </Link>
@@ -138,9 +138,8 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={`${
-            menu ? "translate-x-0" : "-translate-x-full"
-          } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+          className={`${menu ? "translate-x-0" : "-translate-x-full"
+            } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         >
           <Link
             to='/'

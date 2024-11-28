@@ -146,11 +146,11 @@
         }
     ]
       },
-      "blogBanner": {
+      "newsAndMedia": {
         "image": "./assets/img/blogbanner.jpg",
-        "firstTitle": "Read Our Blogs.",
+        "firstTitle": "Read Our News.",
         "secondTitle": "Stay Updated.",
-        "link": "#",
+        "link": "/news-and-media",
         "buttonText": "READ MORE"
       },
       "testimonial": { 
@@ -186,7 +186,10 @@
         ]
       }
     },
-    "about": {
+    "aboutus": {
+      "bannerTitle": "About Us",
+      "bannerHeading": "About Us",
+      "bannerImage":"",
       "firstHeroSection": {
         "heading": "Leading Pharmaceutical Exporter in India",
         "image":"assets/img/immunization.png",
@@ -277,7 +280,10 @@
       "bannerHeading": "Products",
       "bannerImage":"assets/img/products-bg.jpg"
     },
-    "blog": {
+    "newsAndMedia": {
+      "bannerTitle": "News And Media",
+      "bannerHeading": "News And Media",
+      "bannerImage":"",
       "content" : [
         {
           "id":1,
@@ -337,11 +343,11 @@
         }
       ]
     },
-    "certifications": {
-      "bannerTitle": "Certifications",
-      "bannerHeading": "Certifications",
+    "qualityAssurance": {
+      "bannerTitle": "Quality Assurance",
+      "bannerHeading": "Quality Assurance",
       "bannerImage":"assets/img/certificate-bg.jpg",
-      "heading":"Our Certifications",
+      "heading":"Our Quality Assurance",
       "description":"We provide a comprehensive range of pharmaceutical solutions, including tablet and nutraceutical manufacturing, generic medicines, suppositories, injections, advanced molecules, and premixes.",
       "content": [
         {

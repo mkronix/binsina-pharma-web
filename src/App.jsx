@@ -1,11 +1,10 @@
 import Navbar from "./components/Navbar";
 import Home from "./pages/home";
-import About from "./pages/about";
+import Aboutus from "./pages/aboutUs";
 import Footer from "./components/Footer";
 import Products from "./pages/products";
-import Blogs from "./pages/blogs";
-import Media from "./pages/media";
-import Certification from "./pages/certifications";
+import NewsAndMedia from "./pages/newsAndMedia";
+import QualityAssurance from "./pages/qualityAssurance";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -16,12 +15,12 @@ const App = () => {
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/product' element={<Products />} />
+        <Route path='/aboutus' element={<Aboutus />} />
+        <Route path='/products' element={<Products />} />
+        <Route path='/news-and-media' element={<NewsAndMedia />} />
+        <Route path='/quality-assurance' element={<QualityAssurance />} />
         {/* <Route path='/services' element={<Services />} /> */}
-        <Route path='/blog' element={<Blogs />} />
-        <Route path='/media' element={<Media />} />
-        <Route path='/certification' element={<Certification />} />
+        {/* <Route path='/media' element={<Media />} /> */}
       </Routes>
 
       <Footer />

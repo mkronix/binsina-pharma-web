@@ -30,21 +30,7 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full z-10 text-white'>
-      <div className='max-lg:hidden flex flex-row justify-between p-2 border-b border-gray-200 lg:px-16 px-8 bg-backgroundColor'>
-        <div className='flex md:items-center md:flex-row flex-col md:gap-10 gap-2'>
-          {/* <div className='flex items-center gap-2'>
-            <div className='p-2 bg-backgroundColor rounded-full shadow-md hover:bg-hoverColor hover:shadow-lg transition-all cursor-pointer'>
-              <MdOutlineMail size={15} />
-            </div>
-            <a href={`mailto:${common.email}`}>{common.email}</a>
-          </div> */}
-          {/* <div className='flex items-center gap-2'>
-            <div className='p-2 bg-backgroundColor rounded-full shadow-md hover:bg-hoverColor hover:shadow-lg transition-all cursor-pointer'>
-              <HiOutlinePhone size={15} />
-            </div>
-            <a href={`tel:${common.contact}`}>{common.contact}</a>
-          </div> */}
-        </div>
+      <div className='max-lg:hidden flex flex-row justify-end p-2 border-b border-gray-200 lg:px-16 px-8 bg-backgroundColor'>
         <div className='flex items-center gap-4 max-md:mt-3'>
           <div className='p-2 bg-hoverColor rounded-full shadow-md hover:bg-backgroundColor hover:shadow-lg transition-all cursor-pointer'>
             <FaFacebook size={15} />
@@ -62,7 +48,7 @@ const Navbar = () => {
       </div>
 
       <div className=''>
-        <div className='relative flex flex-row justify-between p-4 px-10 bg-bgHead shadow-md'>
+        <div className='relative flex flex-row justify-between p-4 md:px-10 bg-bgHead shadow-md'>
           <Link
             to='/'
             duration={500}
@@ -121,7 +107,7 @@ const Navbar = () => {
 
           {showForm && <Contact closeForm={closeForm} />}
 
-          <div className='lg:hidden flex items-center absolute right-6 top-6 z-50'>
+          <div className='lg:hidden flex items-center absolute right-5 top-5 z-50'>
             {menu ? (
               <AiOutlineClose
                 className='text-backgroundColor transition duration-700 ease-in-out '
@@ -139,50 +125,43 @@ const Navbar = () => {
         </div>
         <div
           className={`${menu ? "translate-x-0" : "-translate-x-full"
-            } lg:hidden flex flex-col absolute bg-backgroundColor text-gray-700 left-0 top-[4.5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+            } lg:hidden flex flex-col absolute linearBg text-gray-700 left-0 top-[4rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
         >
           <Link
             to='/'
             duration={500}
-            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
+            className=' hover:text-hoverColor text-gray-900 text-2xl transition-all cursor-pointer'
           >
             Home
           </Link>
           <Link
             to='/aboutus'
             duration={500}
-            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
+            className=' hover:text-hoverColor text-gray-900 text-2xl transition-all cursor-pointer'
           >
             About Us
           </Link>
           <Link
             to='/products'
             duration={500}
-            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
+            className=' hover:text-hoverColor text-gray-900 text-2xl transition-all cursor-pointer'
           >
             Products
           </Link>
           <Link
             to='/news-and-media'
             duration={500}
-            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
+            className=' hover:text-hoverColor text-gray-900 text-2xl transition-all cursor-pointer'
           >
             News And Media
           </Link>
           <Link
             to='/quality-assurance'
             duration={500}
-            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
+            className=' hover:text-hoverColor text-gray-900 text-2xl transition-all cursor-pointer'
           >
             Quality Assurance
           </Link>
-          {/* <Link
-            to='/media'
-            duration={500}
-            className=' hover:text-hoverColor text-gray-700 text-lg transition-all cursor-pointer'
-          >
-            Media
-          </Link> */}
 
           <div className=' lg:hidden flex justify-center'>
             <Button title={"Reach us"} onClick={openForm} />

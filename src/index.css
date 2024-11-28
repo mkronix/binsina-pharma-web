@@ -10,11 +10,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #8cdcff;
+  display: none;
 }
 
 .linearBg {

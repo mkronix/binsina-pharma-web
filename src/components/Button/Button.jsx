@@ -4,7 +4,7 @@ const Button = ({ title, onClick, type }) => {
   return (
     <button
       type={type}
-      className='capitalize bg-brightColor flex items-center text-white px-4 py-1 rounded-tl-lg rounded-br-lg text-base hover:bg-hoverColor transition duration-300 ease-in-out'
+      className='capitalize bg-brightColor flex items-center text-white px-4 py-1 rounded-md text-xl hover:bg-hoverColor transition duration-300 ease-in-out'
       onClick={onClick}
     >
       {title}
@@ -19,7 +19,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  onClick: () => {},
+  onClick: () => { },
   type: "button",
 };
 

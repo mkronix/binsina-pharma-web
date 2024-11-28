@@ -66,7 +66,7 @@ const Navbar = () => {
           <Link
             to='/'
             duration={500}
-            className='flex flex-row lg:w-80 w-60 items-center cursor-pointer'
+            className='flex flex-row lg:w-[22rem] w-60 items-center cursor-pointer'
           >
             <img src={logo} alt='' className='object-contain w-full h-full ' />
           </Link>

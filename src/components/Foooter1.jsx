@@ -8,13 +8,27 @@ const FooterOne = () => {
         <footer className="bg-backgroundColor text-white-800 pt-8">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* About Section */}
-                <div className="space-y-4">
+                <div className="space-y-2">
                     <h2 className="text-xl font-semibold text-black">About Us</h2>
-                    <p className="text-sm">
+                    <p className="text-base">
                         Binisana is a Generic pharmaceutical contract manufacturer. Binisana
                         offers a range of high-quality generic medicines and is continually
                         developing and expanding the product offering.
                     </p>
+                    <div className='flex flex-col justify-center my-2 gap-3'>
+                        {footer.contactDetails.map((item, index) => (
+                            <div className='flex items-center gap-1' key={index}>
+                                <span className='text-lg'>{item.icon}</span>
+                                {item.link ? (
+                                    <a href={item.link} className='text-black'>
+                                        {item.text}
+                                    </a>
+                                ) : (
+                                    <p className='text-black'>{item.text}</p>
+                                )}
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
                 {/* Quick Links */}
@@ -43,11 +57,11 @@ const FooterOne = () => {
                     </ul>
                 </div>
 
-                <div className="space-y-4">
+                <div className="space-y-2 mb-8">
                     <h2 className="text-lg font-semibold">Address</h2>
                     <iframe
                         src={footer.locationUrl}
-                        className='w-full h-72 border-none rounded-lg'
+                        className='w-full h-52 border-none rounded-lg'
                         allowFullScreen=''
                         loading='lazy'
                         referrerPolicy='no-referrer-when-downgrade'
@@ -55,20 +69,6 @@ const FooterOne = () => {
                 </div>
             </div>
 
-            <div className='flex items-center justify-center my-5'>
-                {footer.contactDetails.map((item, index) => (
-                    <div className='flex items-center' key={index}>
-                        <span className='title mr-4'>{item.icon}</span>
-                        {item.link ? (
-                            <a href={item.link} className='description text-gray-600'>
-                                {item.text}
-                            </a>
-                        ) : (
-                            <p className='text-gray-600 description'>{item.text}</p>
-                        )}
-                    </div>
-                ))}
-            </div>
             <div className='bg-gray-900 text-gray-500'>
                 <p className='text-center py-4'>
                     {footer.copyRight.text1}

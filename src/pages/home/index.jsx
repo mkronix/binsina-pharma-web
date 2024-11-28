@@ -13,7 +13,6 @@ const index = () => {
       <div className='flex flex-col lg:flex-row justify-between items-center lg:px-16 px-8 py-16 gap-8'>
         <div className='w-full lg:w-3/4 space-y-6'>
           <h1 className='heading'>{home.heroSection.heading1}</h1>
-          <h1 className='heading'>{home.heroSection.heading2}</h1>
 
           {home.heroSection.content?.map((content) => (
             <p
@@ -99,7 +98,7 @@ const index = () => {
       <Testimonials />
 
       {/* News And Media Banner */}
-      <div className='relative w-full h-[400px]'>
+      {/* <div className='relative w-full h-[400px]'>
         <img
           src={home.newsAndMedia.image}
           alt='Blog Banner'
@@ -119,7 +118,7 @@ const index = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

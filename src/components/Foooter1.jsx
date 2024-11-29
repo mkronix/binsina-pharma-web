@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 import data from "../data/data.json";
 const FooterOne = () => {
     const { footer } = data.binsinaPharma;
-    const { common } = data.binsinaPharma;
     return (
-        <footer className="bg-backgroundColor text-white-800 pt-8">
+        <footer className="bg-backgroundColor text-white-800 pt-8 mt-10">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* About Section */}
                 <div className="space-y-2">
@@ -35,11 +34,11 @@ const FooterOne = () => {
                 <div className="space-y-2">
                     <h2 className="text-lg font-semibold">Quick Links</h2>
                     <ul className="space-y-1">
-                        <li><Link to="/aboutus" className="hover:text-brightColor">About Us</Link></li>
-                        <li><Link to="/products" className="hover:text-brightColor">Products</Link></li>
-                        <li><Link to="/news-and-media" className="hover:text-brightColor">News</Link></li>
-                        <li><Link to="/news-and-media" className="hover:text-brightColor">Media</Link></li>
-                        <li><Link to="/quality-assurance" className="hover:text-brightColor">Quality Assurance</Link></li>
+                        <li><Link to="/aboutus" className="hover:text-brightColor">About Us ›</Link></li>
+                        <li><Link to="/products" className="hover:text-brightColor">Products ›</Link></li>
+                        <li><Link to="/news-and-media" className="hover:text-brightColor">News ›</Link></li>
+                        <li><Link to="/news-and-media" className="hover:text-brightColor">Media ›</Link></li>
+                        <li><Link to="/quality-assurance" className="hover:text-brightColor">Quality Assurance ›</Link></li>
                     </ul>
                 </div>
 
@@ -47,13 +46,13 @@ const FooterOne = () => {
                 <div className="space-y-2">
                     <h2 className="text-lg font-semibold">Services</h2>
                     <ul className="space-y-1">
-                        <li><Link to="#" className="hover:text-brightColor">Tablet Manufacturing</Link></li>
-                        <li><Link to="#" className="hover:text-brightColor">Nutraceuticals Manufacturing</Link></li>
-                        <li><Link to="#" className="hover:text-brightColor">Generic Medicine</Link></li>
-                        <li><Link to="#" className="hover:text-brightColor">Suppositories Manufacturers</Link></li>
-                        <li><Link to="#" className="hover:text-brightColor">Injections Manufacturing</Link></li>
-                        <li><Link to="#" className="hover:text-brightColor">Pharma Manufacturing</Link></li>
-                        <li><Link to="#" className="hover:text-brightColor">Veterinary Medicine</Link></li>
+                        <li><Link to="#" className="hover:text-brightColor">Tablet Manufacturing ›</Link></li>
+                        <li><Link to="#" className="hover:text-brightColor">Nutraceuticals Manufacturing ›</Link></li>
+                        <li><Link to="#" className="hover:text-brightColor">Generic Medicine ›</Link></li>
+                        <li><Link to="#" className="hover:text-brightColor">Suppositories Manufacturers ›</Link></li>
+                        <li><Link to="#" className="hover:text-brightColor">Injections Manufacturing ›</Link></li>
+                        <li><Link to="#" className="hover:text-brightColor">Pharma Manufacturing ›</Link></li>
+                        <li><Link to="#" className="hover:text-brightColor">Veterinary Medicine ›</Link></li>
                     </ul>
                 </div>
 

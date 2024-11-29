@@ -25,21 +25,24 @@
           "title": "Delivering Excellence in Global Pharmaceutical Exports",
           "description": "Your Trusted Partner for High-Quality Medicines and Healthcare Products Worldwide.",
           "image": "/assets/img/transport.png",
-          "buttonText": "Discover More"
+          "buttonText": "Discover More",
+                    "video":"/assets/video/v2.mp4"
         },
         {
           "id": 2,
           "title": "Custom Pharmaceutical Solutions for Every Market",
           "description": "Providing Tailored Healthcare Products to Meet Diverse Regulatory and Market Needs.",
           "image": "/assets/img/creation.png",
-          "buttonText": "Explore Services"
+          "buttonText": "Explore Services",
+          "video":"/assets/video/v6.mp4"
         },
         {
           "id": 3,
           "title": "Expanding Access to Affordable Healthcare Globally",
           "description": "Committed to Excellence in Quality, Timely Delivery, and Compliance with Global Standards.",
           "image": "/assets/img/help.png",
-          "buttonText": "Contact Us"
+          "buttonText": "Contact Us",
+                    "video":"/assets/video/v3.mp4"
         }
       ],
       "heroSection": {

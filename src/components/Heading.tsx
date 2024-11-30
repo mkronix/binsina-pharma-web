@@ -11,7 +11,7 @@ const Heading = ({ title, align = "center", className = "" }) => {
 
   return (
     <h1
-      className={`md:text-4xl text-3xl font-semibold ${alignmentClass} text-brightColor ${className}`}
+      className={`text-3xl md:text-4xl font-bold leading-tight ${alignmentClass} ${className}`}
     >
       {title}
     </h1>

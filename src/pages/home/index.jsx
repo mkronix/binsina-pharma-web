@@ -13,59 +13,90 @@ const index = () => {
       </div>
       <FeatureSection />
       {/* Hero Section */}
-      <div className='flex flex-col lg:flex-row justify-between items-center lg:px-16 px-8 py-16 gap-8'>
-        <div className='w-full lg:w-3/4 space-y-6'>
-          <h1 className='heading'>{home.heroSection.heading1}</h1>
+      <div className="relative bg-gray-50 px-8 lg:px-16 py-16">
+        {/* Main Heading */}
+        <div className="text-center mb-12">
+          <h1 className="text-3xl md:text-5xl font-bold text-gray-800 leading-tight">
+            {home.heroSection.heading1}
+          </h1>
+        </div>
 
+        {/* Content Section */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
           {home.heroSection.content?.map((content) => (
-            <p
-              key={content.id}
-              className='text-justify lg:text-start text-gray-700 description'
-            >
-              {content.description}
-            </p>
-          ))}
-        </div>
-        <div className='w-full lg:w-[40%]'>
-          <img
-            className='object-cover rounded-lg'
-            src={home.heroSection.image}
-            alt='Pharmaceutical innovation'
-          />
-        </div>
-      </div>
-
-      {/* Features Section */}
-      <div className='bg-white lg:px-16 px-8 py-16'>
-        <h2 className='heading mb-10 text-center'>{home.features.heading}</h2>
-        <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 text-center'>
-          {home.features.content.map((feature) => (
             <div
-              key={feature.id}
-              className='flex flex-col  gap-3 shadow-md p-6 rounded-lg'
+              key={content.id}
+              className="flex flex-col items-center gap-4 bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              <div className='flex items-end gap-1'>
-                <div className='title'>{feature.icon}</div>
-                <h3 className='title font-semibold text-gray-800'>
-                  {feature.title}
-                </h3>
+              {/* Image Section */}
+              <div className="w-28 h-28 overflow-hidden rounded-md border border-gray-200">
+                <img
+                  src={content.image}
+                  alt={`Content ${content.id}`}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <p className='text-gray-500 text-start description'>
-                {feature.description}
+
+              {/* Text Section */}
+              <p
+                className="text-gray-500 text-start text-base leading-relaxed line-clamp-3 sm:line-clamp-4"
+              >
+                {content.description}
               </p>
+
             </div>
           ))}
         </div>
       </div>
 
+
+
+      {/* Features Section */}
+      <div className='bg-white lg:px-16 px-8 py-16'>
+
+        <h2 className='mb-6 text-center text-3xl md:text-4xl font-bold leading-tight'>{home.features.heading}</h2>
+        <div className="flex flex-col-reverse md:flex-row gap-8">
+          <div className='w-full flex flex-col gap-4'>
+            <img
+              className='object-cover rounded-lg'
+              src={home.sliderData[0].image}
+              alt='Pharmaceutical innovation'
+            />
+            <img
+              className='object-cover rounded-lg'
+              src={home.sliderData[1].image}
+              alt='Pharmaceutical innovation'
+            />
+          </div>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-8 text-center'>
+            {home.features.content.map((feature) => (
+              <div
+                key={feature.id}
+                className='flex flex-col  gap-3 shadow-md p-6 rounded-lg'
+              >
+                <div className='flex items-end gap-1'>
+                  {/* <div className='title'>{feature.icon}</div> */}
+                  <h3 className='text-xl font-semibold'>
+                    {feature.title}
+                  </h3>
+                </div>
+                <p className='text-gray-500 text-start text-base leading-relaxed line-clamp-3 sm:line-clamp-4'>
+                  {feature.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* Why Choose Us Section */}
       <div className='container mx-auto lg:px-16 px-8 py-16 text-center'>
-        <h2 className='heading mb-10'>{home.whyChooseUs.heading}</h2>
+        <h2 className='text-3xl md:text-4xl font-bold leading-tight mb-10'>{home.whyChooseUs.heading}</h2>
         <div className='grid lg:grid-cols-3 gap-8'>
           {home.whyChooseUs.content.map((item, index) => (
             <div key={index} className='bg-white p-8 rounded-lg shadow-md'>
-              <h3 className='title text-brightColor mb-4'>{item.title}</h3>
-              <p className='text-gray-600 description'>{item.description}</p>
+              <h3 className='text-xl font-semibold mb-4'>{item.title}</h3>
+              <p className='text-gray-500 text-start text-base leading-relaxed line-clamp-3 sm:line-clamp-4'>{item.description}</p>
             </div>
           ))}
         </div>
@@ -73,8 +104,8 @@ const index = () => {
 
       {/* Categories Section */}
       <div className='bg-blue-50 lg:px-16 px-8 py-16'>
-        <h2 className='heading mb-10 text-center'>{home.categories.heading}</h2>
-        <div className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8'>
+        <h2 className='text-3xl md:text-4xl font-bold leading-tight mb-10 text-center'>{home.categories.heading}</h2>
+        <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
           {home.categories.content.map((category) => (
             <div
               key={category.id}

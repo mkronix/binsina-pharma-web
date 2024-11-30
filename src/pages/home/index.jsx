@@ -131,28 +131,6 @@ const index = () => {
       <Testimonials />
 
       <FAQSection />
-      {/* News And Media Banner */}
-      {/* <div className='relative w-full h-[400px]'>
-        <img
-          src={home.newsAndMedia.image}
-          alt='Blog Banner'
-          className='w-full h-full object-cover'
-        />
-        <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-center text-white'>
-          <div className='space-y-4'>
-            <h2 className='text-4xl font-bold'>
-              {home.newsAndMedia.firstTitle} <br />{" "}
-              {home.newsAndMedia.secondTitle}
-            </h2>
-            <a
-              href={home.newsAndMedia.link}
-              className='inline-block bg-backgroundColor text-white px-6 py-3 rounded-md font-semibold text-lg hover:bg-hoverColor transition duration-300'
-            >
-              {home.newsAndMedia.buttonText}
-            </a>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

@@ -14,21 +14,17 @@ const index = () => {
         title={qualityAssurance.bannerTitle}
         backgroundImage={qualityAssurance.bannerImage}
       />
-      <div className='gap-2 lg:flex-row flex flex-col lg:px-16 px-8 pt-16 pb-8'>
-        <div className='flex flex-col gap-3 '>
-          <Heading title={qualityAssurance.heading} align='start' />
-          <div className='md:w-1/2'>
-            <Paragraph title={qualityAssurance.description} />
-          </div>
-        </div>
-      </div>
-      <div className='flex flex-col lg:flex-row gap-5 lg:px-16 px-8 py-2'>
-        {qualityAssurance.content.map((service) => (
+      <div className="flex flex-col gap-10 py-16">
+        {qualityAssurance.content.map((service, index) => (
           <ServicesCard
             key={service.id}
             image={service.image}
             title={service.title}
             description={service.description}
+            description1={service.description1}
+            description2={service.description2}
+            description3={service.description3}
+            reverse={index % 2 !== 0}
           />
         ))}
       </div>

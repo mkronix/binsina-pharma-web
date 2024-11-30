@@ -159,35 +159,26 @@
       },
       "testimonial": { 
         "heading": "What Our Clients Say",
-        "content":[
-          {
-            "id": 1,
-            "name": "Dr. Sarah Johnson",
-            "role": "Medical Director",
-            "content":
-              "Exceptional quality and reliable service. Binisana Pharma has been our trusted partner for years.",
-            "image":
-              "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3"
-          },
-          {
-            "id": 2,
-            "name": "Michael Chen",
-            "role": "Procurement Manager",
-            "content":
-              "Their commitment to excellence and timely delivery sets them apart in the industry.",
-            "image":
-              "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3"
-          },
-          {
-            "id": 3,
-            "name": "Michael Chen",
-            "role": "Procurement Manager",
-            "content":
-              "Their commitment to excellence and timely delivery sets them apart in the industry.",
-            "image":
-              "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3"
-          }
-        ]
+"content": [
+  {
+    "id": 1,
+    "name": "Dr. Ramesh Kumar",
+    "role": "Chief Medical Officer",
+    "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
+  },
+  {
+    "id": 2,
+    "name": "Anjali Desai",
+    "role": "Supply Chain Manager",
+    "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
+  },
+  {
+    "id": 3,
+    "name": "Vikram Singh",
+    "role": "Quality Assurance Head",
+    "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
+  }
+]
       }
     },
     "aboutus": {
@@ -353,33 +344,51 @@
       "bannerImage":"assets/img/certificate-bg.jpg",
       "heading":"Our Quality Assurance",
       "description":"We provide a comprehensive range of pharmaceutical solutions, including tablet and nutraceutical manufacturing, generic medicines, suppositories, injections, advanced molecules, and premixes.",
-      "content": [
-        {
-          "id": 1,
-          "title": "Global Distribution",
-          "description":
-            "Worldwide pharmaceutical distribution network ensuring timely delivery",
-          "image": "assets/img/global.png"
-        },
-        {
-          "id": 2,
-          "title": "Quality Assurance",
-          "description": "Strict quality control measures for all exported products",
-          "image": "assets/img/quality.jpg"
-        },
-        {
-          "id": 3,
-          "title": "Regulatory Compliance",
-          "description": "Complete adherence to international pharmaceutical standards",
-          "image": "assets/img/regulatory.png"
-        },
-        {
-          "id": 4,
-          "title": "Supply Chain Solutions",
-          "description": "End-to-end supply chain management for pharmaceuticals",
-          "image": "assets/img/chain.jpg"
-        }
-      ]
+"content": [
+  {
+    "id": 1,
+    "title": "Global Distribution",
+    "description": "Our global distribution network ensures seamless delivery of pharmaceuticals to remote locations, with advanced logistics ensuring safe and efficient transportation across continents while maintaining product quality.",
+    "description1": "Leveraging robust partnerships and innovative technology, we minimize delays, reduce costs, and ensure medicines reach their destinations on time, fostering reliability in every aspect of our operations.",
+    "description2": "Our unwavering dedication to excellence enables us to meet the healthcare needs of providers and patients worldwide. We prioritize accessibility and trust, ensuring medications are delivered promptly and without compromise.",
+    "description3": "By maintaining an efficient, transparent, and responsive distribution network, we ensure that every product is traceable and meets stringent regulatory standards, further solidifying our commitment to patient safety.",
+    "description4": "With continuous improvements and a focus on global reach, we aim to expand our distribution network, ensuring even faster delivery times and enhanced customer satisfaction in every corner of the world.",
+    "image": "assets/img/global.png"
+  },
+  {
+    "id": 2,
+    "title": "Quality Assurance",
+    "description": "Quality assurance is at the core of our mission. We adhere to international standards, implementing strict quality control processes from production to delivery to ensure safe and effective pharmaceuticals.",
+    "description1": "Our laboratories are equipped with cutting-edge technology to conduct thorough testing, ensuring every batch meets the highest safety and efficacy benchmarks, safeguarding health and building trust globally.",
+    "description2": "We foster continuous improvement to eliminate risks, maintain reliability, and exceed industry expectations. Our focus on excellence ensures safe, high-quality pharmaceuticals for healthcare providers and patients alike.",
+    "description3": "Through regular audits and evaluations, we maintain compliance with global health standards, ensuring that all products not only meet but exceed safety and regulatory requirements, contributing to better patient outcomes.",
+    "description4": "We collaborate closely with regulatory bodies and industry leaders to stay at the forefront of best practices and emerging technologies in quality assurance, continuously enhancing our processes and product reliability.",
+    "image": "assets/img/quality.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Regulatory Compliance",
+    "description": "We navigate complex pharmaceutical regulations, ensuring compliance with international standards and legal requirements. Our team ensures all products meet market demands without compromising safety or reliability.",
+    "description1": "From documentation to certifications, we meticulously handle every aspect of compliance. This proactive approach ensures smooth operations, strengthens patient safety, and builds confidence among global partners.",
+    "description2": "By staying ahead of evolving regulations, we guarantee the market readiness of our products. Our focus on compliance enables seamless access to global markets, providing trusted pharmaceutical solutions worldwide.",
+    "description3": "We invest heavily in training and keeping our compliance team up to date on changes in regulations and standards, ensuring our products meet the highest levels of safety and regulatory approval for every market.",
+    "description4": "Through strategic partnerships and deep industry insights, we continuously anticipate regulatory shifts, ensuring our products remain compliant, market-ready, and safely accessible across the globe at all times.",
+    "image": "assets/img/regulatory.png"
+  },
+  {
+    "id": 4,
+    "title": "Supply Chain Solutions",
+    "description": "Our supply chain solutions address the unique challenges of pharmaceutical logistics by ensuring that products are delivered securely and efficiently, utilizing advanced tracking and predictive analytics.",
+    "description1": "We optimize every stage of the supply chain, from procurement to final delivery, prioritizing product integrity, especially for temperature-sensitive medications, minimizing risks, and ensuring consistency in supply.",
+    "description2": "With cutting-edge technology, we reduce costs and improve visibility across the supply chain, providing real-time tracking for our partners. This comprehensive approach helps us meet dynamic healthcare needs with precision and reliability.",
+    "description3": "Our solutions are tailored to the unique demands of the pharmaceutical industry, ensuring that every product is delivered efficiently, securely, and in compliance with global healthcare standards and regulations.",
+    "description4": "We continuously innovate and refine our supply chain strategies, investing in technologies that enhance efficiency, minimize waste, and deliver the most reliable service possible to our partners and clients worldwide.",
+    "image": "assets/img/chain.jpg"
+  }
+]
+
+
+
     },
     "contact": {},
     "services": {},

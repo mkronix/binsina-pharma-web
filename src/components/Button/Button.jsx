@@ -4,7 +4,7 @@ const Button = ({ title, onClick, type }) => {
   return (
     <button
       type={type}
-      className='capitalize bg-brightColor flex items-center text-white px-4 py-1 rounded-md text-xl hover:bg-hoverColor transition duration-300 ease-in-out'
+      className='capitalize bg-gradient-to-r from-brightColor to-[#1a1b26] flex items-center text-white px-6 py-3 rounded-md text-xl hover:bg-hoverColor transition duration-300 ease-in-out'
       onClick={onClick}
     >
       {title}

@@ -1,14 +1,17 @@
 import Slider from "../../components/Slider";
 import data from "../../data/data.json";
 import Testimonials from "../../components/Testimonals";
+import FeatureSection from "../../components/FeatureSection";
 
 const index = () => {
   const { home } = data.binsinaPharma;
 
   return (
     <>
-      <Slider />
-
+      <div className="pt-16 lg:pt-36">
+        <Slider />
+      </div>
+      <FeatureSection />
       {/* Hero Section */}
       <div className='flex flex-col lg:flex-row justify-between items-center lg:px-16 px-8 py-16 gap-8'>
         <div className='w-full lg:w-3/4 space-y-6'>

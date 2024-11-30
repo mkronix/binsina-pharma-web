@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import Home from "./pages/home";
 import Aboutus from "./pages/aboutUs";
-import Footer from "./components/Footer";
 import Products from "./pages/products";
 import NewsAndMedia from "./pages/newsAndMedia";
 import QualityAssurance from "./pages/qualityAssurance";

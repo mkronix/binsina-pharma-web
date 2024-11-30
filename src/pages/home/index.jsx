@@ -3,48 +3,46 @@ import data from "../../data/data.json";
 import Testimonials from "../../components/Testimonals";
 import FeatureSection from "../../components/FeatureSection";
 import FAQSection from "../../components/FAQSection";
+import Heading from "../../components/Heading";
+import Paragraph from "../../components/Paragraph";
 
 const index = () => {
   const { home } = data.binsinaPharma;
 
   return (
     <>
-      <div className="pt-16 lg:pt-36">
+      <div className='pt-16 lg:pt-36'>
         <Slider />
       </div>
       <FeatureSection />
+
       {/* Hero Section */}
-      <div className="relative bg-gray-50 px-8 lg:px-16 py-16">
+      <div className='relative bg-gray-50 px-8 lg:px-16 py-16'>
         {/* Main Heading */}
-        <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-5xl font-bold text-gray-800 leading-tight">
-            {home.heroSection.heading1}
-          </h1>
+        <div className='text-center mb-12'>
+          <Heading title={home.heroSection.heading1} align='start' />
         </div>
 
         {/* Content Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-start'>
           {home.heroSection.content?.map((content) => (
             <div
               key={content.id}
-              className="flex flex-col items-center gap-4 bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className='flex flex-col items-center gap-4 bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300'
             >
               {/* Image Section */}
-              <div className="w-28 h-28 overflow-hidden">
+              <div className='w-28 h-28 overflow-hidden'>
                 <img
                   src={content.image}
                   alt={`Content ${content.id}`}
-                  className="w-full h-full object-cover"
+                  className='w-full h-full object-cover'
                 />
               </div>
 
               {/* Text Section */}
-              <p
-                className="text-gray-500 text-start text-base leading-relaxed line-clamp-3 sm:line-clamp-4"
-              >
+              <p className='text-gray-500 text-start text-base leading-relaxed line-clamp-3 sm:line-clamp-4'>
                 {content.description}
               </p>
-
             </div>
           ))}
         </div>
@@ -52,9 +50,8 @@ const index = () => {
 
       {/* Features Section */}
       <div className='bg-white lg:px-16 px-8 py-16'>
-
-        <h2 className='mb-6 text-center text-3xl md:text-4xl font-bold leading-tight'>{home.features.heading}</h2>
-        <div className="flex flex-col-reverse md:flex-row gap-8">
+        <Heading title={home.features.heading} className='mb-6' />
+        <div className='flex flex-col-reverse md:flex-row gap-8'>
           <div className='w-full flex flex-col gap-4'>
             <img
               className='object-cover rounded-lg'
@@ -75,9 +72,7 @@ const index = () => {
               >
                 <div className='flex items-end gap-1'>
                   {/* <div className='title'>{feature.icon}</div> */}
-                  <h3 className='text-xl font-semibold'>
-                    {feature.title}
-                  </h3>
+                  <h3 className='text-xl font-semibold'>{feature.title}</h3>
                 </div>
                 <p className='text-gray-500 text-start text-base leading-relaxed line-clamp-3 sm:line-clamp-4'>
                   {feature.description}
@@ -90,12 +85,12 @@ const index = () => {
 
       {/* Why Choose Us Section */}
       <div className='container mx-auto lg:px-16 px-8 py-16 text-center'>
-        <h2 className='text-3xl md:text-4xl font-bold leading-tight mb-10'>{home.whyChooseUs.heading}</h2>
+        <Heading title={home.whyChooseUs.heading} className='mb-10' />
         <div className='grid lg:grid-cols-3 gap-8'>
           {home.whyChooseUs.content.map((item, index) => (
             <div key={index} className='bg-white p-8 rounded-lg shadow-md'>
               <h3 className='text-xl font-semibold mb-4'>{item.title}</h3>
-              <p className='text-gray-500 text-start text-base leading-relaxed line-clamp-3 sm:line-clamp-4'>{item.description}</p>
+              <Paragraph title={item.description} className='text-center' />
             </div>
           ))}
         </div>
@@ -103,7 +98,9 @@ const index = () => {
 
       {/* Categories Section */}
       <div className='bg-blue-50 lg:px-16 px-8 py-16'>
-        <h2 className='text-3xl md:text-4xl font-bold leading-tight mb-10 text-center'>{home.categories.heading}</h2>
+        <h2 className='text-3xl md:text-4xl font-bold leading-tight mb-10 text-center'>
+          {home.categories.heading}
+        </h2>
         <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
           {home.categories.content.map((category) => (
             <div
@@ -131,6 +128,7 @@ const index = () => {
       <Testimonials />
 
       <FAQSection />
+
       {/* News And Media Banner */}
       {/* <div className='relative w-full h-[400px]'>
         <img

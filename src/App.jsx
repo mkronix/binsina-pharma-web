@@ -1,39 +1,29 @@
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Services from "./components/Services";
-import Doctors from "./components/Doctors";
-import Blogs from "./components/Blogs";
-import Footer from "./components/Footer";
+import Home from "./pages/home";
+import Aboutus from "./pages/aboutUs";
+import Products from "./pages/products";
+import NewsAndMedia from "./pages/newsAndMedia";
+import QualityAssurance from "./pages/qualityAssurance";
+
+import { Routes, Route } from "react-router-dom";
+import FooterOne from "./components/Foooter1";
 
 const App = () => {
   return (
     <div>
       <Navbar />
 
-      <main>
-        <div id='home'>
-          <Home />
-        </div>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/aboutus' element={<Aboutus />} />
+        <Route path='/products' element={<Products />} />
+        <Route path='/news-and-media' element={<NewsAndMedia />} />
+        <Route path='/quality-assurance' element={<QualityAssurance />} />
+        {/* <Route path='/services' element={<Services />} /> */}
+        {/* <Route path='/media' element={<Media />} /> */}
+      </Routes>
 
-        <div id='about'>
-          <About />
-        </div>
-
-        <div id='services'>
-          <Services />
-        </div>
-
-        <div id='doctors'>
-          <Doctors />
-        </div>
-
-        <div id='blog'>
-          <Blogs />
-        </div>
-      </main>
-
-      <Footer />
+      <FooterOne />
     </div>
   );
 };

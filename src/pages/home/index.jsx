@@ -2,6 +2,7 @@ import Slider from "../../components/Slider";
 import data from "../../data/data.json";
 import Testimonials from "../../components/Testimonals";
 import FeatureSection from "../../components/FeatureSection";
+import FAQSection from "../../components/FAQSection";
 
 const index = () => {
   const { home } = data.binsinaPharma;
@@ -29,7 +30,7 @@ const index = () => {
               className="flex flex-col items-center gap-4 bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               {/* Image Section */}
-              <div className="w-28 h-28 overflow-hidden rounded-md border border-gray-200">
+              <div className="w-28 h-28 overflow-hidden">
                 <img
                   src={content.image}
                   alt={`Content ${content.id}`}
@@ -48,8 +49,6 @@ const index = () => {
           ))}
         </div>
       </div>
-
-
 
       {/* Features Section */}
       <div className='bg-white lg:px-16 px-8 py-16'>
@@ -131,6 +130,7 @@ const index = () => {
 
       <Testimonials />
 
+      <FAQSection />
       {/* News And Media Banner */}
       {/* <div className='relative w-full h-[400px]'>
         <img

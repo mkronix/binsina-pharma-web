@@ -84,7 +84,7 @@ const Navbar = () => {
         <div className="relative flex flex-row lg:justify-around justify-between items-center p-4 md:px-10 bg-bgHead shadow-md">
           <Link
             to="/"
-            className="flex flex-row lg:w-[22rem] w-60 items-center cursor-pointer"
+            className="flex flex-row lg:w-72 w-60 items-center cursor-pointer"
           >
             <img src={logo} alt="Logo" className="object-contain w-full h-full" />
           </Link>
@@ -99,7 +99,7 @@ const Navbar = () => {
                   <Link
                     to={link.path}
                     duration={500}
-                    className="hover:text-hoverColor text-gray-700 transition-all cursor-pointer"
+                    className="hover:text-hoverColor text-black text-base transition-all cursor-pointer"
                   >
                     {link.label}
                   </Link>

@@ -50,18 +50,20 @@
         "content":[
           {
             "id": 1,
-            "description": "Binsina Pharma is a premier pharmaceutical export company dedicated to delivering high-quality healthcare solutions worldwide. By sourcing products from WHO-GMP-certified manufacturers, we ensure that all our offerings meet stringent international standards."
-          },
-          {
-            "id": 2,
-            "description": "Our mission is to bridge the global gap in healthcare by offering affordable, innovative, and reliable solutions to healthcare providers, enabling better patient outcomes globally."
+            "image":"/assets/img/WHO.jpg",
+            "description": "Binsina Pharma is a leading name in the pharmaceutical export industry, renowned for delivering premium healthcare solutions to clients worldwide. Our commitment to quality and reliability stems from our practice of sourcing products exclusively from WHO-GMP-certified manufacturers."
           },
           {
             "id": 3,
-            "description": " With years of expertise and a commitment to excellence, we are proud to be the trusted partner for countless healthcare professionals, institutions, and distributors around the world."
+            "image":"/assets/img/EU-GMP.png",
+            "description": "Binsina Pharma is a leading name in the pharmaceutical export industry, renowned for delivering premium healthcare solutions to clients worldwide. Our commitment to quality and reliability stems from our practice of sourcing products exclusively from WHO-GMP-certified manufacturers."
+          },
+          {
+            "id": 2,
+            "image":"/assets/img/ISO.png",
+            "description": "Our product portfolio encompasses a diverse range of medicines, from life-saving drugs to everyday healthcare essentials, meeting the varying demands of global healthcare providers. Each step of our supply chain is meticulously managed to maintain product integrity."
           }
-        ],
-        "image": "/assets/img/immunization.png"
+        ]
       },
       "features": {
        "heading": "Our Speciality",

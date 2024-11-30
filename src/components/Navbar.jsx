@@ -20,13 +20,13 @@ const Navbar = () => {
     { path: "/products", label: "Products" },
     { path: "/news-and-media", label: "News And Media" },
     { path: "/quality-assurance", label: "Quality Assurance" },
-    {
-      title: "Our Moto",
-      subMenuItems: [
-        { path: "/mission", label: "Mission" },
-        { path: "/vision", label: "Vision" },
-      ],
-    },
+    // {
+    //   title: "Our Moto",
+    //   subMenuItems: [
+    //     { path: "/mission", label: "Mission" },
+    //     { path: "/vision", label: "Vision" },
+    //   ],
+    // },
   ];
 
   // Toggle menu
@@ -81,7 +81,7 @@ const Navbar = () => {
 
       {/* Navbar */}
       <div className="">
-        <div className="relative flex flex-row justify-around p-4 md:px-10 bg-bgHead shadow-md">
+        <div className="relative flex flex-row lg:justify-around justify-between items-center p-4 md:px-10 bg-bgHead shadow-md">
           <Link
             to="/"
             className="flex flex-row lg:w-[22rem] w-60 items-center cursor-pointer"
@@ -120,13 +120,13 @@ const Navbar = () => {
           <div className="lg:hidden flex items-center absolute right-5 top-5 z-50">
             {menu ? (
               <AiOutlineClose
-                className="text-backgroundColor transition duration-700 ease-in-out"
+                className="text-brightColor transition duration-700 ease-in-out"
                 size={28}
                 onClick={handleChange}
               />
             ) : (
               <AiOutlineMenu
-                className="text-backgroundColor transition duration-700 ease-in-out"
+                className="text-brightColor transition duration-700 ease-in-out"
                 size={28}
                 onClick={handleChange}
               />
@@ -137,7 +137,7 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         <div
           className={`${menu ? "translate-x-0" : "-translate-x-full"
-            } lg:hidden flex flex-col absolute linearBg text-gray-700 left-0 top-[4rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
+            } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26]  text-gray-700 left-0 top-[4rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
         >
           {navLinks.map((link, index) => (
             <div key={index}>
@@ -147,7 +147,7 @@ const Navbar = () => {
                 <Link
                   to={link.path}
                   duration={500}
-                  className="hover:text-hoverColor text-gray-900 text-2xl transition-all cursor-pointer"
+                  className="hover:text-hoverColor text-white text-2xl transition-all cursor-pointer"
                 >
                   {link.label}
                 </Link>

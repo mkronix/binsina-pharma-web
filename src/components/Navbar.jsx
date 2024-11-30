@@ -6,11 +6,13 @@ import { Link } from "react-router-dom";
 import logo from "../assets/img/logo.png";
 import Contact from "../models/Contact";
 import Button from "./Button/Button";
-
+import data from "../data/data.json";
+import { HiOutlinePhone } from "react-icons/hi2"
+import { MdOutlineMail } from "react-icons/md";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const [showForm, setShowForm] = useState(false);
-
+  const { common } = data.binsinaPharma;
   // Navigation links and submenus
   const navLinks = [
     { path: "/", label: "Home" },
@@ -46,18 +48,32 @@ const Navbar = () => {
   return (
     <div className="fixed w-full z-10 text-white">
       {/* Social Media Bar */}
-      <div className="max-lg:hidden flex flex-row justify-end p-2 border-b border-gray-200 lg:px-16 px-8 bg-backgroundColor">
+      <div className="max-lg:hidden flex flex-row justify-between p-4 border-b border-gray-200 lg:px-16 px-8 bg-gradient-to-r from-brightColor to-[#1a1b26]">
+        <div className='flex md:items-center md:flex-row flex-col md:gap-10 gap-2'>
+          <div className='flex items-center gap-2'>
+            <div className='p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:border hover:shadow-lg transition-all cursor-pointer'>
+              <MdOutlineMail size={15} />
+            </div>
+            <a href={`mailto:${common.email}`}>{common.email}</a>
+          </div>
+          <div className='flex items-center gap-2'>
+            <div className='p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer'>
+              <HiOutlinePhone size={15} />
+            </div>
+            <a href={`tel:${common.contact}`}>{common.contact}</a>
+          </div>
+        </div>
         <div className="flex items-center gap-4 max-md:mt-3">
-          <div className="p-2 bg-hoverColor rounded-full shadow-md hover:bg-backgroundColor hover:shadow-lg transition-all cursor-pointer">
+          <div className="p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer">
             <FaFacebook size={15} />
           </div>
-          <div className="p-2 bg-hoverColor rounded-full shadow-md hover:bg-backgroundColor hover:shadow-lg transition-all cursor-pointer">
+          <div className="p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer">
             <FaInstagram size={15} />
           </div>
-          <div className="p-2 bg-hoverColor rounded-full shadow-md hover:bg-backgroundColor hover:shadow-lg transition-all cursor-pointer">
+          <div className="p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer">
             <FaLinkedin size={15} />
           </div>
-          <div className="p-2 bg-hoverColor rounded-full shadow-md hover:bg-backgroundColor hover:shadow-lg transition-all cursor-pointer">
+          <div className="p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer">
             <RiTwitterXLine size={15} />
           </div>
         </div>
@@ -65,7 +81,7 @@ const Navbar = () => {
 
       {/* Navbar */}
       <div className="">
-        <div className="relative flex flex-row justify-between p-4 md:px-10 bg-bgHead shadow-md">
+        <div className="relative flex flex-row justify-around p-4 md:px-10 bg-bgHead shadow-md">
           <Link
             to="/"
             className="flex flex-row lg:w-[22rem] w-60 items-center cursor-pointer"

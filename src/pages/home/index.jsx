@@ -4,6 +4,7 @@ import Heading from "../../components/Heading";
 import Paragraph from "../../components/Paragraph";
 import Slider from "../../components/Slider";
 import Testimonials from "../../components/Testimonals";
+import WhyChooseUs from "../../components/WhyChooseUs";
 import data from "../../data/data.json";
 
 const index = () => {
@@ -69,6 +70,8 @@ const index = () => {
           </div>
         </div>
       </div>
+
+      <WhyChooseUs />
 
       {/* Why Choose Us Section */}
       <div className='container mx-auto lg:px-16 px-8 py-16 text-center'>

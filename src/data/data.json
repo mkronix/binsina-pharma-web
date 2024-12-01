@@ -2,7 +2,7 @@
   "binsinaPharma": {
     "common": {
       "email": "info@binsinapharma.com",
-      "contact": "+919892146706",
+      "contact": "+91 9892146706",
       "socialMedia": {
         "facebook": "https://www.facebook.com/",
         "twitter": "https://twitter.com/",
@@ -593,9 +593,6 @@
     "image": "assets/img/chain.jpg"
   }
 ]
-
-
-
     },
     "contact": {},
     "services": {},

@@ -2,6 +2,7 @@ import Heading from "../../components/Heading";
 import Paragraph from "../../components/Paragraph";
 import Banner from "../../components/Banner";
 import data from "../../data/data.json";
+import WhyChooseUs from "../../components/WhyChooseUs";
 
 const index = () => {
   const { aboutus } = data.binsinaPharma;
@@ -27,6 +28,8 @@ const index = () => {
           />
         </div>
       </div>
+
+      <WhyChooseUs />
 
       <div className='bg-gray-50 lg:px-16 px-8 py-16 md:py-20'>
         <div className=''>
@@ -65,23 +68,6 @@ const index = () => {
         </div>
       </div>
 
-      <section id='whyUs' className='lg:px-16 px-8 py-16 md:py-20'>
-        <div className='text-center'>
-          <Heading title={aboutus.whyChooseUs.heading} />
-          <div className='grid lg:grid-cols-3 gap-8 mt-3'>
-            {aboutus.whyChooseUs.content.map((item, index) => (
-              <div key={index} className='bg-white p-6 rounded-lg shadow'>
-                <h3 className='text-xl font-semibold text-brightColor mb-4'>
-                  {item.title}
-                </h3>
-                <p className='text-gray-600 max-md:text-xs'>
-                  {item.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   );
 };

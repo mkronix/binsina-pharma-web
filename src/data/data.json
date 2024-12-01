@@ -122,29 +122,36 @@
         "content":[
         {
           "id": 1,
-          "image": "https://scitechdaily.com/images/Artificial-Intelligence-Drug-Medicine-Discovery.jpg",
+          "image": "/assets/img/pills.jpg",
           "title": "Medicine",
           "link": "#",
           "buttonText": "Shop Now →"
         },
         {
           "id": 2,
-          "image": "https://wallpaperaccess.com/full/136954.jpg",
+          "image": "/assets/img/vaccine.jpg",
           "title": "Vaccine",
           "link": "#",
           "buttonText": "Shop Now →"
         },
         {
           "id": 3,
-          "image": "https://tse2.mm.bing.net/th?id=OIP.MZIRniC4UJm-unDihT2PhQHaE7&pid=Api&P=0&h=180",
+          "image": "/assets/img/homeopathy.jpg",
           "title": "Homeopathy",
           "link": "#",
           "buttonText": "Shop Now →"
         },
         {
           "id": 4,
-          "image": "https://tse4.mm.bing.net/th?id=OIP.kZcDTlaz4hJQ6mAOxc5V1gHaEJ&pid=Api&P=0&h=180",
+          "image": "/assets/img/ayurveda.jpg",
           "title": "Ayurvedic",
+          "link": "#",
+          "buttonText": "Shop Now →"
+        },
+        {
+          "id": 5,
+          "image": "/assets/img/surgical.jpg",
+          "title": "Surgical Disposables",
           "link": "#",
           "buttonText": "Shop Now →"
         }

@@ -1,3 +1,4 @@
+import CardParagraph from "../../components/CardParagraph";
 import FAQSection from "../../components/FAQSection";
 import FeatureSection from "../../components/FeatureSection";
 import Heading from "../../components/Heading";
@@ -40,9 +41,7 @@ const index = () => {
               </div>
 
               {/* Text Section */}
-              <p className='text-gray-500 text-start text-base leading-relaxed line-clamp-3 sm:line-clamp-4'>
-                {content.description}
-              </p>
+              <CardParagraph description={content.description} />
             </div>
           ))}
         </div>
@@ -59,12 +58,17 @@ const index = () => {
                 className='flex flex-col  gap-3 shadow-md p-6 rounded-lg'
               >
                 <div className='flex items-center gap-3'>
-                  <img src={feature.icon} alt={feature.title} className="w-10 h-10" />
+                  <img
+                    src={feature.icon}
+                    alt={feature.title}
+                    className='w-10 h-10'
+                  />
                   <h3 className='text-xl font-semibold'>{feature.title}</h3>
                 </div>
-                <p className='text-gray-500 text-start text-base leading-relaxed line-clamp-3 sm:line-clamp-4'>
-                  {feature.description}
-                </p>
+                <CardParagraph
+                  description={feature.description}
+                  className='text-start'
+                />
               </div>
             ))}
           </div>
@@ -80,7 +84,10 @@ const index = () => {
           {home.whyChooseUs.content.map((item, index) => (
             <div key={index} className='bg-white p-8 rounded-lg shadow-md'>
               <h3 className='text-xl font-semibold mb-4'>{item.title}</h3>
-              <Paragraph title={item.description} className='text-center' />
+              <CardParagraph
+                description={item.description}
+                className='text-center'
+              />
             </div>
           ))}
         </div>

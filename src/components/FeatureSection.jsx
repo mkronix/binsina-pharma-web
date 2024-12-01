@@ -4,35 +4,37 @@ import Button from "./Button/Button";
 import Heading from "./Heading";
 import Paragraph from "./Paragraph";
 import { AiOutlineGlobal } from "react-icons/ai";
+import CardTitle from "./CardTitle";
+import CardParagraph from "./CardParagraph";
 
 const FeatureSection = () => {
   const features = [
     {
       icon: FaUsers,
-      title: 'Certified Manufacturing Partners',
+      title: "Certified Manufacturing Partners",
       description:
-        'We partner exclusively with WHO-GMP-certified manufacturers, ensuring the highest standards in product quality and safety for global distribution.',
+        "We partner exclusively with WHO-GMP-certified manufacturers, ensuring the highest standards in product quality and safety for global distribution.",
       isDefaultGradient: false,
     },
     {
       icon: FaFileSignature,
-      title: 'Regulatory Compliance',
+      title: "Regulatory Compliance",
       description:
-        'We adhere to global regulatory standards to ensure our products meet all necessary compliance requirements, maintaining trust and credibility in the pharmaceutical market.',
+        "We adhere to global regulatory standards to ensure our products meet all necessary compliance requirements, maintaining trust and credibility in the pharmaceutical market.",
       isDefaultGradient: true,
     },
     {
       icon: AiOutlineGlobal,
-      title: 'Global Supply Chain',
+      title: "Global Supply Chain",
       description:
-        'Our efficient global supply chain ensures timely delivery of high-quality medicines to healthcare providers across the world.',
+        "Our efficient global supply chain ensures timely delivery of high-quality medicines to healthcare providers across the world.",
       isDefaultGradient: false,
     },
     {
       icon: FaStore,
-      title: 'Healthcare Innovation',
+      title: "Healthcare Innovation",
       description:
-        'We are committed to advancing healthcare by ensuring our products meet the latest innovations in pharmaceutical technology.',
+        "We are committed to advancing healthcare by ensuring our products meet the latest innovations in pharmaceutical technology.",
       isDefaultGradient: false,
     },
   ];
@@ -67,7 +69,7 @@ const FeatureSection = () => {
         </div>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
           {features.map((feature, index) => (
             <FeatureCard key={index} {...feature} />
           ))}
@@ -82,37 +84,33 @@ export default FeatureSection;
 const FeatureCard = ({ icon: Icon, title, description, isDefaultGradient }) => {
   return (
     <div
-      className={`p-6 rounded-lg shadow-md transition-all ${isDefaultGradient
-        ? 'bg-gradient-to-r from-brightColor to-[#1a1b26] text-white'
-        : 'bg-white hover:bg-gradient-to-r from-brightColor to-[#1a1b26]'
-        } group`}
+      className={`p-6 rounded-lg shadow-md transition-all ${
+        isDefaultGradient
+          ? "bg-gradient-to-r from-brightColor to-[#1a1b26] text-white"
+          : "bg-white hover:bg-gradient-to-r from-brightColor to-[#1a1b26]"
+      } group`}
     >
       <div
-        className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${isDefaultGradient
-          ? 'bg-white/20 backdrop-blur-sm'
-          : 'bg-blue-100 group-hover:bg-white/20'
-          }`}
+        className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${
+          isDefaultGradient
+            ? "bg-white/20 backdrop-blur-sm"
+            : "bg-blue-100 group-hover:bg-white/20"
+        }`}
       >
         <Icon
-          className={`w-6 h-6 ${isDefaultGradient
-            ? 'text-white'
-            : 'text-brightColor group-hover:text-white'
-            }`}
+          className={`w-6 h-6 ${
+            isDefaultGradient
+              ? "text-white"
+              : "text-brightColor group-hover:text-white"
+          }`}
         />
       </div>
-      <h3
-        className={`text-xl font-semibold mb-3 ${isDefaultGradient ? 'text-white' : 'group-hover:text-white'
-          }`}
-      >
-        {title}
-      </h3>
-      <p
-        className={`text-sm ${isDefaultGradient ? 'text-blue-50' : 'text-gray-500 group-hover:text-white'
-          }`}
-      >
-        {description}
-      </p>
+
+      <CardTitle title={title} isDefaultGradient={isDefaultGradient} />
+      <CardParagraph
+        description={description}
+        isDefaultGradient={isDefaultGradient}
+      />
     </div>
   );
 };
-

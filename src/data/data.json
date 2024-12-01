@@ -70,25 +70,25 @@
        "content":[
          {
            "id": 1,
-           "icon": "👍",
+           "icon": "/assets/img/icon/award.png",
            "title": "Best Prices",
            "description": "Enjoy the best prices on quality products that fit your budget, offering great value without compromising on reliability and performance."
          },
          {
            "id": 2,
-           "icon": "🏷️",
+           "icon": "/assets/img/icon/global-reach.png",
            "title": "Fast Shipping",
            "description": "Our fast and reliable shipping ensures your orders reach you promptly, so you never have to wait long to enjoy your purchases."
          },
          {
            "id": 3,
-           "icon": "🚚",
+           "icon": "/assets/img/icon/quality1.png",
            "title": "Buyer's Protection",
            "description": "Shop with peace of mind knowing that your purchases are protected by our secure policies, ensuring a safe and worry-free experience."
          },
          {
            "id": 4,
-           "icon": "🎧",
+           "icon": "/assets/img/icon/target.png",
            "title": "Live Support",
            "description": "Get 24/7 assistance from our dedicated support team, ready to resolve your questions and ensure a seamless, stress-free shopping experience."
          }

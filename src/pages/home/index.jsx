@@ -143,15 +143,15 @@ const index = () => {
           {/* Right card */}
           <div className="relative group overflow-hidden rounded-lg">
             <img
-              src={home.categories.content[2].image}
-              alt={home.categories.content[2].title}
+              src={home.categories.content[4].image}
+              alt={home.categories.content[4].title}
               className="w-full h-full object-cover rounded-lg transition-transform duration-300 transform group-hover:scale-105 opacity-80 group-hover:opacity-60"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
               <div className="text-center text-white">
-                <h3 className="text-2xl font-semibold">{home.categories.content[2].title}</h3>
+                <h3 className="text-2xl font-semibold">{home.categories.content[4].title}</h3>
                 <p className="text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  {home.categories.content[2].buttonText}
+                  {home.categories.content[4].buttonText}
                 </p>
               </div>
             </div>

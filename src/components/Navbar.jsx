@@ -1,18 +1,23 @@
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { RiArrowDownSLine, RiTwitterXLine } from "react-icons/ri";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/img/logo.png";
 import Contact from "../models/Contact";
 import Button from "./Button/Button";
 import data from "../data/data.json";
 import { HiOutlinePhone } from "react-icons/hi2";
 import { MdOutlineMail } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa";
+import { GrLinkedinOption } from "react-icons/gr";
+import { PropTypes } from "prop-types";
+
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const [showForm, setShowForm] = useState(false);
   const [hideTopBar, setHideTopBar] = useState(false);
+  const location = useLocation();
 
   const { common } = data.binsinaPharma;
   // Navigation links and submenus
@@ -81,30 +86,52 @@ const Navbar = () => {
       >
         <div className='flex md:items-center md:flex-row flex-col md:gap-10 gap-2'>
           <div className='flex items-center gap-2'>
-            <div className='p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:border hover:shadow-lg transition-all cursor-pointer'>
-              <MdOutlineMail size={15} />
+            <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+              <MdOutlineMail
+                size={15}
+                className='text-white group-hover:text-hoverColor transition-colors'
+              />
             </div>
+
             <a href={`mailto:${common.email}`}>{common.email}</a>
           </div>
           <div className='flex items-center gap-2'>
-            <div className='p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer'>
-              <HiOutlinePhone size={15} />
+            <div className='group  p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+              <HiOutlinePhone
+                size={15}
+                className='text-white group-hover:text-hoverColor transition-colors'
+              />
             </div>
             <a href={`tel:${common.contact}`}>{common.contact}</a>
           </div>
         </div>
         <div className='flex items-center gap-4 max-md:mt-3'>
-          <div className='p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer'>
-            <FaFacebook size={15} />
+          <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+            <FaFacebookF
+              size={15}
+              className='text-white group-hover:text-hoverColor transition-colors'
+            />
           </div>
-          <div className='p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer'>
-            <FaInstagram size={15} />
+
+          <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+            <FaInstagram
+              size={15}
+              className='text-white group-hover:text-hoverColor transition-colors'
+            />
           </div>
-          <div className='p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer'>
-            <FaLinkedin size={15} />
+
+          <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+            <GrLinkedinOption
+              size={15}
+              className='text-white group-hover:text-hoverColor transition-colors'
+            />
           </div>
-          <div className='p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer'>
-            <RiTwitterXLine size={15} />
+
+          <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+            <RiTwitterXLine
+              size={15}
+              className='text-white group-hover:text-hoverColor transition-colors'
+            />
           </div>
         </div>
       </div>
@@ -130,7 +157,7 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <nav className='hidden lg:flex flex-row items-center text-lg font-medium gap-8'>
             {navLinks.map((link, index) => (
-              <div key={index}>
+              <div key={index} className='group relative'>
                 {link.subMenuItems ? (
                   <SubMenu
                     title={link.title}
@@ -139,10 +166,13 @@ const Navbar = () => {
                 ) : (
                   <Link
                     to={link.path}
-                    duration={500}
-                    className='hover:text-hoverColor text-black text-base transition-all cursor-pointer'
+                    className={`text-black text-base transition-all duration-300 ease-in-out cursor-pointer group-hover:text-hoverColor ${
+                      location.pathname === link.path ? "text-hoverColor" : ""
+                    }`}
                   >
-                    {link.label}
+                    <span className="relative after:content-[''] after:absolute after:bottom-[-4px] after:left-1/2 after:h-[2px] after:w-0 after:bg-hoverColor after:transition-all after:duration-300 after:ease-in-out after:transform after:origin-center group-hover:after:w-full group-hover:after:left-0">
+                      {link.label}
+                    </span>
                   </Link>
                 )}
               </div>
@@ -179,7 +209,7 @@ const Navbar = () => {
         <div
           className={`${
             menu ? "translate-x-0" : "-translate-x-full"
-          } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26]  text-gray-700 left-0 top-[4rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
+          } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26] text-gray-700 left-0 top-[4rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
         >
           {navLinks.map((link, index) => (
             <div key={index}>
@@ -188,10 +218,12 @@ const Navbar = () => {
               ) : (
                 <Link
                   to={link.path}
-                  duration={500}
-                  className='hover:text-hoverColor text-white text-2xl transition-all cursor-pointer'
+                  className='relative text-white text-xl transition-all duration-300 ease-in-out cursor-pointer group'
+                  onClick={handleChange}
                 >
-                  {link.label}
+                  <span className="relative after:content-[''] after:absolute after:bottom-[-4px] after:left-1/2 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:transform after:origin-center group-hover:after:w-full group-hover:after:left-0">
+                    {link.label}
+                  </span>
                 </Link>
               )}
             </div>
@@ -223,10 +255,13 @@ const SubMenu = ({ title, subMenuItems }) => {
       <div className='absolute w-max pr-10 left-1/2 transform -translate-x-1/2 lg:mt-8 mt-2 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transition-all duration-300 ease-in-out bg-white shadow-lg rounded-lg overflow-hidden origin-top'>
         <ul className='py-2'>
           {subMenuItems.map((item, index) => (
-            <li key={index} className='px-4 py-2'>
+            <li
+              key={index}
+              className='px-4 py-2 hover:bg-hoverColor hover:text-white transition-all duration-300 relative group'
+            >
               <Link
                 to={item.path}
-                className='block text-gray-800 hover:text-brightColor'
+                className="block text-white text-base relative after:content-[''] after:absolute after:bottom-[-4px] after:left-1/2 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:transform after:origin-center group-hover:after:w-full group-hover:after:left-0"
               >
                 {item.label}
               </Link>
@@ -236,4 +271,14 @@ const SubMenu = ({ title, subMenuItems }) => {
       </div>
     </div>
   );
+};
+
+SubMenu.propTypes = {
+  title: PropTypes.string.isRequired,
+  subMenuItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      path: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };

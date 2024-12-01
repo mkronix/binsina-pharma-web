@@ -40,10 +40,10 @@ const FeatureSection = () => {
     },
   ];
   return (
-    <div className='md:px-16 px-6 md:py-28 py-12 flex justify-center items-center w-full'>
+    <div className='md:px-16 px-6 md:pt-28 pt-12 flex justify-center items-center w-full'>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
         {/* Text Content */}
-        <div className='flex flex-col justify-center'>
+        <div className='flex flex-col justify-start'>
           <div className='space-y-6'>
             <BorderTitle title='About Binsina Pharma' />
             <Heading
@@ -63,6 +63,14 @@ const FeatureSection = () => {
               Through strategic partnerships, we ensure timely delivery and
               top-notch customer service.'
             />
+
+            <Paragraph
+              title='We specialize in exporting a wide range of pharmaceutical
+              products, including life-saving drugs, antibiotics, and vaccines.
+              Through strategic partnerships, we ensure timely delivery and
+              top-notch customer service.'
+            />
+
             <Button title='Learn More' />
           </div>
         </div>

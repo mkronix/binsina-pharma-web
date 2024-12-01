@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import data from "../data/data.json";
+import Button from "./Button/Button";
 import "./index.css";
 
 const Slider = () => {
@@ -24,8 +25,7 @@ const Slider = () => {
       >
         {home.sliderData.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div className='relative md:h-[500px] h-[400px] flex items-center lg:px-16 px-8 bg-no-repeat opacity-90'>
-              {/* Video Background */}
+            <div className='relative md:h-[600px] h-[500px] flex items-center bg-no-repeat'>
               <video
                 autoPlay
                 loop
@@ -36,17 +36,41 @@ const Slider = () => {
                 Your browser does not support the video tag.
               </video>
 
-              {/* Dark overlay */}
-              <div className='absolute top-0 left-0 w-full h-full bg-black opacity-50'></div>
+              <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black/80 to-transparent'></div>
 
-              {/* Content over the video */}
-              <div className='z-10 w-full space-y-5 flex flex-col justify-center items-center'>
-                <h1 className='lg:text-5xl md:text-4xl text-3xl font-semibold text-white'>
-                  {slide.title}
-                </h1>
-                <p className='text-white md:text-2xl text-xl'>
-                  {slide.description}
-                </p>
+              <div className='z-10 bg-white/40 backdrop-blur-md rounded-xl shadow-lg p-8 max-w-4xl mx-auto md:ml-16 space-y-6 transform hover:scale-105 transition-transform duration-300 font-poppins'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-6 items-center'>
+                  <div className='space-y-4'>
+                    <div>
+                      <h1 className='text-hoverColor text-xl md:text-5xl font-extrabold mb-3'>
+                        {slide.title.split(" ")[0]}
+                      </h1>
+                      <h1 className='text-black text-2xl md:text-4xl font-bold leading-snug'>
+                        {slide.title.split(" ").splice(1).join(" ")}
+                      </h1>
+                    </div>
+
+                    <p className='text-gray-700 text-sm md:text-lg leading-relaxed font-medium'>
+                      {slide.description}
+                    </p>
+
+                    <Button
+                      title='Discover More'
+                      onClick={() => console.log("Discover More Clicked")}
+                      className='bg-brightColor text-white px-6 py-3 rounded-lg shadow-md hover:bg-hoverColor transition-colors duration-300 font-semibold'
+                    />
+                  </div>
+
+                  <div className='flex justify-center items-center'>
+                    <div className='w-40 h-40 md:w-64 md:h-64 rounded-full shadow-lg bg-white flex items-center justify-center overflow-hidden'>
+                      <img
+                        src={slide.image || "/placeholder.jpg"}
+                        alt={slide.title}
+                        className='w-full h-full object-cover'
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </SwiperSlide>

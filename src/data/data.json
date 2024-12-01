@@ -22,6 +22,7 @@
       "sliderData": [
         {
           "id": 1,
+          "smallTitle": "Welcome to Binsina Pharma",
           "title": "Delivering Excellence in Global Pharmaceutical Exports",
           "description": "Your Trusted Partner for High-Quality Medicines and Healthcare Products Worldwide.",
           "image": "/assets/img/transport.png",
@@ -30,6 +31,7 @@
         },
         {
           "id": 2,
+          "smallTitle": "Your Trusted Partner for Global Pharmaceutical Exports",
           "title": "Custom Pharmaceutical Solutions for Every Market",
           "description": "Providing Tailored Healthcare Products to Meet Diverse Regulatory and Market Needs.",
           "image": "/assets/img/creation.png",
@@ -38,6 +40,7 @@
         },
         {
           "id": 3,
+          "smallTitle": "Quality and Reliability at Your Fingertips",
           "title": "Expanding Access to Affordable Healthcare Globally",
           "description": "Committed to Excellence in Quality, Timely Delivery, and Compliance with Global Standards.",
           "image": "/assets/img/help.png",

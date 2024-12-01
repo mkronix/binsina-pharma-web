@@ -1,11 +1,10 @@
 import Navbar from "./components/Navbar";
-import Home from "./pages/home";
 import Aboutus from "./pages/aboutUs";
-import Products from "./pages/products";
+import Home from "./pages/home";
 import NewsAndMedia from "./pages/newsAndMedia";
+import Products from "./pages/products";
 import QualityAssurance from "./pages/qualityAssurance";
-
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import FooterOne from "./components/Foooter1";
 
 const App = () => {
@@ -19,8 +18,6 @@ const App = () => {
         <Route path='/products' element={<Products />} />
         <Route path='/news-and-media' element={<NewsAndMedia />} />
         <Route path='/quality-assurance' element={<QualityAssurance />} />
-        {/* <Route path='/services' element={<Services />} /> */}
-        {/* <Route path='/media' element={<Media />} /> */}
       </Routes>
 
       <FooterOne />

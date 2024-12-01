@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import FAQs from "../assets/img/FAQs.jpg";
 const FAQSection = () => {
     const [activeIndex, setActiveIndex] = useState(null);
 
@@ -38,9 +38,9 @@ const FAQSection = () => {
                 {/* Left Section: Image */}
                 <div className='relative'>
                     <img
-                        src='https://via.placeholder.com/700x500' // Replace with actual image
+                        src={FAQs} // Replace with actual image
                         alt='FAQ Image 1'
-                        className='rounded-lg shadow-md'
+                        className='rounded-lg shadow-md w-full h-full'
                     />
                 </div>
 

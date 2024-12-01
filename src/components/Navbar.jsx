@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { RiArrowDownSLine, RiTwitterXLine } from "react-icons/ri";
@@ -12,6 +12,8 @@ import { MdOutlineMail } from "react-icons/md";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const [showForm, setShowForm] = useState(false);
+  const [hideTopBar, setHideTopBar] = useState(false);
+
   const { common } = data.binsinaPharma;
   // Navigation links and submenus
   const navLinks = [
@@ -29,6 +31,30 @@ const Navbar = () => {
     // },
   ];
 
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+        // User is scrolling down, hide the top bar
+        setHideTopBar(true);
+      } else if (currentScrollY <= 50) {
+        // User is at the top, show the top bar
+        setHideTopBar(false);
+      } else {
+        // User is scrolling up, show the top bar
+        setHideTopBar(false);
+      }
+      lastScrollY = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   // Toggle menu
   const handleChange = () => {
     setMenu(!menu);
@@ -47,17 +73,20 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full z-10 text-white">
-      {/* Social Media Bar */}
-      <div className="max-lg:hidden flex flex-row justify-between p-4 border-b border-gray-200 lg:px-16 px-8 bg-gradient-to-r from-brightColor to-[#1a1b26]">
-        <div className='flex md:items-center md:flex-row flex-col md:gap-10 gap-2'>
-          <div className='flex items-center gap-2'>
-            <div className='p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:border hover:shadow-lg transition-all cursor-pointer'>
+      {/* top Bar */}
+      <div
+        className={`transition-transform duration-300 ${hideTopBar ? "-translate-y-full" : "translate-y-0"
+          } max-lg:hidden flex flex-row justify-between p-4 border-b border-gray-200 lg:px-16 px-8 bg-gradient-to-r from-brightColor to-[#1a1b26]`}
+      >
+        <div className="flex md:items-center md:flex-row flex-col md:gap-10 gap-2">
+          <div className="flex items-center gap-2">
+            <div className="p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:border hover:shadow-lg transition-all cursor-pointer">
               <MdOutlineMail size={15} />
             </div>
             <a href={`mailto:${common.email}`}>{common.email}</a>
           </div>
-          <div className='flex items-center gap-2'>
-            <div className='p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer'>
+          <div className="flex items-center gap-2">
+            <div className="p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:border-white hover:shadow-lg transition-all cursor-pointer">
               <HiOutlinePhone size={15} />
             </div>
             <a href={`tel:${common.contact}`}>{common.contact}</a>
@@ -79,8 +108,9 @@ const Navbar = () => {
         </div>
       </div>
 
+
       {/* Navbar */}
-      <div className="">
+      <div className={`transition-transform duration-300 ${hideTopBar ? "-translate-y-[85%]" : "translate-y-0"}`}>
         <div className="relative flex flex-row lg:justify-around justify-between items-center p-4 md:px-10 bg-bgHead shadow-md">
           <Link
             to="/"

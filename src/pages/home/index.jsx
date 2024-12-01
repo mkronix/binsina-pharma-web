@@ -51,26 +51,14 @@ const index = () => {
       <div className='bg-white lg:px-16 px-8 py-16'>
         <Heading title={home.features.heading} className='mb-6' />
         <div className='flex flex-col-reverse md:flex-row gap-8'>
-          <div className='w-full flex flex-col gap-4'>
-            <img
-              className='object-cover rounded-lg'
-              src={home.sliderData[0].image}
-              alt='Pharmaceutical innovation'
-            />
-            <img
-              className='object-cover rounded-lg'
-              src={home.sliderData[1].image}
-              alt='Pharmaceutical innovation'
-            />
-          </div>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-8 text-center'>
             {home.features.content.map((feature) => (
               <div
                 key={feature.id}
                 className='flex flex-col  gap-3 shadow-md p-6 rounded-lg'
               >
-                <div className='flex items-end gap-1'>
-                  {/* <div className='title'>{feature.icon}</div> */}
+                <div className='flex items-center gap-3'>
+                  <img src={feature.icon} alt={feature.title} className="w-10 h-10" />
                   <h3 className='text-xl font-semibold'>{feature.title}</h3>
                 </div>
                 <p className='text-gray-500 text-start text-base leading-relaxed line-clamp-3 sm:line-clamp-4'>

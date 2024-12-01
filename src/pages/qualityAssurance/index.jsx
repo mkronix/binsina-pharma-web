@@ -14,7 +14,7 @@ const index = () => {
         title={qualityAssurance.bannerTitle}
         backgroundImage={qualityAssurance.bannerImage}
       />
-      <div className="flex flex-col gap-10 py-16">
+      <div className="bg-gray-50 flex flex-col gap-10 py-16">
         {qualityAssurance.content.map((service, index) => (
           <ServicesCard
             key={service.id}

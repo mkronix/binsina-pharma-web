@@ -4,7 +4,7 @@ import data from "../data/data.json";
 const FooterOne = () => {
     const { footer } = data.binsinaPharma;
     return (
-        <footer className="bg-gradient-to-r from-brightColor to-[#1a1b26] text-white pt-8 mt-10">
+        <footer className="bg-gradient-to-r from-brightColor to-[#1a1b26] text-white pt-8">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* About Section */}
                 <div className="space-y-2">

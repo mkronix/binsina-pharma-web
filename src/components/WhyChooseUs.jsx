@@ -1,5 +1,7 @@
 import React from "react";
 import { FaUser, FaShieldAlt, FaTools, FaClock } from "react-icons/fa";
+import CardTitle from "./CardTitle";
+import CardParagraph from "./CardParagraph";
 
 const Card = ({ children, className }) => (
     <div className={`bg-white shadow-md p-6 rounded-lg ${className}`}>{children}</div>
@@ -9,8 +11,8 @@ const CardContent = ({ icon, title, subtitle }) => (
     <div className="flex items-center space-x-4">
         <div className="p-4 bg-gray-100 rounded-full">{icon}</div>
         <div>
-            <h3 className="font-semibold text-gray-900">{title}</h3>
-            <p className="text-lg font-semibold text-gray-900">{subtitle}</p>
+            <CardTitle title={title} />
+            <CardParagraph description={subtitle} />
         </div>
     </div>
 );
@@ -35,7 +37,7 @@ const WhyChooseUs = () => {
         {
             icon: <FaClock className="w-8 h-8 text-brightColor" />,
             title: "Fast Shipping",
-            subtitle: "Our fast and reliable shipping ensures your orders reach you promptly, so you never have to wait long to enjoy your purchases.",
+            subtitle: "Our fast and reliable shipping ensures your orders reach you promptly.",
         },
     ];
 

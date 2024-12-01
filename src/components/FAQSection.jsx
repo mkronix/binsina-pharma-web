@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FAQs from "../assets/img/FAQs.jpg";
+import FAQs from "../assets/img/FAQs.png";
 const FAQSection = () => {
     const [activeIndex, setActiveIndex] = useState(null);
 

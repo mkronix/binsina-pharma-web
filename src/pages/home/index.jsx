@@ -2,7 +2,6 @@ import CardParagraph from "../../components/CardParagraph";
 import FAQSection from "../../components/FAQSection";
 import FeatureSection from "../../components/FeatureSection";
 import Heading from "../../components/Heading";
-import Paragraph from "../../components/Paragraph";
 import Slider from "../../components/Slider";
 import Testimonials from "../../components/Testimonals";
 import WhyChooseUs from "../../components/WhyChooseUs";
@@ -77,22 +76,24 @@ const index = () => {
 
       <WhyChooseUs />
       {/* Categories Section */}
-      <div className="bg-blue-50 lg:px-16 px-8 py-16">
-        <h2 className="text-3xl md:text-4xl font-bold leading-tight mb-10 text-center">
+      <div className='bg-blue-50 md:px-16 px-6 md:py-28 py-12'>
+        <h2 className='text-3xl md:text-4xl font-bold leading-tight mb-10 text-center'>
           {home.categories.heading}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
           {/* Left card */}
-          <div className="relative group overflow-hidden rounded-lg">
+          <div className='relative group overflow-hidden rounded-lg'>
             <img
               src={home.categories.content[0].image}
               alt={home.categories.content[0].title}
-              className="w-full h-full object-cover rounded-lg transition-transform duration-300 transform group-hover:scale-105 opacity-80 group-hover:opacity-60"
+              className='w-full h-full object-cover rounded-lg transition-transform duration-300 transform group-hover:scale-105 opacity-80 group-hover:opacity-60'
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
-              <div className="text-center text-white">
-                <h3 className="text-2xl font-semibold">{home.categories.content[0].title}</h3>
-                <p className="text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg'>
+              <div className='text-center text-white'>
+                <h3 className='text-2xl font-semibold'>
+                  {home.categories.content[0].title}
+                </h3>
+                <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                   {home.categories.content[0].buttonText}
                 </p>
               </div>
@@ -100,20 +101,25 @@ const index = () => {
           </div>
 
           {/* Middle cards */}
-          <div className="relative flex flex-col space-y-8">
+          <div className='relative flex flex-col space-y-8'>
             {/* Top 2 cards */}
-            <div className="grid grid-cols-2 gap-8">
+            <div className='grid grid-cols-2 gap-8'>
               {home.categories.content.slice(1, 3).map((category) => (
-                <div key={category.id} className="relative group overflow-hidden rounded-lg">
+                <div
+                  key={category.id}
+                  className='relative group overflow-hidden rounded-lg'
+                >
                   <img
                     src={category.image}
                     alt={category.title}
-                    className="w-full h-full object-cover rounded-lg transition-transform duration-300 transform group-hover:scale-105 opacity-80 group-hover:opacity-60"
+                    className='w-full h-full object-cover rounded-lg transition-transform duration-300 transform group-hover:scale-105 opacity-80 group-hover:opacity-60'
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
-                    <div className="text-center text-white">
-                      <h3 className="text-2xl font-semibold">{category.title}</h3>
-                      <p className="text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg'>
+                    <div className='text-center text-white'>
+                      <h3 className='text-2xl font-semibold'>
+                        {category.title}
+                      </h3>
+                      <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                         {category.buttonText}
                       </p>
                     </div>
@@ -123,16 +129,18 @@ const index = () => {
             </div>
 
             {/* Bottom card */}
-            <div className="relative group overflow-hidden rounded-lg">
+            <div className='relative group overflow-hidden rounded-lg'>
               <img
                 src={home.categories.content[3].image}
                 alt={home.categories.content[3].title}
-                className="w-full h-full object-cover rounded-lg transition-transform duration-300 transform group-hover:scale-105 opacity-80 group-hover:opacity-60"
+                className='w-full h-full object-cover rounded-lg transition-transform duration-300 transform group-hover:scale-105 opacity-80 group-hover:opacity-60'
               />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
-                <div className="text-center text-white">
-                  <h3 className="text-2xl font-semibold">{home.categories.content[3].title}</h3>
-                  <p className="text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg'>
+                <div className='text-center text-white'>
+                  <h3 className='text-2xl font-semibold'>
+                    {home.categories.content[3].title}
+                  </h3>
+                  <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                     {home.categories.content[3].buttonText}
                   </p>
                 </div>
@@ -141,16 +149,18 @@ const index = () => {
           </div>
 
           {/* Right card */}
-          <div className="relative group overflow-hidden rounded-lg">
+          <div className='relative group overflow-hidden rounded-lg'>
             <img
               src={home.categories.content[4].image}
               alt={home.categories.content[4].title}
-              className="w-full h-full object-cover rounded-lg transition-transform duration-300 transform group-hover:scale-105 opacity-80 group-hover:opacity-60"
+              className='w-full h-full object-cover rounded-lg transition-transform duration-300 transform group-hover:scale-105 opacity-80 group-hover:opacity-60'
             />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
-              <div className="text-center text-white">
-                <h3 className="text-2xl font-semibold">{home.categories.content[4].title}</h3>
-                <p className="text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className='absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg'>
+              <div className='text-center text-white'>
+                <h3 className='text-2xl font-semibold'>
+                  {home.categories.content[4].title}
+                </h3>
+                <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                   {home.categories.content[4].buttonText}
                 </p>
               </div>
@@ -158,7 +168,6 @@ const index = () => {
           </div>
         </div>
       </div>
-
 
       <Testimonials />
 

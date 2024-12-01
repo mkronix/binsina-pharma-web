@@ -6,6 +6,7 @@ import Paragraph from "./Paragraph";
 import { AiOutlineGlobal } from "react-icons/ai";
 import CardTitle from "./CardTitle";
 import CardParagraph from "./CardParagraph";
+import BorderTitle from "./BorderTitle";
 
 const FeatureSection = () => {
   const features = [
@@ -44,9 +45,7 @@ const FeatureSection = () => {
         {/* Text Content */}
         <div className='flex flex-col justify-center'>
           <div className='space-y-6'>
-            <p className='text-gray-500 uppercase tracking-wider text-sm'>
-              About Binsina Pharma
-            </p>
+            <BorderTitle title='About Binsina Pharma' />
             <Heading
               title='Trusted Global Supplier of Pharmaceutical Products'
               align='start'

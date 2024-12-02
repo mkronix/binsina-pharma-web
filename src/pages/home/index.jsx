@@ -145,6 +145,7 @@ const index = () => {
       {/* Hero Section */}
       <div className='bg-gray-50 px-6 lg:px-16 py-16'>
         {/* Main Heading */}
+        <BorderTitle title='Who we are' className='mb-2' />
         <div className='text-center mb-12'>
           <Heading title={home.heroSection.heading1} align='start' />
         </div>

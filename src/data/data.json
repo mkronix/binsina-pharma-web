@@ -619,9 +619,7 @@
         {
           "id": 2,
           "icon": "⏰",
-          "text": "Mon-Fri: 9 AM – 6 PM",
-          "Saturday": "9 AM – 4 PM",
-          "Sunday": "Closed"
+          "text": "Mon-Fri: 9 AM – 6 PM"
         },
         {
           "id": 3,
@@ -634,7 +632,7 @@
       "copyRight": {
         "text1":"Developed by",
         "text2":"MKronix",
-        "text3":"| All rights reserved",
+        "text3":"| All rights reserved By Binsina Pharma |", 
         "url":"https://www.mkronix.com/"
       }
     }

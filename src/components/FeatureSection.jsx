@@ -1,4 +1,3 @@
-import React from "react";
 import { FaFileSignature, FaStore, FaUsers } from "react-icons/fa";
 import Button from "./Button/Button";
 import Heading from "./Heading";
@@ -7,6 +6,7 @@ import { AiOutlineGlobal } from "react-icons/ai";
 import CardTitle from "./CardTitle";
 import CardParagraph from "./CardParagraph";
 import BorderTitle from "./BorderTitle";
+import PropTypes from "prop-types";
 
 const FeatureSection = () => {
   const features = [
@@ -120,4 +120,15 @@ const FeatureCard = ({ icon: Icon, title, description, isDefaultGradient }) => {
       />
     </div>
   );
+};
+
+FeatureCard.propTypes = {
+  icon: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  isDefaultGradient: PropTypes.bool,
+};
+
+FeatureCard.defaultProps = {
+  isDefaultGradient: false,
 };

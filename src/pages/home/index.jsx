@@ -1,5 +1,4 @@
 import BorderTitle from "../../components/BorderTitle";
-import Button from "../../components/Button/Button";
 import CardParagraph from "../../components/CardParagraph";
 import CardTitle from "../../components/CardTitle";
 import FAQSection from "../../components/FAQSection";
@@ -24,19 +23,18 @@ const index = () => {
       <FeatureSection />
 
       {/* Our Speciality Section */}
-      <div className='md:px-16 px-6 md:pt-28 pt-12'>
-        <div className='flex flex-col md:flex-row items-start gap-16'>
+      <div className='lg:px-16 px-6 lg:pt-28 pt-12'>
+        <div className='flex flex-col lg:flex-row items-start md:gap-16 gap-8'>
           {/* Left Section: Image */}
-          <div className='relative w-full md:w-1/2'>
+          <div className='w-full lg:w-1/2 relative flex flex-col space-y-4'>
             <img
-              src='https://img.freepik.com/free-photo/stethoscope-pen-pills-diary-eyeglasses-bandage-blue-background_23-2148129543.jpg?t=st=1733066549~exp=1733070149~hmac=43b9db0b92c98f461c320a5ad77bc7ad08078f919abbbb225357a0a14d8b10d3&w=740' // Replace with your image URL
+              src='/assets/img/scope.jpg' // Replace with your image URL
               alt='Speciality Section'
-              className='w-full rounded-lg shadow-md'
+              className='object-cover rounded-md shadow-lg'
             />
           </div>
 
-          {/* Right Section: Content */}
-          <div className='w-full md:w-1/2 text-center md:text-left'>
+          <div className='w-full lg:w-1/2'>
             <div className='space-y-6'>
               <BorderTitle title={home.features.heading} />
               <Heading title='Discover Our Specialities' align='start' />
@@ -49,20 +47,16 @@ const index = () => {
               {home.features.content.map((feature) => (
                 <div
                   key={feature.id}
-                  className='flex flex-col items-center md:items-start gap-1'
+                  className='flex flex-col items-start gap-3'
                 >
                   <div className='flex gap-3 items-center'>
                     <img
                       src={feature.icon}
                       alt={feature.title}
-                      className='w-12 h-12'
+                      className='w-8 h-8'
                     />
                     <div className='flex flex-col'>
-                      <CardTitle
-                        title={feature.title.split(" ")[0]}
-                        className='mb-0'
-                      />
-                      <CardTitle title={feature.title.split(" ")[1]} />
+                      <CardTitle title={feature.title} margin='mb-0' />
                     </div>
                   </div>
                   <CardParagraph description={feature.description} />
@@ -73,30 +67,31 @@ const index = () => {
         </div>
       </div>
 
-      <section className='md:px-16 px-6 md:pt-28 pt-12'>
-        <div className='flex flex-col md:flex-row-reverse items-start gap-16'>
+      <section className='lg:px-16 px-6 lg:pt-28 py-12'>
+        <div className='flex flex-col lg:flex-row-reverse items-start md:gap-16 gap-8'>
           {/* Left Image Section */}
-          <div className='w-full md:w-1/2 relative flex flex-col space-y-4'>
+          <div className='w-full lg:w-1/2 relative flex flex-col space-y-4'>
             <img
               src={
                 "https://cdn.pixabay.com/photo/2023/12/11/11/32/ai-generated-8443395_1280.jpg"
               }
               alt='Truck'
-              className='w-[600px] max-lg:w-full h-[500px] max-lg:h-auto object-cover rounded-md shadow-lg'
+              className='object-cover rounded-md shadow-lg'
             />
           </div>
 
           {/* Right Info Section */}
-          <div className='w-full md:w-1/2'>
-            <div className='space-y-6'>
+          <div className='w-full lg:w-1/2'>
+            <div className='space-y-3'>
               <BorderTitle title='Our Values' />
-              <Heading title='Ruchi Cargo Agency' align='start' />
+              <Heading title='Why Choose Us' align='start' />
               <Paragraph
                 title='Ruchi Cargo Agency was established and promoted by a group of
               shipping professionals, and are in the prime business of Shipping
               Agency, Customs Broking, Freight Forwarding, Stevedoring, Vessel
               Agency, and Chartering Agency Project cargo operator, Liasoning
-              Agent.'
+              Agent.Ruchi Cargo Agency was established and promoted by a group of
+              shipping professionals'
               />
             </div>
             <div className='mt-8 flex gap-10'>
@@ -105,7 +100,7 @@ const index = () => {
                   <span className='text-text-color text-base mr-2 bg-teal-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
                     ✔
                   </span>
-                  <span className='text-gray-800 font-semibold'>
+                  <span className='text-gray-600 font-semibold'>
                     CUSTOM CLEARING
                   </span>
                 </li>
@@ -113,7 +108,7 @@ const index = () => {
                   <span className='text-text-color text-base mr-2 bg-pink-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
                     ✔
                   </span>
-                  <span className='text-gray-800 font-semibold'>
+                  <span className='text-gray-600 font-semibold'>
                     SEA FREIGHT
                   </span>
                 </li>
@@ -121,7 +116,7 @@ const index = () => {
                   <span className='text-text-color text-base mr-2 bg-yellow-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
                     ✔
                   </span>
-                  <span className='text-gray-800 font-semibold'>
+                  <span className='text-gray-600 font-semibold'>
                     AIR FREIGHT
                   </span>
                 </li>
@@ -129,7 +124,7 @@ const index = () => {
                   <span className='text-text-color text-base mr-2 bg-blue-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
                     ✔
                   </span>
-                  <span className='text-gray-800 font-semibold'>
+                  <span className='text-gray-600 font-semibold'>
                     AIR FREIGHT
                   </span>
                 </li>
@@ -137,7 +132,7 @@ const index = () => {
                   <span className='text-text-color text-base mr-2 bg-indigo-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
                     ✔
                   </span>
-                  <span className='text-gray-800 font-semibold'>
+                  <span className='text-gray-600 font-semibold'>
                     AIR FREIGHT
                   </span>
                 </li>
@@ -148,7 +143,7 @@ const index = () => {
       </section>
 
       {/* Hero Section */}
-      <div className='relative bg-gray-50 px-8 lg:px-16 py-16'>
+      <div className='bg-gray-50 px-6 lg:px-16 py-16'>
         {/* Main Heading */}
         <div className='text-center mb-12'>
           <Heading title={home.heroSection.heading1} align='start' />
@@ -171,46 +166,19 @@ const index = () => {
               </div>
 
               {/* Text Section */}
-              <CardParagraph description={content.description} />
+              <Paragraph title={content.description} />
             </div>
           ))}
         </div>
       </div>
 
-      {/* <div className='bg-white lg:px-16 px-8 py-16'>
-        <Heading title={home.features.heading} className='mb-6' />
-        <div className='flex flex-col-reverse md:flex-row gap-8'>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-8 text-center'>
-            {home.features.content.map((feature) => (
-              <div
-                key={feature.id}
-                className='flex flex-col  gap-3 shadow-md p-6 rounded-lg'
-              >
-                <div className='flex items-center gap-3'>
-                  <img
-                    src={feature.icon}
-                    alt={feature.title}
-                    className='w-10 h-10'
-                  />
-                  <h3 className='text-xl font-semibold'>{feature.title}</h3>
-                </div>
-                <CardParagraph
-                  description={feature.description}
-                  className='text-start'
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </div> */}
-
       <WhyChooseUs />
       {/* Categories Section */}
-      <div className='bg-blue-50 md:px-16 px-6 md:py-28 py-12'>
-        <h2 className='text-3xl md:text-4xl font-bold leading-tight mb-10 text-center'>
+      <div className='bg-blue-50 lg:px-16 px-6 lg:py-28 py-12'>
+        <h2 className='text-3xl lg:text-4xl font-bold leading-tight mb-10 text-center'>
           {home.categories.heading}
         </h2>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
           {/* Left card */}
           <div className='relative group overflow-hidden rounded-lg'>
             <img

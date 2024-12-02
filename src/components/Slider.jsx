@@ -38,7 +38,7 @@ const Slider = () => {
 
               <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black/80 to-transparent'></div>
 
-              <div className='z-10 bg-white/40 backdrop-blur-md rounded-xl shadow-lg p-8 max-w-4xl mx-auto md:ml-16 space-y-6 transform hover:scale-105 transition-transform duration-300 font-poppins'>
+              <div className='z-10 bg-white/40 backdrop-blur-md rounded-xl shadow-lg p-8 md:max-w-4xl md:mx-auto md:ml-16 m-5 transform hover:scale-105 transition-transform duration-300 font-poppins'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6 items-center'>
                   <div className='space-y-4'>
                     <div>
@@ -62,7 +62,7 @@ const Slider = () => {
                   </div>
 
                   <div className='flex justify-center items-center'>
-                    <div className='w-40 h-40 md:w-64 md:h-64 rounded-full shadow-lg bg-white flex items-center justify-center overflow-hidden'>
+                    <div className='w-full rounded-lg h-40 md:w-64 md:h-64 md:rounded-full shadow-lg bg-white flex items-center justify-center overflow-hidden'>
                       <img
                         src={slide.image || "/placeholder.jpg"}
                         alt={slide.title}

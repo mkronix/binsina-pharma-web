@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import CardTitle from "../components/CardTitle";
+import CardParagraph from "../components/CardParagraph";
 
 const BlogCard = ({ img, headlines, description }) => {
 
@@ -9,14 +11,8 @@ const BlogCard = ({ img, headlines, description }) => {
         src={img}
         alt='img'
       />
-      <h2 className='md:text-xl text-base font-semibold text-start text-brightColor'>
-        {headlines.length > 25 ? headlines.substring(0, 25) + "..." : headlines}
-      </h2>
-      <p className='text-justify lg:text-start text-gray-700 max-md:text-xs'>
-        {description.length > 70
-          ? description.substring(0, 70) + "..."
-          : description}
-      </p>
+      <CardTitle title={headlines.length > 25 ? headlines.slice(0, 25) + "..." : headlines} />
+      <CardParagraph description={description} />
     </div>
   );
 };

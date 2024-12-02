@@ -289,199 +289,199 @@
           "id": 1,
           "name": "Biopharmaceuticals",
           "description": "Innovative therapies, including vaccines and biosimilars for treating chronic and life-threatening diseases.",
-          "image": "https://example.com/images/biopharmaceuticals.jpg"
+          "image": "/assets/img/pills.jpg"
         },
         {
           "id": 2,
           "name": "Vaccines",
           "description": "Preventive solutions to safeguard against infectious diseases.",
-          "image": "https://example.com/images/vaccines.jpg"
+          "image": "/assets/img/vaccine.jpg"
         },
         {
           "id": 3,
           "name": "Biosimilars",
           "description": "Cost-effective alternatives to biologic medicines, ensuring similar efficacy and safety.",
-          "image": "https://example.com/images/biosimilars.jpg"
+          "image": "/assets/img/ayurveda.jpg"
         },
         {
           "id": 4,
           "name": "Finished Dosage Formulations",
           "description": "Ready-to-administer medicines in various forms such as tablets, capsules, and injectables.",
-          "image": "https://example.com/images/finished-dosage.jpg"
+          "image": "/assets/img/surgical.jpg"
         },
         {
           "id": 5,
           "name": "Tablets",
           "description": "Convenient oral formulations available for a wide range of medical conditions.",
-          "image": "https://example.com/images/tablets.jpg"
+          "image": "/assets/img/pills.jpg"
         },
         {
           "id": 6,
           "name": "Capsules",
           "description": "Encapsulated medications for accurate dosage and easy consumption.",
-          "image": "https://example.com/images/capsules.jpg"
+          "image": "/assets/img/pills.jpg"
         },
         {
           "id": 7,
           "name": "Active Pharmaceutical Ingredients (APIs)",
           "description": "High-quality ingredients used in the manufacture of effective medications.",
-          "image": "https://example.com/images/api.jpg"
+          "image": "/assets/img/surgical.jpg"
         },
         {
           "id": 8,
           "name": "Paracetamol API",
           "description": "Widely used API for pain relief and fever management.",
-          "image": "https://example.com/images/paracetamol-api.jpg"
+          "image": "/assets/img/pills.jpg"
         },
         {
           "id": 9,
           "name": "Antibiotic APIs",
           "description": "Key ingredients used in the production of antibiotic drugs.",
-          "image": "https://example.com/images/antibiotic-api.jpg"
+          "image": "/assets/img/vaccine.jpg"
         },
         {
           "id": 10,
           "name": "Over-the-Counter Medicines",
           "description": "Non-prescription products for general health and wellness.",
-          "image": "https://example.com/images/otc-medicines.jpg"
+          "image": "/assets/img/homeopathy.jpg"
         },
         {
           "id": 11,
           "name": "Pain Relievers",
           "description": "OTC medicines for managing mild to moderate pain.",
-          "image": "https://example.com/images/pain-relievers.jpg"
+          "image": "/assets/img/vaccine.jpg"
         },
         {
           "id": 12,
           "name": "Cough Syrups",
           "description": "Effective solutions for managing cough and cold symptoms.",
-          "image": "https://example.com/images/cough-syrups.jpg"
+          "image": "/assets/img/ayurveda.jpg"
         },
         {
           "id": 13,
           "name": "Herbal Medicines",
           "description": "Natural remedies derived from traditional herbs.",
-          "image": "https://example.com/images/herbal-medicines.jpg"
+          "image": "/assets/img/homeopathy.jpg"
         },
         {
           "id": 14,
           "name": "Ayurvedic Medicines",
           "description": "Holistic formulations rooted in ancient Ayurvedic practices.",
-          "image": "https://example.com/images/ayurvedic-medicines.jpg"
+          "image": "/assets/img/ayurveda.jpg"
         },
         {
           "id": 15,
           "name": "Surgical Disposables",
           "description": "Single-use items designed for maintaining hygiene during surgical procedures.",
-          "image": "https://example.com/images/surgical-disposables.jpg"
+          "image": "/assets/img/surgical.jpg"
         },
         {
           "id": 16,
           "name": "Surgical Gloves",
           "description": "High-quality gloves to ensure safety and sterility during medical procedures.",
-          "image": "https://example.com/images/surgical-gloves.jpg"
+          "image": "/assets/img/surgical.jpg"
         },
         {
           "id": 17,
           "name": "Face Masks",
           "description": "Protective masks for infection control and hygiene.",
-          "image": "https://example.com/images/face-masks.jpg"
+          "image": "/assets/img/surgical.jpg"
         },
         {
           "id": 18,
           "name": "Controlled Substances",
           "description": "Medications regulated for their use due to potential risks or misuse.",
-          "image": "https://example.com/images/controlled-substances.jpg"
+          "image": "/assets/img/homeopathy.jpg"
         },
         {
           "id": 19,
           "name": "Specialized Products",
           "description": "Tailored pharmaceutical products designed for niche medical applications.",
-          "image": "https://example.com/images/specialized-products.jpg"
+          "image": "/assets/img/ayurveda.jpg"
         },
         {
           "id": 20,
           "name": "Veterinary Medicines",
           "description": "Pharmaceutical products specifically developed for animal health.",
-          "image": "https://example.com/images/veterinary-medicines.jpg"
+          "image": "/assets/img/surgical.jpg"
         },
         {
           "id": 21,
           "name": "Pet Antibiotics",
           "description": "Antibiotic medicines for pets to treat infections.",
-          "image": "https://example.com/images/pet-antibiotics.jpg"
+          "image": "/assets/img/vaccine.jpg"
         },
         {
           "id": 22,
           "name": "Veterinary Vaccines",
           "description": "Vaccines designed to protect animals against diseases.",
-          "image": "https://example.com/images/veterinary-vaccines.jpg"
+          "image": "/assets/img/surgical.jpg"
         },
         {
           "id": 23,
           "name": "Pharmaceutical Packaging",
           "description": "Innovative packaging solutions ensuring product stability and safety.",
-          "image": "https://example.com/images/pharma-packaging.jpg"
+          "image": "/assets/img/pills.jpg"
         },
         {
           "id": 24,
           "name": "Blister Packs",
           "description": "Convenient packaging for tablets and capsules to ensure freshness and safety.",
-          "image": "https://example.com/images/blister-packs.jpg"
+          "image": "/assets/img/surgical.jpg"
         },
         {
           "id": 25,
           "name": "Herbal Capsules",
           "description": "Capsules made from natural herbs for various health benefits.",
-          "image": "https://example.com/images/herbal-capsules.jpg"
+          "image": "/assets/img/ayurveda.jpg"
         },
         {
           "id": 26,
           "name": "Nutraceuticals",
           "description": "Health products providing nutritional and therapeutic benefits.",
-          "image": "https://example.com/images/nutraceuticals.jpg"
+          "image": "/assets/img/homeopathy.jpg"
         },
         {
           "id": 27,
           "name": "Dietary Supplements",
           "description": "Supplements for enhancing overall health and wellness.",
-          "image": "https://example.com/images/dietary-supplements.jpg"
+          "image": "/assets/img/homeopathy.jpg"
         },
         {
           "id": 28,
           "name": "Pain Management Creams",
           "description": "Topical solutions for managing joint and muscle pain.",
-          "image": "https://example.com/images/pain-creams.jpg"
+          "image": "/assets/img/vaccine.jpg"
         },
         {
           "id": 29,
           "name": "Antiseptic Creams",
           "description": "Creams to protect and heal minor cuts and wounds.",
-          "image": "https://example.com/images/antiseptic-creams.jpg"
+          "image": "/assets/img/surgical.jpg"
         },
         {
           "id": 30,
           "name": "Energy Drinks",
           "description": "Beverages designed to boost energy and improve focus.",
-          "image": "https://example.com/images/energy-drinks.jpg"
+          "image": "/assets/img/ayurveda.jpg"
         },
         {
           "id": 31,
           "name": "Protein Powders",
           "description": "Nutritional powders for muscle building and recovery.",
-          "image": "https://example.com/images/protein-powders.jpg"
+          "image": "/assets/img/homeopathy.jpg"
         },
         {
           "id": 32,
           "name": "First Aid Kits",
           "description": "Comprehensive kits for handling minor medical emergencies.",
-          "image": "https://example.com/images/first-aid-kits.jpg"
+          "image": "/assets/img/surgical.jpg"
         },
         {
           "id": 33,
           "name": "Blood Glucose Monitors",
           "description": "Devices to track blood sugar levels for diabetic patients.",
-          "image": "https://example.com/images/blood-glucose.jpg"
+          "image": "/assets/img/homeopathy.jpg"
         }
       ]
     },
@@ -492,56 +492,56 @@
       "content" : [
         {
           "id":1,
-          "img": "assets/img/blog/blog1.jpg",
+          "img": "assets/img/blog/blog1.png",
           "headlines": "Unraveling the Mysteries of Sleep",
           "description":
             "Discover why sleep is crucial for your physical and mental well-being. Learn tips to improve sleep quality and understand the science behind a good night's rest."
         },
         {
           "id":2,
-          "img": "assets/img/blog/blog2.jpg",
+          "img": "assets/img/blog/blog2.png",
           "headlines": "The Heart-Healthy Diet",
           "description":
             "Explore the best dietary practices to keep your heart healthy. From nutrient-packed foods to heart-friendly recipes, start your journey to better heart health today."
         },
         {
           "id":3,
-          "img": "assets/img/blog/blog3.jpg",
+          "img": "assets/img/blog/blog3.png",
           "headlines": "Understanding Pediatric Vaccinations",
           "description":
             "Vaccinations are key to protecting children from preventable diseases. Learn about the importance of immunization schedules and how they safeguard future generations."
         },
         {
           "id":4,
-          "img": "assets/img/blog/blog4.jpg",
+          "img": "assets/img/blog/blog4.png",
           "headlines": "Navigating Mental Health",
           "description":
             "Mental health matters. Discover practical advice, coping mechanisms, and resources to support emotional well-being in challenging times."
         },
         {
           "id":5,
-          "img": "assets/img/blog/blog5.jpg",
+          "img": "assets/img/blog/blog4.png",
           "headlines": "The Importance of Regular Exercise",
           "description":
             "Regular physical activity benefits your body and mind. Find out how to incorporate exercise into your daily routine and reap long-term rewards."
         },
         {
           "id":6,
-          "img": "assets/img/blog/blog6.jpg",
+          "img": "assets/img/blog/blog3.png",
           "headlines": "Skin Health 101",
           "description":
             "Your skin reflects your health. Learn skincare essentials, tips to combat common skin issues, and routines to keep your skin glowing and healthy."
         },
         {
           "id":7,
-          "img": "assets/img/blog/blog1.jpg",
+          "img": "assets/img/blog/blog1.png",
           "headlines": "The Importance of Regular Exercise",
           "description":
             "Regular physical activity benefits your body and mind. Find out how to incorporate exercise into your daily routine and reap long-term rewards."
         },
         {
           "id":8,
-          "img": "assets/img/blog/blog2.jpg",
+          "img": "assets/img/blog/blog2.png",
           "headlines": "Skin Health 101",
           "description":
             "Your skin reflects your health. Learn skincare essentials, tips to combat common skin issues, and routines to keep your skin glowing and healthy."

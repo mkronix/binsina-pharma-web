@@ -7,8 +7,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
-  /* transition: all 0.3s ease-in-out; */
   scroll-behavior: smooth;
+  text-transform: capitalize;
 }
 
 ::-webkit-scrollbar {
@@ -17,64 +17,4 @@
 
 .linearBg {
   background: linear-gradient(to right, #e0f7fa, #42b0e0);
-}
-
-.heading {
-  font-size: 2.5rem;
-  line-height: 1;
-  font-weight: 600;
-  color: #088b8c;
-}
-
-.title {
-  font-size: 1.5rem;
-  line-height: 1;
-  font-weight: 500;
-}
-
-.description {
-  font-size: 1.2rem;
-  font-weight: normal;
-}
-
-@media (max-width: 999px) {
-  .heading {
-    font-size: 2.5rem;
-  }
-
-  .title {
-    font-size: 1.4rem;
-  }
-
-  .description {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 799px) {
-  .heading {
-    font-size: 2rem;
-  }
-
-  .title {
-    font-size: 1.3rem;
-  }
-
-  .description {
-    font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 599px) {
-  .heading {
-    font-size: 1.8rem;
-  }
-
-  .title {
-    font-size: 1.2rem;
-  }
-
-  .swiper-pagination {
-    bottom: 100px !important;
-  }
 }

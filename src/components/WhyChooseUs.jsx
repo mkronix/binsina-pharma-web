@@ -2,6 +2,9 @@ import React from "react";
 import { FaUser, FaShieldAlt, FaTools, FaClock } from "react-icons/fa";
 import CardTitle from "./CardTitle";
 import CardParagraph from "./CardParagraph";
+import Paragraph from "./Paragraph";
+import Heading from "./Heading";
+import BorderTitle from "./BorderTitle";
 
 const Card = ({ children, className }) => (
     <div className={`bg-white shadow-md p-6 rounded-lg ${className}`}>{children}</div>
@@ -42,7 +45,7 @@ const WhyChooseUs = () => {
     ];
 
     return (
-        <div className="px-12 py-12 md:py-16">
+        <div className="px-6 lg:px-16 py-12 lg:py-16">
             {/* Overall Layout */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                 {/* Left Section */}
@@ -55,20 +58,18 @@ const WhyChooseUs = () => {
                             </div>
                         </div>
                     </Card>
-                    <div className="space-y-6 px-4">
-                        <p className="text-sm text-gray-600 uppercase tracking-wider">
-                            THE BINSINA COMPANY
-                        </p>
-                        <h2 className="text-3xl font-bold text-navy-900 leading-tight">
-                            We Offer One Stop-Shop for{" "}
-                            <span className="block">All Your Home and Commercial Projects!</span>
-                        </h2>
-                        <p className="text-gray-600">
-                            Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa aute irure dolor in
+                    <div className="space-y-4 px-4">
+                        <BorderTitle title="THE BINSINA COMPANY" />
+                        <Heading title="We Offer One Stop-Shop for? All Your Home and Commercial Projects!" align="start" />
+                        <Paragraph title="                            Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
+                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
+                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
+                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
                             reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            duis aute irure dolor repreh enderit.
-                        </p>
+                            duis aute irure dolor repreh enderit."  />
+
                     </div>
                 </div>
 

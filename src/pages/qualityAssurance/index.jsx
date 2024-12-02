@@ -29,7 +29,7 @@ const index = () => {
       </div>
 
       <section className='bg-white pt-40 py-16 px-4 md:px-16 max-md:pt-80'>
-        <div className='container mx-auto flex flex-col md:flex-row items-center'>
+        <div className='flex flex-col md:flex-row items-center'>
           {/* Left Image Section */}
           <div className='w-full md:w-1/3 relative flex flex-col space-y-4'>
             <img

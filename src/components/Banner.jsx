@@ -12,7 +12,7 @@ const Banner = (props) => {
   return (
     <>
       <section
-        className="relative flex items-center justify-center md:p-[180px] p-[100px] bg-center bg-no-repeat bg-cover before:contents[''] before:absolute before:left-0 before:right-0 before:top-0 before:bg-primary before:opacity-80 before:h-full before:w-full"
+        className="relative flex items-center justify-center md:p-[200px] p-[100px] bg-center bg-no-repeat bg-cover before:contents[''] before:absolute before:left-0 before:right-0 before:top-0 before:bg-primary before:opacity-80 before:h-full before:w-full"
         style={backgroundImageStyle}
       >
         <div className='absolute -bottom-7 w-full max-w-2xl py-0 px-4 mx-auto'>

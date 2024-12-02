@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Paragraph = ({ title, className = "" }) => {
   return (
     <p
-      className={` text-gray-500 text-base leading-relaxed ${className}`}
+      className={` text-gray-500 text-base leading-relaxed line-clamp-6 ${className}`}
     >
       {title}
     </p>

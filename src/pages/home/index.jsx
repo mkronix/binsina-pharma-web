@@ -1,5 +1,4 @@
 import BorderTitle from "../../components/BorderTitle";
-import Button from "../../components/Button/Button";
 import CardParagraph from "../../components/CardParagraph";
 import CardTitle from "../../components/CardTitle";
 import FAQSection from "../../components/FAQSection";
@@ -57,10 +56,7 @@ const index = () => {
                       className='w-8 h-8'
                     />
                     <div className='flex flex-col'>
-                      <CardTitle
-                        title={feature.title}
-                        margin='mb-0'
-                      />
+                      <CardTitle title={feature.title} margin='mb-0' />
                     </div>
                   </div>
                   <CardParagraph description={feature.description} />
@@ -170,7 +166,7 @@ const index = () => {
               </div>
 
               {/* Text Section */}
-              <CardParagraph description={content.description} />
+              <Paragraph title={content.description} />
             </div>
           ))}
         </div>

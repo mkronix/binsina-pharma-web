@@ -70,8 +70,6 @@ const FeatureSection = () => {
               Through strategic partnerships, we ensure timely delivery and
               top-notch customer service.'
             />
-
-            <Button title='Learn More' />
           </div>
         </div>
 
@@ -91,25 +89,22 @@ export default FeatureSection;
 const FeatureCard = ({ icon: Icon, title, description, isDefaultGradient }) => {
   return (
     <div
-      className={`p-6 rounded-lg shadow-md transition-all ${
-        isDefaultGradient
+      className={`p-6 rounded-lg shadow-md transition-all ${isDefaultGradient
           ? "bg-gradient-to-r from-brightColor to-[#1a1b26] text-white"
           : "bg-white hover:bg-gradient-to-r from-brightColor to-[#1a1b26]"
-      } group`}
+        } group`}
     >
       <div
-        className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${
-          isDefaultGradient
+        className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${isDefaultGradient
             ? "bg-white/20 backdrop-blur-sm"
             : "bg-blue-100 group-hover:bg-white/20"
-        }`}
+          }`}
       >
         <Icon
-          className={`w-6 h-6 ${
-            isDefaultGradient
+          className={`w-6 h-6 ${isDefaultGradient
               ? "text-white"
               : "text-brightColor group-hover:text-white"
-          }`}
+            }`}
         />
       </div>
 

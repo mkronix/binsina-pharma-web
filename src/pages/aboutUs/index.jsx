@@ -51,20 +51,21 @@ const index = () => {
               {aboutus.secondSection.content?.map((content) => (
                 <Paragraph title={content.description} key={content.id} />
               ))}
+
+              {/* Cards Section */}
+              <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12'>
+                {aboutus.secondSection.cardsSectionData.map((card, index) => (
+                  <div key={index} className='bg-white p-6 rounded-lg shadow'>
+                    <h3 className='font-bold text-brightColor mb-2'>
+                      {card.title}
+                    </h3>
+                    <p className='text-gray-600 text-sm'>{card.description}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
-          {/* Cards Section */}
-          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12'>
-            {aboutus.secondSection.cardsSectionData.map((card, index) => (
-              <div key={index} className='bg-white p-6 rounded-lg shadow'>
-                <h3 className='font-bold text-brightColor mb-2'>
-                  {card.title}
-                </h3>
-                <p className='text-gray-600 text-sm'>{card.description}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 

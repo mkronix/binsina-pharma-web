@@ -27,8 +27,8 @@ const Contact = ({ closeForm }) => {
   };
 
   return (
-    <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-50'>
-      <div className='popup-form absolute mt-12 text-black'>
+    <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 h-screen'>
+      <div className='popup-form absolute text-black'>
         <form
           className=' w-80 md:w-96 space-y-5 bg-white p-5 rounded-xl'
           onSubmit={handleSubmit(onSubmit)}

@@ -12,6 +12,7 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
 import { PropTypes } from "prop-types";
+import { RiYoutubeLine } from "react-icons/ri";
 
 const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
 
@@ -116,6 +117,13 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
 
           <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
             <RiTwitterXLine
+              size={15}
+              className='text-white group-hover:text-hoverColor transition-colors'
+            />
+          </div>
+
+          <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+            <RiYoutubeLine
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />

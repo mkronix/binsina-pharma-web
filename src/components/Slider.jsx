@@ -53,12 +53,6 @@ const Slider = () => {
                     <p className='text-gray-700 text-sm md:text-lg leading-relaxed font-medium'>
                       {slide.description}
                     </p>
-
-                    <Button
-                      title='Discover More'
-                      onClick={() => console.log("Discover More Clicked")}
-                      className='bg-brightColor text-white px-6 py-3 rounded-lg shadow-md hover:bg-hoverColor transition-colors duration-300 font-semibold'
-                    />
                   </div>
 
                   <div className='flex justify-center items-center'>

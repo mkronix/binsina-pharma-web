@@ -197,7 +197,7 @@
       "bannerImage":"",
       "firstHeroSection": {
         "heading": "Leading Pharmaceutical Exporter in India",
-        "image":"assets/img/immunization.png",
+        "image":"assets/img/global.png",
         "content":[
           {
             "id": 1,
@@ -215,7 +215,7 @@
       },
       "secondSection": {
         "heading": "About Binsina Pharma Export",
-        "image":"assets/img/blog/blog6.jpg",
+        "image":"assets/img/immunization.png",
         "content":[
           {
             "id": 1,
@@ -224,10 +224,6 @@
           {
             "id": 2,
             "description": "Our state-of-the-art facilities and expert team enable us to cater to the ever-evolving demands of the healthcare industry. From lifesaving medicines to over-the-counter products, we are dedicated to delivering value and reliability at every step."
-          },
-          {
-            "id": 3,
-            "description": "Sustainability and innovation are at the core of our business operations. We continuously invest in research and development, fostering advancements in pharmaceuticals while ensuring eco-friendly practices in production and distribution."
           }
         ],
         "cardsSectionData" : [
@@ -556,7 +552,7 @@
       "description":"We provide a comprehensive range of pharmaceutical solutions, including tablet and nutraceutical manufacturing, generic medicines, suppositories, injections, advanced molecules, and premixes.",
       "content": [
         {
-          "image": "https://cdn.pixabay.com/photo/2023/12/11/11/32/ai-generated-8443395_1280.jpg",
+          "image": "/assets/img/quality.jpg",
           "title": "Quality Assurance: Ensuring Excellence in Pharmaceutical Transport",
           "heading": "Our Commitment to Quality and Compliance",
           "paragraph": "Quality is at the heart of everything we do. We ensure pharmaceutical products are transported safely, efficiently, and in optimal condition, exceeding regulatory requirements while building trust with our clients.",
@@ -570,7 +566,7 @@
           "additionalParagraph": "Our robust quality assurance processes ensure every product we transport retains its integrity. Leveraging the latest technologies and expertise, we deliver secure and reliable pharmaceutical transport solutions."
         },
         {
-          "image": "https://cdn.pixabay.com/photo/2023/12/11/11/32/ai-generated-8443395_1280.jpg",
+          "image": "/assets/img/transport.png",
           "title": "Excellence in Temperature-Controlled Transport",
           "heading": "Precision in Maintaining Temperature-Sensitive Shipments",
           "paragraph": "We specialize in transporting temperature-sensitive pharmaceuticals, ensuring products stay within the required range throughout their journey.",
@@ -584,7 +580,7 @@
           "additionalParagraph": "Our state-of-the-art technology and trained professionals guarantee safe transport for delicate pharmaceutical products, preserving their safety and efficacy."
         },
         {
-          "image": "https://cdn.pixabay.com/photo/2023/12/11/11/32/ai-generated-8443395_1280.jpg",
+          "image": "/assets/img/help.png",
           "title": "Regulatory Compliance and Certifications",
           "heading": "Adhering to Industry Standards and Regulations",
           "paragraph": "We align our practices with local and international standards, ensuring consistent compliance with the latest pharmaceutical transportation regulations.",
@@ -598,7 +594,7 @@
           "additionalParagraph": "By adhering to industry regulations, we ensure smooth operations, build trust, and strengthen partnerships with our clients."
         },
         {
-          "image": "https://cdn.pixabay.com/photo/2023/12/11/11/32/ai-generated-8443395_1280.jpg",
+          "image": "/assets/img/regulatory.png",
           "title": "Technology-Driven Quality Assurance",
           "heading": "Leveraging Advanced Tools for Superior Delivery",
           "paragraph": "We utilize cutting-edge technology to ensure reliability, transparency, and efficiency in pharmaceutical transport.",
@@ -612,7 +608,7 @@
           "additionalParagraph": "By integrating advanced tools, we enhance efficiency and maintain the highest quality standards for every delivery."
         },
         {
-          "image": "https://cdn.pixabay.com/photo/2023/12/11/11/32/ai-generated-8443395_1280.jpg",
+          "image": "/assets/img/global.png",
           "title": "Trained Professionals Ensuring Quality",
           "heading": "Expertise You Can Rely On",
           "paragraph": "Our skilled professionals uphold the highest quality standards, backed by regular training and certifications.",

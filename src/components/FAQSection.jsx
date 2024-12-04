@@ -74,7 +74,7 @@ const FAQSection = () => {
         {/* Left Section: Image */}
         <div className='relative'>
           <img
-            src={FAQs} // Replace with actual image
+            src={FAQs}
             alt='FAQ Image 1'
             className='w-full h-full object-cover'
           />

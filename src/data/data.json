@@ -127,36 +127,36 @@
           "id": 1,
           "image": "/assets/img/pills.jpg",
           "title": "Medicine",
-          "link": "#",
-          "buttonText": "Shop Now →"
+          "link": "/products",
+          "buttonText": "Get Quote →"
         },
         {
           "id": 2,
           "image": "/assets/img/vaccine.jpg",
           "title": "Vaccine",
-          "link": "#",
-          "buttonText": "Shop Now →"
+          "link": "/products",
+          "buttonText": "Get Quote →"
         },
         {
           "id": 3,
           "image": "/assets/img/homeopathy.jpg",
           "title": "Homeopathy",
-          "link": "#",
-          "buttonText": "Shop Now →"
+          "link": "/products",
+          "buttonText": "Get Quote →"
         },
         {
           "id": 4,
           "image": "/assets/img/ayurveda.jpg",
           "title": "Ayurvedic",
-          "link": "#",
-          "buttonText": "Shop Now →"
+          "link": "/products",
+          "buttonText": "Get Quote →"
         },
         {
           "id": 5,
           "image": "/assets/img/surgical.jpg",
           "title": "Surgical Disposables",
-          "link": "#",
-          "buttonText": "Shop Now →"
+          "link": "/products",
+          "buttonText": "Get Quote →"
         }
     ]
       },
@@ -184,6 +184,24 @@
   },
   {
     "id": 3,
+    "name": "Vikram Singh",
+    "role": "Quality Assurance Head",
+    "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
+  },
+  {
+    "id": 4,
+    "name": "Dr. Ramesh Kumar",
+    "role": "Chief Medical Officer",
+    "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
+  },
+  {
+    "id": 5,
+    "name": "Anjali Desai",
+    "role": "Supply Chain Manager",
+    "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
+  },
+  {
+    "id": 6,
     "name": "Vikram Singh",
     "role": "Quality Assurance Head",
     "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."

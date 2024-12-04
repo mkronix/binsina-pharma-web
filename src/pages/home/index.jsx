@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BorderTitle from "../../components/BorderTitle";
 import CardParagraph from "../../components/CardParagraph";
 import CardTitle from "../../components/CardTitle";
@@ -192,9 +193,11 @@ const index = () => {
                 <h3 className='text-2xl font-semibold'>
                   {home.categories.content[0].title}
                 </h3>
-                <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-                  {home.categories.content[0].buttonText}
-                </p>
+                <Link to={home.categories.content[0].link}>
+                  <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                    {home.categories.content[0].buttonText}
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
@@ -218,9 +221,11 @@ const index = () => {
                       <h3 className='text-2xl font-semibold'>
                         {category.title}
                       </h3>
-                      <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-                        {category.buttonText}
-                      </p>
+                      <Link to={category.link}>
+                        <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                          {category.buttonText}
+                        </p>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -239,9 +244,11 @@ const index = () => {
                   <h3 className='text-2xl font-semibold'>
                     {home.categories.content[3].title}
                   </h3>
-                  <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-                    {home.categories.content[3].buttonText}
-                  </p>
+                  <Link to={home.categories.content[3].link}>
+                    <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                      {home.categories.content[3].buttonText}
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -259,9 +266,11 @@ const index = () => {
                 <h3 className='text-2xl font-semibold'>
                   {home.categories.content[4].title}
                 </h3>
-                <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-                  {home.categories.content[4].buttonText}
-                </p>
+                <Link to={home.categories.content[4].link}>
+                  <p className='text-lg mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                    {home.categories.content[4].buttonText}
+                  </p>
+                </Link>
               </div>
             </div>
           </div>

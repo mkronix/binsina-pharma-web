@@ -1,17 +1,13 @@
-.custom-swiper-pagination .swiper-pagination-bullet {
-  background-color: #3194a1;
+.custom-swiper .swiper-pagination-bullet {
+  background-color: #75d1e7;
   opacity: 1;
   width: 8px;
   height: 8px;
   transition: all 0.3s ease;
 }
 
-.custom-swiper-pagination .swiper-pagination-bullet:hover {
-  background-color: #75d1e7;
-}
-
-.custom-swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #75d1e7;
-  width: 40px;
-  border-radius: 10px;
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #3194a1;
+  opacity: 1;
+  transform: scale(1.2);
 }

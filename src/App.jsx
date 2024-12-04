@@ -7,11 +7,14 @@ import QualityAssurance from "./pages/qualityAssurance";
 import { Route, Routes } from "react-router-dom";
 import FooterOne from "./components/Foooter1";
 import { useState } from "react";
+import Terms from "./pages/terms";
+import Disclaimer from "./pages/disclaimer";
+import Policy from "./pages/policy";
+import BlogDetails from "./pages/blogDetails";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
   const [showForm, setShowForm] = useState(false);
-
 
   const openForm = () => {
     setShowForm(true);
@@ -24,7 +27,13 @@ const App = () => {
   };
   return (
     <div>
-      <Navbar menu={menu} setMenu={setMenu} openForm={openForm} closeForm={closeForm} showForm={showForm} />
+      <Navbar
+        menu={menu}
+        setMenu={setMenu}
+        openForm={openForm}
+        closeForm={closeForm}
+        showForm={showForm}
+      />
 
       <Routes>
         <Route path='/' element={<Home />} />
@@ -32,6 +41,10 @@ const App = () => {
         <Route path='/products' element={<Products openForm={openForm} />} />
         <Route path='/news-and-media' element={<NewsAndMedia />} />
         <Route path='/quality-assurance' element={<QualityAssurance />} />
+        <Route path='/terms' element={<Terms />} />
+        <Route path='/disclaimer' element={<Disclaimer />} />
+        <Route path='/policy' element={<Policy />} />
+        <Route path='/blog/:id' element={<BlogDetails />} />
       </Routes>
 
       <FooterOne />

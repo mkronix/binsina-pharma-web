@@ -139,7 +139,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
         <div className='relative flex flex-row justify-between items-center p-4 md:px-16 bg-bgHead shadow-md'>
           <Link
             to='/'
-            className='flex flex-row lg:w-72 w-60 items-center cursor-pointer'
+            className='flex flex-row lg:w-[400px] w-72 items-center cursor-pointer'
           >
             <img
               src={logo}
@@ -181,7 +181,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
           {showForm && <Contact closeForm={closeForm} />}
 
           {/* Mobile Menu Button */}
-          <div className='lg:hidden flex items-center absolute right-5 top-5 z-50'>
+          <div className='lg:hidden flex items-center absolute right-5 top-6 z-50'>
             {menu ? (
               <AiOutlineClose
                 className='text-brightColor transition duration-700 ease-in-out'

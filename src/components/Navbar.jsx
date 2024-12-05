@@ -149,7 +149,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className='hidden lg:flex flex-row items-center text-lg font-medium gap-8'>
+          <nav className='max-lg:hidden lg:flex flex-row items-center text-lg font-medium gap-8'>
             {navLinks.map((link, index) => (
               <div key={index} className='group relative'>
                 {link.subMenuItems ? (
@@ -173,7 +173,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
           </nav>
 
           {/* Reach Us Button */}
-          <div className='hidden lg:flex items-center justify-center'>
+          <div className='max-lg:hidden lg:flex items-center justify-center'>
             <Button title={"Reach us"} onClick={openForm} />
           </div>
 

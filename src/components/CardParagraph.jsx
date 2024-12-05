@@ -3,11 +3,10 @@ import PropTypes from "prop-types";
 const CardParagraph = ({ description, isDefaultGradient, className }) => {
   return (
     <p
-      className={`text-sm ${
-        isDefaultGradient
+      className={`text-sm ${isDefaultGradient
           ? "text-blue-50"
           : "text-gray-500 group-hover:text-white"
-      } ${className}`}
+        } ${className} h-[80px] overflow-hidden`}
     >
       {description}
     </p>

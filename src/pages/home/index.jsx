@@ -29,7 +29,7 @@ const index = () => {
           {/* Left Section: Image */}
           <div className='w-full lg:w-1/2 relative flex flex-col space-y-4'>
             <img
-              src='/assets/img/scope.jpg' // Replace with your image URL
+              src='/assets/img/speciality.jpg' // Replace with your image URL
               alt='Speciality Section'
               className='object-cover rounded-md shadow-lg'
             />
@@ -74,9 +74,9 @@ const index = () => {
           <div className='w-full lg:w-1/2 relative flex flex-col space-y-4'>
             <img
               src={
-                "https://cdn.pixabay.com/photo/2023/12/11/11/32/ai-generated-8443395_1280.jpg"
+                "/assets/img/values.jpg"
               }
-              alt='Truck'
+              alt='Values Section'
               className='object-cover rounded-md shadow-lg'
             />
           </div>

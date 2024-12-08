@@ -79,25 +79,24 @@ const BlogDetails = () => {
   }
 
   return (
-    <div className='bg-gray-50 min-h-screen'>
-      {/* Blog Content */}
-      <div className='max-w-5xl mx-auto px-6 lg:px-12 py-10 space-y-10'>
-        {/* Main Content Section */}
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
-          {/* Image */}
-          <img
-            src={blog.coverImage}
-            alt='Blog Cover'
-            className='w-full h-auto rounded-lg shadow-md object-cover'
-          />
+    <div className='bg-gray-50 max-w-5xl h-screen mx-auto px-6 lg:px-12 pt-48 max-md:pt-24 ' >
+      {/* Main Content Section */}
+      < div className='grid grid-cols-1 lg:grid-cols-2 gap-8' >
+        {/* Image */}
+        < img
+          src={blog.coverImage}
+          alt='Blog Cover'
+          className='w-full h-auto rounded-lg shadow-md object-cover'
+        />
 
-          {/* Content */}
-          <div className='text-gray-800 leading-relaxed space-y-4'>
-            <div className='text-gray-500 text-sm'>
-              <span>By {blog.author}</span> |{" "}
-              <span>Published on {blog.date}</span>
-            </div>
-            {blog.content.map((item, index) => {
+        {/* Content */}
+        < div className='text-gray-800 leading-relaxed space-y-4' >
+          <div className='text-gray-500 text-sm'>
+            <span>By {blog.author}</span> |{" "}
+            <span>Published on {blog.date}</span>
+          </div>
+          {
+            blog.content.map((item, index) => {
               if (item.type === "paragraph") {
                 return <p key={index}>{item.text}</p>;
               } else if (item.type === "heading") {
@@ -119,23 +118,24 @@ const BlogDetails = () => {
                 );
               }
               return null;
-            })}
-          </div>
+            })
+          }
         </div>
+      </div >
 
-        {/* Additional Content */}
-        <div className='bg-white p-6 rounded-lg shadow-md'>
-          <h3 className='text-xl font-bold text-gray-800 mb-4'>
-            Future Opportunities
-          </h3>
-          <ul className='list-disc list-inside space-y-2 pl-4 text-gray-700'>
-            {blog.additionalContent.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
+      {/* Additional Content */}
+      < div className='bg-white p-6 rounded-lg shadow-md' >
+        <h3 className='text-xl font-bold text-gray-800 mb-4'>
+          Future Opportunities
+        </h3>
+        <ul className='list-disc list-inside space-y-2 pl-4 text-gray-700'>
+          {blog.additionalContent.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      </div >
     </div>
+
   );
 };
 

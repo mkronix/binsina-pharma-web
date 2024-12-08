@@ -37,12 +37,6 @@ const WhyChooseUs = () => {
         "Extensive experience in supplying pharmaceutical products to over 50 countries worldwide.",
     },
     {
-      icon: <FaTools className='w-8 h-8 text-brightColor' />,
-      title: "Dedicated Support",
-      subtitle:
-        "A team of professionals ready to assist you at every stage of the process.",
-    },
-    {
       icon: <FaClock className='w-8 h-8 text-brightColor' />,
       title: "Fast Shipping",
       subtitle:

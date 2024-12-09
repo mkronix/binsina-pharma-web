@@ -94,40 +94,40 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
           </div>
         </div>
         <div className='flex items-center gap-4 max-md:mt-3'>
-          <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a href={common.socialMedia.facebook} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
             <FaFacebookF
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
-          </div>
+          </a>
 
-          <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a href={common.socialMedia.instagram} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
             <FaInstagram
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
-          </div>
+          </a>
 
-          <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a href={common.socialMedia.linkedin} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
             <GrLinkedinOption
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
-          </div>
+          </a>
 
-          <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a href={common.socialMedia.twitter} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
             <RiTwitterXLine
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
-          </div>
+          </a>
 
-          <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a href={common.socialMedia.youtube} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
             <RiYoutubeLine
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
-          </div>
+          </a>
         </div>
       </div>
 

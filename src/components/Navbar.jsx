@@ -70,9 +70,9 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
       {/* top Bar */}
       <div
         className={`transition-transform duration-300 ${hideTopBar ? "-translate-y-full" : "translate-y-0"
-          } max-lg:hidden flex flex-row justify-between p-4 border-b border-gray-200 lg:px-16 px-8 bg-gradient-to-r from-brightColor to-[#1a1b26]`}
+          } flex md:flex-row flex-col max-md:items-end md:justify-between p-4 border-b border-gray-200 lg:px-16 px-8 bg-gradient-to-r from-brightColor to-[#1a1b26]`}
       >
-        <div className='flex md:items-center md:flex-row flex-col md:gap-10 gap-2'>
+        <div className='md:flex hidden md:items-center md:flex-row flex-col md:gap-10 gap-2'>
           <div className='flex items-center gap-2'>
             <div className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
               <MdOutlineMail
@@ -93,7 +93,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
             <a href={`tel:${common.contact}`}>{common.contact}</a>
           </div>
         </div>
-        <div className='flex items-center gap-4 max-md:mt-3'>
+        <div className='flex items-center gap-4 '>
           <a href={common.socialMedia.facebook} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
             <FaFacebookF
               size={15}

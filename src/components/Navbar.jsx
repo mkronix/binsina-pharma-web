@@ -15,7 +15,6 @@ import { PropTypes } from "prop-types";
 import { RiYoutubeLine } from "react-icons/ri";
 
 const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
-
   const [hideTopBar, setHideTopBar] = useState(false);
   const location = useLocation();
 
@@ -94,35 +93,62 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
           </div>
         </div>
         <div className='flex items-center gap-4 '>
-          <a href={common.socialMedia.facebook} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a
+            href={common.socialMedia.facebook}
+            className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'
+            target='_blank'
+            rel='noreferrer'
+          >
             <FaFacebookF
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
+              target='_blank'
+              rel='noreferrer'
             />
           </a>
 
-          <a href={common.socialMedia.instagram} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a
+            href={common.socialMedia.instagram}
+            className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'
+            target='_blank'
+            rel='noreferrer'
+          >
             <FaInstagram
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
           </a>
 
-          <a href={common.socialMedia.linkedin} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a
+            href={common.socialMedia.linkedin}
+            className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'
+            target='_blank'
+            rel='noreferrer'
+          >
             <GrLinkedinOption
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
           </a>
 
-          <a href={common.socialMedia.twitter} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a
+            href={common.socialMedia.twitter}
+            className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'
+            target='_blank'
+            rel='noreferrer'
+          >
             <RiTwitterXLine
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
           </a>
 
-          <a href={common.socialMedia.youtube} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a
+            href={common.socialMedia.youtube}
+            className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'
+            target='_blank'
+            rel='noreferrer'
+          >
             <RiYoutubeLine
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
@@ -273,4 +299,12 @@ SubMenu.propTypes = {
       path: PropTypes.string.isRequired,
     })
   ).isRequired,
+};
+
+Navbar.propTypes = {
+  menu: PropTypes.bool.isRequired,
+  setMenu: PropTypes.func.isRequired,
+  showForm: PropTypes.bool.isRequired,
+  openForm: PropTypes.func.isRequired,
+  closeForm: PropTypes.func.isRequired,
 };

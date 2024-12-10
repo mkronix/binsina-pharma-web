@@ -29,7 +29,7 @@ const index = () => {
           {/* Left Section: Image */}
           <div className='w-full lg:w-1/2 relative flex flex-col space-y-4'>
             <img
-              src='/assets/img/speciality.jpg' // Replace with your image URL
+              src={home.features.image}
               alt='Speciality Section'
               className='object-cover rounded-md shadow-lg'
             />
@@ -37,12 +37,9 @@ const index = () => {
 
           <div className='w-full lg:w-1/2'>
             <div className='space-y-6'>
-              <BorderTitle title={home.features.heading} />
-              <Heading title='Discover Our Specialities' align='start' />
-              <Paragraph
-                title='We are dedicated to providing services and products that stand out
-              for their quality and reliability.'
-              />
+              <BorderTitle title={home.features.title} />
+              <Heading title={home.features.heading} align='start' />
+              <Paragraph title={home.features.description} />
             </div>
             <div className='grid grid-cols-2 gap-6 my-5'>
               {home.features.content.map((feature) => (
@@ -68,64 +65,70 @@ const index = () => {
         </div>
       </div>
 
+      {/* Our values */}
       <section className='lg:px-16 px-6 lg:pt-28 py-12'>
         <div className='flex flex-col lg:flex-row-reverse items-start md:gap-16 gap-8'>
           {/* Left Image Section */}
           <div className='w-full lg:w-1/2 relative flex flex-col space-y-4'>
             <img
-              src={
-                "/assets/img/values.jpg"
-              }
+              src={"/assets/img/values.jpg"}
               alt='Values Section'
               className='object-cover rounded-md shadow-lg'
             />
           </div>
 
           {/* Right Info Section */}
-          <div className="w-full lg:w-1/2">
-            <div className="space-y-3">
-              <BorderTitle title="Our Values" />
-              <Heading title="Why Choose Us" align="start" />
-              <Paragraph
-                title="Binsina is a trusted name in the pharmaceutical export industry. Our team of seasoned professionals is committed to providing exceptional services in pharmaceutical exports, regulatory compliance, logistics solutions, and global supply chain management. With years of experience, we ensure timely delivery, quality assurance, and customer satisfaction, setting us apart as a reliable partner for your pharmaceutical needs."
-              />
+          <div className='w-full lg:w-1/2'>
+            <div className='space-y-3'>
+              <BorderTitle title='Our Values' />
+              <Heading title='Why Choose Us' align='start' />
+              <Paragraph title='Binsina is a trusted name in the pharmaceutical export industry. Our team of seasoned professionals is committed to providing exceptional services in pharmaceutical exports, regulatory compliance, logistics solutions, and global supply chain management. With years of experience, we ensure timely delivery, quality assurance, and customer satisfaction, setting us apart as a reliable partner for your pharmaceutical needs.' />
             </div>
-            <div className="mt-8 flex gap-10">
-              <ul className="space-y-2">
-                <li className="flex items-center">
-                  <span className="text-text-color text-base mr-2 bg-teal-500 w-6 h-6 flex items-center justify-center rounded-full text-white">
+            <div className='mt-8 flex gap-10'>
+              <ul className='space-y-2'>
+                <li className='flex items-center'>
+                  <span className='text-text-color text-base mr-2 bg-teal-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
                     ✔
                   </span>
-                  <span className="text-gray-600 font-semibold">REGULATORY COMPLIANCE</span>
+                  <span className='text-gray-600 font-semibold'>
+                    REGULATORY COMPLIANCE
+                  </span>
                 </li>
-                <li className="flex items-center">
-                  <span className="text-text-color text-base mr-2 bg-pink-500 w-6 h-6 flex items-center justify-center rounded-full text-white">
+                <li className='flex items-center'>
+                  <span className='text-text-color text-base mr-2 bg-pink-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
                     ✔
                   </span>
-                  <span className="text-gray-600 font-semibold">QUALITY ASSURANCE</span>
+                  <span className='text-gray-600 font-semibold'>
+                    QUALITY ASSURANCE
+                  </span>
                 </li>
-                <li className="flex items-center">
-                  <span className="text-text-color text-base mr-2 bg-yellow-500 w-6 h-6 flex items-center justify-center rounded-full text-white">
+                <li className='flex items-center'>
+                  <span className='text-text-color text-base mr-2 bg-yellow-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
                     ✔
                   </span>
-                  <span className="text-gray-600 font-semibold">GLOBAL SUPPLY CHAIN</span>
+                  <span className='text-gray-600 font-semibold'>
+                    GLOBAL SUPPLY CHAIN
+                  </span>
                 </li>
-                <li className="flex items-center">
-                  <span className="text-text-color text-base mr-2 bg-blue-500 w-6 h-6 flex items-center justify-center rounded-full text-white">
+                <li className='flex items-center'>
+                  <span className='text-text-color text-base mr-2 bg-blue-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
                     ✔
                   </span>
-                  <span className="text-gray-600 font-semibold">ON-TIME DELIVERY</span>
+                  <span className='text-gray-600 font-semibold'>
+                    ON-TIME DELIVERY
+                  </span>
                 </li>
-                <li className="flex items-center">
-                  <span className="text-text-color text-base mr-2 bg-indigo-500 w-6 h-6 flex items-center justify-center rounded-full text-white">
+                <li className='flex items-center'>
+                  <span className='text-text-color text-base mr-2 bg-indigo-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
                     ✔
                   </span>
-                  <span className="text-gray-600 font-semibold">CUSTOMER SATISFACTION</span>
+                  <span className='text-gray-600 font-semibold'>
+                    CUSTOMER SATISFACTION
+                  </span>
                 </li>
               </ul>
             </div>
           </div>
-
         </div>
       </section>
 

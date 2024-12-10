@@ -181,7 +181,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
           {showForm && <Contact closeForm={closeForm} />}
 
           {/* Mobile Menu Button */}
-          <div className='lg:hidden flex items-center absolute right-5 top-6 z-50'>
+          <div className='lg:hidden flex items-center absolute right-5 top-8 z-50'>
             {menu ? (
               <AiOutlineClose
                 className='text-brightColor transition duration-700 ease-in-out'
@@ -201,7 +201,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
         {/* Mobile Navigation */}
         <div
           className={`${menu ? "translate-x-0" : "-translate-x-full"
-            } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26] text-gray-700 left-0 top-[4rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
+            } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26] text-gray-700 left-0 top-[5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
         >
           {navLinks.map((link, index) => (
             <div key={index}>

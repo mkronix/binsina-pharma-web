@@ -79,7 +79,7 @@ const BlogDetails = () => {
   }
 
   return (
-    <div className='bg-gray-50 max-w-5xl h-screen mx-auto px-6 lg:px-12 pt-48 max-md:pt-24 ' >
+    <div className=' max-w-5xl mx-auto px-6 lg:px-12 py-48 ' >
       {/* Main Content Section */}
       < div className='grid grid-cols-1 lg:grid-cols-2 gap-8' >
         {/* Image */}
@@ -124,7 +124,7 @@ const BlogDetails = () => {
       </div >
 
       {/* Additional Content */}
-      < div className='bg-white p-6 rounded-lg shadow-md' >
+      < div className='p-6' >
         <h3 className='text-xl font-bold text-gray-800 mb-4'>
           Future Opportunities
         </h3>

@@ -16,7 +16,7 @@ const index = () => {
   return (
     <>
       {/* Slider */}
-      <div className='pt-16 lg:pt-36'>
+      <div className='pt-36'>
         <Slider />
       </div>
 

@@ -15,7 +15,6 @@ import { PropTypes } from "prop-types";
 import { RiYoutubeLine } from "react-icons/ri";
 
 const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
-
   const [hideTopBar, setHideTopBar] = useState(false);
   const location = useLocation();
 
@@ -94,35 +93,62 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
           </div>
         </div>
         <div className='flex items-center gap-4 '>
-          <a href={common.socialMedia.facebook} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a
+            href={common.socialMedia.facebook}
+            className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'
+            target='_blank'
+            rel='noreferrer'
+          >
             <FaFacebookF
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
+              target='_blank'
+              rel='noreferrer'
             />
           </a>
 
-          <a href={common.socialMedia.instagram} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a
+            href={common.socialMedia.instagram}
+            className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'
+            target='_blank'
+            rel='noreferrer'
+          >
             <FaInstagram
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
           </a>
 
-          <a href={common.socialMedia.linkedin} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a
+            href={common.socialMedia.linkedin}
+            className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'
+            target='_blank'
+            rel='noreferrer'
+          >
             <GrLinkedinOption
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
           </a>
 
-          <a href={common.socialMedia.twitter} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a
+            href={common.socialMedia.twitter}
+            className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'
+            target='_blank'
+            rel='noreferrer'
+          >
             <RiTwitterXLine
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
             />
           </a>
 
-          <a href={common.socialMedia.youtube} className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'>
+          <a
+            href={common.socialMedia.youtube}
+            className='group p-2 bg-hoverColor rounded-full shadow-md border-hoverColor border hover:bg-white hover:shadow-lg transition-all cursor-pointer'
+            target='_blank'
+            rel='noreferrer'
+          >
             <RiYoutubeLine
               size={15}
               className='text-white group-hover:text-hoverColor transition-colors'
@@ -181,7 +207,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
           {showForm && <Contact closeForm={closeForm} />}
 
           {/* Mobile Menu Button */}
-          <div className='lg:hidden flex items-center absolute right-5 top-6 z-50'>
+          <div className='lg:hidden flex items-center absolute right-5 top-8 z-50'>
             {menu ? (
               <AiOutlineClose
                 className='text-brightColor transition duration-700 ease-in-out'
@@ -201,7 +227,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
         {/* Mobile Navigation */}
         <div
           className={`${menu ? "translate-x-0" : "-translate-x-full"
-            } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26] text-gray-700 left-0 top-[4rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
+            } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26] text-gray-700 left-0 top-[5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
         >
           {navLinks.map((link, index) => (
             <div key={index}>
@@ -273,4 +299,12 @@ SubMenu.propTypes = {
       path: PropTypes.string.isRequired,
     })
   ).isRequired,
+};
+
+Navbar.propTypes = {
+  menu: PropTypes.bool.isRequired,
+  setMenu: PropTypes.func.isRequired,
+  showForm: PropTypes.bool.isRequired,
+  openForm: PropTypes.func.isRequired,
+  closeForm: PropTypes.func.isRequired,
 };

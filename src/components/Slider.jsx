@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import data from "../data/data.json";
-import Button from "./Button/Button";
 import "./index.css";
 
 const Slider = () => {
@@ -25,7 +24,7 @@ const Slider = () => {
       >
         {home.sliderData.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div className='relative md:h-[600px] h-[500px] flex items-center bg-no-repeat'>
+            <div className='relative md:h-[600px] h-[500px] flex items-center bg-no-repeat cursor-pointer'>
               <video
                 autoPlay
                 loop

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FAQs from "../assets/img/FAQs.png"; // Replace with your actual image path
+import FAQs from "../assets/img/FAQs.png";
 import BorderTitle from "./BorderTitle";
 import Heading from "./Heading";
 import Paragraph from "./Paragraph";

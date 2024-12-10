@@ -1,14 +1,19 @@
 import PropTypes from "prop-types";
 import { useForm } from "react-hook-form";
+import { useRef, useState } from "react";
+import Swal from "sweetalert2";
+import emailjs from "@emailjs/browser";
 import Button from "../components/Button/Button";
 import { useState } from "react";
-
+import { IoClose } from "react-icons/io5";
 const Contact = ({ closeForm }) => {
+  const formRef = useRef(null); // Create a ref for the form
   const [actionType, setActionType] = useState("");
 
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
@@ -20,7 +25,27 @@ const Contact = ({ closeForm }) => {
       )}`;
       window.location.href = whatsappLink;
     } else if (actionType === "email") {
-      console.log("Sending email with data:", data);
+      emailjs
+        .sendForm(
+          "service_agf5s52",
+          "template_z5hflf2",
+          formRef.current, // Pass the form element
+          "O9jzNMsuDK9-j8NUD"
+        )
+        .then(() => {
+          reset();
+          Swal.fire({
+            icon: "success",
+            text: "Thank you for contacting us! Your message has been successfully submitted. We'll get back to you as soon as possible.",
+          });
+        })
+        .catch((error) => {
+          console.error("Email send error:", error);
+          Swal.fire({
+            icon: "error",
+            text: "Something went wrong! Please try again later.",
+          });
+        });
     }
 
     closeForm();
@@ -30,12 +55,18 @@ const Contact = ({ closeForm }) => {
     <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 h-screen'>
       <div className='popup-form absolute text-black'>
         <form
-          className=' w-80 md:w-96 space-y-5 bg-white p-5 rounded-xl'
+          ref={formRef} // Attach the ref here
+          className='w-80 md:w-96 space-y-5 bg-white p-5 rounded-xl'
           onSubmit={handleSubmit(onSubmit)}
         >
-          <h1 className='text-4xl font-semibold text-center text-backgroundColor'>
-            Reach Us
-          </h1>
+          <div className="flex justify-between items-start">
+            <h1 className='text-4xl font-semibold text-backgroundColor'>
+              Reach Us
+            </h1>
+            <button onClick={closeForm} className="bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full">
+              <IoClose onClick={closeForm} className='text-2xl cursor-pointer' />
+            </button>
+          </div>
 
           <div className='flex flex-col'>
             <input
@@ -91,15 +122,14 @@ const Contact = ({ closeForm }) => {
             )}
           </div>
 
-          <div className='flex justify-end gap-5'>
-            <Button title='Close' onClick={closeForm} />
+          <div className='flex justify-end gap-1'>
             <Button
-              type={"submit"}
-              title='WhatApp'
+              type='submit'
+              title='WhatsApp'
               onClick={() => setActionType("whatsapp")}
             />
             <Button
-              type={"submit"}
+              type='submit'
               title='Submit'
               onClick={() => setActionType("email")}
             />

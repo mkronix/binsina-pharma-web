@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 import Button from "../components/Button/Button";
 import { IoClose } from "react-icons/io5";
+
 const Contact = ({ closeForm }) => {
   const formRef = useRef(null); // Create a ref for the form
   const [actionType, setActionType] = useState("");
@@ -58,12 +59,18 @@ const Contact = ({ closeForm }) => {
           className='w-80 md:w-96 space-y-5 bg-white p-5 rounded-xl'
           onSubmit={handleSubmit(onSubmit)}
         >
-          <div className="flex justify-between items-start">
+          <div className='flex justify-between items-start'>
             <h1 className='text-4xl font-semibold text-backgroundColor'>
               Reach Us
             </h1>
-            <button onClick={closeForm} className="bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full">
-              <IoClose onClick={closeForm} className='text-2xl cursor-pointer' />
+            <button
+              onClick={closeForm}
+              className='bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full'
+            >
+              <IoClose
+                onClick={closeForm}
+                className='text-2xl cursor-pointer'
+              />
             </button>
           </div>
 

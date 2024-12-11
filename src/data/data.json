@@ -218,44 +218,72 @@
       },
       "testimonial": { 
         "heading": "What Our Clients Say",
-"content": [
-  {
-    "id": 1,
-    "name": "Dr. Ramesh Kumar",
-    "role": "Chief Medical Officer",
-    "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
-  },
-  {
-    "id": 2,
-    "name": "Anjali Desai",
-    "role": "Supply Chain Manager",
-    "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
-  },
-  {
-    "id": 3,
-    "name": "Vikram Singh",
-    "role": "Quality Assurance Head",
-    "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
-  },
-  {
-    "id": 4,
-    "name": "Dr. Ramesh Kumar",
-    "role": "Chief Medical Officer",
-    "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
-  },
-  {
-    "id": 5,
-    "name": "Anjali Desai",
-    "role": "Supply Chain Manager",
-    "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
-  },
-  {
-    "id": 6,
-    "name": "Vikram Singh",
-    "role": "Quality Assurance Head",
-    "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
-  }
-]
+        "content": [
+          {
+            "id": 1,
+            "name": "Dr. Ramesh Kumar",
+            "role": "Chief Medical Officer",
+            "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
+          },
+          {
+            "id": 2,
+            "name": "Anjali Desai",
+            "role": "Supply Chain Manager",
+            "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
+          },
+          {
+            "id": 3,
+            "name": "Vikram Singh",
+            "role": "Quality Assurance Head",
+            "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
+          },
+          {
+            "id": 4,
+            "name": "Dr. Ramesh Kumar",
+            "role": "Chief Medical Officer",
+            "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
+          },
+          {
+            "id": 5,
+            "name": "Anjali Desai",
+            "role": "Supply Chain Manager",
+            "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
+          },
+          {
+            "id": 6,
+            "name": "Vikram Singh",
+            "role": "Quality Assurance Head",
+            "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
+          }
+        ]
+      },
+      "OurValues": {
+        "image":"/assets/img/values.jpg",
+        "title":"Our Values",
+        "heading": "Why Choose Us",
+        "paragraph":"Binsina is a trusted name in the pharmaceutical export industry. Our team of seasoned professionals is committed to providing exceptional services in pharmaceutical exports, regulatory compliance, logistics solutions, and global supply chain management. With years of experience, we ensure timely delivery, quality assurance, and customer satisfaction, setting us apart as a reliable partner for your pharmaceutical needs.",
+        "checklist":[
+          {
+            "id": 1,
+            "content":"REGULATORY COMPLIANCE"
+          },
+          {
+            "id": 2,
+            "content":"QUALITY ASSURANCE"
+          },
+          {
+            "id": 1,
+            "content":"GLOBAL SUPPLY CHAIN"
+          },
+          {
+            "id": 1,
+            "content":"ON-TIME DELIVERY"
+          },
+          {
+            "id": 1,
+            "content":"CUSTOMER SATISFACTION"
+          } 
+        ]
       }
     },
     "aboutus": {

@@ -14,6 +14,15 @@ import MapComponent from "../../components/MapComponent";
 
 const index = () => {
   const { home } = data.binsinaPharma;
+
+  const checklistColors = [
+    "bg-teal-500",
+    "bg-pink-500",
+    "bg-yellow-500",
+    "bg-blue-500",
+    "bg-indigo-500",
+  ];
+
   return (
     <>
       {/* Slider */}
@@ -76,7 +85,7 @@ const index = () => {
           {/* Left Image Section */}
           <div className='w-full lg:w-1/2 relative flex flex-col space-y-4'>
             <img
-              src={"/assets/img/values.jpg"}
+              src={home.OurValues.image}
               alt='Values Section'
               className='object-cover rounded-md shadow-lg'
             />
@@ -85,52 +94,28 @@ const index = () => {
           {/* Right Info Section */}
           <div className='w-full lg:w-1/2'>
             <div className='space-y-3'>
-              <BorderTitle title='Our Values' />
-              <Heading title='Why Choose Us' align='start' />
-              <Paragraph title='Binsina is a trusted name in the pharmaceutical export industry. Our team of seasoned professionals is committed to providing exceptional services in pharmaceutical exports, regulatory compliance, logistics solutions, and global supply chain management. With years of experience, we ensure timely delivery, quality assurance, and customer satisfaction, setting us apart as a reliable partner for your pharmaceutical needs.' />
+              <BorderTitle title={home.OurValues.title} />
+              <Heading title={home.OurValues.heading} align='start' />
+              <Paragraph title={home.OurValues.paragraph} />
             </div>
             <div className='mt-8 flex gap-10'>
               <ul className='space-y-2'>
-                <li className='flex items-center'>
-                  <span className='text-text-color text-base mr-2 bg-teal-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
-                    ✔
-                  </span>
-                  <span className='text-gray-600 font-semibold'>
-                    REGULATORY COMPLIANCE
-                  </span>
-                </li>
-                <li className='flex items-center'>
-                  <span className='text-text-color text-base mr-2 bg-pink-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
-                    ✔
-                  </span>
-                  <span className='text-gray-600 font-semibold'>
-                    QUALITY ASSURANCE
-                  </span>
-                </li>
-                <li className='flex items-center'>
-                  <span className='text-text-color text-base mr-2 bg-yellow-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
-                    ✔
-                  </span>
-                  <span className='text-gray-600 font-semibold'>
-                    GLOBAL SUPPLY CHAIN
-                  </span>
-                </li>
-                <li className='flex items-center'>
-                  <span className='text-text-color text-base mr-2 bg-blue-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
-                    ✔
-                  </span>
-                  <span className='text-gray-600 font-semibold'>
-                    ON-TIME DELIVERY
-                  </span>
-                </li>
-                <li className='flex items-center'>
-                  <span className='text-text-color text-base mr-2 bg-indigo-500 w-6 h-6 flex items-center justify-center rounded-full text-white'>
-                    ✔
-                  </span>
-                  <span className='text-gray-600 font-semibold'>
-                    CUSTOMER SATISFACTION
-                  </span>
-                </li>
+                {home.OurValues.checklist?.map((checkItem, checkIndex) => {
+                  const colorClass =
+                    checklistColors[checkIndex % checklistColors.length];
+                  return (
+                    <li className='flex items-center' key={checkIndex}>
+                      <span
+                        className={`text-text-color text-base mr-2 ${colorClass} w-6 h-6 flex items-center justify-center rounded-full text-white`}
+                      >
+                        ✔
+                      </span>
+                      <span className='text-gray-800 font-semibold'>
+                        {checkItem.content}
+                      </span>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>

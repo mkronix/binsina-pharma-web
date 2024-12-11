@@ -4,7 +4,6 @@ import { useRef, useState } from "react";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 import Button from "../components/Button/Button";
-import { useState } from "react";
 import { IoClose } from "react-icons/io5";
 const Contact = ({ closeForm }) => {
   const formRef = useRef(null); // Create a ref for the form

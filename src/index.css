@@ -16,3 +16,7 @@
 .linearBg {
   background: linear-gradient(to right, #e0f7fa, #42b0e0);
 }
+
+.leaflet-container {
+  background: transparent !important;
+}

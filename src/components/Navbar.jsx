@@ -159,7 +159,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
 
       {/* Navbar */}
       <div
-        className={`transition-transform duration-300 ${hideTopBar ? "-translate-y-[85%]" : "translate-y-0"
+        className={`transition-transform duration-300 ${hideTopBar ? "-translate-y-[70%]" : "translate-y-0"
           }`}
       >
         <div className='relative flex flex-row justify-between items-center p-4 md:px-16 bg-bgHead shadow-md'>

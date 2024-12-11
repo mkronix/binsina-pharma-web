@@ -23,16 +23,16 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
   const navLinks = [
     { path: "/", label: "Home" },
     { path: "/aboutus", label: "About Us" },
-    { path: "/products", label: "Products" },
+    // { path: "/products", label: "Products" },
+    {
+      title: "Products",
+      subMenuItems: [
+        { path: "/products", label: "All Products" },
+        { path: "/product-details", label: "Product Details" },
+      ],
+    },
     { path: "/news-and-media", label: "News And Media" },
     { path: "/quality-assurance", label: "Quality Assurance" },
-    // {
-    //   title: "Our Moto",
-    //   subMenuItems: [
-    //     { path: "/mission", label: "Mission" },
-    //     { path: "/vision", label: "Vision" },
-    //   ],
-    // },
   ];
 
   useEffect(() => {
@@ -268,7 +268,7 @@ const SubMenu = ({ title, subMenuItems }) => {
   return (
     <div className='relative group flex justify-center'>
       {/* Parent Item */}
-      <button className='cursor-pointer text-gray-700 flex items-center justify-center hover:text-hoverColor'>
+      <button className='cursor-pointer text-black flex text-base items-center justify-center hover:text-hoverColor'>
         <span>{title}</span>
         <RiArrowDownSLine className='text-2xl pt-[3px]' />
       </button>
@@ -279,11 +279,11 @@ const SubMenu = ({ title, subMenuItems }) => {
           {subMenuItems.map((item, index) => (
             <li
               key={index}
-              className='px-4 py-2 hover:bg-hoverColor hover:text-white transition-all duration-300 relative group'
+              className={`text-black text-base ease-in-out cursor-pointer hover:text-hoverColor px-4 py-2 transition-all duration-300 relative group`}
             >
               <Link
                 to={item.path}
-                className="block text-white text-base relative after:content-[''] after:absolute after:bottom-[-4px] after:left-1/2 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:transform after:origin-center group-hover:after:w-full group-hover:after:left-0"
+                className="block text- text-base relative after:content-[''] after:absolute after:bottom-[-4px] after:left-1/2 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:transform after:origin-center group-hover:after:w-full group-hover:after:left-0"
               >
                 {item.label}
               </Link>

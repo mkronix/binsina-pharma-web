@@ -1,0 +1,90 @@
+{
+    "binsinaPharma":{
+        "newsAndMedia": {
+        "bannerTitle": "News And Media",
+        "bannerHeading": "News And Media",
+        "bannerImage":"",
+        "content" : [
+        {
+            "id":1,
+            "img": "assets/img/blog/blog1.png",
+            "headlines": "Unraveling the Mysteries of Sleep",
+            "description":
+            "Discover why sleep is crucial for your physical and mental well-being. Learn tips to improve sleep quality and understand the science behind a good night's rest."
+        },
+        {
+            "id":2,
+            "img": "assets/img/blog/blog2.png",
+            "headlines": "The Heart-Healthy Diet",
+            "description":
+            "Explore the best dietary practices to keep your heart healthy. From nutrient-packed foods to heart-friendly recipes, start your journey to better heart health today."
+        },
+        {
+            "id":3,
+            "img": "assets/img/blog/blog3.png",
+            "headlines": "Understanding Pediatric Vaccinations",
+            "description":
+            "Vaccinations are key to protecting children from preventable diseases. Learn about the importance of immunization schedules and how they safeguard future generations."
+        },
+        {
+            "id":4,
+            "img": "assets/img/blog/blog4.png",
+            "headlines": "Navigating Mental Health",
+            "description":
+            "Mental health matters. Discover practical advice, coping mechanisms, and resources to support emotional well-being in challenging times."
+        },
+        {
+            "id":5,
+            "img": "assets/img/blog/blog4.png",
+            "headlines": "The Importance of Regular Exercise",
+            "description":
+            "Regular physical activity benefits your body and mind. Find out how to incorporate exercise into your daily routine and reap long-term rewards."
+        },
+        {
+            "id":6,
+            "img": "assets/img/blog/blog3.png",
+            "headlines": "Skin Health 101",
+            "description":
+            "Your skin reflects your health. Learn skincare essentials, tips to combat common skin issues, and routines to keep your skin glowing and healthy."
+        },
+        {
+            "id":7,
+            "img": "assets/img/blog/blog1.png",
+            "headlines": "The Importance of Regular Exercise",
+            "description":
+            "Regular physical activity benefits your body and mind. Find out how to incorporate exercise into your daily routine and reap long-term rewards."
+        },
+        {
+            "id":8,
+            "img": "assets/img/blog/blog2.png",
+            "headlines": "Skin Health 101",
+            "description":
+            "Your skin reflects your health. Learn skincare essentials, tips to combat common skin issues, and routines to keep your skin glowing and healthy."
+        }
+        ],
+        "articles" : [
+            {
+              "image": "/assets/img/blog/blog1.png",
+              "date": "18 APRIL 2020",
+              "title": "Social Media Risks To Mental Health",
+              "description":
+                "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+            },
+            {
+              "image": "/assets/img/blog/blog2.png",
+              "date": "18 APRIL 2020",
+              "title": "Social Media Risks To Mental Health",
+              "description":
+                "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+            },
+            {
+              "image": "/assets/img/blog/blog4.png",
+              "date": "18 APRIL 2020",
+              "title": "Social Media Risks To Mental Health",
+              "description":
+                "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+            }
+          ]
+        }
+    }
+}

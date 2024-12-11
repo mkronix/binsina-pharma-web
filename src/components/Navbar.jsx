@@ -6,7 +6,7 @@ import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/img/logo.png";
 import Contact from "../models/Contact";
 import Button from "./Button/Button";
-import data from "../data/data.json";
+import data from "../data/common.json";
 import { HiOutlinePhone } from "react-icons/hi2";
 import { MdOutlineMail } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
@@ -23,16 +23,16 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
   const navLinks = [
     { path: "/", label: "Home" },
     { path: "/aboutus", label: "About Us" },
-    { path: "/products", label: "Products" },
+    // { path: "/products", label: "Products" },
+    {
+      title: "Products",
+      subMenuItems: [
+        { path: "/products", label: "All Products" },
+        { path: "/product-details", label: "Product Details" },
+      ],
+    },
     { path: "/news-and-media", label: "News And Media" },
     { path: "/quality-assurance", label: "Quality Assurance" },
-    // {
-    //   title: "Our Moto",
-    //   subMenuItems: [
-    //     { path: "/mission", label: "Mission" },
-    //     { path: "/vision", label: "Vision" },
-    //   ],
-    // },
   ];
 
   useEffect(() => {
@@ -68,8 +68,9 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
     <div className='fixed w-full z-10 text-white'>
       {/* top Bar */}
       <div
-        className={`transition-transform duration-300 ${hideTopBar ? "-translate-y-full" : "translate-y-0"
-          } flex md:flex-row flex-col max-md:items-end md:justify-between p-4 border-b border-gray-200 lg:px-16 px-8 bg-gradient-to-r from-brightColor to-[#1a1b26]`}
+        className={`transition-transform duration-300 ${
+          hideTopBar ? "-translate-y-full" : "translate-y-0"
+        } flex md:flex-row flex-col max-md:items-end md:justify-between p-4 border-b border-gray-200 lg:px-16 px-8 bg-gradient-to-r from-brightColor to-[#1a1b26]`}
       >
         <div className='md:flex hidden md:items-center md:flex-row flex-col md:gap-10 gap-2'>
           <div className='flex items-center gap-2'>
@@ -159,8 +160,9 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
 
       {/* Navbar */}
       <div
-        className={`transition-transform duration-300 ${hideTopBar ? "-translate-y-[85%]" : "translate-y-0"
-          }`}
+        className={`transition-transform duration-300 ${
+          hideTopBar ? "-translate-y-[70%]" : "translate-y-0"
+        }`}
       >
         <div className='relative flex flex-row justify-between items-center p-4 md:px-16 bg-bgHead shadow-md'>
           <Link
@@ -186,8 +188,9 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
                 ) : (
                   <Link
                     to={link.path}
-                    className={`text-black text-base transition-all duration-300 ease-in-out cursor-pointer group-hover:text-hoverColor ${location.pathname === link.path ? "text-hoverColor" : ""
-                      }`}
+                    className={`text-black text-base transition-all duration-300 ease-in-out cursor-pointer group-hover:text-hoverColor ${
+                      location.pathname === link.path ? "text-hoverColor" : ""
+                    }`}
                   >
                     <span className="relative after:content-[''] after:absolute after:bottom-[-4px] after:left-1/2 after:h-[2px] after:w-0 after:bg-hoverColor after:transition-all after:duration-300 after:ease-in-out after:transform after:origin-center group-hover:after:w-full group-hover:after:left-0">
                       {link.label}
@@ -226,8 +229,9 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
 
         {/* Mobile Navigation */}
         <div
-          className={`${menu ? "translate-x-0" : "-translate-x-full"
-            } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26] text-gray-700 left-0 top-[5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
+          className={`${
+            menu ? "translate-x-0" : "-translate-x-full"
+          } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26] text-gray-700 left-0 top-[5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
         >
           {navLinks.map((link, index) => (
             <div key={index}>
@@ -264,7 +268,7 @@ const SubMenu = ({ title, subMenuItems }) => {
   return (
     <div className='relative group flex justify-center'>
       {/* Parent Item */}
-      <button className='cursor-pointer text-gray-700 flex items-center justify-center hover:text-hoverColor'>
+      <button className='cursor-pointer text-black flex text-base items-center justify-center hover:text-hoverColor'>
         <span>{title}</span>
         <RiArrowDownSLine className='text-2xl pt-[3px]' />
       </button>
@@ -275,11 +279,11 @@ const SubMenu = ({ title, subMenuItems }) => {
           {subMenuItems.map((item, index) => (
             <li
               key={index}
-              className='px-4 py-2 hover:bg-hoverColor hover:text-white transition-all duration-300 relative group'
+              className={`text-black text-base ease-in-out cursor-pointer hover:text-hoverColor px-4 py-2 transition-all duration-300 relative group`}
             >
               <Link
                 to={item.path}
-                className="block text-white text-base relative after:content-[''] after:absolute after:bottom-[-4px] after:left-1/2 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:transform after:origin-center group-hover:after:w-full group-hover:after:left-0"
+                className="block text- text-base relative after:content-[''] after:absolute after:bottom-[-4px] after:left-1/2 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:transform after:origin-center group-hover:after:w-full group-hover:after:left-0"
               >
                 {item.label}
               </Link>

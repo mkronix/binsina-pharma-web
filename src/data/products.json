@@ -1,0 +1,209 @@
+{
+    "binsinaPharma": {
+        "products": {
+            "bannerTitle": "Products",
+            "bannerHeading": "Products",
+            "bannerImage":"assets/img/products-bg.jpg",
+            "productList":[
+                {
+                "id": 1,
+                "name": "Biopharmaceuticals",
+                "description": "Innovative therapies, including vaccines and biosimilars for treating chronic and life-threatening diseases.",
+                "image": "/assets/img/pills.jpg"
+                },
+                {
+                "id": 2,
+                "name": "Vaccines",
+                "description": "Preventive solutions to safeguard against infectious diseases.",
+                "image": "/assets/img/vaccine.jpg"
+                },
+                {
+                "id": 3,
+                "name": "Biosimilars",
+                "description": "Cost-effective alternatives to biologic medicines, ensuring similar efficacy and safety.",
+                "image": "/assets/img/ayurveda.jpg"
+                },
+                {
+                "id": 4,
+                "name": "Finished Dosage Formulations",
+                "description": "Ready-to-administer medicines in various forms such as tablets, capsules, and injectables.",
+                "image": "/assets/img/surgical.jpg"
+                },
+                {
+                "id": 5,
+                "name": "Tablets",
+                "description": "Convenient oral formulations available for a wide range of medical conditions.",
+                "image": "/assets/img/pills.jpg"
+                },
+                {
+                "id": 6,
+                "name": "Capsules",
+                "description": "Encapsulated medications for accurate dosage and easy consumption.",
+                "image": "/assets/img/pills.jpg"
+                },
+                {
+                "id": 7,
+                "name": "Active Pharmaceutical Ingredients (APIs)",
+                "description": "High-quality ingredients used in the manufacture of effective medications.",
+                "image": "/assets/img/surgical.jpg"
+                },
+                {
+                "id": 8,
+                "name": "Paracetamol API",
+                "description": "Widely used API for pain relief and fever management.",
+                "image": "/assets/img/pills.jpg"
+                },
+                {
+                "id": 9,
+                "name": "Antibiotic APIs",
+                "description": "Key ingredients used in the production of antibiotic drugs.",
+                "image": "/assets/img/vaccine.jpg"
+                },
+                {
+                "id": 10,
+                "name": "Over-the-Counter Medicines",
+                "description": "Non-prescription products for general health and wellness.",
+                "image": "/assets/img/homeopathy.jpg"
+                },
+                {
+                "id": 11,
+                "name": "Pain Relievers",
+                "description": "OTC medicines for managing mild to moderate pain.",
+                "image": "/assets/img/vaccine.jpg"
+                },
+                {
+                "id": 12,
+                "name": "Cough Syrups",
+                "description": "Effective solutions for managing cough and cold symptoms.",
+                "image": "/assets/img/ayurveda.jpg"
+                },
+                {
+                "id": 13,
+                "name": "Herbal Medicines",
+                "description": "Natural remedies derived from traditional herbs.",
+                "image": "/assets/img/homeopathy.jpg"
+                },
+                {
+                "id": 14,
+                "name": "Ayurvedic Medicines",
+                "description": "Holistic formulations rooted in ancient Ayurvedic practices.",
+                "image": "/assets/img/ayurveda.jpg"
+                },
+                {
+                "id": 15,
+                "name": "Surgical Disposables",
+                "description": "Single-use items designed for maintaining hygiene during surgical procedures.",
+                "image": "/assets/img/surgical.jpg"
+                },
+                {
+                "id": 16,
+                "name": "Surgical Gloves",
+                "description": "High-quality gloves to ensure safety and sterility during medical procedures.",
+                "image": "/assets/img/surgical.jpg"
+                },
+                {
+                "id": 17,
+                "name": "Face Masks",
+                "description": "Protective masks for infection control and hygiene.",
+                "image": "/assets/img/surgical.jpg"
+                },
+                {
+                "id": 18,
+                "name": "Controlled Substances",
+                "description": "Medications regulated for their use due to potential risks or misuse.",
+                "image": "/assets/img/homeopathy.jpg"
+                },
+                {
+                "id": 19,
+                "name": "Specialized Products",
+                "description": "Tailored pharmaceutical products designed for niche medical applications.",
+                "image": "/assets/img/ayurveda.jpg"
+                },
+                {
+                "id": 20,
+                "name": "Veterinary Medicines",
+                "description": "Pharmaceutical products specifically developed for animal health.",
+                "image": "/assets/img/surgical.jpg"
+                },
+                {
+                "id": 21,
+                "name": "Pet Antibiotics",
+                "description": "Antibiotic medicines for pets to treat infections.",
+                "image": "/assets/img/vaccine.jpg"
+                },
+                {
+                "id": 22,
+                "name": "Veterinary Vaccines",
+                "description": "Vaccines designed to protect animals against diseases.",
+                "image": "/assets/img/surgical.jpg"
+                },
+                {
+                "id": 23,
+                "name": "Pharmaceutical Packaging",
+                "description": "Innovative packaging solutions ensuring product stability and safety.",
+                "image": "/assets/img/pills.jpg"
+                },
+                {
+                "id": 24,
+                "name": "Blister Packs",
+                "description": "Convenient packaging for tablets and capsules to ensure freshness and safety.",
+                "image": "/assets/img/surgical.jpg"
+                },
+                {
+                "id": 25,
+                "name": "Herbal Capsules",
+                "description": "Capsules made from natural herbs for various health benefits.",
+                "image": "/assets/img/ayurveda.jpg"
+                },
+                {
+                "id": 26,
+                "name": "Nutraceuticals",
+                "description": "Health products providing nutritional and therapeutic benefits.",
+                "image": "/assets/img/homeopathy.jpg"
+                },
+                {
+                "id": 27,
+                "name": "Dietary Supplements",
+                "description": "Supplements for enhancing overall health and wellness.",
+                "image": "/assets/img/homeopathy.jpg"
+                },
+                {
+                "id": 28,
+                "name": "Pain Management Creams",
+                "description": "Topical solutions for managing joint and muscle pain.",
+                "image": "/assets/img/vaccine.jpg"
+                },
+                {
+                "id": 29,
+                "name": "Antiseptic Creams",
+                "description": "Creams to protect and heal minor cuts and wounds.",
+                "image": "/assets/img/surgical.jpg"
+                },
+                {
+                "id": 30,
+                "name": "Energy Drinks",
+                "description": "Beverages designed to boost energy and improve focus.",
+                "image": "/assets/img/ayurveda.jpg"
+                },
+                {
+                "id": 31,
+                "name": "Protein Powders",
+                "description": "Nutritional powders for muscle building and recovery.",
+                "image": "/assets/img/homeopathy.jpg"
+                },
+                {
+                "id": 32,
+                "name": "First Aid Kits",
+                "description": "Comprehensive kits for handling minor medical emergencies.",
+                "image": "/assets/img/surgical.jpg"
+                },
+                {
+                "id": 33,
+                "name": "Blood Glucose Monitors",
+                "description": "Devices to track blood sugar levels for diabetic patients.",
+                "image": "/assets/img/homeopathy.jpg"
+                }
+            ]
+        }
+    }
+}

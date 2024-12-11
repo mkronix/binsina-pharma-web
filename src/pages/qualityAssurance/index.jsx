@@ -1,5 +1,5 @@
 import Banner from "../../components/Banner";
-import data from "../../data/data.json";
+import data from "../../data/qualityAssurance.json";
 import BorderTitle from "../../components/BorderTitle";
 import Heading from "../../components/Heading";
 import Paragraph from "../../components/Paragraph";

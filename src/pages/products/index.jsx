@@ -2,20 +2,20 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import Banner from "../../components/Banner";
 import CardParagraph from "../../components/CardParagraph";
 import CardTitle from "../../components/CardTitle";
-import data from "../../data/data.json";
+import data from "../../data/products.json";
 const index = ({ openForm }) => {
-  const { product } = data.binsinaPharma;
+  const { products } = data.binsinaPharma;
 
   return (
     <>
       <Banner
-        heading={product.bannerHeading}
-        title={product.bannerTitle}
-        backgroundImage={product.bannerImage}
+        heading={products.bannerHeading}
+        title={products.bannerTitle}
+        backgroundImage={products.bannerImage}
       />
       <div className='bg-gray-50 lg:px-16 px-8 py-16'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
-          {product.productList.map((content) => (
+          {products.productList.map((content) => (
             <>
               <div className=' shadow-md bg-white rounded-md hover:cursor-pointer'>
                 <img
@@ -40,7 +40,10 @@ const index = ({ openForm }) => {
                       }
                     />
                   </div>
-                  <button onClick={() => openForm()} className='hover:bg-brightColor hover:text-white w-10 h-10 flex justify-center items-center rounded-full border'>
+                  <button
+                    onClick={() => openForm()}
+                    className='hover:bg-brightColor hover:text-white w-10 h-10 flex justify-center items-center rounded-full border'
+                  >
                     <FaArrowRightLong />
                   </button>
                 </div>

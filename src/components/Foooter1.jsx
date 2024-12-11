@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import data from "../data/data.json";
+import data from "../data/footer.json";
 import logo from "../assets/img/logo.png";
 const FooterOne = () => {
-  const { footer } = data.binsinaPharma;
+  const { footer } = data.binSinaPharma;
+
   return (
     <footer className='bg-gradient-to-r from-brightColor to-[#1a1b26] text-white pt-4 rounded-t-xl'>
       <div className='p-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8'>
@@ -14,8 +15,7 @@ const FooterOne = () => {
             className='w-full bg-white p-4 rounded-md'
           />
           <p className='text-sm leading-relaxed text-white capitalize'>
-            Binisana: Leading generic pharmaceutical manufacturer & exporter,
-            offering high-quality medicines.
+            {footer.paragraph}
           </p>
         </div>
 

@@ -6,7 +6,7 @@ import CardTitle from "./CardTitle";
 import CardParagraph from "./CardParagraph";
 import BorderTitle from "./BorderTitle";
 import PropTypes from "prop-types";
-import data from "../data/data.json";
+import data from "../data/home.json";
 
 const iconMap = {
   FaUsers: FaUsers,

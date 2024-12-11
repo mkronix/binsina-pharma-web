@@ -11,6 +11,7 @@ import Terms from "./pages/terms";
 import Disclaimer from "./pages/disclaimer";
 import Policy from "./pages/policy";
 import BlogDetails from "./pages/blogDetails";
+import ProductDetails from "./pages/productDetails/productDetails";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -39,6 +40,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/aboutus' element={<Aboutus />} />
         <Route path='/products' element={<Products openForm={openForm} />} />
+        <Route path='/product-details' element={<ProductDetails />} />
         <Route path='/news-and-media' element={<NewsAndMedia />} />
         <Route path='/quality-assurance' element={<QualityAssurance />} />
         <Route path='/terms' element={<Terms />} />

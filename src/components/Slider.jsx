@@ -3,7 +3,7 @@ import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import data from "../data/data.json";
+import data from "../data/home.json";
 import "./index.css";
 
 const Slider = () => {

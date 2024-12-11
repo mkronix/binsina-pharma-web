@@ -1,11 +1,11 @@
 import Heading from "../../components/Heading";
 import Paragraph from "../../components/Paragraph";
 import Banner from "../../components/Banner";
-import data from "../../data/data.json";
+import data from "../../data/about.json";
 import WhyChooseUs from "../../components/WhyChooseUs";
 
 const index = () => {
-  const { aboutus } = data.binsinaPharma;
+  const { aboutus } = data.binSinaPharma;
 
   return (
     <>
@@ -65,10 +65,8 @@ const index = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
-
     </>
   );
 };

@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
-import data from "../data/data.json";
+import data from "../data/home.json";
 import userLogo from "/assets/img/user.png";
 
 const Testimonals = () => {

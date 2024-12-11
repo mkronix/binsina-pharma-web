@@ -1,0 +1,89 @@
+{
+    "binSinaPharma": {
+        "aboutus": {
+            "bannerTitle": "About Us",
+            "bannerHeading": "About Us",
+            "bannerImage":"",
+            "firstHeroSection": {
+              "heading": "Leading Pharmaceutical Exporter in India",
+              "image":"assets/img/global.png",
+              "content":[
+                {
+                  "id": 1,
+                  "description": "Binsina Pharma is a premier pharmaceutical export company dedicated to delivering high-quality healthcare solutions worldwide. By sourcing products from WHO-GMP-certified manufacturers, we ensure that all our offerings meet stringent international standards."
+                },
+                {
+                  "id": 2,
+                  "description": "Our mission is to bridge the global gap in healthcare by offering affordable, innovative, and reliable solutions to healthcare providers, enabling better patient outcomes globally."
+                },
+                {
+                  "id": 3,
+                  "description": " With years of expertise and a commitment to excellence, we are proud to be the trusted partner for countless healthcare professionals, institutions, and distributors around the world."
+                }
+              ]
+            },
+            "secondSection": {
+              "heading": "About Binsina Pharma Export",
+              "image":"assets/img/immunization.png",
+              "content":[
+                {
+                  "id": 1,
+                  "description": "With a comprehensive portfolio of high-quality pharmaceutical products, we serve diverse healthcare needs across continents. Our commitment to excellence ensures that each product undergoes rigorous quality control, meeting the stringent requirements of international markets."
+                },
+                {
+                  "id": 2,
+                  "description": "Our state-of-the-art facilities and expert team enable us to cater to the ever-evolving demands of the healthcare industry. From lifesaving medicines to over-the-counter products, we are dedicated to delivering value and reliability at every step."
+                }
+              ],
+              "cardsSectionData" : [
+                {
+                  "id": 1,
+                  "title": "Our Mission",
+                  "description":
+                    "To ensure global access to quality and affordable healthcare solutions."
+                },
+                {
+                  "id": 2,
+                  "title": "Our Vision",
+                  "description":
+                    "To be a trusted name in the pharmaceutical export industry, driving innovation and excellence."
+                },
+                {
+                  "id": 3,
+                  "title": "Core Values",
+                  "description": "Quality, Integrity, Sustainability, and Innovation."
+                },
+                {
+                  "id": 4,
+                  "title": "Global Reach",
+                  "description":
+                    "Serving healthcare providers across continents with reliable and timely delivery."
+                }
+              ]
+            },
+            "whyChooseUs":{
+              "heading":"Why Choose Us?",
+              "content" : [
+                {
+                  "id":1,
+                  "title": "Quality Assurance",
+                  "description":
+                    "Every product we deliver undergoes rigorous quality checks, ensuring top-notch standards."
+                },
+                {
+                  "id":2,
+                  "title": "Global Network",
+                  "description":
+                    "Extensive experience in supplying pharmaceutical products to over 50 countries worldwide."
+                },
+                {
+                  "id":3,
+                  "title": "Dedicated Support",
+                  "description":
+                    "A team of professionals ready to assist you at every stage of the process."
+                }
+              ]
+            }
+        }
+    }
+}

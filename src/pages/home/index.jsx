@@ -9,11 +9,12 @@ import Paragraph from "../../components/Paragraph";
 import Slider from "../../components/Slider";
 import Testimonials from "../../components/Testimonals";
 import WhyChooseUs from "../../components/WhyChooseUs";
-import data from "../../data/data.json";
+import data from "../../data/home.json";
 import MapComponent from "../../components/MapComponent";
 
 const index = () => {
   const { home } = data.binsinaPharma;
+  console.log("home", home);
 
   const checklistColors = [
     "bg-teal-500",
@@ -75,7 +76,7 @@ const index = () => {
         </div>
       </div>
 
-      <div className="lg:px-16 px-6 lg:pt-28 pt-12">
+      <div className='lg:px-16 px-6 lg:pt-28 pt-12'>
         <MapComponent />
       </div>
 

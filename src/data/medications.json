@@ -1,0 +1,362 @@
+[
+    {
+        "name": "Bicalutamide Tab 50 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Capecitabine Tab 500mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Cyclophosphamide Tab 50mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Exemestane Tab",
+        "type": "Tablets"
+    },
+    {
+        "name": "Fludarabine Phosphate Tab",
+        "type": "Tablets"
+    },
+    {
+        "name": "Gefitinib Tab 250 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Methotrexate Tab 2.5/5/7.5 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Chlorambucil 2mg/5mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Erlotinib 100 mg/150 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Fludarabine 10 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Imatinib Mesylate 100mg/400 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Letrozole 2.5 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Melphalan 2mg/5 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Sorafenib 200mg/50mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Tamoxifen Citrate 10mg/20mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Thalidomide 50mg/100 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Dexamethasone 4/8 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Megestrol Acetate 40mg/160 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Abiraterone 250 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Anastrazole 1mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Axitinib 5mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Lapatinib 250mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Dasatinib 20mg/50mg/70mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Curcumin",
+        "type": "Tablets"
+    },
+    {
+        "name": "Flutamide 250 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Ibandronic Acid tablets 150 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Tamixofen USP",
+        "type": "Tablets"
+    },
+    {
+        "name": "Abiraterone Acetate 250 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Busulfan Tablets 2/4 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Defarasirox 100/250/400 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Everolimus 0.5/0.25/0.75/2.5/5/7.5/10 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Exemastane 25mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Granisetron HCL 1mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Ibandronate Sodium 50mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Lenalidomide 5/10/25 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Pazopanib 200 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Regorafanib 40 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Revolade 25 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Voriconazole 50mg/200 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Ibrutinib 140/280/420/560 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Palbociclib 75/100/125 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Enzalutamide 40/80 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Ruxolitinib 5/10/15/20/25",
+        "type": "Tablets"
+    },
+    {
+        "name": "Azathioprine 50/75/100 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Afatinib 20/30/40 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Bosutunib 100/500 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Cabozatinib 20/40/60 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Olaparib 100/150",
+        "type": "Tablets"
+    },
+    {
+        "name": "Etoposide 50/100 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Flutamide",
+        "type": "Capsules"
+    },
+    {
+        "name": "Imatinib",
+        "type": "Capsules"
+    },
+    {
+        "name": "Hydroxyurea",
+        "type": "Capsules"
+    },
+    {
+        "name": "Lenalidomide 5/10/25 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Cyclosporin 50/100 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Etoposide 50 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Hydroxyurea 500 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Temozolamide 100/250",
+        "type": "Capsules"
+    },
+    {
+        "name": "Thalidomide 100 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Enzalutamide 40 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Lenvatinib 10 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Sunitinib Malate 50 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Lenalidomide 5/10/25 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Estramustine phosphate 140mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Etoposide 50/100 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Nillotinib 50/150/200 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Ibrutinib 140",
+        "type": "Capsules"
+    },
+    {
+        "name": "Palbociclib 75/100/125 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Pomalidomide 1/2/3/4 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Lenavtinib 4/10 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Sunitinib 12.5/25/37.5/50 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Crizotinib 200/250 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Tacrolimus IR 0.5/1/5 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Altretamine 50 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Aprepitant 50 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Lomustine 10/40/100 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Mycophenolate Mofetil 250 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Procarbazine 50 mg",
+        "type": "Capsules"
+    },
+    {
+        "name": "Bortezomib 2mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Bleomycin 15 units",
+        "type": "Injection"
+    },
+    {
+        "name": "Carboplatin 150mg/50ml & 450mg/45 ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Cisplatin 10mg/10ml & 50mg/50ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Cyclophosphamide 200/500/1000",
+        "type": "Injection"
+    },
+    {
+        "name": "Cytarabine 100mg/1ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Daunorubicin 200/500/1000 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Docetaxel 20/80/120//0.5ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Doxorubicin hydrochloride 10/50 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Epirubicin hydrochloride 10/50/100 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Etoposide Injection 100mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Fludarabine phosphate 50mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Fluorouracil 250mg/5ml & 500mg/10 ml",
+        "type": "Injection"
+    }
+]

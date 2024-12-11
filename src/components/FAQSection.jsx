@@ -76,7 +76,7 @@ const FAQSection = () => {
           <img
             src={FAQs}
             alt='FAQ Image 1'
-            className='w-full h-full object-cover'
+            className='w-full h-[30rem] object-cover'
           />
         </div>
 

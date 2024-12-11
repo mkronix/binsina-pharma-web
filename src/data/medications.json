@@ -1,5 +1,229 @@
 [
     {
+        "name": "Methotrexate 50/2ml,500 mg,1000mg/10ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Oxaliplatin 50/100 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Paclitaxel 100/260/300 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Topotecan 2.5 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Vinblastine Sulphate 10mg,1mg/1ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Zoledronic acid 4mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Bendamustine 100mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Decitabine lyophizied powder for injection 50mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Doxorubicin hydrochloride lyposome injection 20/10 ml , 50/25 ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Fulvestrant injection 250mg/5ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Azacetidine 100mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Paclitaxel(protein bound particle) for injection 100mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Thiotepa 15/100 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Pemetrexed 100 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Venorelbine 50 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Cabazitaxel 60 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Bendamustine Hydrochloride 100mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Plerixafor 24 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Busulfan 60 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Peg L Asparaginase 750 IU",
+        "type": "Injection"
+    },
+    {
+        "name": "Pegfilgrastim 6mg/0.6 ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Granisetron Hydrochloride 3mg/1 ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Fosaprepitant Dimeglumine 150 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Vinblastine 10 mg/10ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Vincristine 2mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Pemetrexate 500/100 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Pamidronate 90/60/30 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Mitomycin 40/10/2 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Isofamide2000+Mesna400mg",
+        "type": "Injection"
+    },
+    {
+        "name": "5 Fluouracil 500mg/10ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Amifostine 500mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Anti Rho-D Immunoglobin 300mcg/ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Azathrioprine 100mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Bevacizumab 400mg/16ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Calcium folinate 100mg/10 ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Carmustine 100 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Cetuximab 100 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Curcumin 10mg/ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Cyatarabine 100mg/1gm",
+        "type": "Injection"
+    },
+    {
+        "name": "Darbipoetin alfa 40 mcg",
+        "type": "Injection"
+    },
+    {
+        "name": "Filgrastim 300mcg",
+        "type": "Injection"
+    },
+    {
+        "name": "Ganciclovir 250/500 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Human Albumin 100ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Ibandronate 6mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Leuprolide acetate 3.75mg/ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Mechlorethamine 10mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Octreotide 0.2mg/ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Palonosetron HCL Injection 0.25mg/5ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Progestin 150/30ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Rasburicase 1.5mg/vial",
+        "type": "Injection"
+    },
+    {
+        "name": "Reditux Rituximab Injection 500mg/50ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Teniposide 50mg/5ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Trabectedin 1mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Trastuzumab 150 mg",
+        "type": "Injection"
+    },
+    {
+        "name": "Ustekinumab 130/26 ml",
+        "type": "Injection"
+    },
+    {
+        "name": "Vincristine sulphate 1mg/ml",
+        "type": "Injection"
+    },    
+    {
         "name": "Bicalutamide Tab 50 mg",
         "type": "Tablets"
     },
@@ -192,171 +416,895 @@
         "type": "Tablets"
     },
     {
-        "name": "Etoposide 50/100 mg",
-        "type": "Capsules"
+        "name": "Atorvastatin & Clopidogrel 10+75mg",
+        "type": "Tablets"
     },
     {
-        "name": "Flutamide",
-        "type": "Capsules"
+        "name": "Amlodipine & Losartan 5+50mg",
+        "type": "Tablets"
     },
     {
-        "name": "Imatinib",
-        "type": "Capsules"
+        "name": "Amlodipine Atenolol 5+50mg",
+        "type": "Tablets"
     },
     {
-        "name": "Hydroxyurea",
-        "type": "Capsules"
+        "name": "Amlodipine 5/10mg",
+        "type": "Tablets"
     },
     {
-        "name": "Lenalidomide 5/10/25 mg",
-        "type": "Capsules"
+        "name": "Atenolol 12.5/25/50/100 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Cyclosporin 50/100 mg",
-        "type": "Capsules"
+        "name": "Atorvastatin 10/20/40/80 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Etoposide 50 mg",
-        "type": "Capsules"
+        "name": "Bosentan 62.5/125 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Hydroxyurea 500 mg",
-        "type": "Capsules"
+        "name": "Ezetimibe 10mg",
+        "type": "Tablets"
     },
     {
-        "name": "Temozolamide 100/250",
-        "type": "Capsules"
+        "name": "Indapamide 1.5/2.5",
+        "type": "Tablets"
     },
     {
-        "name": "Thalidomide 100 mg",
-        "type": "Capsules"
+        "name": "Isosorbide Dinitrate 5/10/20/40mg",
+        "type": "Tablets"
     },
     {
-        "name": "Enzalutamide 40 mg",
-        "type": "Capsules"
+        "name": "Losartan 100mg",
+        "type": "Tablets"
     },
     {
-        "name": "Lenvatinib 10 mg",
-        "type": "Capsules"
+        "name": "Metoprolol 25/50/100 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Sunitinib Malate 50 mg",
-        "type": "Capsules"
+        "name": "Nefidipine & Atenolol 20+50",
+        "type": "Tablets"
     },
     {
-        "name": "Lenalidomide 5/10/25 mg",
-        "type": "Capsules"
+        "name": "Nefidipine 5/10/20 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Estramustine phosphate 140mg",
-        "type": "Capsules"
+        "name": "Pitavastatin 2/4 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Etoposide 50/100 mg",
-        "type": "Capsules"
+        "name": "Ramipril & Hydrochlorothiazide 5+12.5mg",
+        "type": "Tablets"
     },
     {
-        "name": "Nillotinib 50/150/200 mg",
-        "type": "Capsules"
+        "name": "Ramipril 2.5/5/10 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Ibrutinib 140",
-        "type": "Capsules"
+        "name": "Rosuvastatin 5/10/20/40 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Palbociclib 75/100/125 mg",
-        "type": "Capsules"
+        "name": "Simvastatin & Ezetimibe 10+10 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Pomalidomide 1/2/3/4 mg",
-        "type": "Capsules"
+        "name": "Simvastatin 5/10/20/40mg",
+        "type": "Tablets"
     },
     {
-        "name": "Lenavtinib 4/10 mg",
-        "type": "Capsules"
+        "name": "Telmisartan & Amlodipine 40+5 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Sunitinib 12.5/25/37.5/50 mg",
-        "type": "Capsules"
+        "name": "Telmisartan & Hydrochlorothiazide 40+12.5 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Crizotinib 200/250 mg",
-        "type": "Capsules"
+        "name": "Telmisartan 20/40/80 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Tacrolimus IR 0.5/1/5 mg",
-        "type": "Capsules"
+        "name": "Valsartan & Hydrochlorothiazide (80+12.5)/(160+12.5)",
+        "type": "Tablets"
     },
     {
-        "name": "Altretamine 50 mg",
-        "type": "Capsules"
+        "name": "Valsartan 80/160 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Aprepitant 50 mg",
-        "type": "Capsules"
+        "name": "Verapamil 40/80/120 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Lomustine 10/40/100 mg",
-        "type": "Capsules"
+        "name": "Amlodipin & Enalapril 5+5mg",
+        "type": "Tablets"
     },
     {
-        "name": "Mycophenolate Mofetil 250 mg",
-        "type": "Capsules"
+        "name": "Amlodipin & Ramipril 5+2.5mg",
+        "type": "Tablets"
     },
     {
-        "name": "Procarbazine 50 mg",
-        "type": "Capsules"
+        "name": "Amlodipin & Valsartan (5+160)/(10+160)/(5+320)/(10+320)mg",
+        "type": "Tablets"
     },
     {
-        "name": "Bortezomib 2mg",
+        "name": "Candesartan 16mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Prednisolone",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Tacrolimus 0.5/1mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Deflazacort 6/24 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Cyclosporine 25/50/100mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Azathioprine 50/75/100 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Mycophenolate mofetil 750",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Sirolimus 1 / 2 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Everolimus 10mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Doxofylline 400mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Theophylline 100/300/400/600mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Etophylline & Theophylline 23+77mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Montelukast Sodium & Levocetrizine Hydrochloride 10+5mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Montelukast 4/5/10 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Salbutamol 2/4 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Theophylline(anhydrous)+Salbutamol 100+2mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Theophylline Extended released tablet",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Aminophylline 100mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Amitriphylline 50 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Ambroxol Hydrochloride 30mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Montelukast Chewable 4/5 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Terbutalline tablets 10/20mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Acebrophylline Oral Liquid 10mg/5ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Bromhexine HCL,Salbutamol sulphate,Guaiphensin and Menthol Oral Liquid 2mg+1mg+50mg+0.5mg/5ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Bromhexine HCL,Terbutaline sulphate,Guaiphensin and Menthol Oral Liquid 4mg+1.25mg+50mg+2.5mg/5ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Ambroxol Hydrochloride and salbutamol oral liquid 15mg+1mg/5ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Guaifenesin oral liquid 200mg",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Bromohexine Hydrochloride Oral liquid 100+200 IU/5ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Ambroxol Hydrochloride Syrup 15/30 mg per 5ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Ambroxol,Guaifenesin&Levosalbutamol 30+50+1 mg",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Ambroxol,Guaifenesin,Terbutaline & Menthol (15+50+1.25+1.25)/(30+50+1.25+2.5)",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Bromohexine hcl,Guaifenesin,Terbutaline & Menthol 4+50+1.25+2.5",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Salbutamol 2mg/5ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Ambroxol,Guaifenesin&Terbutaline",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Bromohexine hcl,Guaifenesin&Terbutaline",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Carbocisteine syrup 2%,5%",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Chlorpheniramine Maleate Ammonium Chloride & Sodium Citrate Syrup",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Dextromethorphan Chlorpheniramine Maleate & Phenylephrine Syrup",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Diphenhydramine Ammonium Chloride Sodium Citrate Syrup",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Theophylline Etophylline Syrup",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Beclomethasone Inhaler 200mcg",
+        "type": "Inhaler"
+    },
+    { 
+        "name": "Budesonide 100/200/400 mcg",
+        "type": "Inhaler"
+    },
+    { 
+        "name": "Isoflurane Vaporizer",
+        "type": "Vaporizer"
+    },
+    { 
+        "name": "Salbutamol Inhaler",
+        "type": "Inhaler"
+    },
+    { 
+        "name": "Sevoflurane Vaporizer",
+        "type": "Vaporizer"
+    },
+    { 
+        "name": "Theophylline(25.3mg), Etophylline(84.7mg)",
+        "type": "Injection"
+    },
+    { 
+        "name": "Terbutalin",
+        "type": "Injection"
+    },
+    { 
+        "name": "Hydrocortisone sodium succinate 100mg",
+        "type": "Injection"
+    },
+    { 
+        "name": "Betamethasone 4mg",
+        "type": "Injection"
+    },
+    { 
+        "name": "Dexomethasone sodium phosphate 4mg/1ml",
+        "type": "Injection"
+    },
+    { 
+        "name": "Formoterol&Budenoside 6+100/200/400 mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Formoterol&fluticasone 6+125/250mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Ipratopium & Salbutamol 20+100mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Ipratomium Bromide 20mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Levosalbutamol 50mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Salbutamol(Alcoholic&Non-Alcoholic) 100mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Salmeterol & Fluticasone propionate 25+250/500 mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Salmeterol & Fluticasone fumarate 25+250/125 mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Salmeterol Xinafoate 25 mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Tiotropium & Formoterol 9+6 mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Tiotropium Bromide 9/18 mcg",
+        "type": "Inhalers"
+    },
+    { 
+        "name": "Adefovir Dipivoxil 10mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Atazanavir & Ritonavir 300+100 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Daclatasvir 60 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Darunavir 300/600 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Efavirenz 200/600 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Efavirenz Tenofovir & Emtricitabine 600+300+200mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Entecavir 0.5/1 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Famciclovir 250/500 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Lamivudine & Zidovudine 150+300 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Lamivudine Stavudine & Nevirapine 150+40+200mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Lamivudine 100/150 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Lamivudine Zidovudine & Nevirapine 150+300+200mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Nelfinavir Mesylate 250 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Nevirapine 200mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Nitazoxanide 200/500 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Ritonavir & Lopinavir 50+200 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Rupatadine Fumarate 10mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Sofosbuvir & Ledipasvir 400+90mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Sofosbuvir 400mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Tenofovir & Emtricitabine 300 + 200mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Tenofovir Lamivudine & Efavirenz 300+300+600mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Tenofovir Tablets 300mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Valacyclovir 500 1000",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Valganciclovir 450",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Acyclovir",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Zidovudine 100/300 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Aciclovir 200/400/800",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Abacavir 300mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Dolutegravir 50mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Emtricitabine 200 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Etravirine 200 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Hepcvir 400 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Lamivudine & Stavudine 150+30 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Raltegravir 60 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Rilpivirine 25 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Ritonavir 200mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Stavudine 15 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Tenofavir & Alafenamide",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Tenofavir Disoproxil Fumarate 300 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Trioumune 150/30/200 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Valaciclovir 450 mg",
+        "type": "Tablets"
+    },
+    { 
+        "name": "Atazanavir 100/200/300mg",
+        "type": "Capsules"
+    },
+    { 
+        "name": "Didanosine 250/400mg",
+        "type": "Capsules"
+    },
+    { 
+        "name": "Ganciclovir 250mg",
+        "type": "Capsules"
+    },
+    { 
+        "name": "Indinavir Sulphate 400mg",
+        "type": "Capsules"
+    },
+    { 
+        "name": "Ribavirin 100/200",
+        "type": "Capsules"
+    },
+    { 
+        "name": "Stavudine 50mg",
+        "type": "Capsules"
+    },
+    { 
+        "name": "Zidovudine 100/300mg",
+        "type": "Capsules"
+    },
+    { 
+        "name": "Atazanavir 300mg",
+        "type": "Capsules"
+    },
+    { 
+        "name": "Efavirenz 600mg",
+        "type": "Capsules"
+    },
+    { 
+        "name": "Acyclovir 500 mg",
+        "type": "Injection"
+    },
+    { 
+        "name": "Cholera Vaccine 1.5ml",
+        "type": "Injection"
+    },
+    { 
+        "name": "Rotavirus Vaccine 0.5 ml",
+        "type": "Injection"
+    },
+    { 
+        "name": "Trivalent, Quadrivalent, Pentavalent Vaccine 10 ml",
+        "type": "Injection"
+    },
+    { 
+        "name": "Aciclovir 500/1000 mg",
+        "type": "Injection"
+    },
+    { 
+        "name": "Aciclovir Sodium 250 mg",
+        "type": "Injection"
+    },
+    { 
+        "name": "Ganciclovir 500mg",
+        "type": "Injection"
+    },
+    { 
+        "name": "Acyclovir Creams 5% 5gm/10 gm",
+        "type": "Ointment"
+    },
+    { 
+        "name": "Acyclovir Eye Ointment 3% 15 gm",
+        "type": "Ointment"
+    },
+    { 
+        "name": "Azelaic acid cream 20%",
+        "type": "Ointment"
+    },
+    { 
+        "name": "Quinine sulfate BP 300 mg tab",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Primaquine phosphate tab USP 7.5 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Artemether 20/40/80 mg + Lumefantrine 120/240/480 mg Tablets",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Chloroquine Phosphate Tablets BP 250 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Dihydroartemisinin 32 mg + Piperaquine phosphate 320 mg + Trimethoprim 90 mg tab",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Dihydroartemisinin Tablets 60 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Amodiaquine 200mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Artesunate Sulphadoxine Pyrimethamine 100+500+25",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Artesunate 50/100/200 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Chloroquine Phosphate Tablets 100+ 250+500 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Dihydroartemisinin Piperaquine Phosphate 40+320 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Hydroxychloroquine 200/400 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Mefloquine & Artesunate",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Mefloquine 250 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Primaquine 7.5/15 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Quinine Sulphate 300/600 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Sulfadoxine & Pyrimethamine 500+200 mg",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Artesunate 100 mg- 6 Tabs & Sulfadoxin 500 mg + Pyrimethamine 25 mg- 3 Tabs",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Artesunate 50 mg- 6 Tabs & Sulfadoxin BP 500 mg + Pyrimethamine 25 mg- 2 Tabs",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Artesunate 100 mg- 6 Tabs & Amodiaquine base 300 mg - 6 Tabs (Kit 6+6)",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Dihydroartimisinin 160 mg & Sulfadoxin 500 mg + Pyrimethamine 25 mg Tablets",
+        "type": "Tablet"
+    },
+    { 
+        "name": "Artemether oral Suspension 15mg/5ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Quinine sulphate syrup 100mg/5ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Artemether And Lumefantrine For Oral Suspension 180 mg + 1080 mg",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Dihydroartemisinin Oral Suspension 1 mg / 5ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Artemether And Lumefantrine For Oral Suspension 240 mg + 1440 mg",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Amodiaquin Suspension 50 mg/ 5 ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Chloroquin Phosphate Syrup 100 mg base/10 ml",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Sulfadoxine Pyrimethamine suspension",
+        "type": "Oral Liquid"
+    },
+    { 
+        "name": "Artemether 20/40/80/150 mg",
+        "type": "Injection"
+    },
+    { 
+        "name": "Artesunate 30/60/90/120/150/180/210/240 mg",
+        "type": "Injection"
+    },
+    { 
+        "name": "Chloroquine Phosphate 40mg/ml",
+        "type": "Injection"
+    },
+    { 
+        "name": "Quinine dihydrochloride 300mg/ml",
+        "type": "Injection"
+    },
+    { 
+        "name": "Alpha- Beta Arteether Injection 75mg/ml,150 Mg/ 2 Ml,225mg/3ml",
         "type": "Injection"
     },
     {
-        "name": "Bleomycin 15 units",
-        "type": "Injection"
+        "name": "Cefalexin Tablets BP 250 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Carboplatin 150mg/50ml & 450mg/45 ml",
-        "type": "Injection"
+        "name": "Moxifloxacin Hydrochloride Tablets 400 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Cisplatin 10mg/10ml & 50mg/50ml",
-        "type": "Injection"
+        "name": "CEFIXIME & CLAVULANIC ACID TABLETS 200+125 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Cyclophosphamide 200/500/1000",
-        "type": "Injection"
+        "name": "Levocetrizine HCL 5 mg + Montelukast 10 mg tab",
+        "type": "Tablets"
     },
     {
-        "name": "Cytarabine 100mg/1ml",
-        "type": "Injection"
+        "name": "Cefixime Tablets USP 200/400 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Daunorubicin 200/500/1000 mg",
-        "type": "Injection"
+        "name": "Cefpodoxime Proxetil Tablets USP 100 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Docetaxel 20/80/120//0.5ml",
-        "type": "Injection"
+        "name": "Cefpodoxime Proxetil Tablets USP 100/200 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Doxorubicin hydrochloride 10/50 mg",
-        "type": "Injection"
+        "name": "Montelukast Sodium Chewable Tablets USP 4 mg/5mg",
+        "type": "Tablets"
     },
     {
-        "name": "Epirubicin hydrochloride 10/50/100 mg",
-        "type": "Injection"
+        "name": "Ofloxacin Tablets USP 200/400 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Etoposide Injection 100mg",
-        "type": "Injection"
+        "name": "Norfloxacin BP 400 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Fludarabine phosphate 50mg",
-        "type": "Injection"
+        "name": "Cefuroxime Axetil Tablets USP 500 mg",
+        "type": "Tablets"
     },
     {
-        "name": "Fluorouracil 250mg/5ml & 500mg/10 ml",
-        "type": "Injection"
-    }
+        "name": "Trimethoprtim 80 mg + Sulfamethoxazole 400 mg tab BP tab 80 mg + 400 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Rifaximin Tablets 200/400/550 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Ciprofloxacin Tablets USP 250/500/750 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Co-trimoxazole Tablets BP 160 mg + 800 mg/ 80 mg + 400 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Ciprofloxacin and Tinidazole Tablets 500 mg + 600 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Amoxicillin And Potassium Clavulanate Tablets 250 mg + 125 mg/ 500 mg + 125 mg/ 875 mg + 125 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Amoxicillin Dispersible tablets 125/250 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Erythromycin Stearate Tablets BP 250/500 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Doxycycline Hyclate Tablets USP 100 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Metronidazole & Norfloxacin 200+200",
+        "type": "Tablets"
+    },
+    {
+        "name": "Nalidixic Acid 500mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Ofloxacin & Ornidazole 200/400&500mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Phenoxymethylpenicillin 250/500 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Clotrimazole vaginal 100mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Fluconazole 150/200 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Griseofulvin 500 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Ketoconazole 200 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Nystatin 500000 IU",
+        "type": "Tablets"
+    },
+    {
+        "name": "Nystatin Vaginal Inserts 100000 IU",
+        "type": "Tablets"
+    },
+    {
+        "name": "Secnidazole 1gm",
+        "type": "Tablets"
+    },
+    {
+        "name": "Amoxicillin & Potassium Clavulanate 250+125/500+62.5/500+125/875+125/1000+125mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Azithromycin 250/500mg/1gm",
+        "type": "Tablets"
+    },
+    {
+        "name": "Cefadroxil Dispersible 250 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Cefadroxil 500mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Cefixime Dispersible 100/200/400 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Cefixime 200/400",
+        "type": "Tablets"
+    },
+    {
+        "name": "Cefuroxime Axetil 250/500 mg",
+        "type": "Tablets"
+    },
+    {
+        "name": "Cephalexin Dispersible 125/250mg",
+        "type": "Tablets"
+    }        
 ]

@@ -14,7 +14,6 @@ import MapComponent from "../../components/MapComponent";
 
 const index = () => {
   const { home } = data.binsinaPharma;
-  console.log("home", home);
 
   const checklistColors = [
     "bg-teal-500",

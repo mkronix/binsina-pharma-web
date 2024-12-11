@@ -6,7 +6,7 @@ import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/img/logo.png";
 import Contact from "../models/Contact";
 import Button from "./Button/Button";
-import data from "../data/data.json";
+import data from "../data/common.json";
 import { HiOutlinePhone } from "react-icons/hi2";
 import { MdOutlineMail } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";

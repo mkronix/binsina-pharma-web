@@ -8,10 +8,10 @@ const index = () => {
   const { aboutus } = data.binSinaPharma;
 
   return (
-    <>
+    <main>
       <Banner heading={aboutus.bannerHeading} title={aboutus.bannerTitle} />
 
-      <div className='flex flex-col lg:flex-row justify-between items-center gap-5 lg:px-16 px-8 py-16 md:py-20 '>
+      <section className='flex flex-col lg:flex-row justify-between items-center gap-5 lg:px-16 px-8 py-16 md:py-20 '>
         <div className='w-full lg:w-3/4 space-y-6'>
           <Heading title={aboutus.firstHeroSection.heading} align='start' />
 
@@ -27,11 +27,11 @@ const index = () => {
             alt='Pharmaceutical innovation'
           />
         </div>
-      </div>
+      </section>
 
       <WhyChooseUs />
 
-      <div className='bg-gray-50 lg:px-16 px-8 py-16 md:py-20'>
+      <section className='bg-gray-50 lg:px-16 px-8 py-16 md:py-20'>
         <div className=''>
           {/* Main Layout: Image and Content */}
           <div className='flex flex-col-reverse md:flex-row gap-8'>
@@ -66,8 +66,8 @@ const index = () => {
             </div>
           </div>
         </div>
-      </div>
-    </>
+      </section>
+    </main>
   );
 };
 

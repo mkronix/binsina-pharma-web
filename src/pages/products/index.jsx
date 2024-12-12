@@ -7,13 +7,13 @@ const index = ({ openForm }) => {
   const { products } = data.binsinaPharma;
 
   return (
-    <>
+    <main>
       <Banner
         heading={products.bannerHeading}
         title={products.bannerTitle}
         backgroundImage={products.bannerImage}
       />
-      <div className='bg-gray-50 lg:px-16 px-8 py-16'>
+      <section className='bg-gray-50 lg:px-16 px-8 py-16'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
           {products.productList.map((content) => (
             <>
@@ -51,8 +51,8 @@ const index = ({ openForm }) => {
             </>
           ))}
         </div>
-      </div>
-    </>
+      </section>
+    </main>
   );
 };
 

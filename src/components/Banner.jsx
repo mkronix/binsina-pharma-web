@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import banner_image from "../assets/img/blog/blog1.jpg";
+import banner_image from "/assets/img/blogbanner.jpg";
 import { Link } from "react-router-dom";
 
 const Banner = (props) => {

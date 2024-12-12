@@ -23,14 +23,14 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
   const navLinks = [
     { path: "/", label: "Home" },
     { path: "/aboutus", label: "About Us" },
-    // { path: "/products", label: "Products" },
-    {
-      title: "Products",
-      subMenuItems: [
-        { path: "/products", label: "All Products" },
-        { path: "/product-details", label: "Product Details" },
-      ],
-    },
+    { path: "/products", label: "Products" },
+    { path: "/product-details", label: "Pharamacy" },
+    // {
+    //   title: "Products",
+    //   subMenuItems: [
+    //     { path: "/products", label: "All Products" },
+    //   ],
+    // },
     { path: "/news-and-media", label: "News And Media" },
     { path: "/quality-assurance", label: "Quality Assurance" },
   ];
@@ -65,9 +65,9 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
   };
 
   return (
-    <div className='fixed w-full z-10 text-white'>
+    <nav className='fixed w-full z-10 text-white'>
       {/* top Bar */}
-      <div
+      <aside
         className={`transition-transform duration-300 ${
           hideTopBar ? "-translate-y-full" : "translate-y-0"
         } flex md:flex-row flex-col max-md:items-end md:justify-between p-4 border-b border-gray-200 lg:px-16 px-8 bg-gradient-to-r from-brightColor to-[#1a1b26]`}
@@ -156,18 +156,18 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
             />
           </a>
         </div>
-      </div>
+      </aside>
 
       {/* Navbar */}
-      <div
+      <header
         className={`transition-transform duration-300 ${
-          hideTopBar ? "-translate-y-[70%]" : "translate-y-0"
+          hideTopBar ? "-translate-y-[75%]" : "translate-y-0"
         }`}
       >
         <div className='relative flex flex-row justify-between items-center p-4 md:px-16 bg-bgHead shadow-md'>
           <Link
             to='/'
-            className='flex flex-row lg:w-[400px] w-72 items-center cursor-pointer'
+            className='flex flex-row lg:w-[350px] w-72 items-center cursor-pointer'
           >
             <img
               src={logo}
@@ -256,8 +256,8 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
             <Button title={"Reach us"} onClick={openForm} />
           </div>
         </div>
-      </div>
-    </div>
+      </header>
+    </nav>
   );
 };
 
@@ -266,7 +266,7 @@ export default Navbar;
 // SubMenu Component
 const SubMenu = ({ title, subMenuItems }) => {
   return (
-    <div className='relative group flex justify-center'>
+    <article className='relative group flex justify-center'>
       {/* Parent Item */}
       <button className='cursor-pointer text-black flex text-base items-center justify-center hover:text-hoverColor'>
         <span>{title}</span>
@@ -291,7 +291,7 @@ const SubMenu = ({ title, subMenuItems }) => {
           ))}
         </ul>
       </div>
-    </div>
+    </article>
   );
 };
 

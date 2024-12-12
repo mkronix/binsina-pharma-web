@@ -72,14 +72,14 @@ const BlogDetails = () => {
 
   if (!blog) {
     return (
-      <div className='min-h-screen flex items-center justify-center'>
+      <main className='min-h-screen flex items-center justify-center'>
         <h1 className='text-2xl font-bold text-gray-800'>Blog not found</h1>
-      </div>
+      </main>
     );
   }
 
   return (
-    <div className=' max-w-5xl mx-auto px-6 lg:px-12 py-48 ' >
+    <section className=' max-w-5xl mx-auto px-6 lg:px-12 py-48 ' >
       {/* Main Content Section */}
       < div className='grid grid-cols-1 lg:grid-cols-2 gap-8' >
         {/* Image */}
@@ -124,7 +124,7 @@ const BlogDetails = () => {
       </div >
 
       {/* Additional Content */}
-      < div className='p-6' >
+      <div className='p-6' >
         <h3 className='text-xl font-bold text-gray-800 mb-4'>
           Future Opportunities
         </h3>
@@ -133,8 +133,8 @@ const BlogDetails = () => {
             <li key={index}>{item}</li>
           ))}
         </ul>
-      </div >
-    </div>
+      </div>
+    </section>
 
   );
 };

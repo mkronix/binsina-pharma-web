@@ -5,7 +5,7 @@ const FooterOne = () => {
   const { footer } = data.binSinaPharma;
 
   return (
-    <footer className='bg-gradient-to-r from-brightColor to-[#1a1b26] text-white pt-4 rounded-t-xl'>
+    <footer className='max-md:pb-56 bg-gradient-to-r from-brightColor to-[#1a1b26] text-white pt-4 rounded-t-xl'>
       <div className='p-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8'>
         {/* About Section */}
         <div className='space-y-2'>
@@ -168,8 +168,8 @@ const FooterOne = () => {
         </div>
       </div>
 
-      <div className='bg-gray-900 text-gray-500'>
-        <p className='text-center py-4'>
+      <div className='bg-gray-900 text-gray-500 flex justify-center max-md:flex-col'>
+        <p className='text-center py-4 text-sm'>
           {footer.copyRight.text1}
           <a
             href={footer.copyRight.url}

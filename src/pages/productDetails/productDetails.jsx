@@ -16,7 +16,21 @@ const ProductDetails = () => {
 
     const imgWidth = 70;
     const imgHeight = 20;
+
     doc.addImage(logo, "PNG", 14, 10, imgWidth, imgHeight);
+
+    const addressX = 100;
+    const addressY = 15;
+    const addressContent = [
+      "Mobile: +91 98921 46706",
+      "Location: Prabhat C.H.S, A/402, Shastri Nagar,",
+      "Goregaon (W) - 400102, Mumbai, Maharashtra, India",
+    ];
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(10);
+    addressContent.forEach((line, index) => {
+      doc.text(line, addressX, addressY + index * 5);
+    });
 
     doc.setDrawColor(8, 139, 140);
     doc.setLineWidth(1);
@@ -40,6 +54,9 @@ const ProductDetails = () => {
         fontSize: 10,
         cellPadding: 4,
       },
+      columnStyles: {
+        2: { cellWidth: 50 },
+      },
       margin: { top: 35 },
     });
 
@@ -61,7 +78,9 @@ const ProductDetails = () => {
               <tr>
                 <th className='text-white px-4 py-2 text-left'>Sr.No</th>
                 <th className='text-white px-4 py-2 text-left'>Generic Name</th>
-                <th className='text-white px-4 py-2 text-end'>Dosage Forms</th>
+                <th className='text-white px-4 py-2 w-full text-end'>
+                  Dosage Forms
+                </th>
               </tr>
             </thead>
             <tbody>

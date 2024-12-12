@@ -1,59 +1,37 @@
 {
     "binsinaPharma":{
     "home": {
-            "sliderData": [
-                {
-                "id": 1,
-                "smallTitle": "Welcome to Binsina Pharma",
-                "title": "Delivering Excellence in Global Pharmaceutical Exports",
-                "description": "Your Trusted Partner for High-Quality Medicines and Healthcare Products Worldwide.",
-                "image": "/assets/img/transport.png",
-                "buttonText": "Discover More",
-                            "video":"/assets/video/v2.mp4"
-                },
-                {
-                "id": 2,
-                "smallTitle": "Your Trusted Partner for Global Pharmaceutical Exports",
-                "title": "Custom Pharmaceutical Solutions for Every Market",
-                "description": "Providing Tailored Healthcare Products to Meet Diverse Regulatory and Market Needs.",
-                "image": "/assets/img/creation.png",
-                "buttonText": "Explore Services",
-                "video":"/assets/video/v6.mp4"
-                },
-                {
-                "id": 3,
-                "smallTitle": "Quality and Reliability at Your Fingertips",
-                "title": "Expanding Access to Affordable Healthcare Globally",
-                "description": "Committed to Excellence in Quality, Timely Delivery, and Compliance with Global Standards.",
-                "image": "/assets/img/help.png",
-                "buttonText": "Contact Us",
-                            "video":"/assets/video/v3.mp4"
-                }
-            ],
-            "heroSection": {
-                "heading1": "Leading Pharmaceutical Exporter in India",
-                "content":[
-                {
-                    "id": 1,
-                    "image":"/assets/img/WHO.jpg",
-                    "description": "Binsina Pharma is a leading name in the pharmaceutical export industry, renowned for delivering premium healthcare solutions to clients worldwide. Our commitment to quality and reliability stems from our practice of sourcing products exclusively from WHO-GMP-certified manufacturers."
-                },
-                {
-                    "id": 3,
-                    "image":"/assets/img/EU-GMP.png",
-                    "description": "Binsina Pharma is a leading name in the pharmaceutical export industry, renowned for delivering premium healthcare solutions to clients worldwide. Our commitment to quality and reliability stems from our practice of sourcing products exclusively from WHO-GMP-certified manufacturers."
-                },
-                {
-                    "id": 2,
-                    "image":"/assets/img/ISO.png",
-                    "description": "Our product portfolio encompasses a diverse range of medicines, from life-saving drugs to everyday healthcare essentials, meeting the varying demands of global healthcare providers. Each step of our supply chain is meticulously managed to maintain product integrity."
-                }
-                ]
+        "sliderCollection": [
+            {
+                "id": 4,
+                "image": ""
             },
-            "featureSection":{
-                "title":"About Binsina Pharma",
-                "heading":"Trusted Global Supplier of Pharmaceutical Products",
-                "content":[
+            {
+            "id": 1,
+            "title": "Delivering Excellence in Global Pharmaceutical Exports",
+            "description": "Your Trusted Partner for High-Quality Medicines and Healthcare Products Worldwide.",
+            "image": "/assets/img/transport.png",
+            "video":"/assets/video/v2.mp4"
+            },
+            {
+            "id": 2,
+            "title": "Custom Pharmaceutical Solutions for Every Market",
+            "description": "Providing Tailored Healthcare Products to Meet Diverse Regulatory and Market Needs.",
+            "image": "/assets/img/creation.png",
+            "video":"/assets/video/v6.mp4"
+            },
+            {
+            "id": 3,
+            "title": "Expanding Access to Affordable Healthcare Globally",
+            "description": "Committed to Excellence in Quality, Timely Delivery, and Compliance with Global Standards.",
+            "image": "/assets/img/help.png",
+            "video":"/assets/video/v3.mp4"
+            }
+        ],
+        "aboutBinsinaPharmaCollection":{
+            "title":"About Binsina Pharma",
+            "heading":"Trusted Global Supplier of Pharmaceutical Products",
+            "content":[
                 {
                     "paragraph":"Binsina Pharma is a leader in the pharmaceutical export industry, providing high-quality, WHO-GMP-certified medicines across the globe. With a commitment to safety, quality, and regulatory compliance, we aim to improve global healthcare."
                 },
@@ -63,8 +41,8 @@
                 {
                     "paragraph":"We excel in providing a diverse range of pharmaceutical products, from essential life-saving medications and advanced antibiotics to innovative vaccines. With a focus on reliability and quality, our strategic partnerships enable us to deliver timely solutions and exceptional customer support globally."
                 }
-                ],
-                "features":[
+            ],
+            "features":[
                 {
                     "icon": "FaUsers",
                     "title": "Certified Manufacturing Partners",
@@ -93,179 +71,249 @@
                     "We are committed to advancing healthcare by ensuring our products meet the latest innovations in pharmaceutical technology.",
                     "isDefaultGradient": false
                 }
-                ]
-            },
-            "features": {
-            "title": "Our Speciality",
-            "heading": "Discover Our Specialities",
-            "description": "We are dedicated to providing services and products that stand out for their quality and reliability.",
-            "image":"/assets/img/speciality.jpg",
-            "content":[
-                {
-                "id": 1,
-                "icon": "/assets/img/icon/award.png",
-                "title": "Best Prices",
-                "description": "Enjoy the best prices on quality products that fit your budget, offering great value without compromising on reliability and performance."
-                },
-                {
-                "id": 2,
-                "icon": "/assets/img/icon/global-reach.png",
-                "title": "Fast Shipping",
-                "description": "Our fast and reliable shipping ensures your orders reach you promptly, so you never have to wait long to enjoy your purchases."
-                },
-                {
-                "id": 3,
-                "icon": "/assets/img/icon/quality1.png",
-                "title": "Buyer's Protection",
-                "description": "Shop with peace of mind knowing that your purchases are protected by our secure policies, ensuring a safe and worry-free experience."
-                },
-                {
-                "id": 4,
-                "icon": "/assets/img/icon/target.png",
-                "title": "Live Support",
-                "description": "Get 24/7 assistance from our dedicated support team, ready to resolve your questions and ensure a seamless, stress-free shopping experience."
-                }
             ]
+        },
+        "ourSpecialityCollection": {
+        "title": "Our Speciality",
+        "heading": "Discover Our Specialities",
+        "description": "We are dedicated to providing services and products that stand out for their quality and reliability.",
+        "image":"/assets/img/speciality.jpg",
+        "content":[
+            {
+            "id": 1,
+            "icon": "/assets/img/icon/award.png",
+            "title": "Best Prices",
+            "description": "Enjoy the best prices on quality products that fit your budget, offering great value without compromising on reliability and performance."
             },
-            "whyChooseUs":{
-            "heading": "Why Choose Us?",
-            "content":[
-                {
-                "id":1,
-                "title": "Quality Assurance",
-                "description":
-                    "Every product we deliver undergoes rigorous quality checks, ensuring top-notch standards."
-                },
-                {
-                "id":2,
-                "title": "Global Network",
-                "description":
-                    "Extensive experience in supplying pharmaceutical products to over 50 countries worldwide."
-                },
-                {
-                "id":3,
-                "title": "Dedicated Support",
-                "description":
-                    "A team of professionals ready to assist you at every stage of the process."
-                }
-            ]
+            {
+            "id": 2,
+            "icon": "/assets/img/icon/global-reach.png",
+            "title": "Fast Shipping",
+            "description": "Our fast and reliable shipping ensures your orders reach you promptly, so you never have to wait long to enjoy your purchases."
             },
-            "categories": {
-                "heading": "Best Categories",
-                "content":[
-                {
-                "id": 1,
-                "image": "/assets/img/pills.jpg",
-                "title": "Medicine",
-                "link": "/products",
-                "buttonText": "Get Quote →"
-                },
-                {
-                "id": 2,
-                "image": "/assets/img/vaccine.jpg",
-                "title": "Vaccine",
-                "link": "/products",
-                "buttonText": "Get Quote →"
-                },
-                {
-                "id": 3,
-                "image": "/assets/img/homeopathy.jpg",
-                "title": "Homeopathy",
-                "link": "/products",
-                "buttonText": "Get Quote →"
-                },
-                {
-                "id": 4,
-                "image": "/assets/img/ayurveda.jpg",
-                "title": "Ayurvedic",
-                "link": "/products",
-                "buttonText": "Get Quote →"
-                },
-                {
-                "id": 5,
-                "image": "/assets/img/surgical.jpg",
-                "title": "Surgical Disposables",
-                "link": "/products",
-                "buttonText": "Get Quote →"
-                }
-            ]
+            {
+            "id": 3,
+            "icon": "/assets/img/icon/quality1.png",
+            "title": "Buyer's Protection",
+            "description": "Shop with peace of mind knowing that your purchases are protected by our secure policies, ensuring a safe and worry-free experience."
             },
-            "newsAndMedia": {
-                "image": "./assets/img/blogbanner.jpg",
-                "firstTitle": "Read Our News.",
-                "secondTitle": "Stay Updated.",
-                "link": "/news-and-media",
-                "buttonText": "READ MORE"
-            },
-            "testimonial": { 
-                "heading": "What Our Clients Say",
-                "content": [
-                {
-                    "id": 1,
-                    "name": "Dr. Ramesh Kumar",
-                    "role": "Chief Medical Officer",
-                    "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
-                },
-                {
-                    "id": 2,
-                    "name": "Anjali Desai",
-                    "role": "Supply Chain Manager",
-                    "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
-                },
-                {
-                    "id": 3,
-                    "name": "Vikram Singh",
-                    "role": "Quality Assurance Head",
-                    "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
-                },
-                {
-                    "id": 4,
-                    "name": "Dr. Ramesh Kumar",
-                    "role": "Chief Medical Officer",
-                    "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
-                },
-                {
-                    "id": 5,
-                    "name": "Anjali Desai",
-                    "role": "Supply Chain Manager",
-                    "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
-                },
-                {
-                    "id": 6,
-                    "name": "Vikram Singh",
-                    "role": "Quality Assurance Head",
-                    "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
-                }
-                ]
-            },
-            "OurValues": {
-                "image":"/assets/img/values.jpg",
-                "title":"Our Values",
-                "heading": "Why Choose Us",
-                "paragraph":"Binsina is a trusted name in the pharmaceutical export industry. Our team of seasoned professionals is committed to providing exceptional services in pharmaceutical exports, regulatory compliance, logistics solutions, and global supply chain management. With years of experience, we ensure timely delivery, quality assurance, and customer satisfaction, setting us apart as a reliable partner for your pharmaceutical needs.",
-                "checklist":[
-                {
-                    "id": 1,
-                    "content":"REGULATORY COMPLIANCE"
-                },
-                {
-                    "id": 2,
-                    "content":"QUALITY ASSURANCE"
-                },
-                {
-                    "id": 1,
-                    "content":"GLOBAL SUPPLY CHAIN"
-                },
-                {
-                    "id": 1,
-                    "content":"ON-TIME DELIVERY"
-                },
-                {
-                    "id": 1,
-                    "content":"CUSTOMER SATISFACTION"
-                } 
-                ]
+            {
+            "id": 4,
+            "icon": "/assets/img/icon/target.png",
+            "title": "Live Support",
+            "description": "Get 24/7 assistance from our dedicated support team, ready to resolve your questions and ensure a seamless, stress-free shopping experience."
             }
-        }
+        ]
+        },
+        "ourValuesCollection": {
+            "image":"/assets/img/values.jpg",
+            "title":"Our Values",
+            "heading": "Why Choose Us",
+            "paragraph":"Binsina is a trusted name in the pharmaceutical export industry. Our team of seasoned professionals is committed to providing exceptional services in pharmaceutical exports, regulatory compliance, logistics solutions, and global supply chain management. With years of experience, we ensure timely delivery, quality assurance, and customer satisfaction, setting us apart as a reliable partner for your pharmaceutical needs.",
+            "checklist":[
+            {
+                "id": 1,
+                "content":"REGULATORY COMPLIANCE"
+            },
+            {
+                "id": 2,
+                "content":"QUALITY ASSURANCE"
+            },
+            {
+                "id": 1,
+                "content":"GLOBAL SUPPLY CHAIN"
+            },
+            {
+                "id": 1,
+                "content":"ON-TIME DELIVERY"
+            },
+            {
+                "id": 1,
+                "content":"CUSTOMER SATISFACTION"
+            } 
+            ]
+        },
+        "whoWeWreCollection": {
+            "title":"Who we are",
+            "heading1": "Leading Pharmaceutical Exporter in India",
+            "content":[
+            {
+                "id": 1,
+                "image":"/assets/img/WHO.jpg",
+                "description": "Binsina Pharma is a leading name in the pharmaceutical export industry, renowned for delivering premium healthcare solutions to clients worldwide. Our commitment to quality and reliability stems from our practice of sourcing products exclusively from WHO-GMP-certified manufacturers."
+            },
+            {
+                "id": 3,
+                "image":"/assets/img/EU-GMP.png",
+                "description": "Binsina Pharma is a leading name in the pharmaceutical export industry, renowned for delivering premium healthcare solutions to clients worldwide. Our commitment to quality and reliability stems from our practice of sourcing products exclusively from WHO-GMP-certified manufacturers."
+            },
+            {
+                "id": 2,
+                "image":"/assets/img/ISO.png",
+                "description": "Our product portfolio encompasses a diverse range of medicines, from life-saving drugs to everyday healthcare essentials, meeting the varying demands of global healthcare providers. Each step of our supply chain is meticulously managed to maintain product integrity."
+            }
+            ]
+        },
+        "whyChooseUsCollection":{
+        "heading": "Why Choose Us?",
+        "content":[
+            {
+            "id":1,
+            "title": "Quality Assurance",
+            "description":
+                "Every product we deliver undergoes rigorous quality checks, ensuring top-notch standards."
+            },
+            {
+            "id":2,
+            "title": "Global Network",
+            "description":
+                "Extensive experience in supplying pharmaceutical products to over 50 countries worldwide."
+            },
+            {
+            "id":3,
+            "title": "Dedicated Support",
+            "description":
+                "A team of professionals ready to assist you at every stage of the process."
+            }
+        ]
+        },
+        "bestCategoriesCollection": {
+            "heading": "Best Categories",
+            "content":[
+            {
+            "id": 1,
+            "image": "/assets/img/pills.jpg",
+            "title": "Medicine",
+            "link": "/products",
+            "buttonText": "Get Quote →"
+            },
+            {
+            "id": 2,
+            "image": "/assets/img/vaccine.jpg",
+            "title": "Vaccine",
+            "link": "/products",
+            "buttonText": "Get Quote →"
+            },
+            {
+            "id": 3,
+            "image": "/assets/img/homeopathy.jpg",
+            "title": "Homeopathy",
+            "link": "/products",
+            "buttonText": "Get Quote →"
+            },
+            {
+            "id": 4,
+            "image": "/assets/img/ayurveda.jpg",
+            "title": "Ayurvedic",
+            "link": "/products",
+            "buttonText": "Get Quote →"
+            },
+            {
+            "id": 5,
+            "image": "/assets/img/surgical.jpg",
+            "title": "Surgical Disposables",
+            "link": "/products",
+            "buttonText": "Get Quote →"
+            }
+        ]
+        },
+        "testimonialCollection": { 
+            "heading": "What Our Clients Say",
+            "content": [
+            {
+                "id": 1,
+                "name": "Dr. Ramesh Kumar",
+                "role": "Chief Medical Officer",
+                "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
+            },
+            {
+                "id": 2,
+                "name": "Anjali Desai",
+                "role": "Supply Chain Manager",
+                "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
+            },
+            {
+                "id": 3,
+                "name": "Vikram Singh",
+                "role": "Quality Assurance Head",
+                "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
+            },
+            {
+                "id": 4,
+                "name": "Dr. Ramesh Kumar",
+                "role": "Chief Medical Officer",
+                "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
+            },
+            {
+                "id": 5,
+                "name": "Anjali Desai",
+                "role": "Supply Chain Manager",
+                "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
+            },
+            {
+                "id": 6,
+                "name": "Vikram Singh",
+                "role": "Quality Assurance Head",
+                "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
+            }
+            ]
+        },
+        "faqsCollection" : [
+            {
+              "question": "How do I start exporting pharmaceutical products?",
+              "answer": [
+                "Research and understand the regulations for pharmaceutical exports in both your home country and the target market.",
+                "Obtain the necessary licenses and certifications (e.g., GMP, ISO certifications).",
+                "Identify the right partners for logistics, distribution, and packaging.",
+                "Understand the customs procedures for shipping pharmaceutical products internationally.",
+                "Ensure compliance with international standards for drug safety and efficacy."
+              ]
+            },
+            {
+              "question": "What documents are required for exporting medicines?",
+              "answer": [
+                "Export License: Required for legal exportation.",
+                "Certificate of Pharmaceutical Product (CPP): Certifies that the product meets the regulatory standards of your country.",
+                "Bill of Lading: Details the shipment information.",
+                "Invoice and Packing List: For customs and verification of product contents.",
+                "Customs Declaration: Required for international shipments.",
+                "Certificate of Origin: Verifies where the product was made."
+              ]
+            },
+            {
+              "question":
+                "How do I ensure the safety and quality of medicines during transport?",
+              "answer": [
+                "Use temperature-controlled packaging for temperature-sensitive medicines.",
+                "Ensure all pharmaceutical products are packed securely to avoid damage during transit.",
+                "Partner with reputable logistics providers experienced in handling pharmaceutical products.",
+                "Follow all regulatory guidelines on the transportation of drugs, including documentation and safety precautions.",
+                "Regularly monitor the condition of goods during transit to ensure product integrity."
+              ]
+            },
+            {
+              "question":
+                "What are the main challenges in the pharmaceutical export business?",
+              "answer": [
+                "Regulatory Compliance: Navigating different regulations and standards in multiple countries.",
+                "Logistics and Shipping: Ensuring timely delivery while maintaining product quality.",
+                "Customs and Documentation: Managing the required paperwork and clearing customs without delays.",
+                "Supply Chain Disruptions: Risk of interruptions in the supply chain, especially during crises (e.g., pandemics).",
+                "Currency Fluctuations: Handling financial risks in international trade due to changing exchange rates."
+              ]
+            },
+            {
+              "question":
+                "What are the benefits of working with an experienced pharmaceutical export partner?",
+              "answer": [
+                "Expert Knowledge: They understand the complex regulations and processes involved in pharmaceutical exports.",
+                "Streamlined Logistics: They have established relationships with reliable shipping and customs agents, ensuring smoother operations.",
+                "Quality Control: They ensure that the medicines meet international standards and are safely transported.",
+                "Global Reach: Experienced partners have access to a wide network of international markets and can help expand your global presence.",
+                "Risk Management: They can help mitigate risks related to product quality, shipping delays, and compliance."
+              ]
+            }
+          ]
+    }
     }
 }

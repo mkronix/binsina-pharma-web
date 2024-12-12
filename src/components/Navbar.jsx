@@ -68,8 +68,9 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
     <nav className='fixed w-full z-10 text-white'>
       {/* top Bar */}
       <aside
-        className={`transition-transform duration-300 ${hideTopBar ? "-translate-y-full" : "translate-y-0"
-          } flex md:flex-row flex-col max-md:items-end md:justify-between p-4 border-b border-gray-200 lg:px-16 px-8 bg-gradient-to-r from-brightColor to-[#1a1b26]`}
+        className={`transition-transform duration-300 ${
+          hideTopBar ? "-translate-y-full" : "translate-y-0"
+        } flex md:flex-row flex-col max-md:items-end md:justify-between p-4 border-b border-gray-200 lg:px-16 px-8 bg-gradient-to-r from-brightColor to-[#1a1b26]`}
       >
         <div className='md:flex hidden md:items-center md:flex-row flex-col md:gap-10 gap-2'>
           <div className='flex items-center gap-2'>
@@ -159,13 +160,14 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
 
       {/* Navbar */}
       <header
-        className={`transition-transform duration-300 ${hideTopBar ? "-translate-y-[75%]" : "translate-y-0"
-          }`}
+        className={`transition-transform duration-300 ${
+          hideTopBar ? "-translate-y-[75%]" : "translate-y-0"
+        }`}
       >
         <div className='relative flex flex-row justify-between items-center p-4 md:px-16 bg-bgHead shadow-md'>
           <Link
             to='/'
-            className='flex flex-row lg:w-[400px] w-72 items-center cursor-pointer'
+            className='flex flex-row lg:w-[350px] w-72 items-center cursor-pointer'
           >
             <img
               src={logo}
@@ -186,8 +188,9 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
                 ) : (
                   <Link
                     to={link.path}
-                    className={`text-black text-base transition-all duration-300 ease-in-out cursor-pointer group-hover:text-hoverColor ${location.pathname === link.path ? "text-hoverColor" : ""
-                      }`}
+                    className={`text-black text-base transition-all duration-300 ease-in-out cursor-pointer group-hover:text-hoverColor ${
+                      location.pathname === link.path ? "text-hoverColor" : ""
+                    }`}
                   >
                     <span className="relative after:content-[''] after:absolute after:bottom-[-4px] after:left-1/2 after:h-[2px] after:w-0 after:bg-hoverColor after:transition-all after:duration-300 after:ease-in-out after:transform after:origin-center group-hover:after:w-full group-hover:after:left-0">
                       {link.label}
@@ -226,8 +229,9 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
 
         {/* Mobile Navigation */}
         <div
-          className={`${menu ? "translate-x-0" : "-translate-x-full"
-            } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26] text-gray-700 left-0 top-[5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
+          className={`${
+            menu ? "translate-x-0" : "-translate-x-full"
+          } lg:hidden flex flex-col absolute bg-gradient-to-r from-brightColor to-[#1a1b26] text-gray-700 left-0 top-[5rem] font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-[calc(100vh-4rem)] transition-transform duration-300`}
         >
           {navLinks.map((link, index) => (
             <div key={index}>

@@ -3,66 +3,12 @@ import FAQs from "../assets/img/FAQs.png";
 import BorderTitle from "./BorderTitle";
 import Heading from "./Heading";
 import Paragraph from "./Paragraph";
+import data from "../data/home.json";
 
 const FAQSection = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const { home } = data.binsinaPharma;
 
-  const faqs = [
-    {
-      question: "How do I start exporting pharmaceutical products?",
-      answer: [
-        "Research and understand the regulations for pharmaceutical exports in both your home country and the target market.",
-        "Obtain the necessary licenses and certifications (e.g., GMP, ISO certifications).",
-        "Identify the right partners for logistics, distribution, and packaging.",
-        "Understand the customs procedures for shipping pharmaceutical products internationally.",
-        "Ensure compliance with international standards for drug safety and efficacy.",
-      ],
-    },
-    {
-      question: "What documents are required for exporting medicines?",
-      answer: [
-        "Export License: Required for legal exportation.",
-        "Certificate of Pharmaceutical Product (CPP): Certifies that the product meets the regulatory standards of your country.",
-        "Bill of Lading: Details the shipment information.",
-        "Invoice and Packing List: For customs and verification of product contents.",
-        "Customs Declaration: Required for international shipments.",
-        "Certificate of Origin: Verifies where the product was made.",
-      ],
-    },
-    {
-      question:
-        "How do I ensure the safety and quality of medicines during transport?",
-      answer: [
-        "Use temperature-controlled packaging for temperature-sensitive medicines.",
-        "Ensure all pharmaceutical products are packed securely to avoid damage during transit.",
-        "Partner with reputable logistics providers experienced in handling pharmaceutical products.",
-        "Follow all regulatory guidelines on the transportation of drugs, including documentation and safety precautions.",
-        "Regularly monitor the condition of goods during transit to ensure product integrity.",
-      ],
-    },
-    {
-      question:
-        "What are the main challenges in the pharmaceutical export business?",
-      answer: [
-        "Regulatory Compliance: Navigating different regulations and standards in multiple countries.",
-        "Logistics and Shipping: Ensuring timely delivery while maintaining product quality.",
-        "Customs and Documentation: Managing the required paperwork and clearing customs without delays.",
-        "Supply Chain Disruptions: Risk of interruptions in the supply chain, especially during crises (e.g., pandemics).",
-        "Currency Fluctuations: Handling financial risks in international trade due to changing exchange rates.",
-      ],
-    },
-    {
-      question:
-        "What are the benefits of working with an experienced pharmaceutical export partner?",
-      answer: [
-        "Expert Knowledge: They understand the complex regulations and processes involved in pharmaceutical exports.",
-        "Streamlined Logistics: They have established relationships with reliable shipping and customs agents, ensuring smoother operations.",
-        "Quality Control: They ensure that the medicines meet international standards and are safely transported.",
-        "Global Reach: Experienced partners have access to a wide network of international markets and can help expand your global presence.",
-        "Risk Management: They can help mitigate risks related to product quality, shipping delays, and compliance.",
-      ],
-    },
-  ];
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -96,13 +42,14 @@ const FAQSection = () => {
 
           {/* FAQ Items */}
           <div className='space-y-4'>
-            {faqs.map((faq, index) => (
+            {home.faqsCollection.map((faq, index) => (
               <div
                 key={index}
-                className={`border rounded-lg ${activeIndex === index
+                className={`border rounded-lg ${
+                  activeIndex === index
                     ? "bg-gradient-to-r from-brightColor to-[#1a1b26] border-brightColor"
                     : "bg-white"
-                  }`}
+                }`}
               >
                 {/* Question */}
                 <button
@@ -110,16 +57,18 @@ const FAQSection = () => {
                   onClick={() => toggleFAQ(index)}
                 >
                   <span
-                    className={`font-medium ${activeIndex === index ? "text-white" : "text-gray-800"
-                      }`}
+                    className={`font-medium ${
+                      activeIndex === index ? "text-white" : "text-gray-800"
+                    }`}
                   >
                     {faq.question}
                   </span>
                   <span
-                    className={`transform transition-transform ${activeIndex === index
+                    className={`transform transition-transform ${
+                      activeIndex === index
                         ? "text-white rotate-180"
                         : "text-gray-800"
-                      }`}
+                    }`}
                   >
                     &#9662; {/* Down Arrow */}
                   </span>

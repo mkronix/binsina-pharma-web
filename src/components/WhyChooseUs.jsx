@@ -62,15 +62,6 @@ const WhyChooseUs = () => {
             </div>
           </Card>
           <div className='space-y-4'>
-            {/* <Heading title="We Offer One Stop-Shop for? All Your Home and Commercial Projects!" align="start" /> */}
-            {/* <Paragraph title="Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
-                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
-                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
-                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
-                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            duis aute irure dolor repreh enderit."  /> */}
             <img
               src='/assets/img/regulatory.png'
               alt=''

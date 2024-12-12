@@ -19,7 +19,7 @@ const FeatureSection = () => {
   const { home } = data.binsinaPharma;
 
   return (
-    <div className='md:px-16 px-6 md:pt-28 pt-12 flex justify-center items-center w-full'>
+    <section className='md:px-16 px-6 md:pt-28 pt-12 flex justify-center items-center w-full'>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
         {/* Text Content */}
         <div className='flex flex-col justify-start'>
@@ -40,7 +40,7 @@ const FeatureSection = () => {
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
@@ -49,25 +49,22 @@ export default FeatureSection;
 const FeatureCard = ({ icon: Icon, title, description, isDefaultGradient }) => {
   return (
     <div
-      className={`p-6 rounded-lg shadow-md transition-all ${
-        isDefaultGradient
+      className={`p-6 rounded-lg shadow-md transition-all ${isDefaultGradient
           ? "bg-gradient-to-r from-brightColor to-[#1a1b26] text-white"
           : "bg-white hover:bg-gradient-to-r from-brightColor to-[#1a1b26]"
-      } group`}
+        } group`}
     >
       <div
-        className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${
-          isDefaultGradient
+        className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${isDefaultGradient
             ? "bg-white/20 backdrop-blur-sm"
             : "bg-blue-100 group-hover:bg-white/20"
-        }`}
+          }`}
       >
         <Icon
-          className={`w-6 h-6 ${
-            isDefaultGradient
+          className={`w-6 h-6 ${isDefaultGradient
               ? "text-white"
               : "text-brightColor group-hover:text-white"
-          }`}
+            }`}
         />
       </div>
 

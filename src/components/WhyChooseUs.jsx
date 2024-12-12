@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <div className='px-6 lg:px-16 py-12 lg:py-16'>
+    <section className='px-6 lg:px-16 py-12 lg:py-16'>
       {/* Overall Layout */}
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-start'>
         {/* Left Section */}
@@ -88,7 +88,7 @@ const WhyChooseUs = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

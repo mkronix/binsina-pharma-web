@@ -5,7 +5,7 @@ import NewsAndMedia from "./pages/newsAndMedia";
 import Products from "./pages/products";
 import QualityAssurance from "./pages/qualityAssurance";
 import { Route, Routes } from "react-router-dom";
-import FooterOne from "./components/Foooter1";
+import FooterOne from "./components/Foooter";
 import { useState } from "react";
 import Terms from "./pages/terms";
 import Disclaimer from "./pages/disclaimer";
@@ -27,7 +27,7 @@ const App = () => {
     setShowForm(false);
   };
   return (
-    <div>
+    <>
       <Navbar
         menu={menu}
         setMenu={setMenu}
@@ -50,7 +50,7 @@ const App = () => {
       </Routes>
 
       <FooterOne />
-    </div>
+    </>
   );
 };
 

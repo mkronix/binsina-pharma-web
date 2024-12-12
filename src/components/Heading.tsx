@@ -10,11 +10,11 @@ const Heading = ({ title, align = "center", className = "" }) => {
         : "text-center";
 
   return (
-    <h2
+    <h1
       className={`text-2xl md:text-4xl font-bold leading-tight ${alignmentClass} ${className}`}
     >
       {title}
-    </h2>
+    </h1>
   );
 };
 

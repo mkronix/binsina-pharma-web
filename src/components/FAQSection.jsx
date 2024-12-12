@@ -69,7 +69,7 @@ const FAQSection = () => {
   };
 
   return (
-    <div className='bg-gray-50 py-16 px-6 lg:px-32'>
+    <section className='bg-gray-50 py-16 px-6 lg:px-32'>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-12'>
         {/* Left Section: Image */}
         <div className='relative'>
@@ -99,11 +99,10 @@ const FAQSection = () => {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className={`border rounded-lg ${
-                  activeIndex === index
+                className={`border rounded-lg ${activeIndex === index
                     ? "bg-gradient-to-r from-brightColor to-[#1a1b26] border-brightColor"
                     : "bg-white"
-                }`}
+                  }`}
               >
                 {/* Question */}
                 <button
@@ -111,18 +110,16 @@ const FAQSection = () => {
                   onClick={() => toggleFAQ(index)}
                 >
                   <span
-                    className={`font-medium ${
-                      activeIndex === index ? "text-white" : "text-gray-800"
-                    }`}
+                    className={`font-medium ${activeIndex === index ? "text-white" : "text-gray-800"
+                      }`}
                   >
                     {faq.question}
                   </span>
                   <span
-                    className={`transform transition-transform ${
-                      activeIndex === index
+                    className={`transform transition-transform ${activeIndex === index
                         ? "text-white rotate-180"
                         : "text-gray-800"
-                    }`}
+                      }`}
                   >
                     &#9662; {/* Down Arrow */}
                   </span>
@@ -143,7 +140,7 @@ const FAQSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

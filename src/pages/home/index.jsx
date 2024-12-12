@@ -24,17 +24,17 @@ const index = () => {
   ];
 
   return (
-    <>
+    <main>
       {/* Slider */}
-      <div className='pt-36'>
+      <section className='pt-[9.5rem]'>
         <Slider />
-      </div>
+      </section>
 
       {/* Feature Section */}
       <FeatureSection />
 
       {/* Our Speciality Section */}
-      <div className='lg:px-16 px-6 lg:pt-28 pt-12'>
+      <section className='lg:px-16 px-6 lg:pt-28 pt-12'>
         <div className='flex flex-col lg:flex-row items-start md:gap-16 gap-8'>
           {/* Left Section: Image */}
           <div className='w-full lg:w-1/2 relative flex flex-col space-y-4'>
@@ -73,11 +73,11 @@ const index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className='lg:px-16 px-6 lg:pt-28 pt-12'>
+      <section className='lg:px-16 px-6 lg:pt-28 pt-12'>
         <MapComponent />
-      </div>
+      </section>
 
       {/* Our values */}
       <section className='lg:px-16 px-6 lg:pt-28 py-12'>
@@ -123,7 +123,7 @@ const index = () => {
       </section>
 
       {/* Hero Section */}
-      <div className='bg-gray-50 px-6 lg:px-16 py-16'>
+      <section className='bg-gray-50 px-6 lg:px-16 py-16'>
         {/* Main Heading */}
         <BorderTitle title='Who we are' className='mb-2' />
         <div className='text-center mb-12'>
@@ -151,11 +151,11 @@ const index = () => {
             </div>
           ))}
         </div>
-      </div>
+      </section>
 
       <WhyChooseUs />
       {/* Categories Section */}
-      <div className='bg-blue-50 lg:px-16 px-6 lg:py-28 py-12'>
+      <section className='bg-blue-50 lg:px-16 px-6 lg:py-28 py-12'>
         <h2 className='text-3xl lg:text-4xl font-bold leading-tight mb-10 text-center'>
           {home.categories.heading}
         </h2>
@@ -254,12 +254,12 @@ const index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <Testimonials />
 
       <FAQSection />
-    </>
+    </main>
   );
 };
 

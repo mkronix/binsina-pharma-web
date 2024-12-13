@@ -172,7 +172,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
             <img
               src={logo}
               alt='Logo'
-              className='object-contain w-full h-full'
+              className='object-contain w-[300px] h-full'
             />
           </Link>
 

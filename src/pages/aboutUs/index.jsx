@@ -9,13 +9,20 @@ const index = () => {
 
   return (
     <main>
-      <Banner heading={aboutus.bannerHeading} title={aboutus.bannerTitle} />
+      <Banner
+        heading={aboutus.bannerHeading}
+        title={aboutus.bannerTitle}
+        backgroundImage={aboutus.bannerImage}
+      />
 
       <section className='flex flex-col lg:flex-row justify-between items-center gap-5 lg:px-16 px-8 py-16 md:py-20 '>
         <div className='w-full lg:w-3/4 space-y-6'>
-          <Heading title={aboutus.firstHeroSection.heading} align='start' />
+          <Heading
+            title={aboutus.leadingPharmaceuticalExporter.heading}
+            align='start'
+          />
 
-          {aboutus.firstHeroSection.content?.map((content) => (
+          {aboutus.leadingPharmaceuticalExporter.content?.map((content) => (
             <Paragraph title={content.description} key={content.id} />
           ))}
         </div>
@@ -23,7 +30,7 @@ const index = () => {
         <div className='w-full lg:w-[50%]'>
           <img
             className='object-cover rounded-lg'
-            src={aboutus.firstHeroSection.image}
+            src={aboutus.leadingPharmaceuticalExporter.image}
             alt='Pharmaceutical innovation'
           />
         </div>
@@ -38,7 +45,7 @@ const index = () => {
             {/* Left Image */}
             <div className='w-full lg:w-[50%]'>
               <img
-                src={aboutus.secondSection.image}
+                src={aboutus.aboutBinsinaExport.image}
                 alt='About Us'
                 className='rounded-lg shadow-xl w-full'
               />
@@ -46,22 +53,29 @@ const index = () => {
 
             {/* Right Content */}
             <div className='lg:w-3/4 space-y-6'>
-              <Heading title={aboutus.secondSection.heading} align='start' />
+              <Heading
+                title={aboutus.aboutBinsinaExport.heading}
+                align='start'
+              />
 
-              {aboutus.secondSection.content?.map((content) => (
+              {aboutus.aboutBinsinaExport.content?.map((content) => (
                 <Paragraph title={content.description} key={content.id} />
               ))}
 
               {/* Cards Section */}
               <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12'>
-                {aboutus.secondSection.cardsSectionData.map((card, index) => (
-                  <div key={index} className='bg-white p-6 rounded-lg shadow'>
-                    <h3 className='font-bold text-brightColor mb-2'>
-                      {card.title}
-                    </h3>
-                    <p className='text-gray-600 text-sm'>{card.description}</p>
-                  </div>
-                ))}
+                {aboutus.aboutBinsinaExport.cardsSectionData.map(
+                  (card, index) => (
+                    <div key={index} className='bg-white p-6 rounded-lg shadow'>
+                      <h3 className='font-bold text-brightColor mb-2'>
+                        {card.title}
+                      </h3>
+                      <p className='text-gray-600 text-sm'>
+                        {card.description}
+                      </p>
+                    </div>
+                  )
+                )}
               </div>
             </div>
           </div>

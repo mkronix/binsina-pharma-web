@@ -45,6 +45,7 @@ const Banner = (props) => {
 Banner.propTypes = {
   heading: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  backgroundImage: PropTypes.string,
 };
 
 export default Banner;

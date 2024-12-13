@@ -3,8 +3,8 @@
         "aboutus": {
             "bannerTitle": "About Us",
             "bannerHeading": "About Us",
-            "bannerImage":"",
-            "firstHeroSection": {
+            "bannerImage":"/assets/img/blogbanner.jpg",
+            "leadingPharmaceuticalExporter": {
               "heading": "Leading Pharmaceutical Exporter in India",
               "image":"assets/img/global.png",
               "content":[
@@ -22,7 +22,7 @@
                 }
               ]
             },
-            "secondSection": {
+            "aboutBinsinaExport": {
               "heading": "About Binsina Pharma Export",
               "image":"assets/img/immunization.png",
               "content":[
@@ -58,29 +58,6 @@
                   "title": "Global Reach",
                   "description":
                     "Serving healthcare providers across continents with reliable and timely delivery."
-                }
-              ]
-            },
-            "whyChooseUs":{
-              "heading":"Why Choose Us?",
-              "content" : [
-                {
-                  "id":1,
-                  "title": "Quality Assurance",
-                  "description":
-                    "Every product we deliver undergoes rigorous quality checks, ensuring top-notch standards."
-                },
-                {
-                  "id":2,
-                  "title": "Global Network",
-                  "description":
-                    "Extensive experience in supplying pharmaceutical products to over 50 countries worldwide."
-                },
-                {
-                  "id":3,
-                  "title": "Dedicated Support",
-                  "description":
-                    "A team of professionals ready to assist you at every stage of the process."
                 }
               ]
             }

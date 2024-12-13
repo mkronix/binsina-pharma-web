@@ -1,24 +1,12 @@
 import { Link } from "react-router-dom";
 import data from "../data/footer.json";
-import logo from "../assets/img/logo.png";
+// import logo from "../assets/img/logo.png";
 const FooterOne = () => {
   const { footer } = data.binSinaPharma;
 
   return (
-    <footer className='max-md:pb-56 bg-gradient-to-r from-brightColor to-[#1a1b26] text-white pt-4 rounded-t-xl'>
-      <div className='p-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8'>
-        {/* About Section */}
-        <div className='space-y-2'>
-          <img
-            src={logo}
-            alt='logo'
-            className='w-full bg-white p-4 rounded-md'
-          />
-          <p className='text-sm leading-relaxed text-white capitalize'>
-            {footer.paragraph}
-          </p>
-        </div>
-
+    <footer className='bg-gradient-to-r from-brightColor to-[#1a1b26] text-white pt-4 rounded-t-xl'>
+      <div className='px-10 py-6 grid grid-cols-1 md:grid-cols-4 gap-8'>
         {/* Quick Links */}
         <div className='space-y-2'>
           <h2 className='text-xl font-bold'>Quick Links</h2>
@@ -144,6 +132,7 @@ const FooterOne = () => {
           </ul>
         </div>
 
+        {/* Contact */}
         <div className='space-y-2'>
           <h2 className='text-xl font-bold'>Contact</h2>
           <div className='space-y-3'>
@@ -155,12 +144,25 @@ const FooterOne = () => {
             ))}
           </div>
         </div>
+      </div>
+
+      <div className='px-10 pb-6 grid-1 grid-cols-1 md:grid-cols-2 gap-8'>
+        {/* About Section */}
+        {/* <div className='space-y-2'>
+          <img
+            src={logo}
+            alt='logo'
+            className='w-full bg-white p-4 rounded-md'
+          />
+          <p className='text-sm leading-relaxed text-white capitalize'>
+            {footer.paragraph}
+          </p>
+        </div> */}
 
         <div className='space-y-2'>
-          <h2 className='text-xl font-bold'>Address</h2>
           <iframe
             src={footer.locationUrl}
-            className='w-full h-32 border-none rounded-lg'
+            className='w-full h-56 border-none rounded'
             allowFullScreen=''
             loading='lazy'
             referrerPolicy='no-referrer-when-downgrade'
@@ -170,16 +172,7 @@ const FooterOne = () => {
 
       <div className='bg-gray-900 text-gray-500 flex justify-center max-md:flex-col'>
         <p className='text-center py-4 text-sm'>
-          {footer.copyRight.text1}
-          <a
-            href={footer.copyRight.url}
-            target='_blank'
-            rel='noopener noreferrer'
-            className='text-hoverColor mx-2'
-          >
-            {footer.copyRight.text2}
-          </a>
-          {footer.copyRight.text3}
+          {`Copyright © ${new Date().getFullYear()} Binsina Pharma. All rights reserved.`}
         </p>
       </div>
     </footer>

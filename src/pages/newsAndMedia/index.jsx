@@ -11,6 +11,7 @@ const index = () => {
       <Banner
         heading={newsAndMedia.bannerHeading}
         title={newsAndMedia.bannerTitle}
+        backgroundImage={newsAndMedia.bannerImage}
       />
 
       <section className='md:px-16 px-6 md:py-28 py-16'>
@@ -18,7 +19,7 @@ const index = () => {
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6'>
             {newsAndMedia.articles.map((article, index) => (
               <>
-                <Link to={`/blog/${index}`}>
+                <Link to={`/blog/${article.id}`}>
                   <div
                     key={index}
                     className='bg-white shadow-md rounded-lg relative'

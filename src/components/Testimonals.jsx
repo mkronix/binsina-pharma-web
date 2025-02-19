@@ -13,7 +13,7 @@ const Testimonals = () => {
       <div className='max-w-7xl mx-auto'>
         <div className='text-center'>
           <h3 className='text-lg font-semibold text-gray-500 uppercase'>
-            {home.testimonial.heading}
+            {home.testimonialCollection.heading}
           </h3>
           <h2 className='mt-2 text-3xl font-bold text-gray-800'>
             Our Satisfied & Happy Customers
@@ -42,7 +42,7 @@ const Testimonals = () => {
             }}
             className='py-10 custom-swiper'
           >
-            {home.testimonial.content.map((testimonial, index) => (
+            {home.testimonialCollection.content.map((testimonial, index) => (
               <SwiperSlide key={index}>
                 <div className='bg-white p-6 shadow-lg rounded-lg flex flex-col items-center text-center h-80'>
                   <img

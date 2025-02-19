@@ -29,13 +29,15 @@ const index = () => {
 
         return (
           <section
-            className={`md:px-16 px-6 ${isLastSection ? "md:pt-28 pt-12 mb-28" : "md:pt-28 pt-12"
-              }`}
+            className={`md:px-16 px-6 ${
+              isLastSection ? "md:pt-28 pt-12 mb-28" : "md:pt-28 pt-12"
+            }`}
             key={index}
           >
             <div
-              className={`flex flex-col ${isImageLeft ? "md:flex-row" : "md:flex-row-reverse"
-                } items-start gap-16`}
+              className={`flex flex-col ${
+                isImageLeft ? "md:flex-row" : "md:flex-row-reverse"
+              } items-start gap-16`}
             >
               <div className='w-full md:w-1/2 relative flex flex-col space-y-4'>
                 <img

@@ -24,9 +24,12 @@ const FeatureSection = () => {
         {/* Text Content */}
         <div className='flex flex-col justify-start'>
           <div className='space-y-6'>
-            <BorderTitle title={home.featureSection.title} />
-            <Heading title={home.featureSection.heading} align='start' />
-            {home.featureSection.content?.map((item, index) => {
+            <BorderTitle title={home.aboutBinsinaPharmaCollection.title} />
+            <Heading
+              title={home.aboutBinsinaPharmaCollection.heading}
+              align='start'
+            />
+            {home.aboutBinsinaPharmaCollection.content?.map((item, index) => {
               return <Paragraph title={item.paragraph} key={index} />;
             })}
           </div>
@@ -34,7 +37,7 @@ const FeatureSection = () => {
 
         {/* Features Grid */}
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
-          {home.featureSection.features.map((feature, index) => {
+          {home.aboutBinsinaPharmaCollection.features.map((feature, index) => {
             const Icon = iconMap[feature.icon];
             return <FeatureCard key={index} {...feature} icon={Icon} />;
           })}

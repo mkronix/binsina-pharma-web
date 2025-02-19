@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import data from "../data/footer.json";
-import logo from "../assets/img/logo.png";
+import logo from '../assets/img/logo.png';
 const FooterOne = () => {
   const { footer } = data.binSinaPharma;
 
@@ -144,6 +144,7 @@ const FooterOne = () => {
           </ul>
         </div>
 
+        {/* Contact */}
         <div className='space-y-2'>
           <h2 className='text-xl font-bold'>Contact</h2>
           <div className='space-y-3'>
@@ -155,6 +156,20 @@ const FooterOne = () => {
             ))}
           </div>
         </div>
+      </div>
+
+      <div className='px-10 pb-6 grid-1 grid-cols-1 md:grid-cols-2 gap-8'>
+        {/* About Section */}
+        {/* <div className='space-y-2'>
+          <img
+            src={logo}
+            alt='logo'
+            className='w-full bg-white p-4 rounded-md'
+          />
+          <p className='text-sm leading-relaxed text-white capitalize'>
+            {footer.paragraph}
+          </p>
+        </div> */}
 
       </div>
 

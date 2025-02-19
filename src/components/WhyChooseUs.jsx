@@ -1,8 +1,9 @@
 import React from "react";
-import { FaClock, FaShieldAlt, FaUser } from "react-icons/fa";
-import BorderTitle from "./BorderTitle";
-import CardParagraph from "./CardParagraph";
+import { FaUser, FaShieldAlt, FaClock } from "react-icons/fa";
 import CardTitle from "./CardTitle";
+import CardParagraph from "./CardParagraph";
+import BorderTitle from "./BorderTitle";
+import PropTypes from "prop-types";
 
 const Card = ({ children, className }) => (
   <div className={`bg-white shadow-md p-6 rounded-lg ${className}`}>
@@ -82,3 +83,14 @@ const WhyChooseUs = () => {
 };
 
 export default WhyChooseUs;
+
+Card.propTypes = {
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+};
+
+CardContent.propTypes = {
+  icon: PropTypes.node.isRequired,
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+};

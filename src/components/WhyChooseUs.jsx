@@ -1,10 +1,8 @@
 import React from "react";
-import { FaUser, FaShieldAlt, FaTools, FaClock } from "react-icons/fa";
-import CardTitle from "./CardTitle";
-import CardParagraph from "./CardParagraph";
-import Paragraph from "./Paragraph";
-import Heading from "./Heading";
+import { FaClock, FaShieldAlt, FaUser } from "react-icons/fa";
 import BorderTitle from "./BorderTitle";
+import CardParagraph from "./CardParagraph";
+import CardTitle from "./CardTitle";
 
 const Card = ({ children, className }) => (
   <div className={`bg-white shadow-md p-6 rounded-lg ${className}`}>
@@ -62,15 +60,6 @@ const WhyChooseUs = () => {
             </div>
           </Card>
           <div className='space-y-4'>
-            {/* <Heading title="We Offer One Stop-Shop for? All Your Home and Commercial Projects!" align="start" /> */}
-            {/* <Paragraph title="Veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
-                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
-                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
-                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
-                            reprehenderit in voluptate velit esse cillum dolore nulla par. Excepteur sint occaecat. Magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            duis aute irure dolor repreh enderit."  /> */}
             <img
               src='/assets/img/regulatory.png'
               alt=''

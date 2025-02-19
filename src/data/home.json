@@ -39,14 +39,39 @@
                     "description": "Binsina Pharma is a leading name in the pharmaceutical export industry, renowned for delivering premium healthcare solutions to clients worldwide. Our commitment to quality and reliability stems from our practice of sourcing products exclusively from WHO-GMP-certified manufacturers."
                 },
                 {
-                    "id": 3,
+                    "id": 2,
                     "image":"/assets/img/EU-GMP.png",
                     "description": "Binsina Pharma is a leading name in the pharmaceutical export industry, renowned for delivering premium healthcare solutions to clients worldwide. Our commitment to quality and reliability stems from our practice of sourcing products exclusively from WHO-GMP-certified manufacturers."
                 },
                 {
-                    "id": 2,
+                    "id": 3,
                     "image":"/assets/img/ISO.png",
                     "description": "Our product portfolio encompasses a diverse range of medicines, from life-saving drugs to everyday healthcare essentials, meeting the varying demands of global healthcare providers. Each step of our supply chain is meticulously managed to maintain product integrity."
+                },
+                {
+                    "id": 4,
+                    "image":"/assets/img/FDA.jpg",
+                    "description": "We maintain stringent compliance with FDA regulations and guidelines, ensuring our pharmaceutical exports meet the highest international standards. Our FDA-registered products demonstrate our commitment to quality and safety in the global pharmaceutical market."
+                },
+                {
+                    "id": 5,
+                    "image":"/assets/img/UAEMHP.jpg",
+                    "description": "As a trusted partner registered with the UAE Ministry of Health & Prevention, we ensure seamless distribution of pharmaceutical products across the Middle East region. Our compliance with UAE health regulations reinforces our position as a reliable supplier in this crucial market."
+                },
+                {
+                    "id": 6,
+                    "image":"/assets/img/PHARMEXCIL1.jpg",
+                    "description": "Our membership with Pharmaceuticals Export Promotion Council of India (PHARMEXCIL) strengthens our position in the global pharmaceutical trade. This strategic alliance enables us to leverage industry expertise."
+                },
+                {
+                    "id": 7,
+                    "image":"/assets/img/FIEO.jpg",
+                    "description": "Our association with the Federation of Indian Export Organizations (FIEO) validates our status as a legitimate and reliable export house. This prestigious membership enhances our credibility and facilitates smooth international trade operations and we our commitment to quality and safety."
+                },
+                {
+                    "id": 8,
+                    "image":"/assets/img/DGFT.png",
+                    "description": "Registered with the Directorate General of Foreign Trade (DGFT), we operate under proper export licenses and authorizations. This certification underscores our compliance with India's foreign trade policies and regulations, ensuring legitimate and efficient export operations"
                 }
                 ]
             },

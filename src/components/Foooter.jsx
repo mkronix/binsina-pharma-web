@@ -6,7 +6,7 @@ const FooterOne = () => {
 
   return (
     <footer className='max-md:pb-56 bg-gradient-to-r from-brightColor to-[#1a1b26] text-white pt-4 rounded-t-xl'>
-      <div className='p-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8'>
+      <div className='p-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8'>
         {/* About Section */}
         <div className='space-y-2'>
           <img
@@ -148,7 +148,7 @@ const FooterOne = () => {
           <h2 className='text-xl font-bold'>Contact</h2>
           <div className='space-y-3'>
             {footer.contactDetails.map((detail) => (
-              <div key={detail.id} className='flex items-center space-x-2'>
+              <div key={detail.id} className='flex space-x-2'>
                 <div className='w-6 h-6'>{detail.icon}</div>
                 <p className='text-base text-white'>{detail.text}</p>
               </div>
@@ -156,29 +156,11 @@ const FooterOne = () => {
           </div>
         </div>
 
-        <div className='space-y-2'>
-          <h2 className='text-xl font-bold'>Address</h2>
-          <iframe
-            src={footer.locationUrl}
-            className='w-full h-32 border-none rounded-lg'
-            allowFullScreen=''
-            loading='lazy'
-            referrerPolicy='no-referrer-when-downgrade'
-          ></iframe>
-        </div>
       </div>
 
       <div className='bg-gray-900 text-gray-500 flex justify-center max-md:flex-col'>
         <p className='text-center py-4 text-sm'>
-          {footer.copyRight.text1}
-          <a
-            href={footer.copyRight.url}
-            target='_blank'
-            rel='noopener noreferrer'
-            className='text-hoverColor mx-2'
-          >
-            {footer.copyRight.text2}
-          </a>
+          @{new Date().getFullYear()} {" "}
           {footer.copyRight.text3}
         </p>
       </div>

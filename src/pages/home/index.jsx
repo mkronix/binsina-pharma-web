@@ -138,7 +138,7 @@ const index = () => {
               className='flex flex-col items-center gap-4 bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300'
             >
               {/* Image Section */}
-              <div className='w-28 h-28 overflow-hidden'>
+              <div className='w-max h-28 overflow-hidden'>
                 <img
                   src={content.image}
                   alt={`Content ${content.id}`}
@@ -146,7 +146,6 @@ const index = () => {
                 />
               </div>
 
-              {/* Text Section */}
               <Paragraph title={content.description} />
             </div>
           ))}

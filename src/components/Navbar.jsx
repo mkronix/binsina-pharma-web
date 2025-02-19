@@ -19,18 +19,11 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
   const location = useLocation();
 
   const { common } = data.binsinaPharma;
-  // Navigation links and submenus
   const navLinks = [
     { path: "/", label: "Home" },
     { path: "/aboutus", label: "About Us" },
     { path: "/products", label: "Products" },
-    { path: "/product-details", label: "Pharamacy" },
-    // {
-    //   title: "Products",
-    //   subMenuItems: [
-    //     { path: "/products", label: "All Products" },
-    //   ],
-    // },
+    { path: "/product-details", label: "Pharmacy" },
     { path: "/news-and-media", label: "News And Media" },
     { path: "/quality-assurance", label: "Quality Assurance" },
   ];
@@ -41,13 +34,10 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       if (currentScrollY > lastScrollY && currentScrollY > 50) {
-        // User is scrolling down, hide the top bar
         setHideTopBar(true);
       } else if (currentScrollY <= 50) {
-        // User is at the top, show the top bar
         setHideTopBar(false);
       } else {
-        // User is scrolling up, show the top bar
         setHideTopBar(false);
       }
       lastScrollY = currentScrollY;
@@ -59,7 +49,6 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  // Toggle menu
   const handleChange = () => {
     setMenu(!menu);
   };

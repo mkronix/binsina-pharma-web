@@ -23,14 +23,16 @@
           "icon": "📧",
           "text": "info@binsinapharma.com",
           "link": "mailto:info@binsinapharma.com"
+        },
+        {
+          "id": 4,
+          "icon": "🌍",
+          "text": "Lodha Bel Air, C Tower, Patel Estate Road, Jogeshwari West - Mumbai, Maharashtra 400102, India",
+          "link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.7920002620153!2d72.8369304!3d19.16058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b500000000%3A0x476c5d925ddafdb6!2sBinsina%20Pharma%20HQ!5e0!3m2!1sen!2sin!4v1667274849607!5m2!1sen!2sin"
         }
       ],
-      "locationUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.7920002620153!2d72.8369304!3d19.16058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b500000000%3A0x476c5d925ddafdb6!2sBinsina%20Pharma%20HQ!5e0!3m2!1sen!2sin!4v1667274849607!5m2!1sen!2sin",
       "copyRight": {
-        "text1":"Developed by",
-        "text2":"MKronix",
-        "text3":"| All rights reserved By Binsina Pharma", 
-        "url":"https://www.mkronix.com/"
+        "text3":"All rights reserved By Binsina Pharma"
       }
         }
     }

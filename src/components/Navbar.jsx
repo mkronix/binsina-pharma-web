@@ -163,7 +163,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
             <div className="flex flex-col items-end gap-[3px]">
               <span className="text-brightColor font-bold sm:text-[13px] text-xs">Binsina Pharma Export Pvt Ltd <sup className="text-[9px]">TM</sup> </span>
               <div className="flex items-center">
-                <img src={logoArrow} alt="logo arrow" className="sm:w-[40%] w-[10px]" />
+                <img src={logoArrow} alt="logo arrow" className="w-[75px]" />
                 <span className="text-backgroundColor font-bold text-[10px]">Exporting Quality, Sincerely...</span>
               </div>
             </div>

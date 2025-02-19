@@ -26,7 +26,7 @@ const index = () => {
   return (
     <main>
       {/* Slider */}
-      <section className='pt-[9.5rem]'>
+      <section className='pt-[9rem]'>
         <Slider />
       </section>
 

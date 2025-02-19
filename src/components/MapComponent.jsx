@@ -17,6 +17,7 @@ const customIcon = new L.DivIcon({
 
 const locations = [
   { lat: 37.0902, lng: -95.7129, name: "USA" },
+  { lat: 19.4326, lng: -99.1332, name: "Mexico" },
   { lat: 55.3781, lng: -3.436, name: "UK" },
   { lat: -14.6048, lng: -59.0625, name: "Latin America" },
   { lat: 56.1304, lng: -106.3468, name: "Canada" },
@@ -55,14 +56,14 @@ const FitBounds = ({ locations }) => {
 };
 const MapComponent = () => {
   return (
-    <div className='w-full md:h-screen h-96'>
+    <div className='w-full md:h-screen h-96 flex justify-center items-center'>
       <MapContainer
         scrollWheelZoom={false}
         dragging={false}
         doubleClickZoom={false}
         zoomControl={false}
         attributionControl={false}
-        className='w-full h-full z-0'
+        className='w-full h-full  md:h-[70%] z-0 '
       >
         <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
 

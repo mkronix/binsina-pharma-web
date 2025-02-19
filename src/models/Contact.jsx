@@ -7,7 +7,7 @@ import Button from "../components/Button/Button";
 import { IoClose } from "react-icons/io5";
 
 const Contact = ({ closeForm }) => {
-  const formRef = useRef(null); // Create a ref for the form
+  const formRef = useRef(null);
   const [actionType, setActionType] = useState("");
 
   const {

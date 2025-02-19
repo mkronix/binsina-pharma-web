@@ -1,3 +1,4 @@
+import React from "react";
 import { FaUser, FaShieldAlt, FaClock } from "react-icons/fa";
 import CardTitle from "./CardTitle";
 import CardParagraph from "./CardParagraph";

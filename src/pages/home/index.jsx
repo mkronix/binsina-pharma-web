@@ -39,17 +39,17 @@ const index = () => {
           {/* Left Section: Image */}
           <div className='w-full lg:w-1/2 relative flex flex-col space-y-4'>
             <img
-              src={home.ourSpecialityCollection.image}
+              src={home.ourSpecialityCollection?.image}
               alt='Speciality Section'
-              className='object-cover rounded-md shadow-lg'
+              className='object-cover rounded-md shadow-lg h-[26rem]'
             />
           </div>
 
           <div className='w-full lg:w-1/2'>
             <div className='space-y-6'>
-              <BorderTitle title={home.ourSpecialityCollection.title} />
+              <BorderTitle title={home.ourSpecialityCollection?.title} />
               <Heading
-                title={home.ourSpecialityCollection.heading}
+                title={home.ourSpecialityCollection?.heading}
                 align='start'
               />
               <Paragraph title={home.ourSpecialityCollection.description} />
@@ -143,7 +143,7 @@ const index = () => {
               className='flex flex-col items-center gap-4 bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300'
             >
               {/* Image Section */}
-              <div className='w-28 h-28 overflow-hidden'>
+              <div className='w-max h-28 overflow-hidden'>
                 <img
                   src={content.image}
                   alt={`Content ${content.id}`}
@@ -151,7 +151,6 @@ const index = () => {
                 />
               </div>
 
-              {/* Text Section */}
               <Paragraph title={content.description} />
             </div>
           ))}

@@ -1,12 +1,24 @@
 import { Link } from "react-router-dom";
 import data from "../data/footer.json";
-// import logo from "../assets/img/logo.png";
+import logo from '../assets/img/logo.png';
 const FooterOne = () => {
   const { footer } = data.binSinaPharma;
 
   return (
-    <footer className='bg-gradient-to-r from-brightColor to-[#1a1b26] text-white pt-4 rounded-t-xl'>
-      <div className='px-10 py-6 grid grid-cols-1 md:grid-cols-4 gap-8'>
+    <footer className='max-md:pb-56 bg-gradient-to-r from-brightColor to-[#1a1b26] text-white pt-4 rounded-t-xl'>
+      <div className='p-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8'>
+        {/* About Section */}
+        <div className='space-y-2'>
+          <img
+            src={logo}
+            alt='logo'
+            className='w-full bg-white p-4 rounded-md'
+          />
+          <p className='text-sm leading-relaxed text-white capitalize'>
+            {footer.paragraph}
+          </p>
+        </div>
+
         {/* Quick Links */}
         <div className='space-y-2'>
           <h2 className='text-xl font-bold'>Quick Links</h2>
@@ -137,7 +149,7 @@ const FooterOne = () => {
           <h2 className='text-xl font-bold'>Contact</h2>
           <div className='space-y-3'>
             {footer.contactDetails.map((detail) => (
-              <div key={detail.id} className='flex items-center space-x-2'>
+              <div key={detail.id} className='flex space-x-2'>
                 <div className='w-6 h-6'>{detail.icon}</div>
                 <p className='text-base text-white'>{detail.text}</p>
               </div>
@@ -159,20 +171,12 @@ const FooterOne = () => {
           </p>
         </div> */}
 
-        <div className='space-y-2'>
-          <iframe
-            src={footer.locationUrl}
-            className='w-full h-56 border-none rounded'
-            allowFullScreen=''
-            loading='lazy'
-            referrerPolicy='no-referrer-when-downgrade'
-          ></iframe>
-        </div>
       </div>
 
       <div className='bg-gray-900 text-gray-500 flex justify-center max-md:flex-col'>
         <p className='text-center py-4 text-sm'>
-          {`Copyright © ${new Date().getFullYear()} Binsina Pharma. All rights reserved.`}
+          @{new Date().getFullYear()} {" "}
+          {footer.copyRight.text3}
         </p>
       </div>
     </footer>

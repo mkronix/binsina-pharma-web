@@ -9,7 +9,7 @@ import "./index.css";
 const Slider = () => {
   const { home } = data.binsinaPharma;
 
-  const validSlides = home.sliderCollection.filter(
+  const validSlides = home.sliderData.filter(
     (slide) => slide.image || slide.video
   );
 

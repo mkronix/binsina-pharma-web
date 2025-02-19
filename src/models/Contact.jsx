@@ -27,10 +27,11 @@ const Contact = ({ closeForm }) => {
     } else if (actionType === "email") {
       emailjs
         .sendForm(
-          "service_agf5s52",
-          "template_z5hflf2",
-          formRef.current, // Pass the form element
-          "O9jzNMsuDK9-j8NUD"
+          "service_dg2rx48",
+          "template_5v1r97l",
+          formRef.current, {
+          publicKey: "jRO0RTJ-o82OLbJBV",
+        }
         )
         .then(() => {
           reset();

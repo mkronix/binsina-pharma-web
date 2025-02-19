@@ -1,0 +1,23 @@
+{
+  "binsinaPharma": {
+    "common": {
+      "email": "info@binsinapharma.com",
+      "contact": "+91 9892146706",
+      "socialMedia": {
+        "facebook": "https://www.facebook.com/profile.php?id=61570529962355",
+        "youtube": "https://www.youtube.com/@binsinapharma",
+        "twitter": "https://x.com/BinsinaPharma",
+        "instagram": "https://www.instagram.com/binsinapharmaexporter/",
+        "linkedin": "https://www.linkedin.com/in/binsina-pharma-704791340/"
+      },
+      "address": {
+        "country": "India",
+        "state": "Maharashtra",
+        "city": "Pune",
+        "street": "123 Main St",
+        "zipCode": "12345"
+      },
+      "allRightsReserved": "© 2024 Binsina Pharma. All rights reserved."
+    }
+  }
+}

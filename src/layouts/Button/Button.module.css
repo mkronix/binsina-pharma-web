@@ -1,0 +1,79 @@
+.root {
+  @apply btn;
+  @apply rounded-[38px];
+}
+
+.default {
+  @apply root;
+}
+
+.block {
+  @apply root;
+  @apply btn-block;
+  @apply btn-primary;
+  --fallback-n: rgba(255, 255, 255, 0.46);
+  --fallback-bc: black;
+}
+
+.blockOutlined {
+  @apply root;
+  @apply btn-block;
+  @apply btn-outline;
+}
+
+.blackOutlined {
+  @apply root;
+  @apply btn-block;
+  @apply btn-outline;
+  --bc: black;
+}
+
+.ghost {
+  @apply root;
+  @apply btn-ghost;
+}
+
+.btnInfo {
+  @apply root;
+  @apply btn-info;
+}
+.btnError {
+  @apply root;
+  @apply btn-error;
+}
+.disable {
+  @apply disabled;
+}
+.disabledText {
+  @apply cursor-not-allowed w-full bg-[#989898] text-[#525151];
+  @apply root;
+  @apply btn-disabled;
+  @apply bg-stone-400 cursor-not-allowed;
+  --fallback-n: rgba(255, 255, 255, 0.46);
+  --fallback-bc: #525151;
+}
+.btnLink {
+  @apply btn btn-link no-underline	font-normal justify-normal;
+}
+
+.btnLink:hover {
+  @apply no-underline;
+}
+
+.noStyle {
+  @apply btn bg-transparent border-0 p-0 h-auto min-h-0;
+}
+
+/** Sizes : put at last to override */
+.sm {
+  @apply btn-sm;
+  @apply h-[2.375rem];
+}
+
+.lg {
+  @apply btn-lg;
+}
+
+.width {
+  @apply w-[115px] h-[36px];
+}

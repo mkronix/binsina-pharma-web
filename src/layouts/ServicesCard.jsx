@@ -1,20 +1,23 @@
-import React from "react";
-
-const ServicesCard = ({ icon, title }) => {
+const ServicesCard = ({ title, description, description1, description2, description3, image, reverse }) => {
   return (
-    <div className=" group flex flex-col items-center text-center gap-2 w-full lg:w-1/3 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg cursor-pointer lg:hover:-translate-y-6 transition duration-300 ease-in-out">
-      <div className=" bg-[#d5f2ec] p-3 rounded-full transition-colors duration-300 ease-in-out group-hover:bg-[#ade9dc]">
-        {icon}
+    <div
+      className={`flex flex-col lg:flex-row ${reverse ? "lg:flex-row-reverse" : ""
+        } gap-5 w-full p-5  ${reverse ? "bg-white" : ""} justify-center`}
+    >
+      <div className="lg:w-1/2 w-full h-96">
+        <img
+          src={image}
+          alt={`${title} image`}
+          className="w-full h-full rounded-lg object-cover"
+        />
       </div>
-      <h1 className=" font-semibold text-lg">{title}</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-        praesentium asperiores unde veniam, perspiciatis neque!
-      </p>
-
-      <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-        Learn more
-      </h3>
+      <div className="lg:w-1/2 w-full flex flex-col gap-3">
+        <h1 className={`text-3xl font-semibold `}>{title}</h1>
+        <p className={`text-start text-base leading-relaxed `}>{description}</p>
+        <p className={`text-start text-base leading-relaxed `}>{description1}</p>
+        <p className={`text-start text-base leading-relaxed  `}>{description2}</p>
+        <p className={`text-start text-base leading-relaxed `}>{description3}</p>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,39 @@
+{
+    "binSinaPharma": {
+        "footer":{
+      "heading1":"Contact Us",
+      "heading2":"Have Questions?",
+      "description":"We’re here to help with any inquiries you have. Whether you need support, have feedback, or simply want to know more about our services, our team is ready to assist.",
+      "buttonText":"Get In Touch",
+      "paragraph":"Binisana: Leading generic pharmaceutical manufacturer & exporter, offering high-quality medicines.",
+      "contactDetails":[
+        {
+          "id": 1,
+          "icon": "📞",
+          "text": "+91 98921 46706",
+          "link": "tel:+919892146706"
+        },
+        {
+          "id": 2,
+          "icon": "⏰",
+          "text": "Mon-Fri: 9 AM – 6 PM"
+        },
+        {
+          "id": 3,
+          "icon": "📧",
+          "text": "info@binsinapharma.com",
+          "link": "mailto:info@binsinapharma.com"
+        },
+        {
+          "id": 4,
+          "icon": "🌍",
+          "text": "Lodha Bel Air, C Tower, Patel Estate Road, Jogeshwari West - Mumbai, Maharashtra 400102, India",
+          "link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.7920002620153!2d72.8369304!3d19.16058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b500000000%3A0x476c5d925ddafdb6!2sBinsina%20Pharma%20HQ!5e0!3m2!1sen!2sin!4v1667274849607!5m2!1sen!2sin"
+        }
+      ],
+      "copyRight": {
+        "text3":"All rights reserved By Binsina Pharma"
+      }
+    }
+  }
+}

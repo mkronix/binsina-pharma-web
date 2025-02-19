@@ -1,0 +1,1900 @@
+[
+{"name":"Fludarabine phosphate 50mg","type":"Injection"},
+{"name":"Fluorouracil 250mg/5ml & 500mg/10 ml","type":"Injection"},
+{"name":"Dacarbazine 100/200/500 mg","type":"Injection"},
+{"name":"Dactinomycin 0.5/20 mg","type":"Injection"},
+{"name":"Epirubicin 10/50 mg","type":"Injection"},
+{"name":"Fludarabine 50 mg","type":"Injection"},
+{"name":"Gemcitabine 200mg/1gm/100mg","type":"Injection"},
+{"name":"Irinotecan 40/100 mg","type":"Injection"},
+{"name":"L-Asparaginase 5000/10000 KU","type":"Injection"},
+{"name":"Leucovorin Calcium 15/50 mg","type":"Injection"},
+{"name":"Melphalan 50 mg","type":"Injection"},
+
+{"name":"Mesna 200mg/2ml","type":"Injection"},
+
+{"name":"Methotrexate 50/2ml,500 mg,1000mg/10ml","type":"Injection"},
+
+{"name":"Oxaliplatin 50/100 mg","type":"Injection"},
+
+{"name":"Paclitaxel 100/260/300 mg","type":"Injection"},
+
+{"name":"Topotecan 2.5 mg","type":"Injection"},
+
+{"name":"Vinblastine Sulphate 10mg,1mg/1ml","type":"Injection"},
+
+{"name":"Zoledronic acid 4mg","type":"Injection"},
+
+{"name":"Bendamustine 100mg","type":"Injection"},
+
+{"name":"Decitabine lyophizied powder for injection 50mg","type":"Injection"},
+
+{"name":"Doxorubicin hydrochloride lyposome injection 20/10 ml , 50/25 ml","type":"Injection"},
+
+{"name":"Fulvestrant 250mg/5ml","type":"Injection"},
+
+{"name":"Azacetidine 100mg","type":"Injection"},
+
+{"name":"Paclitaxel(protein bound particle) for injection 100mg","type":"Injection"},
+
+{"name":"Thiotepa 15/100 mg","type":"Injection"},
+
+{"name":"Pemetrexed 100 mg","type":"Injection"},
+
+{"name":"Venorelbine 50 mg","type":"Injection"},
+
+{"name":"Cabazitaxel 60 mg","type":"Injection"},
+
+{"name":"Bendamustine Hydrochloride 100mg","type":"Injection"},
+
+{"name":"Plerixafor 24 mg","type":"Injection"},
+
+{"name":"Busulfan 60 mg","type":"Injection"},
+
+{"name":"Peg L Asparaginase 750 IU","type":"Injection"},
+
+{"name":"Pegfilgrastim 6mg/0.6 ml","type":"Injection"},
+{"name":"Bicalutamide Tab 50 mg ","type":"Tablets"},
+{"name":"Capecitabine Tab 500mg","type":"Tablets"},
+{"name":"Cyclophosphamide Tab 50mg","type":"Tablets"},
+{"name":"Exemestane Tab","type":"Tablets"},
+{"name":"Fludarabine Phosphate Tab","type":"Tablets"},
+{"name":"Gefitinib Tab 250 mg","type":"Tablets"},
+{"name":"Methotrexate Tab 2.5/5/7.5 mg","type":"Tablets"},
+{"name":"Chlorambucil 2mg/5mg","type":"Tablets"},
+{"name":"Erlotinib 100 mg/150 mg","type":"Tablets"},
+{"name":"Fludarabine 10 mg","type":"Tablets"},
+{"name":"Imatinib Mesylate 100mg/400 mg","type":"Tablets"},
+{"name":"Letrozole 2.5 mg","type":"Tablets"},
+{"name":"Melphalan 2mg/5 mg","type":"Tablets"},
+{"name":"Sorafenib 200mg/50mg","type":"Tablets"},
+{"name":"Tamoxifen Citrate 10mg/20mg","type":"Tablets"},
+{"name":"Thalidomide 50mg/100 mg","type":"Tablets"},
+{"name":"Dexamethasone 4/8 mg","type":"Tablets"},
+{"name":"Megestrol Acetate 40mg/160 mg","type":"Tablets"},
+{"name":"Abiraterone 250 mg","type":"Tablets"},
+{"name":"Anastrazole 1mg","type":"Tablets"},
+{"name":"Axitinib 5mg","type":"Tablets"},
+{"name":"Lapatinib 250mg","type":"Tablets"},
+{"name":"Dasatinib 20mg/50mg/70mg","type":"Tablets"},
+{"name":"Curcumin","type":"Tablets"},
+{"name":"Flutamide 250 mg","type":"Tablets"},
+{"name":"Ibandronic Acid tablets 150 mg",	"type":"Tablets"},
+{"name":"Tamixofen USP",	"type":"Tablets"},
+{"name":"Abiraterone Acetate 250 mg",	"type":"Tablets"},
+{"name":"Busulfan Tablets 2/4 mg","type":"Tablets"},
+{"name":"Defarasirox 100/250/400 mg","type":"Tablets"},
+{"name":"Everolimus 0.5/0.25/0.75/2.5/5/7.5/10 mg","type":"Tablets"},
+{"name":"Exemastane 25mg","type":"Tablets"},
+{"name":"Granisetron HCL 1mg","type":"Tablets"},
+{"name":"Ibandronate Sodium 50mg","type":"Tablets"},
+{"name":"Lenalidomide 5/10/25 mg","type":"Tablets"},
+{"name":"Pazopanib 200 mg","type":"Tablets"},
+{"name":"Regorafanib 40 mg","type":"Tablets"},
+{"name":"Revolade 25 mg","type":"Tablets"},
+{"name":"Voriconazole 50mg/200 mg","type":"Tablets"},
+{"name":"Ibrutinib 140/280/420/560 mg","type":"Tablets"},
+{"name":"Palbociclib 75/100/125 mg","type":"Tablets"},
+{"name":"Enzalutamide 40/80 mg","type":"Tablets"},
+{"name":"Ruxolitinib 5/10/15/20/25","type":"Tablets"},
+{"name":"Azathioprine 50/75/100 mg","type":"Tablets"},
+{"name":"Afatinib 20/30/40 mg","type":"Tablets"},
+{"name":"Bosutunib 100/500 mg","type":"Tablets"},
+{"name":"Cabozatinib 20/40/60 mg","type":"Tablets"},
+{"name":"Olaparib 100/150","type":"Tablets"},
+{"name":"Etoposide 50/100 mg","type":"Capsules"},
+{"name":"Flutamide","type":"Capsules"},
+{"name":"Imatinib","type":"Capsules"},
+{"name":"Hydroxyurea","type":"Capsules"},
+{"name":"Lenalidomide 5/10/25 mg","type":"Capsules"},
+{"name":"Cyclosporin 50/100 mg","type":"Capsules"},
+{"name":"Etoposide 50 mg","type":"Capsules"},
+{"name":"Hydroxyurea 500 mg","type":"Capsules"},
+{"name":"Temozolamide 100/250","type":"Capsules"},
+{"name":"Thalidomide 100 mg","type":"Capsules"},
+{"name":"Enzalutamide 40 mg","type":"Capsules"},
+{"name":"Lenvatinib 10 mg","type":"Capsules"},
+{"name":"Sunitinib Malate 50 mg","type":"Capsules"},
+{"name":"Lenalidomide 5/10/25 mg","type":"Capsules"},
+{"name":"Estramustine phosphate 140mg","type":"Capsules"},
+{"name":"Etoposide 50/100 mg","type":"Capsules"},
+{"name":"Nillotinib 50/150/200 mg","type":"Capsules"},
+{"name":"Ibrutinib 140","type":"Capsules"},
+{"name":"Palbociclib 75/100/125 mg","type":"Capsules"},
+{"name":"Pomalidomide 1/2/3/4 mg","type":"Capsules"},
+{"name":"Lenavtinib 4/10 mg","type":"Capsules"},
+{"name":"Sunitinib 12.5/25/37.5/50 mg","type":"Capsules"},
+{"name":"Crizotinib 200/250 mg","type":"Capsules"},
+{"name":"Tacrolimus IR 0.5/1/5 mg","type":"Capsules"},
+{"name":"Altretamine 50 mg","type":"Capsules"},
+{"name":"Aprepitant 50 mg","type":"Capsules"},
+{"name":"Lomustine 10/40/100 mg","type":"Capsules"},
+{"name":"Mycophenolate Mofetil 250 mg","type":"Capsules"},
+{"name":"Procarbazine 50 mg","type":"Capsules"},
+{"name":"Bortezomib 2mg","type":"Injection"},
+{"name":"Bleomycin 15 units","type":"Injection"},
+{"name":"Carboplatin 150mg/50ml & 450mg/45 ml","type":"Injection"},
+{"name":"Cisplatin 10mg/10ml & 50mg/50ml","type":"Injection"},
+{"name":"Cyclophosphamide 200/500/1000","type":"Injection"},
+{"name":"Cytarabine 100mg/1ml","type":"Injection"},
+{"name":"Daunorubicin 200/500/1000 mg","type":"Injection"},
+{"name":"Docetaxel 20/80/120//0.5ml","type":"Injection"},
+{"name":"Doxorubicin hydrochloride 10/50 mg","type":"Injection"},
+{"name":"Epirubicin hydrochloride 10/50/100 mg","type":"Injection"},
+{"name":"Etoposide Injection 100mg","type":"Injection"},
+
+{"name":"Granisetron Hydrochloride 3mg/1 ml","type":"Injection"},
+
+{"name":"Fosaprepitant Dimeglumine 150 mg","type":"Injection"},
+
+{"name":"Vinblastine 10 mg/10ml","type":"Injection"},
+
+{"name":"Vincristine 2mg","type":"Injection"},
+
+{"name":"Pemetrexate 500/100 mg","type":"Injection"},
+
+{"name":"Pamidronate 90/60/30 mg","type":"Injection"},
+
+{"name":"Mitomycin 40/10/2 mg","type":"Injection"},
+
+{"name":"Isofamide2000+Mesna400mg","type":"Injection"},
+
+{"name":"5 Fluouracil 500mg/10ml","type":"Injection"},
+
+{"name":"Amifostine 500mg","type":"Injection"},
+
+{"name":"Anti Rho-D Immunoglobin 300mcg/ml","type":"Injection"},
+
+{"name":"Azathrioprine 100mg","type":"Injection"},
+
+{"name":"Bevacizumab 400mg/16ml","type":"Injection"},
+
+{"name":"Calcium folinate 100mg/10 ml","type":"Injection"},
+
+{"name":"Carmustine 100 mg","type":"Injection"},
+
+{"name":"Pioglitazone 15 mg","type":"Tablets"},
+
+{"name":"Linagliptin 5m","type":"Tablets"},
+
+{"name":"Teniligliptin","type":"Tablets"},
+
+{"name": "Linagliptin & Metformin Tablets 5mg+500mg/5mg+850mg/5mg+1000mg","type": "Tablets"},
+
+{"name": "Canagliflozin Tablets 100mg, 300mg","type": "Tablets"},
+
+{"name": "Telmisartan & Cilnidipine Tablets 40mg+5mg","type": "Tablets"},
+
+{"name":"Atorvastatin & Clopidogrel 10+75mg","type":"Tablets"},
+
+{"name":"Amlodipine&Losartan 5+50mg","type":"Tablets"},
+
+{"name":"Amlodipine Atenolol 5+50mg","type":"Tablets"},
+
+{"name":"Amlodipine 5/10mg","type":"Tablets"},
+
+{"name":"Atenolol 12.5/25/50/100 mg","type":"Tablets"},
+
+{"name":"Atorvastatin 10/20/40/80 mg","type":"Tablets"},
+
+{"name":"Bosentan 62.5/125 mg","type":"Tablets"},
+
+{"name":"Ezetimibe 10mg","type":"Tablets"},
+
+{"name":"Indapamide 1.5/2.5","type":"Tablets"},
+
+{"name":"Isosorbide Dinitrate 5/10/20/40mg","type":"Tablets"},
+
+{"name":"Losartan 100mg","type":"Tablets"},
+
+{"name":"Metoprolol 25/50/100 mg","type":"Tablets"},
+
+{"name":"Nefidipine & Atenolol 20+50","type":"Tablets"},
+
+{"name":"Nefidipine 5/10/20 mg","type":"Tablets"},
+
+{"name":"Pitavastatin 2/4 mg","type":"Tablets"},
+
+{"name":"Ramipril & Hydrochlorothiazide 5+12.5mg","type":"Tablets"},
+
+{"name":"Ramipril 2.5/5/10 mg","type":"Tablets"},
+
+{"name":"Rosuvastatin 5/10/20/40 mg","type":"Tablets"},
+
+{"name":"Simvastatin & Ezetimibe 10+10 mg","type":"Tablets"},
+
+{"name":"Simvastatin 5/10/20/40mg","type":"Tablets"},
+
+{"name":"Telmisartan & Amlodipine 40+5 mg","type":"Tablets"},
+
+{"name":"Telmisartan & Hydrochlorothiazide 40+12.5 mg","type":"Tablets"},
+
+{"name":"Telmisartan 20/40/80 mg","type":"Tablets"},
+
+{"name":"Valsartan & Hydrochlorothiazide (80+12.5)/(160+12.5)","type":"Tablets"},
+
+{"name":"Valsartan 80/160 mg","type":"Tablets"},
+
+{"name":"Verapamil 40/80/120 mg","type":"Tablets"},
+
+{"name":"Amlodipin & Enalapril 5+5mg","type":"Tablets"},
+
+{"name":"Amlodipin & Ramipril 5+2.5mg","type":"Tablets"},
+{"name":"Cetuximab 100 mg","type":"Injection"},
+
+{"name":"Curcumin 10mg/ml","type":"Injection"},
+
+{"name":"Cyatarabine 100mg/1gm","type":"Injection"},
+
+{"name":"Darbipoetin alfa 40 mcg","type":"Injection"},
+
+{"name":"Filgrastim 300mcg","type":"Injection"},
+
+{"name":"Ganciclovir 250/500 mg","type":"Injection"},
+
+{"name":"Human Albumin 100ml","type":"Injection"},
+
+{"name":"Ibandronate 6mg","type":"Injection"},
+
+{"name":"Leuprolide acetate 3.75mg/ml","type":"Injection"},
+
+{"name":"Mechlorethamine 10mg","type":"Injection"},
+
+{"name":"Octreotide 0.2mg/ml","type":"Injection"},
+
+{"name":"Palonosetron HCL Injection 0.25mg/5ml","type":"Injection"},
+
+{"name":"Progestin 150/30ml","type":"Injection"},
+
+{"name":"Rasburicase 1.5mg/vial","type":"Injection"},
+
+{"name":"Reditux Rituximab Injection 500mg/50ml","type":"Injection"},
+
+{"name":"Teniposide 50mg/5ml","type":"Injection"},
+
+{"name":"Trabectedin 1mg","type":"Injection"},
+
+{"name":"Trastuzumab 150 mg","type":"Injection"},
+
+{"name":"Ustekinumab 130/26 ml","type":"Injection"},
+
+{"name":"Vincristine sulphate 1mg/ml","type":"Injection"},
+
+{"name":"Gastro-Resistant Diclofenac Sodium Tablets BP 50 mg/100 mg","type":"Tablets"},
+
+{"name":"Glibenclamide Tablets BP 5 mg/25mg","type":"Tablets"},
+
+{"name":"Glimepiride and Metformin hydrochloride Tablets 4 mg+1000 mg,3mg+1000mg,2mg+1000mg,2mg+500mg,1mg+500 mg","type":"Tablets"},
+
+{"name":"Glimepiride Tablets USP 1 mg/2 mg/3 mg/4 mg","type":"Tablets"},
+
+{"name":"Mequitazine Tablets 5 mg/10mg","type":"Tablets"},
+
+{"name":"Metformin and Glibenclamide Tablets 500 mg + 5 mg,1000mg+120mg,1000mg+80mg","type":"Tablets"},
+
+{"name":"Metformin Tablets BP 500 mg","type":"Tablets"},
+
+{"name":"Metformin Tablets USP 500 mg/850mg","type":"Tablets"},
+
+{"name":"Pentoprazole USP 40 mg","type":"Tablets"},
+
+{"name":"PioglitazoneTablets USP 15 mg/30mg","type":"Tablets"},
+
+{"name":"Pheniramine Tablets BP 25 mg","type":"Tablets"},
+
+{"name":"Dapagliflozin 5mg/10mg","type":"Tablets"},
+
+{"name":"Empagliflozin 10/25mg","type":"Tablets"},
+
+{"name":"Metformin extended released tablets 500/850/1000 mg","type":"Tablets"},
+
+{"name":"Sitagliptin 25/50/100 mg","type":"Tablets"},
+
+{"name":"Sitagliptin & Metformin 50+500 mg,50+850 mg,50+1000 mg","type":"Tablets"},
+
+{"name":"Vildagliptin 50 mg","type":"Tablets"},
+
+{"name":"Vildagliptin and Metformin 50+500,50+850,50+1000 mg","type":"Tablets"},
+
+{"name":"Glibenclamide 1.25/2.5/5 mg","type":"Tablets"},
+
+{"name":"Glibenclamide and Metformin","type":"Tablets"},
+
+{"name":"Gliclazide 40/60/80 mg","type":"Tablets"},
+
+{"name":"Gliclazide and Metformin Hydrochloride","type":"Tablets"},
+
+{"name":"Glimepridine,pioglitazone&Metformin HCL 1mg+15mg+500mg","type":"Tablets"},
+
+{"name":"Glipizide 2.5/5/10","type":"Tablets"},
+
+{"name":"Voglibose and metformin 0.3+500mg","type":"Tablets"},
+
+{"name":"Voglibose 0.2/0.3 mg","type":"Tablets"},
+
+{"name":"Acarbose 25/50 mg","type":"Tablets"},
+
+{"name":"Nitrazepam 5/10mg","type":"Tablets"},
+
+{"name":"Pioglitazone & Metformin 15+500 mg","type":"Tablets"},
+
+{"name":"Amlodipin & Valsartan (5+160)/(10+160)/(5+320)/(10+320)mg","type":"Tablets"},
+
+{"name":"Candesartan 16mg","type":"Tablets"},
+
+{"name":"Candesartan & Hydrochlorothiazide 16+12.5 mg","type":"Tablets"},
+
+{"name":"Captopril 12.5/25mg","type":"Tablets"},
+
+{"name":"Carvedilol 6.25/12.5/25mg","type":"Tablets"},
+
+{"name":"Clopidogrol 75mg","type":"Tablets"},
+
+{"name":"Diltiazem HCL 30/60/90/120 mg","type":"Tablets"},
+
+{"name":"Enalapril 5/10 mg","type":"Tablets"},
+
+{"name":"Trimetazidine 35/60mg","type":"Tablets"},
+
+{"name":"Finofibrate 200 mg","type":"Tablets"},
+
+{"name":"Fluvastatin 40/80 mg","type":"Tablets"},
+
+{"name":"Furosemide 40 mg","type":"Tablets"},
+
+{"name":"Furosemide and Amiloride 40+5 mg","type":"Tablets"},
+
+{"name":"Gemfibrozil 150/300/600 mg","type":"Tablets"},
+
+{"name":"Hydrochlorothiazide 12.5/25 mg","type":"Tablets"},
+
+{"name":"Irbesartan 150/300 mg","type":"Tablets"},
+
+{"name":"Irbesartan and Hydrochlorothiazide 300 + 12.5mg","type":"Tablets"},
+
+{"name":"Isosorbide and aspirin 30+75 mg","type":"Tablets"},
+
+{"name":"Isosorbide Mononitrate 10/20/30/60 mg","type":"Tablets"},
+
+{"name":"Lisinopril 2.5/5/10 mg","type":"Tablets"},
+
+{"name":"Losartan & Hydrochlorothiazide 50+12.5 mg","type":"Tablets"},
+
+{"name":"Metoprolol 25/50/100 mg","type":"Tablets"},
+
+{"name":"Azathioprine 50/75/100 mg","type":"Tablets"},
+
+{"name":"Mycophenolate mofetil 750","type":"Tablets"},
+
+{"name":"Sirolimus 1 / 2 mg","type":"Tablets"},
+
+{"name":"Everolimus 10mg","type":"Tablets"},
+
+{"name":"Doxofylline 400mg","type":"Tablets"},
+
+{"name":"Theophylline 100/300/400/600mg","type":"Tablets"},
+
+{"name":"Etophylline & Theophylline 23+77mg","type":"Tablets"},
+
+{"name":"Montelukast Sodium & Levocetrizine Hydrochloride 10+5mg","type":"Tablets"},
+
+{"name":"Montelukast 4/5/10 mg","type":"Tablets"},
+
+{"name":"Salbutamol 2/4 mg","type":"Tablets"},
+
+{"name":"Theophylline(anhydrous)+Salbutamol 100+2mg","type":"Tablets"},
+
+{"name":"Theophylline Extended released tablet","type":"Tablets"},
+
+{"name":"Aminophylline 100mg","type":"Tablets"},
+
+{"name":"Amitriphylline 50 mg","type":"Tablets"},
+
+{"name":"Ambroxol Hydrochloride 30mg","type":"Tablets"},
+
+{"name":"Montelukast Chewable 4/5 mg","type":"Tablets"},
+
+{"name":"Terbutalline tablets 10/20mg","type":"Tablets"},
+
+{"name":"Acebrophylline Oral Liquid 10mg/5ml","type":"Oral Liquid"},
+
+{"name":"Bromhexine HCL,albutamol sulphate,Guaiphensin and Menthol Oral Liquid 2mg+1mg+50mg+0.5mg/5ml","type":"Oral Liquid"},
+
+{"name":"Bromhexine HCL,Terbutaline sulphate,Guaiphensin and Menthol Oral Liquid 4mg+1.25mg+50mg+2.5mg/5ml","type":"Oral Liquid"},
+
+{"name":"Ambroxol Hydrochloride and salbutamol oral liquid 15mg+1mg/5ml","type":"Oral Liquid"},
+
+{"name":"Guaifenesin 200mg", "type":"oral liquid"},	
+
+{"name":"Bromohexine Hydrochloride Oral liquid 100+200 IU/5ml","type":"Oral Liquid"},
+
+{"name":"Ambroxol Hydrochloride Syrup 15/30 mg per 5ml","type":"Oral Liquid"},
+
+{"name":"Ambroxol,Guaifenesin&Levosalbutamol 30+50+1 mg","type":"Oral Liquid"},
+
+{"name":"Ambroxol,Guaifenesin,Terbutaline & Menthol (15+50+1.25+1.25)/(30+50+1.25+2.5)","type":"Oral Liquid"},
+
+{"name":"Bromohexine hcl,Guaifenesin,Terbutaline & Menthol 4+50+1.25+2.5","type":"Oral Liquid"},
+
+{"name":"Salbutamol 2mg/5ml","type":"Oral Liquid"},
+
+{"name":"Ambroxol,Guaifenesin&Terbutaline","type":"Oral Liquid"},
+
+{"name":"Bromohexine hcl,Guaifenesin&Terbutaline","type":"Oral Liquid"},
+
+{"name":"Carbocisteine syrup 2%,5%","type":"Oral Liquid"},
+
+{"name":"Chlorpheniramine Maleate Ammonium Chloride & Sodium Citrate Syrup","type":"Oral Liquid"},
+
+{"name":"Dextromethorphan Chlorpheniramine Maleate & Phenylephrine Syrup","type":"Oral Liquid"},
+
+{"name":"Diphenhydramine Ammonium Chloride Sodium Citrate Syrup","type":"Oral Liquid"},
+
+{"name":"Theophylline Etophylline Syrup","type":"Oral Liquid"},
+
+{"name":"Beclomethasone Inhaler 200mcg","type":"Inhaler"},
+
+{"name":"Budesonide 100/200/400 mcg","type":"Inhaler"},
+
+{"name":"Isoflurane Vaporizer","type":"Vaporizer"},
+
+{"name":"Salbutamol Inhaler","type":"Inhaler"},
+
+{"name":"Sevoflurane Vaporizer","type":"Vaporizer"},
+
+{"name":"Theophylline(25.3mg), Etophylline(84.7mg)","type":"Injection"},
+
+{"name":"Terbutalin","type":"Injection"},
+
+{"name":"Hydrocortisone sodium succinate 100mg","type":"Injection"},
+
+{"name":"Betamethasone 4mg","type":"Injection"},
+
+{"name":"Dexomethasone sodium phosphate 4mg/1ml","type":"Injection"},
+
+{"name":"Formoterol&Budenoside 6+100/200/400 mcg","type":"Inhaler"},
+
+{"name":"Formoterol&fluticasone 6+125/250mcg","type":"Inhaler"},
+
+{"name":"Ipratopium & Salbutamol 20+100mcg","type":"Inhaler"},
+
+{"name":"Ipratomium Bromide 20mcg","type":"Inhaler"},
+
+{"name":"Levosalbutamol 50mcg","type":"Inhaler"},
+
+{"name":"Salbutamol(Alcoholic&Non-Alcoholic) 100mcg","type":"Inhaler"},
+
+{"name":"Salmeterol & Fluticasone propionate 25+250/500 mcg","type":"Inhaler"},
+
+{"name":"Salmeterol & Fluticasone fumarate 25+250/125 mcg","type":"Inhaler"},
+
+{"name":"Salmeterol Xinafoate 25 mcg","type":"Inhaler"},
+
+{"name":"Tiotropium & Formoterol 9+6 mcg","type":"Inhaler"},
+
+{"name":"Tiotropium Bromide 9/18 mcg","type":"Inhaler"},
+
+{"name":"Adefovir Dipivoxil 10mg","type":"Tablets"},
+
+{"name":"Atazanavir&Ritonavir 300+100 mg","type":"Tablets"},
+
+{"name":"Daclatasvir 60 mg","type":"Tablets"},
+
+{"name":"Darunavir 300/600 mg","type":"Tablets"},
+
+{"name":"Efavirenz 200/600 mg","type":"Tablets"},
+
+{"name":"Efavirenz Tenofovir & Emtricitabine 600+300+200mg","type":"Tablets"},
+
+{"name":"Entecavir 0.5/1 mg","type":"Tablets"},
+
+{"name":"Famciclovir 250/500 mg","type":"Tablets"},
+
+{"name":"Lamivudine & Zidovudine 150+300 mg","type":"Tablets"},
+
+{"name":"Lamivudine Stavudine & Nevirapine 150+40+200mg","type":"Tablets"},
+
+{"name":"Lamivudine 100/150 mg","type":"Tablets"},
+
+{"name":"Lamivudine Zidovudine & Nevirapine 150+300+200mg","type":"Tablets"},
+
+{"name":"Nelfinavir Mesylate 250 mg","type":"Tablets"},
+
+{"name":"Nevirapine 200mg","type":"Tablets"},
+
+{"name":"Nitazoxanide 200/500 mg","type":"Tablets"},
+
+{"name":"Ritonavir & Lopinavir 50+200 mg","type":"Tablets"},
+{"name":"Olmesartan Medoxomil 5/10/20/40mg","type":"Tablets"},
+
+{"name":"Olmesartan Medoxomil & Hydrochlorothiazide 20 + 12.5 mg/40+25mg","type":"Tablets"},
+
+{"name":"Propranolol 10/20/40/80mg","type":"Tablets"},
+
+{"name":"Enalapril Maleate 5/10/20 mg","type":"Tablets"},
+
+{"name":"Losartan Potassium 25/50 mg","type":"Tablets"},
+
+{"name":"Losartan Potassium & Hydrochlorothiazide 50+12.5","type":"Tablets"},
+
+{"name":"Perindopril + Amlodipine 5+5,5+10,10+5,10+10mg","type":"Tablets"},
+
+{"name":"Perindopril Arginine + Indapamide 5+1.25,10+2.5","type":"Tablets"},
+
+{"name":"Perindopril Arginine + Indapamide + Amlodipine 2.5+0.625+5/5+1.25+5/5+1.25+10/10+2.5+5/10+2.5+10","type":"Tablets"},
+
+{"name":"Trimetazidine Dihydrochloride 35mg","type":"Tablets"},
+
+{"name":"Drotaverine Hydrochloride Tablets 80 mg","type":"Tablets"},
+
+{"name":"Methyldopa Tablets USP 250 mg","type":"Tablets"},
+
+{"name":"Glucose Tablets 3.4 gm","type":"Tablets"},
+
+{"name":"Levosulpiride Tablets 25/50 mg","type":"Tablets"},
+
+{"name":"Drotaverine Hydrochloride and Aceclofenac Tablets 80 mg + 100 mg","type":"Tablets"},
+
+{"name":"Prazosin sustained release Tablets 5 mg","type":"Tablets"},
+
+{"name":"Doxazocin Tablets USP 1/2/4 mg","type":"Tablets"},
+
+{"name":"Prazosin Tablets BP 2 mg","type":"Tablets"},
+
+{"name":"Lornoxicam and thiocolchicoside Tablets 8 mg + 4 mg","type":"Tablets"},
+
+{"name":"Lornoxicam tablets 8 mg","type":"Tablets"},
+
+{"name":"Pyrimethamine Tablets USP 25 mg","type":"Tablets"},
+
+{"name":"Amlodipine Besylate Tablets USP 5 mg","type":"Tablets"},
+
+{"name":"Sulfadoxine and Pyrimethamine Tablets USP 500 mg + 25 mg","type":"Tablets"},
+
+{"name":"Candesartan Cilexitil tablets 16 mg + 12.5 mg","type":"Tablets"},
+
+{"name":"Candesartan Cilexetil & Hydrochlorothiazide Tablets USP 8 mg + 12.5 mg","type":"Tablets"},
+
+{"name":"Apixaban 2.5/5 mg","type":"Tablets"},
+
+{"name":"Rivaroxaban 10/15/20 mg","type":"Tablets"},
+
+{"name":"Aspirin Gastro Resistant tablets 100 mg","type":"Tablets"},
+
+{"name":"Ticagrelor 60/90 mg","type":"Tablets"},
+
+{"name":"Dabigatran Etexilate 75/110/150 mg","type":"Capsules"},
+
+{"name":"Atorvastatin, Clopidogrel & Aspirin 20+75+75","type":"Capsules"},
+
+{"name":"Rosuvastatin, Clopidogrel & Aspirin 20+75+75","type":"Capsules"},
+
+{"name":"Atenolol And Nifedipine Capsules 50+20","type":"Capsules"},
+
+{"name":"Nitroglycerine Capsules 2.5mg","type":"Capsules"},
+
+{"name":"Adrenaline 1mg/ml","type":"Injection"},
+
+{"name":"Terlipressin 1mg","type":"Injection"},
+
+{"name":"Heparin 5000IU/ml","type":"Injection"},
+
+{"name":"Enoxaparin sodium 20/0.2,40/0.4,60/0.6,80/0.8 mg","type":"Pre-filled syringe"},
+
+{"name":"Alprostadil Injection 0.5 mg/ml (PDA)","type":"Injection"},
+
+{"name":"Bitastrate Injection 10 mg/ml","type":"Injection"},
+
+{"name":"Clonidine Injection BP 1.5 mg/ml, 0.1mg/ml, 0.5mg/ml","type":"Injection"},
+
+{"name":"Dlgoxin Injection BP 0.25 mg / ml","type":"Injection"},
+
+{"name":"Dobutamine Injection USP 25 mg / ml, 50 mg / ml","type":"Injection"},
+
+{"name":"Etamsylate Injection 125mg/ml","type":"Injection"},
+
+{"name":"Frusemide Injection BP 10 mg / ml","type":"Injection"},
+
+{"name":"Hydralazine Hydrochloride Injection USP 20 mg/ml","type":"Injection"},
+
+{"name":"Ibuprofen Injection 10 mg /ml (PDA)","type":"Injection"},
+
+{"name":"Indomethacin Injection 1 mg (PDA)","type":"Injection"},
+
+{"name":"Magnesium Sulphate Injection BP 500 mg/ml","type":"Injection"},
+
+{"name":"Menadione Sodium Bisulphite Injection 10 mg/ml (Vitamin K3 Injection)","type":"Injection"},
+
+{"name":"Mephenteramine Sulphate Injection 30 mg/ml, 15 mg/ml","type":"Injection"},
+
+{"name":"Metoprolol Injection BP 1 mg / ml , 5mg/5ml","type":"Injection"},
+
+{"name":"Nimodipin Injection 30 mg/50 ml","type":"Injection"},
+
+{"name":"Nitroglycerin Injection USP 1 mg/ml, 5 mg/ml","type":"Injection"},
+
+{"name":"Phenylephrine Hydrochloride Injection USP 1 %","type":"Injection"},
+
+{"name":"Phytomenadione Injection USP 1 %, 0.2 %","type":"Injection"},
+
+{"name":"Protamine Sulphate Injection 1 %","type":"Injection"},
+
+{"name":"Sterile Dopamine Concentrate BP 4 %","type":"Injection"},
+
+{"name":"Sterile Nonadrenaline Concentrate 1 mg/m","type":"Injection"},
+
+{"name":"Tranexamic Injection 100 mg/ml","type":"Injection"},
+
+{"name":"Verapamil Injection 2.5mg/ml","type":"Injection"},
+
+{"name":"Torsemide 10mg/ml","type":"Injection"},
+
+{"name":"Terlipressin 1mg/10ml","type":"Injection"},
+
+{"name":"Labelatol 5mg/ml","type":"Injection"},
+
+{"name":"Propranolol 1mg/ml","type":"Injection"},
+
+{"name":"Nitroglycerine 1mg/ml","type":"Injection"},
+
+{"name":"Prednisolone","type":"Tablets"},
+
+{"name":"Tacrolimus 0.5/1mg","type":"Tablets"},
+
+{"name":"Deflazacort 6/24 mg","type":"Tablets"},
+
+{"name":"Cyclosporine 25/50/100mg","type":"Tablets"},
+{"name":"Rupatadine Fumarate 10mg","type":"Tablets"},
+
+{"name":"Sofosbuvir & Ledipasvir 400+90mg","type":"Tablets"},
+
+{"name":"Sofosbuvir 400mg","type":"Tablets"},
+
+{"name":"Tenofovir & Emtricitabine 300 + 200mg","type":"Tablets"},
+
+{"name":"Tenofovir Lamivudine & Efavirenz 300+300+600mg","type":"Tablets"},
+
+{"name":"Tenofovir Tablets 300mg","type":"Tablets"},
+
+{"name":"Valacyclovir 500 1000","type":"Tablets"},
+
+{"name":"Valganciclovir 450","type":"Tablets"},
+
+{"name":"Acyclovir","type":"Tablets"},
+
+{"name":"Zidovudine 100/300 mg","type":"Tablets"},
+
+{"name":"Aciclovir 200/400/800","type":"Tablets"},
+
+{"name":"Abacavir 300mg","type":"Tablets"},
+
+{"name":"Dolutegravir 50mg","type":"Tablets"},
+
+{"name":"Emtricitabine 200 mg","type":"Tablets"},
+
+{"name":"Etravirine 200 mg","type":"Tablets"},
+
+{"name":"Hepcvir 400 mg","type":"Tablets"},
+
+{"name":"Lamivudine & Stavudine 150+30 mg","type":"Tablets"},
+
+{"name":"Raltegravir 60 mg","type":"Tablets"},
+
+{"name":"Rilpivirine 25 mg","type":"Tablets"},
+
+{"name":"Ritonavir 200mg","type":"Tablets"},
+
+{"name":"Stavudine 15 mg","type":"Tablets"},
+
+{"name":"Tenofavir & Alafenamide","type":"Tablets"},
+
+{"name":"Tenofavir Disoproxil Fumarate 300 mg","type":"Tablets"},
+
+{"name":"Trioumune 150/30/200 mg","type":"Tablets"},
+
+{"name":"Valaciclovir 450 mg","type":"Tablets"},
+
+{"name":"Atazanavir 100/200/300mg","type":"Capsules"},
+
+{"name":"Didanosine 250/400mg","type":"Capsules"},
+
+{"name":"Ganciclovir 250mg","type":"Capsules"},
+
+{"name":"Indinavir Sulphate 400mg","type":"Capsules"},
+
+{"name":"Ribavirin 100/200","type":"Capsules"},
+
+{"name":"Stavudine 50mg","type":"Capsules"},
+
+{"name":"Zidovudine 100/300mg","type":"Capsules"},
+
+{"name":"Atazanavir 300mg","type":"Capsules"},
+
+{"name":"Efavirenz 600mg","type":"Capsules"},
+
+{"name":"Acyclovir 500 mg","type":"Injection"},
+
+{"name":"Cholera Vaccine 1.5ml","type":"Injection"},
+
+{"name":"Rotavirus Vaccine 0.5 ml","type":"Injection"},
+
+{"name":"Trivalent,Quadrivalent,Pentavelent Vaccine 10 ml","type":"Injection"},
+
+{"name":"Aciclovir 500/1000 mg","type":"Injection"},
+
+{"name":"Aciclovir Sodium 250 mg","type":"Injection"},
+
+{"name":"Ganciclovir 500mg","type":"Injection"},
+
+{"name":"Acyclovir Creams 5% 5gm/10 gm","type":"Oinment"},
+
+{"name":"Acyclovir Eye Oinment 3% 15 gm","type":"Oinment"},
+
+{"name":"Azelaic acid cream 20%","type":"Oinment"},
+
+{"name":"Quinine sulfate BP 300 mg tab","type":"Tablet"},
+
+{"name":"Primaquine phosphate tab USP 7.5 mg","type":"Tablet"},
+
+{"name":"Artemether 20/40/80 mg + Lumefantrine 120/240/480 mg Tablets","type":"Tablet"},
+
+{"name":"Chloroquine Phosphate Tablets BP 250 mg","type":"Tablet"},
+
+{"name":"Dihydroartemisinin 32 mg + Piperaquine phosphate 320 mg + Trimethoprim 90 mg tab","type":"Tablet"},
+
+{"name":"Dihydroartemisinin Tablets 60 mg","type":"Tablet"},
+
+{"name":"Amodiaquine 200mg","type":"Tablet"},
+
+{"name":"Artesunate Sulphadoxine Pyrimethamine 100+500+25","type":"Tablet"},
+
+{"name":"Artesunate 50/100/200 mg","type":"Tablet"},
+
+{"name":"Chloroquine Phosphate Tablets 100+ 250+500 mg","type":"Tablet"},
+
+{"name":"Dihydroartemisinin Piperaquine Phosphate 40+320 mg","type":"Tablet"},
+
+{"name":"Hydroxychloroquine 200/400 mg","type":"Tablet"},
+
+{"name":"Mefloquine & Artesunate","type":"Tablet"},
+
+{"name":"Mefloquine 250 mg","type":"Tablet"},
+
+{"name":"Primaquine 7.5/15 mg","type":"Tablet"},
+
+{"name":"Quinine Sulphate 300/600 mg","type":"Tablet"},
+
+{"name":"Sulfadoxine & Pyrimethamine 500+200 mg","type":"Tablet"},
+
+{"name":"Artesunate 100 mg- 6 Tabs & Sulfadoxin 500 mg + Pyrimethamine 25 mg- 3 Tabs","type":"Tablet"},
+
+{"name":"Artesunate 50 mg- 6 Tabs & Sulfadoxin BP 500 mg + Pyrimethamine 25 mg- 2 Tabs","type":"Tablet"},
+
+{"name":"Artesunate 100 mg- 6 Tabs & Amodiaquine base 300 mg - 6 Tabs (Kit 6+6)","type":"Tablet"},
+
+{"name":"Dihydroartimisinin 160 mg & Sulfadoxin 500 mg + Pyrimethamine 25 mg Tablets","type":"Tablet"},
+
+{"name":"Artemether oral Suspension 15mg/5ml","type":"Oral Liquid"},
+
+{"name":"Quinine sulphate syrup 100mg/5ml","type":"Oral Liquid"},
+
+{"name":"Artemether And Lumefantrine For Oral Suspension 180 mg + 1080 mg","type":"Oral Liquid"},
+
+{"name":"Dihydroartemisinin Oral Suspension 1 mg / 5ml","type":"Oral Liquid"},
+
+{"name":"Artemether And Lumefantrine For Oral Suspension 240 mg + 1440 mg","type":"Oral Liquid"},
+
+{"name":"Amodiaquin Suspension 50 mg/ 5 ml","type":"Oral Liquid"},
+
+{"name":"Chloroquin Phosphate Syrup 100 mg base/10 ml","type":"Oral Liquid"},
+
+{"name":"Sulfadoxine Pyrimethamine suspension","type":"Oral Liquid"},
+
+{"name":"Artemether 20/40/80/150 mg","type":"Injection"},
+
+{"name":"Artesunate 30/60/90/120/150/180/210/240 mg","type":"Injection"},
+
+{"name":"Chloroquine Phosphate 40mg/ml","type":"Injection"},
+
+{"name":"Quinine dihydrochloride 300mg/ml","type":"Injection"},
+
+{"name":"Alpha- Beta Arteether Injection 75mg/ml,150 Mg/ 2 Ml,225mg/3ml","type":"Injection"},
+
+{"name":"Cefalexin Tablets BP 250 mg","type":"Tablets"},
+
+{"name":"Moxifloxacin Hydrochloride Tablets 400 mg","type":"Tablets"},
+
+{"name":"CEFIXIME & CLAVULANIC ACID TABLETS 200+125 mg","type":"Tablets"},
+
+{"name":"Levocetrizine HCL 5 mg + Montelukast 10 mg tab","type":"Tablets"},
+
+{"name":"Cefixime Tablets USP 200/400 mg","type":"Tablets"},
+
+{"name":"Cefpodoxime Proxetil Tablets USP 100 mg","type":"Tablets"},
+
+{"name":"Cefuroxime & Potassium Clavulanate Tablets 625mg/312.5mg/156.25mg","type":"Tablets"},
+
+{"name":"Ethambutol 400/600/800 mg","type":"Tablets"},
+
+{"name":"Fluconazole, Azithromycin & Secnidazole 150mg + 1gm + 1gm ( 4 tablet Kit)","type":"Tablets"},
+
+{"name":"Ivermectin 6/12mg Tablets","type":"Tablets"},
+
+{"name":"Nitazoxanide & Ofloxacin 500+200","type":"Tablets"},
+
+{"name":"Penicillin G Potassium Tablets","type":"Tablets"},
+
+{"name":"Pyrazinamide 250/500/750/1000","type":"Tablets"},
+
+{"name":"Sulfamethoxazole Trimethoprim (Co-Trimoxazole) Tablets 480/960 mg","type":"Tablets"},
+
+{"name":"Rifampicin & Isoniazid Tablets 450+300 mg","type":"Tablets"},
+
+{"name":"Roxithromycin Tablets 50/150 mg","type":"Tablets"},
+
+{"name":"Sparfloxacin 100/200 mg","type":"Tablets"},
+
+{"name":"Spiramycin 3MIU","type":"Tablets"},
+
+{"name":"Tinidazole 300/500 mg / 1gm","type":"Tablets"},
+
+{"name":"Levofloxacin Hemihydrate Tablets 500mg","type":"Tablets"},
+
+{"name":"Moxifloxacin 400mg","type":"Tablets"},
+
+{"name":"Nitrofurantoin 50/100 mg","type":"Tablets"},
+
+{"name":"Rifaximin 200/400/550 mg","type":"Tablets"},
+
+{"name":"Sulphaguanidine 500mg","type":"Tablets"},
+
+{"name":"Terbinafine 250 mg","type":"Tablets"},
+
+{"name":"Trimethoprim 100/200","type":"Tablets"},
+
+{"name":"Amoxycillin & Cloxacillin 125+125,250+250 mg","type":"Capsules"},
+
+{"name":"Amoxycillin & Dicloxacillin 250+250 mg","type":"Capsules"},
+
+{"name":"Amoxycillin 125/250/500 mg","type":"Capsules"},
+
+{"name":"Ampicillin & Dicloxacillin 250+250 mg","type":"Capsules"},
+
+{"name":"Ampicillin 250/500 mg","type":"Capsules"},
+
+{"name":"Cephalexin 250/500 mg","type":"Capsules"},
+
+{"name":"Chloramphenicol 250/500 mg","type":"Capsules"},
+
+{"name":"Clindamycin 150/300mg","type":"Capsules"},
+
+{"name":"Cloxacillin 500 mg","type":"Capsules"},
+
+{"name":"Doxycycline100 mg","type":"Capsules"},
+
+{"name":"Erythromycin 250/500mg","type":"Capsules"},
+
+{"name":"Flucloxacillin 250/500 mg","type":"Capsules"},
+
+{"name":"Metronidazole 500mg","type":"Capsules"},
+
+{"name":"Clindamycin HCI Capsules 300 mg","type":"Capsules"},
+
+{"name":"Clindamycin & Miconazole soft Vaginal Capsule 100+100/100+200","type":"Capsules"},
+
+{"name":"Neomycin sulfate 35000IU ,Polymyxin B Sulfate 35000IU & Nystatin 100000 IU Soft Gelatine Capsules","type":"Capsules"},
+
+{"name":"Amoxicillin & Flucloxacillin 250+250 mg","type":"Capsules"},
+
+{"name":"Cloxacillin Sodium 250/500","type":"Capsules"},
+
+{"name":"Tetracycline 250/500 mg","type":"Capsules"},
+
+{"name":"FLUCONAZOLE INJECTION USP 100 Mg/200mg","type":"Injection"},
+
+{"name":"Metronidazole Injection Usp 0.5% W/V 100 ML","type":"Injection"},
+
+{"name":"Amikacin Sulfate 100mg/2ml,500mg/2ml","type":"Injection"},
+
+{"name":"Amoxicillin Sodium 1gm","type":"Injection"},
+
+{"name":"Amoxicillin & Potassium clavulanate 500+100,1000+200mg","type":"Injection"},
+
+{"name":"Ampicillin Sodium 500/1000 mg","type":"Injection"},
+
+{"name":"Cefepime 1gm/2gm","type":"Injection"},
+
+{"name":"Cefepime & Tazobactam 1000+250 mg","type":"Injection"},
+
+{"name":"Cefoperazone & Sulbactam 500+500,1000+500,1000+1000mg","type":"Injection"},
+
+{"name":"Cefoperazone & Tazobactam 500+62.5,1000+125mg","type":"Injection"},
+
+{"name":"Cefotaxime 500/1000mg","type":"Injection"},
+
+{"name":"Cefotaxime & Salbactam 500+250,1000+500mg","type":"Injection"},
+
+{"name":"Ceftazidime 1gm","type":"Injection"},
+
+{"name":"Cefuroxime 750/1.5gm","type":"Injection"},
+
+{"name":"Ceftriaxone 500mg/1000mg","type":"Injection"},
+
+{"name":"Ceftriaxone & Salbactam 500+250,1000+500mg","type":"Injection"},
+
+{"name":"Ceftriaxone & Tazobactam 500+62.5,1000+125mg","type":"Injection"},
+
+{"name":"Chloramphenicol sodium succinate 1gm","type":"Injection"},
+
+{"name":"Clindamycin 150/300/600 mg","type":"Injection"},
+
+{"name":"Cloxacillin Sodium 1gm","type":"Injection"},
+
+{"name":"Doxycycline 100mg","type":"Injection"},
+
+{"name":"Imipenam & Cilastatin 250+250 mg /500+500mg","type":"Injection"},
+
+{"name":"Kanamycin Sulphate 1/2gm","type":"Injection"},
+
+{"name":"Meropenem 500/1000mg","type":"Injection"},
+
+{"name":"Fortified Procain penicillin Injection 1 Mega/4 Mega","type":"Injection"},
+
+{"name":"Benzathine Benzylpenicillin 2.4 Mega","type":"Injection"},
+
+{"name":"Benzylpenicillin 1/5 Mega","type":"Injection"},
+
+{"name":"Procaine Benzyl Penicillin 3 Mega","type":"Injection"},
+
+{"name":"Piperacillin & Tazobactam 2000+250 mg/4000+500","type":"Injection"},
+
+{"name":"Streptomycin Sulfate 1gm","type":"Injection"},
+
+{"name":"Erythromycin Lactobionate for Injection 1 g, 500mg/vial","type":"Injection"},
+
+{"name":"Netilmicin Sulfate Injection USP 1 %, 10 % , 5%, 2.5%, 7.5%","type":"Injection"},
+
+{"name":"Tobramycin Injection USP 4%","type":"Injection"},
+
+{"name":"Vancomycin Hydrochloride For Injection USP 500 mg, 1 gm,250mg","type":"Injection"},
+
+{"name":"Gentamicin Injection BP 4%","type":"Injection"},
+
+{"name":"Azithromycin For Injection 500 mg","type":"Injection"},
+
+{"name":"Isepamicin Sulphate 100mg/ml","type":"Injection"},
+
+{"name":"Clindamycin Phosphate 300mg/m","type":"Injection"},
+
+{"name":"Lincomycin Hydrochloride 300mg/ml","type":"Injection"},
+
+{"name":"Polymyxin-B Sulphate 500000 IU","type":"Injection"},
+
+{"name":"Sulfamethoxazole + Trimethoprim 80mg + 16mg","type":"Injection"},
+
+{"name":"Doripenem for injection 500mg","type":"Injection"},
+
+{"name":"Meropenem for injection 500mg , 100mg","type":"Injection"},
+
+{"name":"Adriamycin Injection (DOXOrubicin Hydrochloride Injection, USP)10MG/5ML,20MG/10ML,50MG/25ML,200MG/100ML","type":"Injection"},
+
+{"name":"Amphotericin B Injection 50 mg, 100 mg","type":"Injection"},
+
+{"name":"Voriconazole for Injection 200 mg / via","type":"Injection"},
+
+{"name":"Ampicillin Cloxacillin 250+250mg","type":"Injection"},
+
+{"name":"Ampicillin 500 mg","type":"Injection"},
+
+{"name":"Ampicillin Salbactam 1000+500","type":"Injection"},
+
+{"name":"Benzathine Penicillin 6/12/24 lacs","type":"Injection"},
+
+{"name":"Cefazolin sodium 1gm","type":"Injection"},
+
+{"name":"Cefipime & Salbactum 1gm+0.5gm","type":"Injection"},
+
+{"name":"Cefoperazone sodium 1gm","type":"Injection"},
+
+{"name":"Cefotaxime sodium 1gm","type":"Injection"},
+
+{"name":"Cefpirome & Salbactam 1000+500 mg","type":"Injection"},
+
+{"name":"Cefpirome Sulphate 500/1000 mg","type":"Injection"},
+
+{"name":"Ceftazidime & salbactam 1000+500 mg","type":"Injection"},
+
+{"name":"Ceftazidime & Tazobactam 1000+125 mg","type":"Injection"},
+
+{"name":"Ceftazidime 1gm","type":"Injection"},
+
+{"name":"Cefuroxime & salbactum 1500+750mg","type":"Injection"},
+
+{"name":"Cephalothin 1gm","type":"Injection"},
+
+{"name":"Clostimethate 1M/2M IU","type":"Injection"},
+
+{"name":"Doripenem 500/1gm","type":"Injection"},
+
+{"name":"Fortified Procain penicillin Injection with Streptomycin 20 lacs IU + 2.5 gm","type":"Injection"},
+
+{"name":"Imipenem & Cilastatin 500mg/1000mg","type":"Injection"},
+
+{"name":"Lincomycin 300/600 mg","type":"Injection"},
+
+{"name":"Meropenem & salbactam 1000mg + 500 mg","type":"Injection"},
+
+{"name":"Tigcycline 50mg","type":"Injection"},
+
+{"name":"Amoxicillin Sod and Clavulanic Acid Syrup 200+28.5mg/5ml","type":"Oral Liquid"},
+
+{"name":"Azithromycin Suspension 200mg","type":"Oral Liquid"},
+
+{"name":"Cefixime Syrup 50mg","type":"Oral Liquid"},
+
+{"name":"Cefixime and Ofloxacin Syrup 50+50mg","type":"Oral Liquid"},
+
+{"name":"Cefpodoxime Proxetil Syrup 50mg","type":"Oral Liquid"},
+
+{"name":"Ofloxacin and Ornidazole Suspension 50+125mg","type":"Oral Liquid"},
+
+{"name":"Amoxycillin 250mg Suspension 250/125 mg per 5ml","type":"Oral liquid"},
+
+{"name":"Amoxycillin Bromhexine Syrup 250+8","type":"Oral liquid"},
+
+{"name":"Amoxycillin Potassium Clavulanate Suspension 228.5/457 mg per 5ml","type":"Oral liquid"},
+
+{"name":"Cefadroxil Dry Syrup 125mg/5ml","type":"Oral liquid"},
+
+{"name":"Cefixime Dry Syrup 25/50mg per 5ml","type":"Oral liquid"},
+
+{"name":"Cefixime Oral Suspension 100 mg/5ml","type":"Oral liquid"},
+
+{"name":"Chloramphenicol Suspension 125mg/5ml","type":"Oral liquid"},
+
+{"name":"Cloxacillin Oral Suspension 250mg","type":"Oral liquid"},
+
+{"name":"Cefpodoxime Dry Syrup 50 mg/5ml","type":"Oral liquid"},
+
+{"name":"Cephalexin Dry Syrup 125mg/5ml","type":"Oral liquid"},
+
+{"name":"Flucloxacillin Oral Suspension 250 mg","type":"Oral liquid"},
+
+{"name":"Ofloxacin Ornidazole Suspension","type":"Oral liquid"},
+
+{"name":"Ofloxacin Suspension 50mg/5ml","type":"Oral liquid"},
+
+{"name":"Metronidazole Suspension","type":"Oral liquid"},
+
+{"name":"Roxithromycin Suspension 50mg/5ml","type":"Oral liquid"},
+
+{"name":"Sulfamethoxazole Trimethoprim (Co-trimoxazole) Suspension","type":"Oral liquid"},
+
+{"name":"Ofloxacin Metronidazole Suspension","type":"Oral liquid"},
+
+{"name":"Norfloxacin Metronidazole Suspension","type":"Oral liquid"},
+
+{"name":"Nystatin Oral Suspension 1 lac IU","type":"Oral liquid"},
+
+{"name":"Ampicillin & Cloxacillin 250 mg/5ml","type":"Oral liquid"},
+
+{"name":"Cefaclor 125/250mg per 5ml","type":"Oral liquid"},
+
+{"name":"Clarithromycin 125mg/5ml","type":"Oral liquid"},
+
+{"name":"Co-Trimoxazole 40+200mg/5ml","type":"Oral liquid"},
+
+{"name":"Erythromycin Stearate 250mg/5ml","type":"Oral liquid"},
+
+{"name":"Erythromycin Ethyl Succinate 125/250 mg per 5 ml","type":"Oral liquid"},
+
+{"name":"Nalidixic Acid 300mg/5ml","type":"Oral liquid"},
+
+{"name":"Phenoxymethylpenicillin 125/250 mg per 5ml","type":"Oral liquid"},
+
+{"name":"Clotrimazole Cream Bp 1% W/W","type":"Cream"},
+
+{"name":"Ciprofloxacin , Fluconolone Acetonide & Clotrimazole Cream","type":"Cream"},
+
+{"name":"Clotrimazole , Betamethasone Dipropionate, Gentamicin Sulfate Cream","type":"Cream"},
+
+{"name":"Beclomethasone Dipropionate With Clotrimazole Cream","type":"Cream"},
+
+{"name":"Clobetasol Propionate, Neomycin Sulphate & Miconazole Nitrate Cream","type":"Cream"},
+
+{"name":"Fusidic Acid & Beclomethasone Dipropionate Cream","type":"Cream"},
+
+{"name":"Ketoconazole Cream 2% Cream","type":"Cream"},
+
+{"name":"Ketoconazole , Clobetasol Propionate, & Neomycin Sulfate Cream","type":"Cream"},
+
+{"name":"Luliconazole Cream 1% W/W","type":"Cream"},
+
+{"name":"Povidone Iodine 5 % W/W & Ornidazole 1% W/W Ointment","type":"Ointment"},
+
+{"name":"Povidone Iodine 5 % W/W & Metronidazole 1% W/W Ointment","type":"Ointment"},
+
+{"name":"Benzoic Acid Ointment","type":"Ointment"},
+
+{"name":"Fusidic Acid Cream 2%","type":"Ointment"},
+
+{"name":"Miconazole Cream 2%","type":"Ointment"},
+
+{"name":"Bacitracin ointment 500 IU","type":"Ointment"},
+
+{"name":"Clindamycin Phosphate gel 1%","type":"Ointment"},
+
+{"name":"Neomycin Sulphate,Bacitracin Zinc & Polymyxin B Ointment","type":"Ointment"},
+
+{"name":"Ciprofloxacin 0.3%","type":"Cream"},
+
+{"name":"Clindamycin & Adapalene","type":"Cream"},
+
+{"name":"Clindamycin Phosphate & Nicotinamide gel","type":"gel"},
+
+{"name":"Clindamycin Phosphate 1%/2%","type":"Cream"},
+
+{"name":"Clobetasol Propionate Miconazole Nitrate Gentamicin Sulphate Zinc Oxide Cream","type":"Cream"},
+
+{"name":"Fusidic Acid & Betamethasone Cream","type":"Cream"},
+
+{"name":"Metronidazole Cream 1%","type":"Cream"},
+
+{"name":"Miconazole Nitrate & Fluocinolone Acetonide Cream","type":"Cream"},
+
+{"name":"Miconazole nitrate and Hydrocortisone Cream","type":"Cream"},
+
+{"name":"Mupirocin Cream 2%","type":"Cream"},
+
+{"name":"Neomycin Polymyxin Bacitracin Ointment","type":"Ointment"},
+
+{"name":"Neomycin Sulfate & Fluocinolone Acetonide Cream","type":"Cream"},
+
+{"name":"Ofloxacin Ornidazole Terbinafine & Clobetasol Cream","type":"Cream"},
+
+{"name":"Povidone Iodine & Ornidazole Cream","type":"Cream"},
+
+{"name":"Tioconazole Cream 6.5%","type":"Cream"},
+
+{"name":"Ciprofloxacin Infusions","type":"Infusions"},
+
+{"name":"Levofloxacin Infusions","type":"Infusions"},
+
+{"name":"Metronidazole Infusions","type":"Infusions"},
+
+{"name":"Chlorpheniramine Maleate Tablets 500 mg","type":"Tablets"},
+
+{"name":"Paracteamol, Bromhexine HCl, Phenylephrine HCl, Guaifenesin and Chlorpheniramine","type":"Tablets"},
+
+{"name":"Maleate Tablets 500 mg + 8 mg + 5 mg + 50 mg + 2 mg","type":"Tablets"},
+
+{"name":"Dextromethorphan Hydrobromide10 mg + Guaifenesin 100 mg+ Bromhexine HCL 8 mg +","type":"Tablets"},
+
+{"name":"CPM 2 mg tab 10 mg+ 100 mg+ 8 mg+ 2 mg, 500 mg","type":"Tablets"},
+
+{"name":"Ambroxol Hydrochloride 30mg","type":"Tablets"},
+
+{"name":"Cetirizine 10mg","type":"Tablets"},
+
+{"name":"Levocetirizine 5mg","type":"Tablets"},
+
+{"name":"Levocetirizine & Montelukast Dispersible (4+2.5mg)","type":"Tablets"},
+
+{"name":"Paracetamol 500mg, Chlorphenamine Maleate 2mg, Phenylephrine Hydrochloride 10mg & Caffeine 30mg","type":"Tablets"},
+
+{"name":"Betahistidine Hcl Tablet 16 mg / 24 mg","type":"Tablets"},
+
+{"name":"Dimenhydrinate Tablets","type":"Tablets"},
+
+{"name":"Kitotifen Tablets","type":"Tablets"},
+
+{"name":"Promethazine Tablets","type":"Tablets"},
+
+{"name":"Cyproheptadine 4mg","type":"Tablets"},
+
+{"name":"Desloratadine 5mg","type":"Tablets"},
+
+{"name":"Fexofenadine 30/60/90/120/180 mg","type":"Tablets"},
+
+{"name":"Flunarizine 5/10mg","type":"Tablets"},
+
+{"name":"Hydroxyzine HCL 10/25mg","type":"Tablets"},
+
+{"name":"Loratadine tablets","type":"Tablets"},
+
+{"name":"ACECLOFENAC 100 MG, PARACETAMOL 325MG, CETIRIZINE DIHYDROCHLORIDE10MG, PHENYLEPHRINE HYDROCHLORIDE 5MG & CAFFEINE25 MG TABLET","type":"Tablets"},
+
+{"name":"CETIRIZINE 5 MG, PARACETAMOL 325 MG, AMBROXOL HCL 60 MG & PENYLEPHRINE HCL 5 MG TABLETS","type":"Tablets"},
+
+{"name":"CETIRIZINE HYDROCHLORIDE 5 MG & PHENYLEPHRINE HCL 10 MG TABLETS","type":"Tablets"},
+
+{"name":"DEXTROMETHORPHAN HYDROBROMIDE 10 MG, PHENYLEPHRINE HCL 5 MG & CHLORPHENIRAMINE MALEATE 2 MG TABLETS (DISPERSIBLE)","type":"Tablets"},
+
+{"name":"NIMESULIDE 100 MG , PHENYLEPHRINE HYDROCHLORIDE 5 MG & LEVOCETIRIZINE HYDROCHLORIDE 5 MG TABLETS","type":"Tablets"},
+
+{"name":"PARACETAMOL 325 MG, PHENYLEPHRINE HYDROCHLORIDE 5 MG & CETIRIZINE HYDROCHLORIDE 5 MG TABLETS","type":"Tablets"},
+
+{"name":"PARACETAMOL, GUAIPHENESIN, BROMHEXINE HYDROCHLORIDE, PHENYLEPHRINE HYDROCHLORIDE AND CHLORPHENIRAMINE MALEATE TABLETS","type":"Tablets"},
+
+{"name":"PARACETAMOL 500 /500 MG, PHENYLEPHRINE HCL 10/5 MG AND CHLORPHENIRAMINE MALEATE 2/2 MG TABLETS","type":"Tablets"},
+
+{"name":"Fexofenadine Suspension 30mg/5ml","type":"Oral Liquid"},
+
+{"name":"Levocetirizine Montelukast Syrup","type":"Oral Liquid"},
+
+{"name":"Levocetirizine Syrup 2.5mg/5ml","type":"Oral Liquid"},
+
+{"name":"Loratadine Suspension 50mg/ml","type":"Oral Liquid"},
+
+{"name":"Prednisolone Sodium Phosphate Oral Solution","type":"Oral Liquid"},
+
+{"name":"Promethazine Syrup 5mg/5ml","type":"Oral Liquid"},
+
+{"name":"Ambroxol Salbutamol Guaiphenesin Syrup","type":"Oral Liquid"},
+
+{"name":"Fexofenadine Suspension 30mg/5ml","type":"Oral Liquid"},
+
+{"name":"Ambroxol Hydrochloride 15/30 mg per 5ml","type":"Oral Liquid"},
+
+{"name":"Bromhexine Hydrochloride 4mg/5ml","type":"Oral Liquid"},
+
+{"name":"Chlorpheniramine 2mg/5ml","type":"Oral Liquid"},
+
+{"name":"Cetirizine 5mg/5ml","type":"Oral Liquid"},
+
+{"name":"Dextromethorphan, Chlorpheniramine, Phenylephrine & Ammonium Chloride (5/10 + 2 + 2.5/5 + 50mg)","type":"Oral Liquid"},
+
+{"name":"Paracetamol 125,Phenylephrine Hydrochloride 2.5mg& Chlorpheniramine Maleate 1mg","type":"Oral Liquid"},
+
+{"name":"Dextro. Hbr + Ambroxol Hcl + Cetrizine Hcl ( 100 Ml) 10 mg + 50 mg / 5ml","type":"Oral Liquid"},
+
+{"name":"Dextromethorphan Hbr And Guaifenesin Oral Liquid","type":"Oral Liquid"},
+
+{"name":"Dextromethorphan Hbr, Ambroxal Hcl And Cetrizine Hcl 5 mg+ 4 mg + 50 mg+2.5 mg /5 ml","type":"Oral Liquid"},
+
+{"name":"Ambroxol Hcl + Terbutaline Sulphate + Guaiph. Syrup(100 Ml)","type":"Oral Liquid"},
+
+{"name":"Dextromethorphan Hbr, Ambroxal Hcl And Cetrizine Hcl","type":"Oral Liquid"},
+
+{"name":"Dextromethrphan Hbr, Bromhexine Hcl, Ammonium Chloride And Menthol Oral Liquid 10 mg + 4 mg / 5ml","type":"Oral Liquid"},
+
+{"name":"Ambroxol Syrup ( 100 Ml) 30mg/ 5 ml","type":"Oral Liquid"},
+
+{"name":"Ambroxole Hcl + Cetrizine Syrup ( 100 Ml) 15 mg+ 2.5 mg","type":"Oral Liquid"},
+
+{"name":"Carbocisteine Oral Liquid 250 mg/ 5ml","type":"Oral Liquid"},
+
+{"name":"Dextromethrphan Hbr, Chlorpheniramine Maleate And Phenylephrine Oral Liquid","type":"Oral Liquid"},
+
+{"name":"Dextromethrphan Hbr, Chlorpheniramine Maleate Oral Liquid 50 mg + 10 mg / 5ml","type":"Oral Liquid"},
+
+{"name":"Dextromethrphan Hbr, Phenylephrine Hcl And Chlorpheniramine Maleate Oral Oral Liquid","type":"Oral Liquid"},
+
+{"name":"Pheniramine Maleate Injection 22.75mg/ml","type":"Injection"},
+
+{"name":"Promethazine 25mg/ml","type":"Injection"},
+
+{"name":"Aminophylline 25mg/5ml","type":"Injection"},
+
+{"name":"Aceclofenac (SR) tab 100 mg","type":"Tablets"},
+
+{"name":"Naproxen Tablets USP 500 mg","type":"Tablets"},
+
+{"name":"Lornoxicam and Paracetamol Tablets 8 mg + 325 mg","type":"Tablets"},
+
+{"name":"Meloxicam Tablets BP 15 mg","type":"Tablets"},
+
+{"name":"Aceclofenac + Tizanidine 100 mg + 4 mg","type":"Tablets"},
+
+{"name":"Gastro-resistant Aspirin Tablets BP 150 mg","type":"Tablets"},
+
+{"name":"Aceclofenac + paracetamol + chlorzoxazone tab 100 mg+325 mg+ 250 mg","type":"Tablets"},
+
+{"name":"Nimesulide + Paracetamol tab 100 mg+ 500 mg","type":"Tablets"},
+
+{"name":"Nimesulide Tablets 100 mg","type":"Tablets"},
+
+{"name":"Aceclofenac + paracetamol + serratiopeptidase tab 100mg+500mg+15mg","type":"Tablets"},
+
+{"name":"Aceclofenac and Paracetamol Tablets 100 mg + 500 mg/325mg","type":"Tablets"},
+
+{"name":"Aceclofenac and Thiocolchicoside Tablets 100 mg + 4 mg","type":"Tablets"},
+
+{"name":"Aceclofenac, paracetamol and Chlorzoxazone Tablets 100 mg + 500 mg + 500 mg","type":"Tablets"},
+
+{"name":"Acetaminophen and Caffeine tablets USP 650 mg + 30 mg","type":"Tablets"},
+
+{"name":"Acetaminophen, Chlorzoxazone and Diclofenac Sodium Tablets 500 mg + 250 mg + 50 mg","type":"Tablets"},
+
+{"name":"Diclofenac Potassium Tablets USP 50/100 mg","type":"Tablets"},
+
+{"name":"Diclofenac pottasium & paracetamol tab 50 mg+ 325 mg","type":"Tablets"},
+
+{"name":"Diclofenac pottasium tab ( sugar coated) 50 mg","type":"Tablets"},
+
+{"name":"Diclofenac pottasium tab ( film coated) 50 mg","type":"Tablets"},
+
+{"name":"Diclofenac sodium tab 25 mg/50mg","type":"Tablets"},
+
+{"name":"Diclofenac sodium + paracetamol + caffein tab 50 mg+ 325mg+30mg","type":"Tablets"},
+
+{"name":"Diclofenac Sodium and Paracetamol Tablets 50 mg + 325 mg","type":"Tablets"},
+
+{"name":"Diclofenac Sodium Delayed released Tablets USP 50 mg","type":"Tablets"},
+
+{"name":"Dicyclomine & paracetamol tab 20 mg + 500 mg,","type":"Tablets"},	
+
+{"name":"Acetaminophen,Aspirin and Caffeine Tablets 400 mg + 250 mg + 50 mg","type":"Tablets"},
+
+{"name":"Ethambutol Tablets BP 250 mg/500mg","type":"Tablets"},
+
+{"name":"Drotaverine HCL tablet 80 mg","type":"Tablets"},
+
+{"name":"Pantoprazole Sodium delayed release Tablets USP 20 mg/40 mg","type":"Tablets"},
+
+{"name":"Paracetamol and Caffeine Tablets 500 mg + 65 mg","type":"Tablets"},
+
+{"name":"Paracetamol and Diclofenac Sodium Tablets 500 mg + 50 mg","type":"Tablets"},
+
+{"name":"Paracetamol and Hyoscine Butylbromide Tablets 500 mg + 10 mg","type":"Tablets"},
+
+{"name":"Paracetamol and Methocarbamol Tablets 500 mg + 400 mg","type":"Tablets"},
+
+{"name":"Paracetamol and Orphenadine Citrate Tablets 450 mg + 35 mg","type":"Tablets"},
+
+{"name":"Paracetamol Tablets BP 500/1000 mg","type":"Tablets"},
+
+{"name":"Paracetamol, Caffeine and Propyphenazone Tablets 500 mg + 30 mg + 150 mg","type":"Tablets"},
+
+{"name":"Paracetamol, Ibuprofen and Caffeine Tablets 325 mg + 200 mg + 30 mg","type":"Tablets"},
+
+{"name":"Paracetamol,Phenylephrine HCl and Caffeine Tablets 500 mg + 5 mg + 25 mg","type":"Tablets"},
+
+{"name":"Paracetamol,Phenylephrine HCl and Chlorpheniramine Maleate Tablets 500 mg +5 mg +2 mg","type":"Tablets"},
+
+{"name":"Paraectamol, Diclofenac sodium and Caffeine Tablets 300 mg + 50 mg + 30 mg","type":"Tablets"},
+
+{"name":"Paracetamol+ CPM + Caffein + Phenylephrine tab 500mg+2 mg+15 mg+ 5 mg","type":"Tablets"},
+
+{"name":"chlorzoxazone + paracetamol + diclofenac pott. tab 500mg+500mg+50 mg","type":"Tablets"},
+
+{"name":"Nifedipine sustained release Tablets 20/30 mg","type":"Tablets"},
+
+{"name":"Gastro-resistant Bisacodyl Tablets 5 mg","type":"Tablets"},
+
+{"name":"Hydralazine Hydrochloride Tablets USP 25 mg","type":"Tablets"},
+
+{"name":"Hyoscine Butylbromide TAblets BP 10 mg","type":"Tablets"},
+
+{"name":"Ibuprofen and Paracetamol Tablets 400 mg + 325/500 mg","type":"Tablets"},
+
+{"name":"Ibuprofen Tablets BP 200/400/600 mg","type":"Tablets"},
+
+{"name":"Indometacin and Paracetamol Tablets 25 mg + 325 mg","type":"Tablets"},
+
+{"name":"Loperamide Hydrochloride Tablets USP 2 mg","type":"Tablets"},
+
+{"name":"Mebendazole USP tab 100 mg","type":"Tablets"},
+
+{"name":"Foilc Acid Tablets BP 5 mg","type":"Tablets"},
+
+{"name":"Furosemide Tablets 40 mg","type":"Tablets"},
+
+{"name":"Baclofen Tablets USP 10 mg","type":"Tablets"},
+
+{"name":"Gastro resistant diclofenac tab 100 mg","type":"Tablets"},
+
+{"name":"Serratipeptidase Tablets 10 mg","type":"Tablets"},
+
+{"name":"Etoricoxib Tablets 60/90/120 mg","type":"Tablets"},
+
+{"name":"Ibuprofen, paracetamol and Caffeine Tablets 400 mg + 500 mg + 30 mg","type":"Tablets"},
+
+{"name":"Tizanidine Tablets USP 2 mg/4 mg","type":"Tablets"},
+
+{"name":"Diclofenac Sodium 50mg,Paracetamol 325mg/500mg,Chlorpheniramine Maleate 4mg& Magnesium Trisilicate 100mg","type":"Tablets"},
+
+{"name":"Etoricoxib 60mg& Thiocolchicoside 4mg","type":"Tablets"},
+
+{"name":"Analgin 500mg","type":"Tablets"},
+
+{"name":"Deflazacort 1/6/24/30mg","type":"Tablets"},
+
+{"name":"Etodolac 300/400/600mg","type":"Tablets"},
+
+{"name":"Flurbiprofen 50/100mg","type":"Tablets"},
+
+{"name":"Lornoxicam 4/8mg","type":"Tablets"},
+
+{"name":"Mefenamic Acid 250/500 mg","type":"Tablets"},
+
+{"name":"Piroxicam 10mg/20mg","type":"Tablets"},
+
+{"name":"Tenoxicam 20mg","type":"Tablets"},
+
+{"name":"Desketoprofen Trometamol + Paracetamol tablets (25+500 mg)","type":"Tablets"},
+
+{"name":"Desketoprofen Trometamol 75 mg (Extended release tablets)","type":"Tablets"},
+
+{"name":"Desketoprofen Trometamol Tablets 25 mg","type":"Tablets"},
+
+{"name":"Dipyrone Tablets 500 mg","type":"Tablets"},
+
+{"name":"Drotaverine Tablets 40 mg, 80 mg","type":"Tablets"},
+
+{"name":"Ketoprofen Tablets 150 mg, 200 mg (Extended relaese)","type":"Tablets"},
+
+{"name":"Ketoprofen Tablets 50 mg, 100 mg","type":"Tablets"},
+
+{"name":"Ketorolac Tromethamine Tablets 200 mg","type":"Tablets"},
+
+{"name":"Paracetamol 325 + Tramadol 37.5 mg Tablets","type":"Tablets"},
+
+{"name":"Celecoxib Tablets 100/200mg","type":"Tablets"},
+
+{"name":"Drotaverine And Mefenamic Acid Tablets 80+250 mg","type":"Tablets"},
+
+{"name":"Trypsin, Bromelain & Rutoside Trihydrate Tablets 48+90+100 mg","type":"Tablets"},
+
+{"name":"Celecoxib 100mg/200mg","type":"Capsules"},
+
+{"name":"Diacerein 50mg","type":"Capsules"},
+
+{"name":"Glucosamine 250/500 mg","type":"Capsules"},
+
+{"name":"Indomethacin 25/50/100mg","type":"Capsules"},
+
+{"name":"Thiocolchicoside 4/8 mg","type":"Capsules"},
+
+{"name":"Ibuprofen 200/400mg, Paracetamol 325mg & Caffeine 40mg","type":"Capsules"},
+
+{"name":"Etorocoxib","type":"Capsules"},
+
+{"name":"Thiocolchicoside, Aceclofenac & Paracetamol Capsules","type":"Capsules"},
+
+{"name":"Diclofenac Sodium Injection 25 Mg/Ml; 1 Ml, 2 Ml, 3 Ml, 5 Ml Glass Ampoule","type":"Injection"},
+
+{"name":"Paracetamol Inj. 150 Mg/Ml, 2 Ml, 5 Ml Glass Ampoule","type":"Injection"},
+
+{"name":"Dipyrone 2.5mg/5ml","type":"Injection"},
+
+{"name":"Piroxicam 20mg/ml","type":"Injection"},
+
+{"name":"Aceclofenac Injection 150 mg","type":"Injection"},
+
+{"name":"Desketoprofen Trometamol Injection 25 mg/ml","type":"Injection"},
+
+{"name":"Drotaverine Injection 20 mg/ml, 40mg/2ml","type":"Injection"},
+
+{"name":"Ibuprofen Injection 10 mg / ml","type":"Injection"},
+
+{"name":"Ketoprofen Injection 20 mg/ml, 50 mg/ml","type":"Injection"},
+
+{"name":"Ketorolac Tromethamine Injection USP 3%","type":"Injection"},
+
+{"name":"Tramadol Injection 50 mg/ml","type":"Injection"},
+
+{"name":"Paracetamol infusion 10mg/ml in 50ml,100ml","type":"Injection"},
+
+{"name":"Betamethasone Acetate and Betamethasone Sodium Phosphate Injection 3 mg + 3 mg/ml","type":"Injection"},
+
+{"name":"Dexamethasone Sodium Phosphate Injection USP 4 mg / ml","type":"Injection"},
+
+{"name":"Hydrocortisone Acetate Injection 25 mg / ml","type":"Injection"},
+
+{"name":"Hydrocortisone Sodium Succinate For Injection BP 100 mg, 250 mg, 500 mg","type":"Injection"},
+
+{"name":"Methyl Prednisolne Sodium Succinate For Injection USP 40 mg, 125 mg,500 mg, 1000 mg","type":"Injection"},
+
+{"name":"Methylprednisolone Acetate Sterile Aqueous suspension 40 mg / ml","type":"Injection"},
+
+{"name":"Triamcinolone Acetonide Injectables Suspension USP 10 mg/ml & 40 mg/ml","type":"Injection"},
+
+{"name":"Atropine 0.1mg/ml, 0.2mg/ml, 0.4mg/ml","type":"Injection"},	
+
+{"name":"Paracetamol Infusions, 10mg/ml in 50ml, 100ml","type":"Oral Liquid"},	
+
+{"name":"Aceclofenac Paracetamol Suspension","type":"Oral Liquid"},
+
+{"name":"Ibuprofen Paracetamol Suspension","type":"Oral Liquid"},
+
+{"name":"Paracetamol Oral Suspension 125mg/5ml","type":"Oral Liquid"},
+
+{"name":"Paracetamol Phenylephrine Chlorpheniramine Suspension","type":"Oral Liquid"},
+
+{"name":"Paracetamol Promethazine Suspension","type":"Oral Liquid"},
+
+{"name":"Paracetamol 25mg& Vitamin C 10mg Syrup","type":"Oral Liquid"},
+
+{"name":"Ibuprofen Oral Suspension 100/200 mg per 5ml","type":"Oral Liquid"},
+
+{"name":"Cetrizine Syrup ( 60 Ml) 125mg/ 5ml","type":"Oral Liquid"},
+
+{"name":"Acetaminophen Oral Suspension Usp 125mg/ 5ml","type":"Oral Liquid"},
+
+{"name":"Paracetamol And Chlorpheniramine Maleate Oral Liquid 125 mg/ 5ml","type":"Oral Liquid"},
+
+{"name":"Ibuprofen And Paracetamol Suspension 50 mg/ 5 ml","type":"Oral Liquid"},
+
+{"name":"Dexomethorphan Hydrobromide + Triprolodine HCl + Phenylephrine HCl Syrup","type":"Oral Liquid"},
+
+{"name":"Guaiphenesin + Bromhexine + Phenylephrine Syrup","type":"Oral Liquid"},
+
+{"name":"Aluminium Hydroxide Tablets B 500 mg","type":"Tablets"},
+
+{"name":"Cimetidine Tablets BP 200/400 mg","type":"Tablets"},
+
+{"name":"Co-magaldrox Tablets BP (Mag. Hyd 250 mg + Al. Hyd 250 mg)","type":"Tablets"},
+
+{"name":"Esomeprazole Tablets and Capsules 20 mg, 40 mg","type":"Tablets"},
+
+{"name":"Gastro-resistant Bisacodyl Tablets BP 5 mg","type":"Tablets"},
+
+{"name":"Levosulpiride Tablets 25 mg","type":"Tablets"},
+
+{"name":"Magnesium Trisilicate 200 mg + Dried Aluminium Hydroxide Gel 300 mg Tablets","type":"Tablets"},
+
+{"name":"Mebendazole Tablets USP 500 mg","type":"Tablets"},
+
+{"name":"Metoclopramide Tablets BP 10 mg","type":"Tablets"},
+
+{"name":"Naproxen + Esomeprazole Multillayered Tablets (500 mg + 20 mg)","type":"Tablets"},
+
+{"name":"Omeprazole Delayed Release Capsules USP 20 mg","type":"Tablets"},
+
+{"name":"Pantoprazole Tablets 40 mg","type":"Tablets"},
+
+{"name":"Rabeprazole Tablets 20 mg","type":"Tablets"},
+
+{"name":"Secnidazole Tablets 500 mg/1 g","type":"Tablets"},
+
+{"name":"Sulfasalazine Tablets USP 500 mg","type":"Tablets"},
+
+{"name":"Aluminium Hydroxide Chewable 500mg","type":"Tablets"},
+
+{"name":"Aluminium Hydroxide 200mg & Magnesium Hydroxide 200mg","type":"Tablets"},
+
+{"name":"Bisacodyl Gastro-Resistant Tablets 5mg","type":"Tablets"},
+
+{"name":"Esomeprazole 20/40 mg","type":"Tablets"},
+
+{"name":"Hyoscine Butylbromide 10mg","type":"Tablets"},
+
+{"name":"Loperamide Hydrochloride 2mg","type":"Tablets"},
+
+{"name":"Metoclopramide 5/10 mg","type":"Tablets"},
+
+{"name":"Misoprostol 200 mcg","type":"Tablets"},
+
+{"name":"Ondansetron 4/8 mg","type":"Tablets"},
+
+{"name":"Promethazine Tablets","type":"Tablets"},
+
+{"name":"Ranitidine 150/300 mg","type":"Tablets"},
+
+{"name":"Betamethasone 0.5 mg","type":"Tablets"},
+
+{"name":"Clomiphene Citrate 25/50/100 mg","type":"Tablets"},
+
+{"name":"Hydrocortisone 5/10/20 mg","type":"Tablets"},
+
+{"name":"Methylprednisolone tablets 2/4/8/16 mg","type":"Tablets"},
+
+{"name":"H Pylori Kit","type":"Tablets"},
+
+{"name":"Pantoprazole Domperidone","type":"Tablets"},
+
+{"name":"Troxipide 300 mg","type":"Tablets"},
+
+{"name":"Esomeprazole & Levosulpiride Capsules 40+75mg","type":"Capsules"},
+
+{"name":"Esomeprazole Domperidone Capsules 20/40 + 30mg","type":"Capsules"},
+
+{"name":"Lansoprazole & Domperidone Capsules 15+10mg","type":"Capsules"},
+
+{"name":"Lansoprazole Capsules 15,30 mg","type":"Capsules"},	
+
+{"name":"Omeprazole & Domperidone Capsules 20+10mg","type":"Capsules"},
+
+{"name":"Omeprazole 20/40mg Capsules","type":"Capsules"},
+
+{"name":"Rabeprazole & Domperidone Capsules 20+30/10mg","type":"Capsules"},
+
+{"name":"Rabeprazole & Levosulpiride Capsules 20+75mg","type":"Capsules"},
+
+{"name":"Pantoprazole & Domperidone Capsules 40+30","type":"Capsules"},
+
+{"name":"Progesterone Capsules 100/200/400mg","type":"Capsules"},
+
+{"name":"Esomeprazole 40mg + Itopride 150 mg","type":"Capsules"},
+
+{"name":"Loperamide Hydrochloride 2mg","type":"Capsules"},
+
+{"name":"Omeprazole Gastro resistant 20/40 mg","type":"Capsules"},
+
+{"name":"Pantoprazole 20/40mg + domperidone 10/30mg","type":"Capsules"},
+
+{"name":"Pantoprazole 40mg + Itopride 150 mg","type":"Capsules"},
+
+{"name":"Rabeprazole & itoride Capsules 20+150mg","type":"Capsules"},
+
+{"name":"Enteric Coated Esomeprazole & Domperidone SR Capsules","type":"Capsules"},
+
+{"name":"Esomeprazole Sodium for Injection, 40 mg","type":"Injection"},
+
+{"name":"Metoclopramide Injection BP 0.5%","type":"Injection"},
+
+{"name":"Omeprazole For Injection 40 mg","type":"Injection"},
+
+{"name":"Ondansetron Injection USP 2 mg/5 ml or 1ml","type":"Injection"},
+
+{"name":"Pantoprazole For Injection 40 mg","type":"Injection"},
+
+{"name":"Rabeprazole Sodium For Injection 20 mg","type":"Injection"},
+
+{"name":"Ranitidine Injection USP 25 mg / ml","type":"Injection"},
+
+{"name":"Granisetron Hydrochloride 1mg/ml","type":"Injection"},
+
+{"name":"Sodium Bicarbonate 0.084","type":"Injection"},
+
+{"name":"Cimetidine Hydrochloride 100mg/ml","type":"Injection"},
+
+{"name":"Chorionic gonadotropin 5000/10000 IU","type":"Injection"},
+
+{"name":"HCG Injection 5000/10000 IU","type":"Injection"},
+
+{"name":"Hydrocortisone 100/200 mg","type":"Injection"},
+
+{"name":"Somatropin 16/36 IU","type":"Injection"},
+
+{"name":"Esomeprazole 40mg","type":"Injection"},
+
+{"name":"Furosemide 20mg/2ml","type":"Injection"},
+
+{"name":"Lansoprazole 30mg","type":"Injection"},
+
+{"name":"Rabeprazole 20mg","type":"Injection"},
+
+{"name":"Metoclopramide 10mg/2ml","type":"Injection"},
+
+{"name":"Promethazine 50mg/2ml","type":"Injection"},
+
+{"name":"Sodi. Alginate+ Magnesium Hydroxide + Dried Alumi Hydroxide + Magn. Trisilicate + Activated Dimethicone 1 gm / 5ml","type":"Oral LIquid"},
+
+{"name":"Sucralfate Oral Suspension","type":"Oral LIquid"},
+
+{"name":"Sucralfate And Oxetacaine Suspension","type":"Oral LIquid"},
+
+{"name":"Aluminium Hydroxide, Magnesia Hydroxide With Simeticone Oral Suspesnion Usp","type":"Oral LIquid"},
+
+{"name":"Magaldrate And Simethicone Suspension 50mg+125 mg","type":"Oral LIquid"},
+
+{"name":"Dicyclomine Oral Liquid 5 mg/ 5 ml","type":"Oral LIquid"},
+
+{"name":"Ambroxol Hydrocloride, Terbutaline Sulfate, Guipheensin And Menthol Oral Liquid 15 mg + 1.25 mg+50 mg + 1 mg / 5ml","type":"Oral LIquid"},
+
+{"name":"Prednisolone Phosphate Oral Solution","type":"Oral LIquid"},
+
+{"name":"Deflazacort Suspension","type":"Oral LIquid"},
+
+{"name":"Sodium Alginate 250mg,odium Bicarbonate 133.5mg&Calcium Carbonate 80mg","type":"Oral LIquid"},
+
+{"name":"Promethazine 6.25mg/2ml","type":"Oral LIquid"},
+
+{"name":"Ferrous Sulphate and Folic Acid Tablets 150+0.5mcg","type":"Tablets"},
+
+{"name":"Folic Acid Tablets 5/10 mg","type":"Tablets"},
+
+{"name":"Mecobalamin Tablets 500/1500 mcg","type":"Tablets"},
+
+{"name":"Multivitamin B-Complex Tablets","type":"Tablets"},
+
+{"name":"Multivitamin Tablets","type":"Tablets"},
+
+{"name":"Pyridoxine Tablets","type":"Tablets"},
+
+{"name":"Zinc Acetate Tablets","type":"Tablets"},
+
+{"name":"Calcium 500mg + Vitamin D3 250 IU","type":"Tablets"},
+
+{"name":"Calcium,Magnesium,Vitamin D3,Vitamin K2-7,Manganese,Copper,Boron & Zinc","type":"Tablets"},
+
+{"name":"Cyproheptadine 4mg","type":"Tablets"},
+
+{"name":"Essential Amino Acids, Antioxidants & Micronutrients","type":"Tablets"},
+
+{"name":"Follic Acid Tablets 1/5 mg","type":"Tablets"},
+
+{"name":"Methylcobalamin,Vitamin B1,Vitamin B6,Inositol,Folic Acid,Chromium & Zinc Tablets","type":"Tablets"},
+
+{"name":"Methylcobalamin,Vitamin B1,Vitamin B6,Inositol, Alpha Lipoic Acid, Folic Acid, Chromium & Zinc Tablets","type":"Tablets"},
+
+{"name":"Omega – 3 Fatty Acid, Iron, Folic acid, Vitamins & Minerals tablets","type":"Tablets"},
+
+{"name":"Omega – 3 Fatty Acid, Lutein, Zeaxanthin, Astaxanthin, L-Glutathione with Multivitamin & Multimineral Tablets","type":"Tablets"},
+
+{"name":"Vitamin C Chewable tablets 500mg","type":"Tablets"},
+
+{"name":"Folic Acid, Iron, Multivitamin & Multimineral","type":"Capsules"},
+
+{"name":"Lycopene with Multivitamin & Multimineral soft Gelatin Capsules","type":"Capsules"},
+
+{"name":"Omega-3-fatty acid 500mg & Vitamin E1 mg Soft gelatin Capsules","type":"Capsules"},
+
+{"name":"Omega -3-fatty acid, Vitamin, Minerals & Trace Elements veg capsules","type":"Capsules"},
+
+{"name":"Vitamin A 30000 IU & Vitamin E 70 mg Soft Capsules","type":"Capsules"},
+
+{"name":"Vitamin E Soft Gelatin Capsules 200 mg","type":"Capsules"},
+
+{"name":"Haematinic Acid","type":"Capsules"},
+
+{"name":"Methylcobalamine Folic Acid Pyridoxine Hydrochloride & DHA Capsules","type":"Capsules"},
+
+{"name":"Appetite Stimulant Syrup","type":"Oral Liquid"},
+
+{"name":"Calcium and Vitamin D3 Suspension","type":"Oral Liquid"},
+
+{"name":"Calcium Multivitamins And Minerals Syrup","type":"Oral Liquid"},
+
+{"name":"Cyproheptadine & Tricholine Syrup","type":"Oral Liquid"},
+
+{"name":"Cyproheptadine and Multivitamin Syrup","type":"Oral Liquid"},
+
+{"name":"Cyproheptadine Tricholine Citrate & Sorbitol Syrup","type":"Oral Liquid"},
+
+{"name":"Cyproheptadine with Vitamin-B Complex Syrup","type":"Oral Liquid"},
+
+{"name":"Ferric Ammonium Citrate, Folic Acid And Vitamin B12 Syrup","type":"Oral Liquid"},
+
+{"name":"Iron Folic Acid and Vitamin B12 Syrup","type":"Oral Liquid"},
+
+{"name":"Multivitamin Syrup","type":"Oral Liquid"},
+
+{"name":"Multivitamin with Cyproheptadine Drops","type":"Oral Liquid"},
+
+{"name":"Potassium Citrate Magnesium Citrate & Vitamin B6 Syrup","type":"Oral Liquid"},
+
+{"name":"Ascorbic Acid 500mg/5ml","type":"Injection"},
+
+{"name":"Cyanocobalamin 1000 mcg/2ml","type":"Injection"},
+
+{"name":"Mecobalamin 500mcg/ml","type":"Injection"},
+
+{"name":"Magnesium Sulphate 1,5mg/10ml","type":"Injection"},
+
+{"name":"Multivitamin Injection","type":"Injection"},
+
+{"name":"Phytomenadione 10mg/ml","type":"Injection"},
+
+{"name":"Thiamine Hydrochloride 100mg/2ml","type":"Injection"},
+
+{"name":"Vitamin B Complex","type":"Injection"},
+
+{"name":"Vitamin B1 100mg, Vitamin B6 100mg & Vitamin B12 1000 mcg Injection","type":"Injection"},
+
+{"name":"Dextrose Injection USP 25% w/v, 50 % w/v","type":"Injection"},
+
+{"name":"Iron Dextran Injection USP 5%","type":"Injection"},
+
+{"name":"Iron Sucrose Injection USP 2%","type":"Injection"},
+
+{"name":"Vitamin B1 Injection 5 %","type":"Injection"},
+
+{"name":"Vitamin A, E, D, Cholecalciferol, Thiamine HCl, Ascorbic Acid, Niacinamide, Pyridoxine HCl,","type":"Injection"},
+
+{"name":"Riboﬂavin 10ml","type":"Injection"},
+
+{"name":"Vitamin E + Selenium 50mg + 1.5mg/ml","type":"Injection"},
+
+{"name":"Ascorbic acid (Vit C supplement) 250mg/ml, 100mg/ml","type":"Injection"},
+
+{"name":"Vitamin K1 10mg","type":"Injection"},
+{"name":"Cefpodoxime Proxetil Tablets USP 100/200 mg","type":"Tablets"},
+
+{"name":"Montelukast Sodium Chewable Tablets USP 4 mg/5mg","type":"Tablets"},
+
+{"name":"Ofloxacin Tablets USP 200/400 mg","type":"Tablets"},
+
+{"name":"Norfloxacin BP 400 mg","type":"Tablets"},
+
+{"name":"Cefuroxime Axetil Tablets USP 500 mg","type":"Tablets"},
+
+{"name":"Trimethoprtim 80 mg + Sulfamethoxazole 400 mg tab BP tab 80 mg + 400 mg","type":"Tablets"},
+
+{"name":"Rifaximin Tablets 200/400/550 mg","type":"Tablets"},
+
+{"name":"Ciprofloxacin Tablets USP 250/500/750 mg","type":"Tablets"},
+
+{"name":"Co-trimoxazole Tablets BP 160 mg + 800 mg/ 80 mg + 400 mg","type":"Tablets"},
+
+{"name":"Ciprofloxacin and Tinidazole Tablets 500 mg + 600 mg","type":"Tablets"},
+
+{"name":"Amoxicillin And Potassium Clavulanate Tablets 250 mg + 125 mg/ 500 mg + 125 mg/ 875 mg + 125 mg","type":"Tablets"},
+
+{"name":"Amoxicillin Dispersible tablets 125/250 mg","type":"Tablets"},
+
+{"name":"Erythromycin Stearate Tablets BP 250/500 mg","type":"Tablets"},
+
+{"name":"Doxycycline Hyclate Tablets USP 100 mg","type":"Tablets"},
+
+{"name":"Metronidazole & Norfloxacin 200+200","type":"Tablets"},
+
+{"name":"Nalidixic Acid 500mg","type":"Tablets"},
+
+{"name":"Ofloxacin & Ornidazole 200/400&500mg","type":"Tablets"},
+
+{"name":"Phenoxymethylpenicillin 250/500 mg","type":"Tablets"},
+
+{"name":"Clotrimazole vaginal 100mg","type":"Tablets"},
+
+{"name":"Fluconazole 150/200 mg","type":"Tablets"},
+
+{"name":"Griseofulvin 500 mg","type":"Tablets"},
+
+{"name":"Ketoconazole 200 mg","type":"Tablets"},
+
+{"name":"Nystatin 500000 IU","type":"Tablets"},
+
+{"name":"Nystatin Vaginal Inserts 100000 IU","type":"Tablets"},
+
+{"name":"Secnidazole 1gm","type":"Tablets"},
+
+{"name":"Amoxicillin & Potassium Clavulanate 250+125/500+62.5/500+125/875+125/1000+125mg","type":"Tablets"},
+
+{"name":"Azithromycin 250/500mg/1gm","type":"Tablets"},
+
+{"name":"Cefadroxil Dispersible 250 mg","type":"Tablets"},
+
+{"name":"Cefadroxil 500mg","type":"Tablets"},
+
+{"name":"Cefixime Dispersible 100/200/400 mg","type":"Tablets"},
+
+{"name":"Cefixime 200/400","type":"Tablets"},
+
+{"name":"Cefuroxime Axetil 250/500 mg","type":"Tablets"},
+
+{"name":"Cephalexin Dispersible 125/250mg","type":"Tablets"},
+
+{"name":"Ciprofloxacin 250/500 mg","type":"Tablets"},
+
+{"name":"Clarithromycin 250/500 mg","type":"Tablets"},
+
+{"name":"Co-Trimoxazole 480/960 mg","type":"Tablets"},
+
+{"name":"Erythromycin 250/500 mg","type":"Tablets"},
+
+{"name":"Levofloxacin 250/500/750 mg","type":"Tablets"},
+
+{"name":"Metronidazole 250/500 mg","type":"Tablets"},
+
+{"name":"Diethylcarbamazine Tablets BP 50 mg","type":"Tablets"},
+
+{"name":"Cefixime Ofloxacin 200+200","type":"Tablets"},
+
+{"name":"Cefpodoxime Ofloxacin 200+200","type":"Tablets"},
+
+{"name":"Cefpodoxime & Potassium Clavulanate Tablets 325","type":"Tablets"}
+
+]

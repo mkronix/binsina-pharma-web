@@ -1,15 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-body {
-  font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
 
-.slick-slide > div {
-  margin: 0 10px;
+::-webkit-scrollbar {
+  display: none;
 }
 
+.linearBg {
+  background: linear-gradient(to right, #e0f7fa, #42b0e0);
+}
+
+.leaflet-container {
+  background: transparent !important;
+}

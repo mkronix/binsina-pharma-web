@@ -90,7 +90,7 @@ const index = () => {
             <img
               src={home.ourValuesCollection.image}
               alt='Values Section'
-              className='object-cover rounded-md shadow-lg'
+              className='object-fill rounded-md h-[28rem] shadow-lg'
             />
           </div>
 

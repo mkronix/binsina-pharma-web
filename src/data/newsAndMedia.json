@@ -5,6 +5,14 @@
         "bannerHeading": "News And Media",
         "bannerImage":"/assets/img/news-banner.jpg",
         "content" : [
+          {
+            "id":10,
+            "link": "https://www.fda.gov/",
+            "img": "assets/img/blog/blog4.png",
+            "headlines": "FDA Drug Application",
+            "description":
+            "A generic drug, as that term is commonly understood and referred to by health care providers and insurers, is a copy of a brand-name drug that is developed and made by a company other than the company that makes the brand-name drug."
+        },
         {
             "id":1,
             "img": "assets/img/blog/blog1.png",
@@ -53,13 +61,6 @@
             "headlines": "The Importance of Regular Exercise",
             "description":
             "Regular physical activity benefits your body and mind. Find out how to incorporate exercise into your daily routine and reap long-term rewards."
-        },
-        {
-            "id":8,
-            "img": "assets/img/blog/blog2.png",
-            "headlines": "Skin Health 101",
-            "description":
-            "Your skin reflects your health. Learn skincare essentials, tips to combat common skin issues, and routines to keep your skin glowing and healthy."
         }
         ],
         "articles" : [

@@ -24,7 +24,7 @@ const Navbar = ({ menu, setMenu, showForm, openForm, closeForm }) => {
     { path: "/", label: "Home" },
     { path: "/aboutus", label: "About Us" },
     { path: "/products", label: "Products" },
-    { path: "/product-details", label: "Pharmacy" },
+    { path: "/product-details", label: "What We Export" },
     { path: "/news-and-media", label: "News And Media" },
     { path: "/quality-assurance", label: "Quality Assurance" },
   ];

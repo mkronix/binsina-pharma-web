@@ -1,0 +1,15 @@
+# Existing rewrite rules
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [QSA,L]
+
+# Add these new MIME type configurations
+<IfModule mod_mime.c>
+    AddType text/javascript .js
+    AddType text/javascript .mjs
+    AddType application/javascript .js
+    AddType application/javascript .mjs
+</IfModule>

@@ -9,11 +9,19 @@ import {
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
-const customIcon = new L.DivIcon({
-  className: "",
-  html: `<div class="bg-brightColor md:w-4 md:h-4 w-2 h-2 rounded-full shadow-md"></div>`,
-  iconSize: [16, 16],
-});
+const createMarkerIcon = (name) => {
+  return L.divIcon({
+    className: "",
+    html: `
+      <div class="flex flex-col items-center">
+        <div class="bg-brightColor w-3 h-3 rounded-full shadow-md"></div>
+        <div class="text-[9px] font-medium mt-1 whitespace-nowrap">${name}</div>
+      </div>
+    `,
+    iconSize: [60, 30],
+    iconAnchor: [30, 0],
+  });
+};
 
 const locations = [
   { lat: 37.0902, lng: -95.7129, name: "USA" },
@@ -56,7 +64,7 @@ const FitBounds = ({ locations }) => {
 };
 const MapComponent = () => {
   return (
-    <div className='w-full md:h-screen h-96 flex justify-center items-center'>
+    <div className='w-full max-md:px-10 md:h-screen h-96 flex justify-center items-center'>
       <MapContainer
         scrollWheelZoom={false}
         dragging={false}
@@ -67,16 +75,13 @@ const MapComponent = () => {
       >
         <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
 
-        {/* Fit Bounds Component */}
         <FitBounds locations={locations} />
 
-        {/* Markers */}
         {locations.map((location, index) => (
           <Marker
             key={index}
             position={[location.lat, location.lng]}
-            icon={customIcon}
-          >
+            icon={createMarkerIcon(location.name)}          >
             <Tooltip direction='top' offset={[0, -10]} opacity={1}>
               <span className='text-sm font-medium'>{location.name}</span>
             </Tooltip>

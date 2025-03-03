@@ -12,6 +12,7 @@ import Disclaimer from "./pages/disclaimer";
 import Policy from "./pages/policy";
 import BlogDetails from "./pages/blogDetails";
 import ProductDetails from "./pages/productDetails/productDetails";
+import Career from "./pages/career/Career";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -46,6 +47,7 @@ const App = () => {
         <Route path='/terms' element={<Terms />} />
         <Route path='/disclaimer' element={<Disclaimer />} />
         <Route path='/policy' element={<Policy />} />
+        <Route path='/career' element={<Career />} />
         <Route path='/blog/:id' element={<BlogDetails />} />
       </Routes>
 

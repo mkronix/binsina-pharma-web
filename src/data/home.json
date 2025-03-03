@@ -152,7 +152,7 @@
                 "title": "Our Speciality",
                 "heading": "Discover Our Specialities",
                 "description": "We are dedicated to providing services and products that stand out for their quality and reliability.",
-                "image": "/assets/img/aboutUs.jpeg",
+                "image": "/assets/img/speciality1.jpg",
                 "content": [
                     {
                         "id": 1,
@@ -319,38 +319,38 @@
                 "content": [
                     {
                         "id": 1,
-                        "name": "Dr. Ramesh Kumar",
-                        "role": "Chief Medical Officer",
+                        "name": "Dr. Ming Robert",
+                        "role": "Family medicine physician",
                         "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
                     },
                     {
                         "id": 2,
-                        "name": "Anjali Desai",
+                        "name": "Mark Philipp",
                         "role": "Supply Chain Manager",
                         "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
                     },
                     {
                         "id": 3,
-                        "name": "Vikram Singh",
-                        "role": "Quality Assurance Head",
+                        "name": "Dr. Shawn Johnson",
+                        "role": "HR & logistics supervisor",
                         "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
                     },
                     {
                         "id": 4,
-                        "name": "Dr. Ramesh Kumar",
-                        "role": "Chief Medical Officer",
+                        "name": "Pristine burg",
+                        "role": "Logistics and port supervisor",
                         "content": "Exceptional quality products and service. Binisana Pharma is a trusted partner for our healthcare needs."
                     },
                     {
                         "id": 5,
-                        "name": "Anjali Desai",
-                        "role": "Supply Chain Manager",
+                        "name": "Cristine saunders",
+                        "role": "Quality assurance manager",
                         "content": "Timely deliveries and consistent quality make Binisana Pharma a vital partner in our operations."
                     },
                     {
                         "id": 6,
-                        "name": "Vikram Singh",
-                        "role": "Quality Assurance Head",
+                        "name": "John Barnard",
+                        "role": "Head of dept pharmacy",
                         "content": "Binisana Pharma stands out for reliable products and unmatched commitment to meeting our standards."
                     }
                 ]

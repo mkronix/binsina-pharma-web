@@ -141,6 +141,14 @@ const FooterOne = () => {
                 Privacy Policy ›
               </Link>
             </li>
+            <li>
+              <Link
+                to='/career'
+                className='hover:text-brightColor text-white font-normal text-base'
+              >
+                Careers ›
+              </Link>
+            </li>
           </ul>
         </div>
 

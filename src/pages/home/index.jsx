@@ -41,7 +41,7 @@ const index = () => {
             <img
               src={home.ourSpecialityCollection?.image}
               alt='Speciality Section'
-              className='object-cover rounded-md shadow-lg h-[26rem]'
+              className='object-fill rounded-md shadow-lg h-[26rem]'
             />
           </div>
 
